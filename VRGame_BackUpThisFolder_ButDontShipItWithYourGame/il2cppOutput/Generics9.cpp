@@ -1775,6 +1775,18 @@ struct DefaultComparer_1_t7EF737C6AA9D0CC9F9669F361CF190EE1CE96CC6
 	};
 };
 
+// Unity.Collections.NativeSortExtension/DefaultComparer`1<System.Int32>
+struct DefaultComparer_1_t612242F4555E59390215CE9BFA23C8ECB894D939 
+{
+	union
+	{
+		struct
+		{
+		};
+		uint8_t DefaultComparer_1_t4A26F5A7B2EFA2BDABB2F6FA752896E1F6506114__padding[1];
+	};
+};
+
 // UnityEngine.InputSystem.InputBindingCompositeContext/DefaultComparer`1<System.Object>
 struct DefaultComparer_1_tB1A451F298D738CE5A8DA785F503DBA8B98134C5 
 {
@@ -1784,6 +1796,18 @@ struct DefaultComparer_1_tB1A451F298D738CE5A8DA785F503DBA8B98134C5
 		{
 		};
 		uint8_t DefaultComparer_1_tAFA9308213550ECEB767DDACA30D572E74485220__padding[1];
+	};
+};
+
+// Unity.Collections.NativeSortExtension/DefaultComparer`1<System.Object>
+struct DefaultComparer_1_tB81DD250DE68150F77F3659ED068E964A6A6884A 
+{
+	union
+	{
+		struct
+		{
+		};
+		uint8_t DefaultComparer_1_t4A26F5A7B2EFA2BDABB2F6FA752896E1F6506114__padding[1];
 	};
 };
 
@@ -7867,9 +7891,17 @@ struct Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_ThreadStaticFields
 
 // UnityEngine.InputSystem.InputBindingCompositeContext/DefaultComparer`1<System.Int32>
 
+// Unity.Collections.NativeSortExtension/DefaultComparer`1<System.Int32>
+
+// Unity.Collections.NativeSortExtension/DefaultComparer`1<System.Int32>
+
 // UnityEngine.InputSystem.InputBindingCompositeContext/DefaultComparer`1<System.Object>
 
 // UnityEngine.InputSystem.InputBindingCompositeContext/DefaultComparer`1<System.Object>
+
+// Unity.Collections.NativeSortExtension/DefaultComparer`1<System.Object>
+
+// Unity.Collections.NativeSortExtension/DefaultComparer`1<System.Object>
 
 // UnityEngine.InputSystem.InputBindingCompositeContext/DefaultComparer`1<System.Single>
 
@@ -10516,8 +10548,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeArray_1__ctor_mE3B1C6D032AF42228A2
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeArray_1_Dispose_m46C1F3A5DF2013F65AA709A58C45D36CC411D276_gshared (NativeArray_1_tB60512C6E4578B7CC8EB79321680E495E69ABF81* __this, const RuntimeMethod* method) ;
 // System.Int32 UnityEngine.InputSystem.InputBindingCompositeContext/DefaultComparer`1<System.Int32>::Compare(TValue,TValue)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DefaultComparer_1_Compare_m3D4BA54C58DCF702E2C27F624C1690B21FF962A4_gshared (DefaultComparer_1_t7EF737C6AA9D0CC9F9669F361CF190EE1CE96CC6* __this, int32_t ___0_x, int32_t ___1_y, const RuntimeMethod* method) ;
+// System.Int32 Unity.Collections.NativeSortExtension/DefaultComparer`1<System.Int32>::Compare(T,T)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DefaultComparer_1_Compare_m394F7F49471D14333A96E4D1609FF38B351FC316_gshared (DefaultComparer_1_t612242F4555E59390215CE9BFA23C8ECB894D939* __this, int32_t ___0_x, int32_t ___1_y, const RuntimeMethod* method) ;
 // System.Int32 UnityEngine.InputSystem.InputBindingCompositeContext/DefaultComparer`1<System.Object>::Compare(TValue,TValue)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DefaultComparer_1_Compare_m2459E7EC8A9F1022E8234B5C74872F82532A8E80_gshared (DefaultComparer_1_tB1A451F298D738CE5A8DA785F503DBA8B98134C5* __this, RuntimeObject* ___0_x, RuntimeObject* ___1_y, const RuntimeMethod* method) ;
+// System.Int32 Unity.Collections.NativeSortExtension/DefaultComparer`1<System.Object>::Compare(T,T)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DefaultComparer_1_Compare_m153FE962E2CD2C6DE1F599461302B7BD671CEEA4_gshared (DefaultComparer_1_tB81DD250DE68150F77F3659ED068E964A6A6884A* __this, RuntimeObject* ___0_x, RuntimeObject* ___1_y, const RuntimeMethod* method) ;
 // System.Int32 UnityEngine.InputSystem.InputBindingCompositeContext/DefaultComparer`1<System.Single>::Compare(TValue,TValue)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DefaultComparer_1_Compare_m3722E498D85F5CAF5E4A54CF0A071DAEDCCBB9B7_gshared (DefaultComparer_1_tD5AE5A1A1257191A99DD8A768794EDC0D6032AA7* __this, float ___0_x, float ___1_y, const RuntimeMethod* method) ;
 // T UnityEngine.Rendering.CoreUnsafeUtils/DefaultKeyGetter`1<UnityEngine.Hash128>::Get(T&)
@@ -11242,10 +11278,20 @@ inline int32_t DefaultComparer_1_Compare_m3D4BA54C58DCF702E2C27F624C1690B21FF962
 {
 	return ((  int32_t (*) (DefaultComparer_1_t7EF737C6AA9D0CC9F9669F361CF190EE1CE96CC6*, int32_t, int32_t, const RuntimeMethod*))DefaultComparer_1_Compare_m3D4BA54C58DCF702E2C27F624C1690B21FF962A4_gshared)(__this, ___0_x, ___1_y, method);
 }
+// System.Int32 Unity.Collections.NativeSortExtension/DefaultComparer`1<System.Int32>::Compare(T,T)
+inline int32_t DefaultComparer_1_Compare_m394F7F49471D14333A96E4D1609FF38B351FC316 (DefaultComparer_1_t612242F4555E59390215CE9BFA23C8ECB894D939* __this, int32_t ___0_x, int32_t ___1_y, const RuntimeMethod* method)
+{
+	return ((  int32_t (*) (DefaultComparer_1_t612242F4555E59390215CE9BFA23C8ECB894D939*, int32_t, int32_t, const RuntimeMethod*))DefaultComparer_1_Compare_m394F7F49471D14333A96E4D1609FF38B351FC316_gshared)(__this, ___0_x, ___1_y, method);
+}
 // System.Int32 UnityEngine.InputSystem.InputBindingCompositeContext/DefaultComparer`1<System.Object>::Compare(TValue,TValue)
 inline int32_t DefaultComparer_1_Compare_m2459E7EC8A9F1022E8234B5C74872F82532A8E80 (DefaultComparer_1_tB1A451F298D738CE5A8DA785F503DBA8B98134C5* __this, RuntimeObject* ___0_x, RuntimeObject* ___1_y, const RuntimeMethod* method)
 {
 	return ((  int32_t (*) (DefaultComparer_1_tB1A451F298D738CE5A8DA785F503DBA8B98134C5*, RuntimeObject*, RuntimeObject*, const RuntimeMethod*))DefaultComparer_1_Compare_m2459E7EC8A9F1022E8234B5C74872F82532A8E80_gshared)(__this, ___0_x, ___1_y, method);
+}
+// System.Int32 Unity.Collections.NativeSortExtension/DefaultComparer`1<System.Object>::Compare(T,T)
+inline int32_t DefaultComparer_1_Compare_m153FE962E2CD2C6DE1F599461302B7BD671CEEA4 (DefaultComparer_1_tB81DD250DE68150F77F3659ED068E964A6A6884A* __this, RuntimeObject* ___0_x, RuntimeObject* ___1_y, const RuntimeMethod* method)
+{
+	return ((  int32_t (*) (DefaultComparer_1_tB81DD250DE68150F77F3659ED068E964A6A6884A*, RuntimeObject*, RuntimeObject*, const RuntimeMethod*))DefaultComparer_1_Compare_m153FE962E2CD2C6DE1F599461302B7BD671CEEA4_gshared)(__this, ___0_x, ___1_y, method);
 }
 // System.Int32 System.Single::CompareTo(System.Single)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Single_CompareTo_m06F7868162EB392D3E99103D1A0BD27463C9E66F (float* __this, float ___0_value, const RuntimeMethod* method) ;
@@ -32937,6 +32983,34 @@ IL2CPP_EXTERN_C  int32_t DefaultComparer_1_Compare_m3D4BA54C58DCF702E2C27F624C16
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// System.Int32 Unity.Collections.NativeSortExtension/DefaultComparer`1<System.Int32>::Compare(T,T)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DefaultComparer_1_Compare_m394F7F49471D14333A96E4D1609FF38B351FC316_gshared (DefaultComparer_1_t612242F4555E59390215CE9BFA23C8ECB894D939* __this, int32_t ___0_x, int32_t ___1_y, const RuntimeMethod* method) 
+{
+	{
+		// public int Compare(T x, T y) => x.CompareTo(y);
+		int32_t L_0 = ___1_y;
+		int32_t L_1;
+		L_1 = Int32_CompareTo_mFA011811D4447442ED442B4A507BD4267621C586((&___0_x), L_0, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 2));
+		return L_1;
+	}
+}
+IL2CPP_EXTERN_C  int32_t DefaultComparer_1_Compare_m394F7F49471D14333A96E4D1609FF38B351FC316_AdjustorThunk (RuntimeObject* __this, int32_t ___0_x, int32_t ___1_y, const RuntimeMethod* method)
+{
+	DefaultComparer_1_t612242F4555E59390215CE9BFA23C8ECB894D939* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<DefaultComparer_1_t612242F4555E59390215CE9BFA23C8ECB894D939*>(__this + _offset);
+	int32_t _returnValue;
+	_returnValue = DefaultComparer_1_Compare_m394F7F49471D14333A96E4D1609FF38B351FC316(_thisAdjusted, ___0_x, ___1_y, method);
+	return _returnValue;
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 // System.Int32 UnityEngine.InputSystem.InputBindingCompositeContext/DefaultComparer`1<System.Object>::Compare(TValue,TValue)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DefaultComparer_1_Compare_m2459E7EC8A9F1022E8234B5C74872F82532A8E80_gshared (DefaultComparer_1_tB1A451F298D738CE5A8DA785F503DBA8B98134C5* __this, RuntimeObject* ___0_x, RuntimeObject* ___1_y, const RuntimeMethod* method) 
 {
@@ -32956,6 +33030,35 @@ IL2CPP_EXTERN_C  int32_t DefaultComparer_1_Compare_m2459E7EC8A9F1022E8234B5C7487
 	_thisAdjusted = reinterpret_cast<DefaultComparer_1_tB1A451F298D738CE5A8DA785F503DBA8B98134C5*>(__this + _offset);
 	int32_t _returnValue;
 	_returnValue = DefaultComparer_1_Compare_m2459E7EC8A9F1022E8234B5C74872F82532A8E80(_thisAdjusted, ___0_x, ___1_y, method);
+	return _returnValue;
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Int32 Unity.Collections.NativeSortExtension/DefaultComparer`1<System.Object>::Compare(T,T)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DefaultComparer_1_Compare_m153FE962E2CD2C6DE1F599461302B7BD671CEEA4_gshared (DefaultComparer_1_tB81DD250DE68150F77F3659ED068E964A6A6884A* __this, RuntimeObject* ___0_x, RuntimeObject* ___1_y, const RuntimeMethod* method) 
+{
+	{
+		// public int Compare(T x, T y) => x.CompareTo(y);
+		RuntimeObject* L_0 = ___1_y;
+		NullCheck((RuntimeObject*)(___0_x));
+		int32_t L_1;
+		L_1 = InterfaceFuncInvoker1< int32_t, RuntimeObject* >::Invoke(0 /* System.Int32 System.IComparable`1<System.Object>::CompareTo(T) */, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1), (RuntimeObject*)(___0_x), L_0);
+		return L_1;
+	}
+}
+IL2CPP_EXTERN_C  int32_t DefaultComparer_1_Compare_m153FE962E2CD2C6DE1F599461302B7BD671CEEA4_AdjustorThunk (RuntimeObject* __this, RuntimeObject* ___0_x, RuntimeObject* ___1_y, const RuntimeMethod* method)
+{
+	DefaultComparer_1_tB81DD250DE68150F77F3659ED068E964A6A6884A* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<DefaultComparer_1_tB81DD250DE68150F77F3659ED068E964A6A6884A*>(__this + _offset);
+	int32_t _returnValue;
+	_returnValue = DefaultComparer_1_Compare_m153FE962E2CD2C6DE1F599461302B7BD671CEEA4(_thisAdjusted, ___0_x, ___1_y, method);
 	return _returnValue;
 }
 #ifdef __clang__
