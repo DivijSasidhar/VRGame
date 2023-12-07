@@ -194,6 +194,11 @@ struct CollectionExtensions_t182A00BC503C9791010A3F71F412C76ABDD4D10D  : public 
 {
 };
 
+// System.Collections.Generic.EnumerableHelpers
+struct EnumerableHelpers_t18A53CA9FA987FA240C4777E90230115D116D29B  : public RuntimeObject
+{
+};
+
 // System.Diagnostics.Tracing.EventSource
 struct EventSource_tA86759A1E6F272632C299AAC181C0A67E5C52F25  : public RuntimeObject
 {
@@ -1413,6 +1418,10 @@ struct EqualityComparer_1_t7DB7FC11B7957026D1FB280BF9E0D8D8DBEE039A_StaticFields
 // System.Collections.Generic.CollectionExtensions
 
 // System.Collections.Generic.CollectionExtensions
+
+// System.Collections.Generic.EnumerableHelpers
+
+// System.Collections.Generic.EnumerableHelpers
 
 // System.Diagnostics.Tracing.EventSource
 
@@ -3126,6 +3135,14 @@ IL_0033:
 		return L_16;
 	}
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif

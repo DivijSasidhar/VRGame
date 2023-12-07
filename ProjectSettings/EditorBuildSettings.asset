@@ -8,10 +8,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/1 Start Scene.unity
     guid: 99c9720ab356a0642a771bea13969a05
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/2 Game Scene.unity
     guid: eccb2bc76074b2849b626b75e749890d
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/3 Qiwen.unity
     guid: 2049106612f7d4541a442db87ae55b30
   - enabled: 0

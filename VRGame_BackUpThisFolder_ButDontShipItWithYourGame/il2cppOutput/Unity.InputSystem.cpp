@@ -34183,7 +34183,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ParameterEnumerator_FindParameter_mB2688
 		RuntimeObject* L_3 = ___0_instance;
 		NullCheck(L_2);
 		bool L_4;
-		L_4 = VirtualFuncInvoker1< bool, RuntimeObject* >::Invoke(110 /* System.Boolean System.Type::IsInstanceOfType(System.Object) */, L_2, L_3);
+		L_4 = VirtualFuncInvoker1< bool, RuntimeObject* >::Invoke(111 /* System.Boolean System.Type::IsInstanceOfType(System.Object) */, L_2, L_3);
 		G_B3_0 = ((((int32_t)L_4) == ((int32_t)0))? 1 : 0);
 		goto IL_0021;
 	}
@@ -38158,7 +38158,7 @@ IL_0131_1:
 				InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* L_46 = V_8;
 				NullCheck(L_45);
 				bool L_47;
-				L_47 = VirtualFuncInvoker1< bool, RuntimeObject* >::Invoke(110 /* System.Boolean System.Type::IsInstanceOfType(System.Object) */, L_45, L_46);
+				L_47 = VirtualFuncInvoker1< bool, RuntimeObject* >::Invoke(111 /* System.Boolean System.Type::IsInstanceOfType(System.Object) */, L_45, L_46);
 				G_B28_0 = ((((int32_t)L_47) == ((int32_t)0))? 1 : 0);
 				goto IL_0152_1;
 			}
