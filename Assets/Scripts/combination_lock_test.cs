@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class combination_lock_test : MonoBehaviour
+public class codetest : MonoBehaviour
 {
     [SerializeField]
     [Tooltip("Events to trigger when the code is correct")]
