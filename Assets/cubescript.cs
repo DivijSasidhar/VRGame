@@ -19,7 +19,7 @@ public class cubescript : MonoBehaviour
             transform.position = Vector3.Lerp(pointA, pointB, t);
         }
         if (goingPointB) {
-            transform.position = Vector3.Lerp(pointA, pointB, t);
+            transform.position = Vector3.Lerp(pointB, pointA, t);
         }
         if (t >= 1) {
             goingPointA = false;
