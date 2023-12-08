@@ -1030,6 +1030,8 @@ struct combination_lock_test_t7D22D3CFEFA68255FA617FDECD4676A1BB26D3DE;
 struct movementscript_tD57E17B37A0867365FD7919F4233173BE65E4E33;
 // pressureplate
 struct pressureplate_t6CDA1425E77E240443ED24724A2011082A88FC4C;
+// twokeydoor
+struct twokeydoor_t3FE6AC3F559876A4713661687F210B7DD554DA51;
 // UnityEngine.AudioClip/PCMReaderCallback
 struct PCMReaderCallback_t3396D9613664F0AFF65FB91018FD0F901CC16F1E;
 // UnityEngine.AudioClip/PCMSetPositionCallback
@@ -6895,6 +6897,29 @@ struct pressureplate_t6CDA1425E77E240443ED24724A2011082A88FC4C  : public MonoBeh
 {
 };
 
+// twokeydoor
+struct twokeydoor_t3FE6AC3F559876A4713661687F210B7DD554DA51  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	// UnityEngine.Vector3 twokeydoor::pointA
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___pointA_4;
+	// System.Boolean twokeydoor::goingPointA
+	bool ___goingPointA_5;
+	// UnityEngine.Vector3 twokeydoor::pointB
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___pointB_6;
+	// System.Boolean twokeydoor::goingPointB
+	bool ___goingPointB_7;
+	// System.Single twokeydoor::speed
+	float ___speed_8;
+	// System.Single twokeydoor::t
+	float ___t_9;
+	// System.Boolean twokeydoor::key1flag
+	bool ___key1flag_10;
+	// System.Boolean twokeydoor::key2flag
+	bool ___key2flag_11;
+	// System.Boolean twokeydoor::at_Point_A
+	bool ___at_Point_A_12;
+};
+
 // UnityEngine.XR.Content.Walkthrough.ButtonPressTrigger
 struct ButtonPressTrigger_tDB9A959D7828A46CDAE0CCD449D982C84683950C  : public WalkthroughTrigger_t1996F5ECEAC788C2AF1BF1A287BC834D7682C7F5
 {
@@ -9832,6 +9857,10 @@ struct XRInteractionManager_t93C7F7F0CFEAD83E1A70F92D05B0E663483746CD_StaticFiel
 
 // pressureplate
 
+// twokeydoor
+
+// twokeydoor
+
 // UnityEngine.XR.Content.Walkthrough.ButtonPressTrigger
 
 // UnityEngine.XR.Content.Walkthrough.ButtonPressTrigger
@@ -10882,6 +10911,10 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR InputActionProperty_tE5B1633784A7
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_op_Inequality_m8C940F3CFC42866709D7CA931B3D77B4BE94BCB6 (String_t* ___0_a, String_t* ___1_b, const RuntimeMethod* method) ;
 // System.Void AudioManager::Play(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioManager_Play_mB69D5512DD0ECB0B853CD681D2282DC78844DE4F (AudioManager_t4BE66A4A0E184D85AF74C37BC93BFBEC52953C7B* __this, String_t* ___0_name, const RuntimeMethod* method) ;
+// System.Void twokeydoor::toPointB()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void twokeydoor_toPointB_m3E3E97C3A470881FC35767A7C8853C4C16868F2D (twokeydoor_t3FE6AC3F559876A4713661687F210B7DD554DA51* __this, const RuntimeMethod* method) ;
+// System.Void twokeydoor::toPointA()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void twokeydoor_toPointA_m156AAF7FF3B0953B9AFDE44317785ECC10691B8A (twokeydoor_t3FE6AC3F559876A4713661687F210B7DD554DA51* __this, const RuntimeMethod* method) ;
 // System.Int32 UnityEngine.XR.Content.Walkthrough.Walkthrough::get_currentStep()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Walkthrough_get_currentStep_mE42DD53207A16DA178E6588DEF29E8E606200ECB_inline (Walkthrough_tA5B596D79B6A17F5AB80C54B3C0510E7D18117E0* __this, const RuntimeMethod* method) ;
 // System.Boolean UnityEngine.XR.Content.Walkthrough.WalkthroughStep::get_canSkip()
@@ -15457,6 +15490,299 @@ IL_0028:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIAudio__ctor_mC1782F0D69DEC5CA1324E69D9634B986236F15F2 (UIAudio_tCAF415A74628B680D8DAB5D14862C4A7BFBB621E* __this, const RuntimeMethod* method) 
 {
 	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void twokeydoor::Update()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void twokeydoor_Update_m364340DF21FFBE0E628E9C40A63F7E8D28E4A246 (twokeydoor_t3FE6AC3F559876A4713661687F210B7DD554DA51* __this, const RuntimeMethod* method) 
+{
+	bool V_0 = false;
+	bool V_1 = false;
+	bool V_2 = false;
+	int32_t G_B3_0 = 0;
+	int32_t G_B8_0 = 0;
+	{
+		// t += Time.deltaTime * speed;
+		float L_0 = __this->___t_9;
+		float L_1;
+		L_1 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		float L_2 = __this->___speed_8;
+		__this->___t_9 = ((float)il2cpp_codegen_add(L_0, ((float)il2cpp_codegen_multiply(L_1, L_2))));
+		// if ((goingPointA) && (!at_Point_A))
+		bool L_3 = __this->___goingPointA_5;
+		if (!L_3)
+		{
+			goto IL_002d;
+		}
+	}
+	{
+		bool L_4 = __this->___at_Point_A_12;
+		G_B3_0 = ((((int32_t)L_4) == ((int32_t)0))? 1 : 0);
+		goto IL_002e;
+	}
+
+IL_002d:
+	{
+		G_B3_0 = 0;
+	}
+
+IL_002e:
+	{
+		V_0 = (bool)G_B3_0;
+		bool L_5 = V_0;
+		if (!L_5)
+		{
+			goto IL_005e;
+		}
+	}
+	{
+		// transform.position = Vector3.Lerp(pointA, pointB, t);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_6;
+		L_6 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7 = __this->___pointA_4;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8 = __this->___pointB_6;
+		float L_9 = __this->___t_9;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10;
+		L_10 = Vector3_Lerp_m3A906D0530A94FAABB94F0F905E84D99BE85C3F8_inline(L_7, L_8, L_9, NULL);
+		NullCheck(L_6);
+		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_6, L_10, NULL);
+		// at_Point_A = true;
+		__this->___at_Point_A_12 = (bool)1;
+	}
+
+IL_005e:
+	{
+		// if ((goingPointB) && (at_Point_A))
+		bool L_11 = __this->___goingPointB_7;
+		if (!L_11)
+		{
+			goto IL_006e;
+		}
+	}
+	{
+		bool L_12 = __this->___at_Point_A_12;
+		G_B8_0 = ((int32_t)(L_12));
+		goto IL_006f;
+	}
+
+IL_006e:
+	{
+		G_B8_0 = 0;
+	}
+
+IL_006f:
+	{
+		V_1 = (bool)G_B8_0;
+		bool L_13 = V_1;
+		if (!L_13)
+		{
+			goto IL_009f;
+		}
+	}
+	{
+		// transform.position = Vector3.Lerp(pointB, pointA, t);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_14;
+		L_14 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_15 = __this->___pointB_6;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_16 = __this->___pointA_4;
+		float L_17 = __this->___t_9;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_18;
+		L_18 = Vector3_Lerp_m3A906D0530A94FAABB94F0F905E84D99BE85C3F8_inline(L_15, L_16, L_17, NULL);
+		NullCheck(L_14);
+		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_14, L_18, NULL);
+		// at_Point_A = false;
+		__this->___at_Point_A_12 = (bool)0;
+	}
+
+IL_009f:
+	{
+		// if (t >= 1)
+		float L_19 = __this->___t_9;
+		V_2 = (bool)((((int32_t)((!(((float)L_19) >= ((float)(1.0f))))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_20 = V_2;
+		if (!L_20)
+		{
+			goto IL_00ce;
+		}
+	}
+	{
+		// goingPointA = false;
+		__this->___goingPointA_5 = (bool)0;
+		// goingPointB = false;
+		__this->___goingPointB_7 = (bool)0;
+		// t = 0;
+		__this->___t_9 = (0.0f);
+	}
+
+IL_00ce:
+	{
+		// }
+		return;
+	}
+}
+// System.Void twokeydoor::keyOneIn()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void twokeydoor_keyOneIn_m8218EAF764071FAE46377824234234389FCB170C (twokeydoor_t3FE6AC3F559876A4713661687F210B7DD554DA51* __this, const RuntimeMethod* method) 
+{
+	bool V_0 = false;
+	{
+		// key1flag = true;
+		__this->___key1flag_10 = (bool)1;
+		// if (key2flag == true){
+		bool L_0 = __this->___key2flag_11;
+		V_0 = L_0;
+		bool L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_001b;
+		}
+	}
+	{
+		// toPointB();
+		twokeydoor_toPointB_m3E3E97C3A470881FC35767A7C8853C4C16868F2D(__this, NULL);
+	}
+
+IL_001b:
+	{
+		// }
+		return;
+	}
+}
+// System.Void twokeydoor::keyOneOut()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void twokeydoor_keyOneOut_mCF322AC29E5FBBAAB43232CABF921F95CCCB82FF (twokeydoor_t3FE6AC3F559876A4713661687F210B7DD554DA51* __this, const RuntimeMethod* method) 
+{
+	{
+		// key1flag = false;
+		__this->___key1flag_10 = (bool)0;
+		// toPointA();
+		twokeydoor_toPointA_m156AAF7FF3B0953B9AFDE44317785ECC10691B8A(__this, NULL);
+		// }
+		return;
+	}
+}
+// System.Void twokeydoor::keyTwoIn()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void twokeydoor_keyTwoIn_mDD01C3B822CF31B395A33FFF8310C59132EB9FEE (twokeydoor_t3FE6AC3F559876A4713661687F210B7DD554DA51* __this, const RuntimeMethod* method) 
+{
+	bool V_0 = false;
+	{
+		// key2flag = true;
+		__this->___key2flag_11 = (bool)1;
+		// if (key1flag == true)
+		bool L_0 = __this->___key1flag_10;
+		V_0 = L_0;
+		bool L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_001b;
+		}
+	}
+	{
+		// toPointB();
+		twokeydoor_toPointB_m3E3E97C3A470881FC35767A7C8853C4C16868F2D(__this, NULL);
+	}
+
+IL_001b:
+	{
+		// }
+		return;
+	}
+}
+// System.Void twokeydoor::keyTwoOut()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void twokeydoor_keyTwoOut_m16FF29DC9B635A944A45DBCB034F9C1E917BEB01 (twokeydoor_t3FE6AC3F559876A4713661687F210B7DD554DA51* __this, const RuntimeMethod* method) 
+{
+	{
+		// key2flag = false;
+		__this->___key2flag_11 = (bool)0;
+		// toPointA();
+		twokeydoor_toPointA_m156AAF7FF3B0953B9AFDE44317785ECC10691B8A(__this, NULL);
+		// }
+		return;
+	}
+}
+// System.Void twokeydoor::toPointB()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void twokeydoor_toPointB_m3E3E97C3A470881FC35767A7C8853C4C16868F2D (twokeydoor_t3FE6AC3F559876A4713661687F210B7DD554DA51* __this, const RuntimeMethod* method) 
+{
+	bool V_0 = false;
+	{
+		// if (!goingPointA)
+		bool L_0 = __this->___goingPointA_5;
+		V_0 = (bool)((((int32_t)L_0) == ((int32_t)0))? 1 : 0);
+		bool L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		// goingPointB = true;
+		__this->___goingPointB_7 = (bool)1;
+	}
+
+IL_0017:
+	{
+		// }
+		return;
+	}
+}
+// System.Void twokeydoor::toPointA()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void twokeydoor_toPointA_m156AAF7FF3B0953B9AFDE44317785ECC10691B8A (twokeydoor_t3FE6AC3F559876A4713661687F210B7DD554DA51* __this, const RuntimeMethod* method) 
+{
+	bool V_0 = false;
+	{
+		// if (!goingPointB)
+		bool L_0 = __this->___goingPointB_7;
+		V_0 = (bool)((((int32_t)L_0) == ((int32_t)0))? 1 : 0);
+		bool L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		// goingPointA = true;
+		__this->___goingPointA_5 = (bool)1;
+	}
+
+IL_0017:
+	{
+		// }
+		return;
+	}
+}
+// System.Void twokeydoor::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void twokeydoor__ctor_m37E90194A5A7A9889C84F4CC33F914021530AB7B (twokeydoor_t3FE6AC3F559876A4713661687F210B7DD554DA51* __this, const RuntimeMethod* method) 
+{
+	{
+		// [SerializeField] Vector3 pointA = new Vector3(0, 0, 0);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0;
+		memset((&L_0), 0, sizeof(L_0));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_0), (0.0f), (0.0f), (0.0f), /*hidden argument*/NULL);
+		__this->___pointA_4 = L_0;
+		// bool goingPointA = false;
+		__this->___goingPointA_5 = (bool)0;
+		// [SerializeField] Vector3 pointB = new Vector3(0, 3, 0);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
+		memset((&L_1), 0, sizeof(L_1));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_1), (0.0f), (3.0f), (0.0f), /*hidden argument*/NULL);
+		__this->___pointB_6 = L_1;
+		// bool goingPointB = false;
+		__this->___goingPointB_7 = (bool)0;
+		// [SerializeField] float speed = 1;
+		__this->___speed_8 = (1.0f);
+		// bool key1flag = false;
+		__this->___key1flag_10 = (bool)0;
+		// bool key2flag = false;
+		__this->___key2flag_11 = (bool)0;
+		// bool at_Point_A = true;
+		__this->___at_Point_A_12 = (bool)1;
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
 	}
