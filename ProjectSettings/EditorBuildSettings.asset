@@ -14,6 +14,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/3 Qiwen.unity
     guid: 2049106612f7d4541a442db87ae55b30
+  - enabled: 1
   - enabled: 0
     path: Assets/Scenes/Multiplayer trial.unity
     guid: cabe8880b01680e4890f10964ad24986
