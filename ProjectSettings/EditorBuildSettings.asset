@@ -8,7 +8,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/1 Start Scene.unity
     guid: 99c9720ab356a0642a771bea13969a05
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/2 Game Scene.unity
     guid: eccb2bc76074b2849b626b75e749890d
   - enabled: 0
@@ -23,7 +23,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Throwing Test.unity
     guid: 6306ef2d91f7122468f59816871c7ed0
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Socket Keys Test.unity
     guid: 88d3266a1539246489743e7efa8c1fb1
   m_configObjects:

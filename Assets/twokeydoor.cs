@@ -4,36 +4,28 @@ using UnityEngine;
 
 public class twokeydoor : MonoBehaviour
 {
-    [SerializeField] Vector3 pointA = new Vector3(0, 0, 0);
+    [SerializeField] Vector3 origin = new Vector3(0, 0, 0);
     bool goingPointA = false;
-    [SerializeField] Vector3 pointB = new Vector3(0, 3, 0);
-    bool goingPointB = false;
+    [SerializeField] Vector3 destination = new Vector3(0, 3, 0);
     [SerializeField] float speed = 1;
     float t;
+    bool success;
 
     bool key1flag = false;
     bool key2flag = false;
 
-    bool at_Point_A = true;
-
     // Update is called once per frame
     void Update()
     {
-        t += Time.deltaTime * speed;
-        if ((goingPointA) && (!at_Point_A))
+        if ((goingPointA) & (!success))
         {
-            transform.position = Vector3.Lerp(pointA, pointB, t);
-            at_Point_A = true;
-        }
-        if ((goingPointB) && (at_Point_A))
-        {
-            transform.position = Vector3.Lerp(pointB, pointA, t);
-            at_Point_A = false;
+            t += Time.deltaTime * speed;
+            transform.position = Vector3.Lerp(origin, destination, t);
         }
         if (t >= 1)
         {
             goingPointA = false;
-            goingPointB = false;
+            success = true;
             t = 0;
         }
     }
@@ -42,41 +34,28 @@ public class twokeydoor : MonoBehaviour
     {
         key1flag = true;
         if (key2flag == true){
-            toPointB();
+            toPointA();
         }
     }
     public void keyOneOut()
     {
         key1flag = false;
-        toPointA();
     }
     public void keyTwoIn()
     {
         key2flag = true;
         if (key1flag == true)
         {
-            toPointB();
+            toPointA();
         }
     }
     public void keyTwoOut()
     {
         key2flag = false;
-        toPointA();
-    }
-
-    public void toPointB()
-    {
-        if (!goingPointA)
-        {
-            goingPointB = true;
-        }
     }
 
     public void toPointA()
     {
-        if (!goingPointB)
-        {
-            goingPointA = true;
-        }
+        goingPointA = true;
     }
 }
