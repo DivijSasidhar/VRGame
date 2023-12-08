@@ -17169,6 +17169,23 @@ struct ZoneScale_t4DFEECDB0F58B4BC7EB0D041AE35714BF6174E39  : public MonoBehavio
 	int32_t ___m_CurrentZone_14;
 };
 
+// cubescript
+struct cubescript_t9B6182DC10B411B093DEFB86671F4C6F6C7A45CF  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	// UnityEngine.Vector3 cubescript::pointA
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___pointA_4;
+	// System.Boolean cubescript::goingPointA
+	bool ___goingPointA_5;
+	// UnityEngine.Vector3 cubescript::pointB
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___pointB_6;
+	// System.Boolean cubescript::goingPointB
+	bool ___goingPointB_7;
+	// System.Single cubescript::speed
+	float ___speed_8;
+	// System.Single cubescript::t
+	float ___t_9;
+};
+
 // UnityEngine.XR.OpenXR.Features.Interactions.EyeGazeInteraction/EyeGazeDevice
 struct EyeGazeDevice_t8A5412F2253B6C93788718255CE3324553D8A810  : public OpenXRDevice_tA92AE539B2787CD3542AA9BE7EF8BCD3BFA181DC
 {
@@ -22352,6 +22369,10 @@ struct XrcPhysicsInteractionStationAnalytics_t356644BCDBF161DDC6C28FEF4B0CC0B637
 
 // UnityEngine.XR.Content.UI.Layout.ZoneScale
 
+// cubescript
+
+// cubescript
+
 // UnityEngine.XR.OpenXR.Features.Interactions.EyeGazeInteraction/EyeGazeDevice
 
 // UnityEngine.XR.OpenXR.Features.Interactions.EyeGazeInteraction/EyeGazeDevice
@@ -22984,6 +23005,9 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable6205[3] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable6211[5] = 
 {
 	static_cast<int32_t>(offsetof(U3CPrivateImplementationDetailsU3E_t9E8035CA1016D615F9AF12233B74AB22D254CFED_StaticFields, ___3A72416E6586931A938E29C5374BE0A3A0131A435F03EF9004D445BEEEAC9A53_0)),static_cast<int32_t>(offsetof(U3CPrivateImplementationDetailsU3E_t9E8035CA1016D615F9AF12233B74AB22D254CFED_StaticFields, ___451C4530BB265CF6C35BC171D098519CC5023A6589709BC7CB12FEB4C7BE8A28_1)),static_cast<int32_t>(offsetof(U3CPrivateImplementationDetailsU3E_t9E8035CA1016D615F9AF12233B74AB22D254CFED_StaticFields, ___74EF7306E7452D6859B6463CE496B8DF30925F69E1B2969E1F3F34BBC9C6AF04_2)),static_cast<int32_t>(offsetof(U3CPrivateImplementationDetailsU3E_t9E8035CA1016D615F9AF12233B74AB22D254CFED_StaticFields, ___8A02C3C3C2B87264D9B6FD861619DB3AB233620609546D53375074768B434BF6_3)),static_cast<int32_t>(offsetof(U3CPrivateImplementationDetailsU3E_t9E8035CA1016D615F9AF12233B74AB22D254CFED_StaticFields, ___C5B28C80EA34FC8C647295EC0A815646F13B80B8FBE1723F5E30BF59E27938D0_4)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable6213[6] = 
+{
+	static_cast<int32_t>(offsetof(cubescript_t9B6182DC10B411B093DEFB86671F4C6F6C7A45CF, ___pointA_4)),static_cast<int32_t>(offsetof(cubescript_t9B6182DC10B411B093DEFB86671F4C6F6C7A45CF, ___goingPointA_5)),static_cast<int32_t>(offsetof(cubescript_t9B6182DC10B411B093DEFB86671F4C6F6C7A45CF, ___pointB_6)),static_cast<int32_t>(offsetof(cubescript_t9B6182DC10B411B093DEFB86671F4C6F6C7A45CF, ___goingPointB_7)),static_cast<int32_t>(offsetof(cubescript_t9B6182DC10B411B093DEFB86671F4C6F6C7A45CF, ___speed_8)),static_cast<int32_t>(offsetof(cubescript_t9B6182DC10B411B093DEFB86671F4C6F6C7A45CF, ___t_9)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable6215[6] = 
 {
 	static_cast<int32_t>(offsetof(Sound_t06FB644265ECCFDDC2E12D87F6111B3760FC17A0, ___name_0)),static_cast<int32_t>(offsetof(Sound_t06FB644265ECCFDDC2E12D87F6111B3760FC17A0, ___clip_1)),static_cast<int32_t>(offsetof(Sound_t06FB644265ECCFDDC2E12D87F6111B3760FC17A0, ___volume_2)),static_cast<int32_t>(offsetof(Sound_t06FB644265ECCFDDC2E12D87F6111B3760FC17A0, ___pitch_3)),static_cast<int32_t>(offsetof(Sound_t06FB644265ECCFDDC2E12D87F6111B3760FC17A0, ___loop_4)),static_cast<int32_t>(offsetof(Sound_t06FB644265ECCFDDC2E12D87F6111B3760FC17A0, ___source_5)),};

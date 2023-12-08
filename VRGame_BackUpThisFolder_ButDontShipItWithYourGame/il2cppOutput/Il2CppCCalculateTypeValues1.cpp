@@ -26323,6 +26323,18 @@ struct ZoneScale_t4DFEECDB0F58B4BC7EB0D041AE35714BF6174E39  : public MonoBehavio
 // cubescript
 struct cubescript_t9B6182DC10B411B093DEFB86671F4C6F6C7A45CF  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
+	// UnityEngine.Vector3 cubescript::pointA
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___pointA_4;
+	// System.Boolean cubescript::goingPointA
+	bool ___goingPointA_5;
+	// UnityEngine.Vector3 cubescript::pointB
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___pointB_6;
+	// System.Boolean cubescript::goingPointB
+	bool ___goingPointB_7;
+	// System.Single cubescript::speed
+	float ___speed_8;
+	// System.Single cubescript::t
+	float ___t_9;
 };
 
 // UnityEngine.XR.OpenXR.Features.Interactions.EyeGazeInteraction/EyeGazeDevice
