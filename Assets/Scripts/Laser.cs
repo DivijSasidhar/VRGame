@@ -10,7 +10,9 @@ public class Laser : MonoBehaviour
     private LineRenderer lr;
     [SerializeField]
     private Transform startPoint;
-    
+
+    private GameObject hitObject;
+
     void Start()
     {
         lr = GetComponent<LineRenderer>();
@@ -37,6 +39,11 @@ public class Laser : MonoBehaviour
                 direction = Vector3.Reflect(direction, hit.normal);
                 lr.SetPosition(i + 1, hit.point);
 
+                if (hit.transform.tag == "Laser Activatable")
+                {
+                    hitObject = hit.collider.gameObject;
+                    hitObject.GetComponent<Laser_Activatable>().Activate();
+                }
                 if (hit.transform.tag != "Mirror")
                 {
                     for(int j = (i+1); j<=maxBounces; j++)
