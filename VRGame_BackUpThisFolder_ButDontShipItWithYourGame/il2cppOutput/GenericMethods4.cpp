@@ -38,6 +38,15 @@ struct VirtualFuncInvoker2Invoker<R, T1*, T2*>
 template <typename T1, typename T2>
 struct InvokerActionInvoker2;
 template <typename T1, typename T2>
+struct InvokerActionInvoker2<T1*, T2>
+{
+	static inline void Invoke (Il2CppMethodPointer methodPtr, const RuntimeMethod* method, void* obj, T1* p1, T2 p2)
+	{
+		void* params[2] = { p1, &p2 };
+		method->invoker_method(methodPtr, method, obj, params, params[1]);
+	}
+};
+template <typename T1, typename T2>
 struct InvokerActionInvoker2<T1*, T2*>
 {
 	static inline void Invoke (Il2CppMethodPointer methodPtr, const RuntimeMethod* method, void* obj, T1* p1, T2* p2)
@@ -127,23 +136,23 @@ struct InvokerFuncInvoker3<R, T1*, T2, T3*>
 template <typename R, typename T1, typename T2, typename T3, typename T4>
 struct InvokerFuncInvoker4;
 template <typename R, typename T1, typename T2, typename T3, typename T4>
-struct InvokerFuncInvoker4<R, T1*, T2, T3, T4>
-{
-	static inline R Invoke (Il2CppMethodPointer methodPtr, const RuntimeMethod* method, void* obj, T1* p1, T2 p2, T3 p3, T4 p4)
-	{
-		R ret;
-		void* params[4] = { p1, &p2, &p3, &p4 };
-		method->invoker_method(methodPtr, method, obj, params, &ret);
-		return ret;
-	}
-};
-template <typename R, typename T1, typename T2, typename T3, typename T4>
 struct InvokerFuncInvoker4<R, T1, T2, T3*, T4>
 {
 	static inline R Invoke (Il2CppMethodPointer methodPtr, const RuntimeMethod* method, void* obj, T1 p1, T2 p2, T3* p3, T4 p4)
 	{
 		R ret;
 		void* params[4] = { &p1, &p2, p3, &p4 };
+		method->invoker_method(methodPtr, method, obj, params, &ret);
+		return ret;
+	}
+};
+template <typename R, typename T1, typename T2, typename T3, typename T4>
+struct InvokerFuncInvoker4<R, T1*, T2, T3, T4>
+{
+	static inline R Invoke (Il2CppMethodPointer methodPtr, const RuntimeMethod* method, void* obj, T1* p1, T2 p2, T3 p3, T4 p4)
+	{
+		R ret;
+		void* params[4] = { p1, &p2, &p3, &p4 };
 		method->invoker_method(methodPtr, method, obj, params, &ret);
 		return ret;
 	}
@@ -183,6 +192,8 @@ struct DynamicArray_1_t401F46C0081DE185BCAB1D30DE8D6B6DC9AA6AFB;
 struct DynamicArray_1_tFD6392EE4EAA442D167A921C9964FD9C17FDCDE0;
 // System.Collections.Generic.EqualityComparer`1<Unity.IL2CPP.Metadata.__Il2CppFullySharedGenericStructType>
 struct EqualityComparer_1_t458C8DC3748A89A213F4738B57D3742C4896ABE9;
+// System.Byte[]
+struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031;
 // UnityEngine.Experimental.Rendering.RenderGraphModule.IRenderGraphResource[]
 struct IRenderGraphResourceU5BU5D_tC72A5980774D8ACE9E681BE8A3FAB493A70BC2F3;
 // System.UInt32[]
@@ -220,6 +231,7 @@ IL2CPP_EXTERN_C const RuntimeMethod* DynamicArray_1_get_Item_m5FC9383C3A815B0DF7
 IL2CPP_EXTERN_C const RuntimeMethod* DynamicArray_1_get_size_m56D2768863B15299FA4F2F14E271686207A8C2E4_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Reader_ReadNext_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_m008862EE68B89223188A3A1C95A528DC5CD56774_RuntimeMethod_var;
 
+struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031;
 
 IL2CPP_EXTERN_C_BEGIN
 IL2CPP_EXTERN_C_END
@@ -331,6 +343,9 @@ struct Sse4_2_t40477411E6B6B2D01F3B0EA9D1B0A6281833C37C  : public RuntimeObject
 {
 };
 
+// Unity.Netcode.BufferSerializer`1<Unity.IL2CPP.Metadata.__Il2CppFullySharedGenericType>
+typedef Il2CppFullySharedGenericStruct BufferSerializer_1_tC485B3539F0BCD2241145A679FB202806C206C10;
+
 // Unity.Collections.NativeArray`1<Unity.IL2CPP.Metadata.__Il2CppFullySharedGenericStructType>
 struct NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18 
 {
@@ -356,6 +371,13 @@ struct Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3
 	uint8_t ___m_value_0;
 };
 
+// System.Double
+struct Double_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F 
+{
+	// System.Double System.Double::m_value
+	double ___m_value_0;
+};
+
 // System.Int32
 struct Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C 
 {
@@ -377,6 +399,20 @@ struct MessageHeader_tA497137CB00465BF3A030227D406C71C5124B280
 	uint32_t ___MessageType_0;
 	// System.UInt32 Unity.Netcode.MessageHeader::MessageSize
 	uint32_t ___MessageSize_1;
+};
+
+// System.Single
+struct Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C 
+{
+	// System.Single System.Single::m_value
+	float ___m_value_0;
+};
+
+// System.UInt16
+struct UInt16_tF4C148C876015C212FD72652D0B6ED8CC247A455 
+{
+	// System.UInt16 System.UInt16::m_value
+	uint16_t ___m_value_0;
 };
 
 // System.UInt64
@@ -824,16 +860,119 @@ struct AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148
 	uint16_t ___Version_1;
 };
 
-// Unity.Collections.Memory/Unmanaged
-struct Unmanaged_t06043455F062B5BBF755BE852B0A7AB1876E3310 
+// Unity.Netcode.FastBufferWriter/ForPrimitives
+struct ForPrimitives_t4120884959A3BC3EAC3D4980A4DA8010E09DA292 
 {
 	union
 	{
 		struct
 		{
 		};
-		uint8_t Unmanaged_t06043455F062B5BBF755BE852B0A7AB1876E3310__padding[1];
+		uint8_t ForPrimitives_t4120884959A3BC3EAC3D4980A4DA8010E09DA292__padding[1];
 	};
+};
+
+// Unity.Netcode.Components.NetworkAnimator/AnimationTriggerMessage
+struct AnimationTriggerMessage_t6E5D90F8238CB48B83329BAEEEF1847B2DD1EE46 
+{
+	// System.Int32 Unity.Netcode.Components.NetworkAnimator/AnimationTriggerMessage::Hash
+	int32_t ___Hash_0;
+	// System.Boolean Unity.Netcode.Components.NetworkAnimator/AnimationTriggerMessage::IsTriggerSet
+	bool ___IsTriggerSet_1;
+};
+// Native definition for P/Invoke marshalling of Unity.Netcode.Components.NetworkAnimator/AnimationTriggerMessage
+struct AnimationTriggerMessage_t6E5D90F8238CB48B83329BAEEEF1847B2DD1EE46_marshaled_pinvoke
+{
+	int32_t ___Hash_0;
+	int32_t ___IsTriggerSet_1;
+};
+// Native definition for COM marshalling of Unity.Netcode.Components.NetworkAnimator/AnimationTriggerMessage
+struct AnimationTriggerMessage_t6E5D90F8238CB48B83329BAEEEF1847B2DD1EE46_marshaled_com
+{
+	int32_t ___Hash_0;
+	int32_t ___IsTriggerSet_1;
+};
+
+// Unity.Netcode.Components.NetworkAnimator/ParametersUpdateMessage
+struct ParametersUpdateMessage_t005A167C8BAC9D5842F589C807ABF3CF4B3EB536 
+{
+	// System.Byte[] Unity.Netcode.Components.NetworkAnimator/ParametersUpdateMessage::Parameters
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___Parameters_0;
+};
+// Native definition for P/Invoke marshalling of Unity.Netcode.Components.NetworkAnimator/ParametersUpdateMessage
+struct ParametersUpdateMessage_t005A167C8BAC9D5842F589C807ABF3CF4B3EB536_marshaled_pinvoke
+{
+	Il2CppSafeArray/*NONE*/* ___Parameters_0;
+};
+// Native definition for COM marshalling of Unity.Netcode.Components.NetworkAnimator/ParametersUpdateMessage
+struct ParametersUpdateMessage_t005A167C8BAC9D5842F589C807ABF3CF4B3EB536_marshaled_com
+{
+	Il2CppSafeArray/*NONE*/* ___Parameters_0;
+};
+
+// Unity.Netcode.Components.NetworkTransform/NetworkTransformState
+struct NetworkTransformState_t79E8E299A31239DA71F98A03FDE191019CF1C8C0 
+{
+	// System.UInt16 Unity.Netcode.Components.NetworkTransform/NetworkTransformState::m_Bitset
+	uint16_t ___m_Bitset_11;
+	// System.Single Unity.Netcode.Components.NetworkTransform/NetworkTransformState::PositionX
+	float ___PositionX_12;
+	// System.Single Unity.Netcode.Components.NetworkTransform/NetworkTransformState::PositionY
+	float ___PositionY_13;
+	// System.Single Unity.Netcode.Components.NetworkTransform/NetworkTransformState::PositionZ
+	float ___PositionZ_14;
+	// System.Single Unity.Netcode.Components.NetworkTransform/NetworkTransformState::RotAngleX
+	float ___RotAngleX_15;
+	// System.Single Unity.Netcode.Components.NetworkTransform/NetworkTransformState::RotAngleY
+	float ___RotAngleY_16;
+	// System.Single Unity.Netcode.Components.NetworkTransform/NetworkTransformState::RotAngleZ
+	float ___RotAngleZ_17;
+	// System.Single Unity.Netcode.Components.NetworkTransform/NetworkTransformState::ScaleX
+	float ___ScaleX_18;
+	// System.Single Unity.Netcode.Components.NetworkTransform/NetworkTransformState::ScaleY
+	float ___ScaleY_19;
+	// System.Single Unity.Netcode.Components.NetworkTransform/NetworkTransformState::ScaleZ
+	float ___ScaleZ_20;
+	// System.Double Unity.Netcode.Components.NetworkTransform/NetworkTransformState::SentTime
+	double ___SentTime_21;
+	// System.Boolean Unity.Netcode.Components.NetworkTransform/NetworkTransformState::IsDirty
+	bool ___IsDirty_22;
+	// System.Int32 Unity.Netcode.Components.NetworkTransform/NetworkTransformState::EndExtrapolationTick
+	int32_t ___EndExtrapolationTick_23;
+};
+// Native definition for P/Invoke marshalling of Unity.Netcode.Components.NetworkTransform/NetworkTransformState
+struct NetworkTransformState_t79E8E299A31239DA71F98A03FDE191019CF1C8C0_marshaled_pinvoke
+{
+	uint16_t ___m_Bitset_11;
+	float ___PositionX_12;
+	float ___PositionY_13;
+	float ___PositionZ_14;
+	float ___RotAngleX_15;
+	float ___RotAngleY_16;
+	float ___RotAngleZ_17;
+	float ___ScaleX_18;
+	float ___ScaleY_19;
+	float ___ScaleZ_20;
+	double ___SentTime_21;
+	int32_t ___IsDirty_22;
+	int32_t ___EndExtrapolationTick_23;
+};
+// Native definition for COM marshalling of Unity.Netcode.Components.NetworkTransform/NetworkTransformState
+struct NetworkTransformState_t79E8E299A31239DA71F98A03FDE191019CF1C8C0_marshaled_com
+{
+	uint16_t ___m_Bitset_11;
+	float ___PositionX_12;
+	float ___PositionY_13;
+	float ___PositionZ_14;
+	float ___RotAngleX_15;
+	float ___RotAngleY_16;
+	float ___RotAngleZ_17;
+	float ___ScaleX_18;
+	float ___ScaleY_19;
+	float ___ScaleZ_20;
+	double ___SentTime_21;
+	int32_t ___IsDirty_22;
+	int32_t ___EndExtrapolationTick_23;
 };
 
 // Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer/Reader
@@ -2001,20 +2140,6 @@ struct v128_t9D2F2BF6DCFF1D82BF38064CF157489E1E680B61
 	};
 };
 
-// Unity.Collections.NativeStream/Reader
-struct Reader_t84D582FCC8C26F85ACE0F2F31416D31F71FE4AD9 
-{
-	// Unity.Collections.LowLevel.Unsafe.UnsafeStream/Reader Unity.Collections.NativeStream/Reader::m_Reader
-	Reader_tE85B398678D2471A73C94A5DCAECD9AA2CAA4458 ___m_Reader_0;
-};
-
-// Unity.Collections.NativeStream/Writer
-struct Writer_tFFFC2E32CAA4337A0C5E1FAF6127DCC8BBD9DB8F 
-{
-	// Unity.Collections.LowLevel.Unsafe.UnsafeStream/Writer Unity.Collections.NativeStream/Writer::m_Writer
-	Writer_t16BC5D7104F5959779BA8C578EC794067872FB0F ___m_Writer_0;
-};
-
 // Unity.Collections.xxHash3/StreamingState
 struct StreamingState_t407BC6BBA6752E76D2075153BF945841B2D06020 
 {
@@ -2088,6 +2213,10 @@ struct Sse4_2_t40477411E6B6B2D01F3B0EA9D1B0A6281833C37C_StaticFields
 
 // Unity.Burst.Intrinsics.X86/Sse4_2
 
+// Unity.Netcode.BufferSerializer`1<Unity.IL2CPP.Metadata.__Il2CppFullySharedGenericType>
+
+// Unity.Netcode.BufferSerializer`1<Unity.IL2CPP.Metadata.__Il2CppFullySharedGenericType>
+
 // Unity.Collections.NativeArray`1<Unity.IL2CPP.Metadata.__Il2CppFullySharedGenericStructType>
 
 // Unity.Collections.NativeArray`1<Unity.IL2CPP.Metadata.__Il2CppFullySharedGenericStructType>
@@ -2107,6 +2236,10 @@ struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
 
 // System.Byte
 
+// System.Double
+
+// System.Double
+
 // System.Int32
 
 // System.Int32
@@ -2118,6 +2251,14 @@ struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
 // Unity.Netcode.MessageHeader
 
 // Unity.Netcode.MessageHeader
+
+// System.Single
+
+// System.Single
+
+// System.UInt16
+
+// System.UInt16
 
 // System.UInt64
 
@@ -2135,9 +2276,21 @@ struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
 
 // Unity.Collections.AllocatorManager/AllocatorHandle
 
-// Unity.Collections.Memory/Unmanaged
+// Unity.Netcode.FastBufferWriter/ForPrimitives
 
-// Unity.Collections.Memory/Unmanaged
+// Unity.Netcode.FastBufferWriter/ForPrimitives
+
+// Unity.Netcode.Components.NetworkAnimator/AnimationTriggerMessage
+
+// Unity.Netcode.Components.NetworkAnimator/AnimationTriggerMessage
+
+// Unity.Netcode.Components.NetworkAnimator/ParametersUpdateMessage
+
+// Unity.Netcode.Components.NetworkAnimator/ParametersUpdateMessage
+
+// Unity.Netcode.Components.NetworkTransform/NetworkTransformState
+
+// Unity.Netcode.Components.NetworkTransform/NetworkTransformState
 
 // Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer/Reader
 
@@ -2190,14 +2343,6 @@ struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
 // Unity.Burst.Intrinsics.v128
 
 // Unity.Burst.Intrinsics.v128
-
-// Unity.Collections.NativeStream/Reader
-
-// Unity.Collections.NativeStream/Reader
-
-// Unity.Collections.NativeStream/Writer
-
-// Unity.Collections.NativeStream/Writer
 
 // Unity.Collections.xxHash3/StreamingState
 struct StreamingState_t407BC6BBA6752E76D2075153BF945841B2D06020_StaticFields
@@ -2220,16 +2365,47 @@ struct StreamingState_t407BC6BBA6752E76D2075153BF945841B2D06020_StaticFields
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
+// System.Byte[]
+struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031  : public RuntimeArray
+{
+	ALIGN_FIELD (8) uint8_t m_Items[1];
+
+	inline uint8_t GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline uint8_t* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, uint8_t value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline uint8_t GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline uint8_t* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, uint8_t value)
+	{
+		m_Items[index] = value;
+	}
+};
 
 
-// T& Unity.Collections.NativeStream/Reader::Peek<Unity.IL2CPP.Metadata.__Il2CppFullySharedGenericStructType>()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Il2CppFullySharedGenericStruct* Reader_Peek_TisIl2CppFullySharedGenericStruct_m2858A9931F3736225D223F6D7A66EB3B740CFB3E_gshared (Reader_t84D582FCC8C26F85ACE0F2F31416D31F71FE4AD9* __this, const RuntimeMethod* method) ;
-// T& Unity.Collections.NativeStream/Reader::Read<Unity.IL2CPP.Metadata.__Il2CppFullySharedGenericStructType>()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Il2CppFullySharedGenericStruct* Reader_Read_TisIl2CppFullySharedGenericStruct_m72E44AFFE62AB8341A8BF0975D02F88F85B58819_gshared (Reader_t84D582FCC8C26F85ACE0F2F31416D31F71FE4AD9* __this, const RuntimeMethod* method) ;
-// T& Unity.Collections.NativeStream/Writer::Allocate<Unity.IL2CPP.Metadata.__Il2CppFullySharedGenericStructType>()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Il2CppFullySharedGenericStruct* Writer_Allocate_TisIl2CppFullySharedGenericStruct_m152D2779B7277D522B694AF0698A887AEDD0B866_gshared (Writer_tFFFC2E32CAA4337A0C5E1FAF6127DCC8BBD9DB8F* __this, const RuntimeMethod* method) ;
-// System.Void Unity.Collections.NativeStream/Writer::Write<Unity.IL2CPP.Metadata.__Il2CppFullySharedGenericStructType>(T)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Writer_Write_TisIl2CppFullySharedGenericStruct_m4B52108B68A52441FB126D64ECBC48059BFFE7CB_gshared (Writer_tFFFC2E32CAA4337A0C5E1FAF6127DCC8BBD9DB8F* __this, /*Unity.IL2CPP.Metadata.__Il2CppFullySharedGenericStructType*/Il2CppFullySharedGenericStruct ___0_value, const RuntimeMethod* method) ;
+// System.Void Unity.Netcode.Components.NetworkAnimator/AnimationTriggerMessage::NetworkSerialize<Unity.IL2CPP.Metadata.__Il2CppFullySharedGenericType>(Unity.Netcode.BufferSerializer`1<T>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnimationTriggerMessage_NetworkSerialize_TisIl2CppFullySharedGenericAny_m19F989C02349EC879B45D21A753F931CC935E160_gshared (AnimationTriggerMessage_t6E5D90F8238CB48B83329BAEEEF1847B2DD1EE46* __this, /*Unity.Netcode.BufferSerializer`1<Unity.IL2CPP.Metadata.__Il2CppFullySharedGenericType>*/BufferSerializer_1_tC485B3539F0BCD2241145A679FB202806C206C10 ___0_serializer, const RuntimeMethod* method) ;
+// System.Void Unity.Netcode.Components.NetworkAnimator/ParametersUpdateMessage::NetworkSerialize<Unity.IL2CPP.Metadata.__Il2CppFullySharedGenericType>(Unity.Netcode.BufferSerializer`1<T>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParametersUpdateMessage_NetworkSerialize_TisIl2CppFullySharedGenericAny_m77889F14D21C124F55D53B6DAE359421EC25991B_gshared (ParametersUpdateMessage_t005A167C8BAC9D5842F589C807ABF3CF4B3EB536* __this, /*Unity.Netcode.BufferSerializer`1<Unity.IL2CPP.Metadata.__Il2CppFullySharedGenericType>*/BufferSerializer_1_tC485B3539F0BCD2241145A679FB202806C206C10 ___0_serializer, const RuntimeMethod* method) ;
+// System.Void Unity.Netcode.Components.NetworkTransform/NetworkTransformState::NetworkSerialize<Unity.IL2CPP.Metadata.__Il2CppFullySharedGenericType>(Unity.Netcode.BufferSerializer`1<T>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransformState_NetworkSerialize_TisIl2CppFullySharedGenericAny_mF1AE35F9ACC173849CAF88BF7240733114AF4597_gshared (NetworkTransformState_t79E8E299A31239DA71F98A03FDE191019CF1C8C0* __this, /*Unity.Netcode.BufferSerializer`1<Unity.IL2CPP.Metadata.__Il2CppFullySharedGenericType>*/BufferSerializer_1_tC485B3539F0BCD2241145A679FB202806C206C10 ___0_serializer, const RuntimeMethod* method) ;
 // System.Int32 UnityEngine.Rendering.DynamicArray`1<Unity.IL2CPP.Metadata.__Il2CppFullySharedGenericType>::get_size()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t DynamicArray_1_get_size_m128222BE63C9931B08CD38DF32B858CD1CD4926D_gshared_inline (DynamicArray_1_tFD6392EE4EAA442D167A921C9964FD9C17FDCDE0* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Rendering.DynamicArray`1<Unity.IL2CPP.Metadata.__Il2CppFullySharedGenericType>::Resize(System.Int32,System.Boolean)
@@ -2265,29 +2441,44 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Writer_Write_TisIl2CppFullySharedGeneric
 // System.Void Unity.Collections.xxHash3/StreamingState::Update<Unity.IL2CPP.Metadata.__Il2CppFullySharedGenericStructType>(T&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StreamingState_Update_TisIl2CppFullySharedGenericStruct_m301FBB6A80BBA46BB5AC2B0DF206CAB72593DE1D_gshared (StreamingState_t407BC6BBA6752E76D2075153BF945841B2D06020* __this, /*Unity.IL2CPP.Metadata.__Il2CppFullySharedGenericStructType&*/Il2CppFullySharedGenericStruct* ___0_input, const RuntimeMethod* method) ;
 
-// T& Unity.Collections.NativeStream/Reader::Peek<Unity.IL2CPP.Metadata.__Il2CppFullySharedGenericStructType>()
-inline Il2CppFullySharedGenericStruct* Reader_Peek_TisIl2CppFullySharedGenericStruct_m2858A9931F3736225D223F6D7A66EB3B740CFB3E (Reader_t84D582FCC8C26F85ACE0F2F31416D31F71FE4AD9* __this, const RuntimeMethod* method)
+// System.Void Unity.Netcode.Components.NetworkAnimator/AnimationTriggerMessage::NetworkSerialize<Unity.IL2CPP.Metadata.__Il2CppFullySharedGenericType>(Unity.Netcode.BufferSerializer`1<T>)
+inline void AnimationTriggerMessage_NetworkSerialize_TisIl2CppFullySharedGenericAny_m19F989C02349EC879B45D21A753F931CC935E160 (AnimationTriggerMessage_t6E5D90F8238CB48B83329BAEEEF1847B2DD1EE46* __this, /*Unity.Netcode.BufferSerializer`1<Unity.IL2CPP.Metadata.__Il2CppFullySharedGenericType>*/BufferSerializer_1_tC485B3539F0BCD2241145A679FB202806C206C10 ___0_serializer, const RuntimeMethod* method)
 {
-	return ((  Il2CppFullySharedGenericStruct* (*) (Reader_t84D582FCC8C26F85ACE0F2F31416D31F71FE4AD9*, const RuntimeMethod*))Reader_Peek_TisIl2CppFullySharedGenericStruct_m2858A9931F3736225D223F6D7A66EB3B740CFB3E_gshared)((Reader_t84D582FCC8C26F85ACE0F2F31416D31F71FE4AD9*)__this, method);
+	((  void (*) (AnimationTriggerMessage_t6E5D90F8238CB48B83329BAEEEF1847B2DD1EE46*, /*Unity.Netcode.BufferSerializer`1<Unity.IL2CPP.Metadata.__Il2CppFullySharedGenericType>*/BufferSerializer_1_tC485B3539F0BCD2241145A679FB202806C206C10, const RuntimeMethod*))AnimationTriggerMessage_NetworkSerialize_TisIl2CppFullySharedGenericAny_m19F989C02349EC879B45D21A753F931CC935E160_gshared)((AnimationTriggerMessage_t6E5D90F8238CB48B83329BAEEEF1847B2DD1EE46*)__this, ___0_serializer, method);
 }
-// System.Byte* Unity.Collections.NativeStream/Reader::ReadUnsafePtr(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t* Reader_ReadUnsafePtr_m6B71AAF3513F6A2D6AA072F03A5E9E7020F46906 (Reader_t84D582FCC8C26F85ACE0F2F31416D31F71FE4AD9* __this, int32_t ___0_size, const RuntimeMethod* method) ;
-// T& Unity.Collections.NativeStream/Reader::Read<Unity.IL2CPP.Metadata.__Il2CppFullySharedGenericStructType>()
-inline Il2CppFullySharedGenericStruct* Reader_Read_TisIl2CppFullySharedGenericStruct_m72E44AFFE62AB8341A8BF0975D02F88F85B58819 (Reader_t84D582FCC8C26F85ACE0F2F31416D31F71FE4AD9* __this, const RuntimeMethod* method)
+// System.Void Unity.Netcode.Components.NetworkAnimator/ParametersUpdateMessage::NetworkSerialize<Unity.IL2CPP.Metadata.__Il2CppFullySharedGenericType>(Unity.Netcode.BufferSerializer`1<T>)
+inline void ParametersUpdateMessage_NetworkSerialize_TisIl2CppFullySharedGenericAny_m77889F14D21C124F55D53B6DAE359421EC25991B (ParametersUpdateMessage_t005A167C8BAC9D5842F589C807ABF3CF4B3EB536* __this, /*Unity.Netcode.BufferSerializer`1<Unity.IL2CPP.Metadata.__Il2CppFullySharedGenericType>*/BufferSerializer_1_tC485B3539F0BCD2241145A679FB202806C206C10 ___0_serializer, const RuntimeMethod* method)
 {
-	return ((  Il2CppFullySharedGenericStruct* (*) (Reader_t84D582FCC8C26F85ACE0F2F31416D31F71FE4AD9*, const RuntimeMethod*))Reader_Read_TisIl2CppFullySharedGenericStruct_m72E44AFFE62AB8341A8BF0975D02F88F85B58819_gshared)((Reader_t84D582FCC8C26F85ACE0F2F31416D31F71FE4AD9*)__this, method);
+	((  void (*) (ParametersUpdateMessage_t005A167C8BAC9D5842F589C807ABF3CF4B3EB536*, /*Unity.Netcode.BufferSerializer`1<Unity.IL2CPP.Metadata.__Il2CppFullySharedGenericType>*/BufferSerializer_1_tC485B3539F0BCD2241145A679FB202806C206C10, const RuntimeMethod*))ParametersUpdateMessage_NetworkSerialize_TisIl2CppFullySharedGenericAny_m77889F14D21C124F55D53B6DAE359421EC25991B_gshared)((ParametersUpdateMessage_t005A167C8BAC9D5842F589C807ABF3CF4B3EB536*)__this, ___0_serializer, method);
 }
-// System.Byte* Unity.Collections.NativeStream/Writer::Allocate(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t* Writer_Allocate_m647D78C16BD8AE24E717888CC1568DF31D573311 (Writer_tFFFC2E32CAA4337A0C5E1FAF6127DCC8BBD9DB8F* __this, int32_t ___0_size, const RuntimeMethod* method) ;
-// T& Unity.Collections.NativeStream/Writer::Allocate<Unity.IL2CPP.Metadata.__Il2CppFullySharedGenericStructType>()
-inline Il2CppFullySharedGenericStruct* Writer_Allocate_TisIl2CppFullySharedGenericStruct_m152D2779B7277D522B694AF0698A887AEDD0B866 (Writer_tFFFC2E32CAA4337A0C5E1FAF6127DCC8BBD9DB8F* __this, const RuntimeMethod* method)
+// System.Boolean Unity.Netcode.Components.NetworkTransform/NetworkTransformState::get_HasPositionX()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetworkTransformState_get_HasPositionX_m38C1D7FA45D4F042E1DF6DF427769E833DB1562B (NetworkTransformState_t79E8E299A31239DA71F98A03FDE191019CF1C8C0* __this, const RuntimeMethod* method) ;
+// System.Boolean Unity.Netcode.Components.NetworkTransform/NetworkTransformState::get_HasPositionY()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetworkTransformState_get_HasPositionY_mAE9F9A90D1BE78E78A7B06EBFD935553D7B5BC1A (NetworkTransformState_t79E8E299A31239DA71F98A03FDE191019CF1C8C0* __this, const RuntimeMethod* method) ;
+// System.Boolean Unity.Netcode.Components.NetworkTransform/NetworkTransformState::get_HasPositionZ()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetworkTransformState_get_HasPositionZ_m720D04DBA54389D30D834C4317BC520A023ED05A (NetworkTransformState_t79E8E299A31239DA71F98A03FDE191019CF1C8C0* __this, const RuntimeMethod* method) ;
+// System.Boolean Unity.Netcode.Components.NetworkTransform/NetworkTransformState::get_HasRotAngleX()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetworkTransformState_get_HasRotAngleX_m1C906A4534F5AF8B6648B87FB651D799E9818E81 (NetworkTransformState_t79E8E299A31239DA71F98A03FDE191019CF1C8C0* __this, const RuntimeMethod* method) ;
+// System.Boolean Unity.Netcode.Components.NetworkTransform/NetworkTransformState::get_HasRotAngleY()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetworkTransformState_get_HasRotAngleY_m725B8770DD0AB539D53748D175EC57D5C3ECB5EC (NetworkTransformState_t79E8E299A31239DA71F98A03FDE191019CF1C8C0* __this, const RuntimeMethod* method) ;
+// System.Boolean Unity.Netcode.Components.NetworkTransform/NetworkTransformState::get_HasRotAngleZ()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetworkTransformState_get_HasRotAngleZ_m0E8B47FF7B00F0AF937652726E9B3D47CBA254FE (NetworkTransformState_t79E8E299A31239DA71F98A03FDE191019CF1C8C0* __this, const RuntimeMethod* method) ;
+// System.Boolean Unity.Netcode.Components.NetworkTransform/NetworkTransformState::get_HasScaleX()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetworkTransformState_get_HasScaleX_m62884CDB2892EBAA435E6B5990ED6E263813E27F (NetworkTransformState_t79E8E299A31239DA71F98A03FDE191019CF1C8C0* __this, const RuntimeMethod* method) ;
+// System.Boolean Unity.Netcode.Components.NetworkTransform/NetworkTransformState::get_HasScaleY()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetworkTransformState_get_HasScaleY_m08BBB82139D65BFEB7A608F9CFC048E841ACA9DE (NetworkTransformState_t79E8E299A31239DA71F98A03FDE191019CF1C8C0* __this, const RuntimeMethod* method) ;
+// System.Boolean Unity.Netcode.Components.NetworkTransform/NetworkTransformState::get_HasScaleZ()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetworkTransformState_get_HasScaleZ_m4C1375674CCF760F831467D767B1CB24DB916F12 (NetworkTransformState_t79E8E299A31239DA71F98A03FDE191019CF1C8C0* __this, const RuntimeMethod* method) ;
+// System.Boolean Unity.Netcode.Components.NetworkTransform/NetworkTransformState::get_HasPositionChange()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetworkTransformState_get_HasPositionChange_m2914558867BE5E630E14B06A65AFA70242957FAD (NetworkTransformState_t79E8E299A31239DA71F98A03FDE191019CF1C8C0* __this, const RuntimeMethod* method) ;
+// System.Boolean Unity.Netcode.Components.NetworkTransform/NetworkTransformState::get_HasRotAngleChange()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetworkTransformState_get_HasRotAngleChange_m422A91DCE0FBAFD8B608131ED3D2C0C5E123EAF0 (NetworkTransformState_t79E8E299A31239DA71F98A03FDE191019CF1C8C0* __this, const RuntimeMethod* method) ;
+// System.Boolean Unity.Netcode.Components.NetworkTransform/NetworkTransformState::get_HasScaleChange()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetworkTransformState_get_HasScaleChange_m86DDA3159D5CC25EB66F58C543B247F0D7D94E5C (NetworkTransformState_t79E8E299A31239DA71F98A03FDE191019CF1C8C0* __this, const RuntimeMethod* method) ;
+// System.Void Unity.Netcode.Components.NetworkTransform/NetworkTransformState::NetworkSerialize<Unity.IL2CPP.Metadata.__Il2CppFullySharedGenericType>(Unity.Netcode.BufferSerializer`1<T>)
+inline void NetworkTransformState_NetworkSerialize_TisIl2CppFullySharedGenericAny_mF1AE35F9ACC173849CAF88BF7240733114AF4597 (NetworkTransformState_t79E8E299A31239DA71F98A03FDE191019CF1C8C0* __this, /*Unity.Netcode.BufferSerializer`1<Unity.IL2CPP.Metadata.__Il2CppFullySharedGenericType>*/BufferSerializer_1_tC485B3539F0BCD2241145A679FB202806C206C10 ___0_serializer, const RuntimeMethod* method)
 {
-	return ((  Il2CppFullySharedGenericStruct* (*) (Writer_tFFFC2E32CAA4337A0C5E1FAF6127DCC8BBD9DB8F*, const RuntimeMethod*))Writer_Allocate_TisIl2CppFullySharedGenericStruct_m152D2779B7277D522B694AF0698A887AEDD0B866_gshared)((Writer_tFFFC2E32CAA4337A0C5E1FAF6127DCC8BBD9DB8F*)__this, method);
-}
-// System.Void Unity.Collections.NativeStream/Writer::Write<Unity.IL2CPP.Metadata.__Il2CppFullySharedGenericStructType>(T)
-inline void Writer_Write_TisIl2CppFullySharedGenericStruct_m4B52108B68A52441FB126D64ECBC48059BFFE7CB (Writer_tFFFC2E32CAA4337A0C5E1FAF6127DCC8BBD9DB8F* __this, /*Unity.IL2CPP.Metadata.__Il2CppFullySharedGenericStructType*/Il2CppFullySharedGenericStruct ___0_value, const RuntimeMethod* method)
-{
-	((  void (*) (Writer_tFFFC2E32CAA4337A0C5E1FAF6127DCC8BBD9DB8F*, /*Unity.IL2CPP.Metadata.__Il2CppFullySharedGenericStructType*/Il2CppFullySharedGenericStruct, const RuntimeMethod*))Writer_Write_TisIl2CppFullySharedGenericStruct_m4B52108B68A52441FB126D64ECBC48059BFFE7CB_gshared)((Writer_tFFFC2E32CAA4337A0C5E1FAF6127DCC8BBD9DB8F*)__this, ___0_value, method);
+	((  void (*) (NetworkTransformState_t79E8E299A31239DA71F98A03FDE191019CF1C8C0*, /*Unity.Netcode.BufferSerializer`1<Unity.IL2CPP.Metadata.__Il2CppFullySharedGenericType>*/BufferSerializer_1_tC485B3539F0BCD2241145A679FB202806C206C10, const RuntimeMethod*))NetworkTransformState_NetworkSerialize_TisIl2CppFullySharedGenericAny_mF1AE35F9ACC173849CAF88BF7240733114AF4597_gshared)((NetworkTransformState_t79E8E299A31239DA71F98A03FDE191019CF1C8C0*)__this, ___0_serializer, method);
 }
 // System.Int32 UnityEngine.Rendering.DynamicArray`1<UnityEngine.Experimental.Rendering.RenderGraphModule.IRenderGraphResource>::get_size()
 inline int32_t DynamicArray_1_get_size_m56D2768863B15299FA4F2F14E271686207A8C2E4_inline (DynamicArray_1_t401F46C0081DE185BCAB1D30DE8D6B6DC9AA6AFB* __this, const RuntimeMethod* method)
@@ -2404,179 +2595,56 @@ inline void StreamingState_Update_TisIl2CppFullySharedGenericStruct_m301FBB6A80B
 }
 // System.Void* Unity.Collections.Memory/Unmanaged/Array::Resize(System.Void*,System.Int64,System.Int64,Unity.Collections.AllocatorManager/AllocatorHandle,System.Int64,System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* Array_Resize_mC7BE2965DE3FCF4014D43B606D94951480A65380 (void* ___0_oldPointer, int64_t ___1_oldCount, int64_t ___2_newCount, AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 ___3_allocator, int64_t ___4_size, int32_t ___5_align, const RuntimeMethod* method) ;
-// System.Void Unity.Collections.Memory/Unmanaged::Free<Unity.IL2CPP.Metadata.__Il2CppFullySharedGenericStructType>(T*,Unity.Collections.AllocatorManager/AllocatorHandle)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Unmanaged_Free_TisIl2CppFullySharedGenericStruct_mC5E4D92A647D08D8B3B7CCF667B40D0ECD8ACB83_gshared (Il2CppFullySharedGenericStruct* ___0_pointer, AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 ___1_allocator, const RuntimeMethod* method) 
+// System.Void Unity.Netcode.Components.NetworkAnimator/AnimationTriggerMessage::NetworkSerialize<Unity.IL2CPP.Metadata.__Il2CppFullySharedGenericType>(Unity.Netcode.BufferSerializer`1<T>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnimationTriggerMessage_NetworkSerialize_TisIl2CppFullySharedGenericAny_m19F989C02349EC879B45D21A753F931CC935E160_gshared (AnimationTriggerMessage_t6E5D90F8238CB48B83329BAEEEF1847B2DD1EE46* __this, /*Unity.Netcode.BufferSerializer`1<Unity.IL2CPP.Metadata.__Il2CppFullySharedGenericType>*/BufferSerializer_1_tC485B3539F0BCD2241145A679FB202806C206C10 ___0_serializer, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
-	bool V_0 = false;
+	ForPrimitives_t4120884959A3BC3EAC3D4980A4DA8010E09DA292 V_0;
+	memset((&V_0), 0, sizeof(V_0));
 	{
-		// if (pointer == null)
-		Il2CppFullySharedGenericStruct* L_0 = ___0_pointer;
-		V_0 = (bool)((((intptr_t)L_0) == ((intptr_t)((uintptr_t)0)))? 1 : 0);
-		bool L_1 = V_0;
-		if (!L_1)
-		{
-			goto IL_000c;
-		}
-	}
-	{
-		// return;
-		goto IL_0018;
-	}
-
-IL_000c:
-	{
-		// Array.Resize(pointer, 1, 0, allocator);
-		Il2CppFullySharedGenericStruct* L_2 = ___0_pointer;
-		AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 L_3 = ___1_allocator;
-		Il2CppFullySharedGenericStruct* L_4;
-		L_4 = InvokerFuncInvoker4< Il2CppFullySharedGenericStruct*, Il2CppFullySharedGenericStruct*, int64_t, int64_t, AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 1)), il2cpp_rgctx_method(method->rgctx_data, 1), NULL, L_2, ((int64_t)1), ((int64_t)0), L_3);
-	}
-
-IL_0018:
-	{
+		// serializer.SerializeValue(ref Hash);
+		int32_t* L_0 = (int32_t*)(&__this->___Hash_0);
+		il2cpp_codegen_initobj((&V_0), sizeof(ForPrimitives_t4120884959A3BC3EAC3D4980A4DA8010E09DA292));
+		ForPrimitives_t4120884959A3BC3EAC3D4980A4DA8010E09DA292 L_1 = V_0;
+		InvokerActionInvoker2< int32_t*, ForPrimitives_t4120884959A3BC3EAC3D4980A4DA8010E09DA292 >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 1)), il2cpp_rgctx_method(method->rgctx_data, 1), (BufferSerializer_1_tC485B3539F0BCD2241145A679FB202806C206C10*)___0_serializer, L_0, L_1);
+		// serializer.SerializeValue(ref IsTriggerSet);
+		bool* L_2 = (bool*)(&__this->___IsTriggerSet_1);
+		il2cpp_codegen_initobj((&V_0), sizeof(ForPrimitives_t4120884959A3BC3EAC3D4980A4DA8010E09DA292));
+		ForPrimitives_t4120884959A3BC3EAC3D4980A4DA8010E09DA292 L_3 = V_0;
+		InvokerActionInvoker2< bool*, ForPrimitives_t4120884959A3BC3EAC3D4980A4DA8010E09DA292 >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 2)), il2cpp_rgctx_method(method->rgctx_data, 2), (BufferSerializer_1_tC485B3539F0BCD2241145A679FB202806C206C10*)___0_serializer, L_2, L_3);
 		// }
 		return;
 	}
 }
-// T& Unity.Collections.NativeStream/Reader::Peek<Unity.IL2CPP.Metadata.__Il2CppFullySharedGenericStructType>()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Il2CppFullySharedGenericStruct* Reader_Peek_TisIl2CppFullySharedGenericStruct_m2858A9931F3736225D223F6D7A66EB3B740CFB3E_gshared (Reader_t84D582FCC8C26F85ACE0F2F31416D31F71FE4AD9* __this, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C  void AnimationTriggerMessage_NetworkSerialize_TisIl2CppFullySharedGenericAny_m19F989C02349EC879B45D21A753F931CC935E160_AdjustorThunk (RuntimeObject* __this, /*Unity.Netcode.BufferSerializer`1<Unity.IL2CPP.Metadata.__Il2CppFullySharedGenericType>*/BufferSerializer_1_tC485B3539F0BCD2241145A679FB202806C206C10 ___0_serializer, const RuntimeMethod* method)
 {
-	il2cpp_rgctx_method_init(method);
-	int32_t V_0 = 0;
-	Il2CppFullySharedGenericStruct* V_1 = NULL;
-	{
-		// int size = UnsafeUtility.SizeOf<T>();
-		int32_t L_0;
-		L_0 = InvokerFuncInvoker0< int32_t >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 0)), il2cpp_rgctx_method(method->rgctx_data, 0), NULL);
-		V_0 = L_0;
-		// return ref m_Reader.Peek<T>();
-		Reader_tE85B398678D2471A73C94A5DCAECD9AA2CAA4458* L_1 = (Reader_tE85B398678D2471A73C94A5DCAECD9AA2CAA4458*)(&__this->___m_Reader_0);
-		Il2CppFullySharedGenericStruct* L_2;
-		L_2 = InvokerFuncInvoker0< Il2CppFullySharedGenericStruct* >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 1)), il2cpp_rgctx_method(method->rgctx_data, 1), L_1);
-		V_1 = L_2;
-		goto IL_0015;
-	}
-
-IL_0015:
-	{
-		// }
-		Il2CppFullySharedGenericStruct* L_3 = V_1;
-		return L_3;
-	}
-}
-IL2CPP_EXTERN_C  Il2CppFullySharedGenericStruct* Reader_Peek_TisIl2CppFullySharedGenericStruct_m2858A9931F3736225D223F6D7A66EB3B740CFB3E_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
-{
-	Reader_t84D582FCC8C26F85ACE0F2F31416D31F71FE4AD9* _thisAdjusted;
+	AnimationTriggerMessage_t6E5D90F8238CB48B83329BAEEEF1847B2DD1EE46* _thisAdjusted;
 	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<Reader_t84D582FCC8C26F85ACE0F2F31416D31F71FE4AD9*>(__this + _offset);
-	Il2CppFullySharedGenericStruct* _returnValue;
-	_returnValue = Reader_Peek_TisIl2CppFullySharedGenericStruct_m2858A9931F3736225D223F6D7A66EB3B740CFB3E(_thisAdjusted, method);
-	return _returnValue;
+	_thisAdjusted = reinterpret_cast<AnimationTriggerMessage_t6E5D90F8238CB48B83329BAEEEF1847B2DD1EE46*>(__this + _offset);
+	AnimationTriggerMessage_NetworkSerialize_TisIl2CppFullySharedGenericAny_m19F989C02349EC879B45D21A753F931CC935E160(_thisAdjusted, ___0_serializer, method);
 }
-// T& Unity.Collections.NativeStream/Reader::Read<Unity.IL2CPP.Metadata.__Il2CppFullySharedGenericStructType>()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Il2CppFullySharedGenericStruct* Reader_Read_TisIl2CppFullySharedGenericStruct_m72E44AFFE62AB8341A8BF0975D02F88F85B58819_gshared (Reader_t84D582FCC8C26F85ACE0F2F31416D31F71FE4AD9* __this, const RuntimeMethod* method) 
+// System.Void Unity.Netcode.Components.NetworkAnimator/ParametersUpdateMessage::NetworkSerialize<Unity.IL2CPP.Metadata.__Il2CppFullySharedGenericType>(Unity.Netcode.BufferSerializer`1<T>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParametersUpdateMessage_NetworkSerialize_TisIl2CppFullySharedGenericAny_m77889F14D21C124F55D53B6DAE359421EC25991B_gshared (ParametersUpdateMessage_t005A167C8BAC9D5842F589C807ABF3CF4B3EB536* __this, /*Unity.Netcode.BufferSerializer`1<Unity.IL2CPP.Metadata.__Il2CppFullySharedGenericType>*/BufferSerializer_1_tC485B3539F0BCD2241145A679FB202806C206C10 ___0_serializer, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
-	int32_t V_0 = 0;
-	Il2CppFullySharedGenericStruct* V_1 = NULL;
+	ForPrimitives_t4120884959A3BC3EAC3D4980A4DA8010E09DA292 V_0;
+	memset((&V_0), 0, sizeof(V_0));
 	{
-		// int size = UnsafeUtility.SizeOf<T>();
-		int32_t L_0;
-		L_0 = InvokerFuncInvoker0< int32_t >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 0)), il2cpp_rgctx_method(method->rgctx_data, 0), NULL);
-		V_0 = L_0;
-		// return ref UnsafeUtility.AsRef<T>(ReadUnsafePtr(size));
-		int32_t L_1 = V_0;
-		uint8_t* L_2;
-		L_2 = Reader_ReadUnsafePtr_m6B71AAF3513F6A2D6AA072F03A5E9E7020F46906(__this, L_1, NULL);
-		Il2CppFullySharedGenericStruct* L_3;
-		L_3 = InvokerFuncInvoker1< Il2CppFullySharedGenericStruct*, void* >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 1)), il2cpp_rgctx_method(method->rgctx_data, 1), NULL, (void*)L_2);
-		V_1 = L_3;
-		goto IL_0016;
-	}
-
-IL_0016:
-	{
-		// }
-		Il2CppFullySharedGenericStruct* L_4 = V_1;
-		return L_4;
-	}
-}
-IL2CPP_EXTERN_C  Il2CppFullySharedGenericStruct* Reader_Read_TisIl2CppFullySharedGenericStruct_m72E44AFFE62AB8341A8BF0975D02F88F85B58819_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
-{
-	Reader_t84D582FCC8C26F85ACE0F2F31416D31F71FE4AD9* _thisAdjusted;
-	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<Reader_t84D582FCC8C26F85ACE0F2F31416D31F71FE4AD9*>(__this + _offset);
-	Il2CppFullySharedGenericStruct* _returnValue;
-	_returnValue = Reader_Read_TisIl2CppFullySharedGenericStruct_m72E44AFFE62AB8341A8BF0975D02F88F85B58819(_thisAdjusted, method);
-	return _returnValue;
-}
-// T& Unity.Collections.NativeStream/Writer::Allocate<Unity.IL2CPP.Metadata.__Il2CppFullySharedGenericStructType>()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Il2CppFullySharedGenericStruct* Writer_Allocate_TisIl2CppFullySharedGenericStruct_m152D2779B7277D522B694AF0698A887AEDD0B866_gshared (Writer_tFFFC2E32CAA4337A0C5E1FAF6127DCC8BBD9DB8F* __this, const RuntimeMethod* method) 
-{
-	il2cpp_rgctx_method_init(method);
-	int32_t V_0 = 0;
-	Il2CppFullySharedGenericStruct* V_1 = NULL;
-	{
-		// int size = UnsafeUtility.SizeOf<T>();
-		int32_t L_0;
-		L_0 = InvokerFuncInvoker0< int32_t >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 0)), il2cpp_rgctx_method(method->rgctx_data, 0), NULL);
-		V_0 = L_0;
-		// return ref UnsafeUtility.AsRef<T>(Allocate(size));
-		int32_t L_1 = V_0;
-		uint8_t* L_2;
-		L_2 = Writer_Allocate_m647D78C16BD8AE24E717888CC1568DF31D573311(__this, L_1, NULL);
-		Il2CppFullySharedGenericStruct* L_3;
-		L_3 = InvokerFuncInvoker1< Il2CppFullySharedGenericStruct*, void* >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 1)), il2cpp_rgctx_method(method->rgctx_data, 1), NULL, (void*)L_2);
-		V_1 = L_3;
-		goto IL_0016;
-	}
-
-IL_0016:
-	{
-		// }
-		Il2CppFullySharedGenericStruct* L_4 = V_1;
-		return L_4;
-	}
-}
-IL2CPP_EXTERN_C  Il2CppFullySharedGenericStruct* Writer_Allocate_TisIl2CppFullySharedGenericStruct_m152D2779B7277D522B694AF0698A887AEDD0B866_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
-{
-	Writer_tFFFC2E32CAA4337A0C5E1FAF6127DCC8BBD9DB8F* _thisAdjusted;
-	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<Writer_tFFFC2E32CAA4337A0C5E1FAF6127DCC8BBD9DB8F*>(__this + _offset);
-	Il2CppFullySharedGenericStruct* _returnValue;
-	_returnValue = Writer_Allocate_TisIl2CppFullySharedGenericStruct_m152D2779B7277D522B694AF0698A887AEDD0B866(_thisAdjusted, method);
-	return _returnValue;
-}
-// System.Void Unity.Collections.NativeStream/Writer::Write<Unity.IL2CPP.Metadata.__Il2CppFullySharedGenericStructType>(T)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Writer_Write_TisIl2CppFullySharedGenericStruct_m4B52108B68A52441FB126D64ECBC48059BFFE7CB_gshared (Writer_tFFFC2E32CAA4337A0C5E1FAF6127DCC8BBD9DB8F* __this, /*Unity.IL2CPP.Metadata.__Il2CppFullySharedGenericStructType*/Il2CppFullySharedGenericStruct ___0_value, const RuntimeMethod* method) 
-{
-	il2cpp_rgctx_method_init(method);
-	// sizeof(T)
-	const uint32_t SizeOf_T_t4D147616122922D2FA67851EB5ADEC781EBCE735 = il2cpp_codegen_sizeof(il2cpp_rgctx_data(method->rgctx_data, 2));
-	// T
-	const Il2CppFullySharedGenericStruct L_2 = alloca(SizeOf_T_t4D147616122922D2FA67851EB5ADEC781EBCE735);
-	Il2CppFullySharedGenericStruct* V_0 = NULL;
-	{
-		// ref T dst = ref Allocate<T>();
-		Il2CppFullySharedGenericStruct* L_0;
-		L_0 = InvokerFuncInvoker0< Il2CppFullySharedGenericStruct* >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 0)), il2cpp_rgctx_method(method->rgctx_data, 0), __this);
-		V_0 = L_0;
-		// dst = value;
-		Il2CppFullySharedGenericStruct* L_1 = V_0;
-		il2cpp_codegen_memcpy(L_2, ___0_value, SizeOf_T_t4D147616122922D2FA67851EB5ADEC781EBCE735);
-		il2cpp_codegen_memcpy((Il2CppFullySharedGenericStruct*)L_1, L_2, SizeOf_T_t4D147616122922D2FA67851EB5ADEC781EBCE735);
-		Il2CppCodeGenWriteBarrierForClass(il2cpp_rgctx_data(method->rgctx_data, 2), (void**)(Il2CppFullySharedGenericStruct*)L_1, (void*)L_2);
+		// serializer.SerializeValue(ref Parameters);
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031** L_0 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031**)(&__this->___Parameters_0);
+		il2cpp_codegen_initobj((&V_0), sizeof(ForPrimitives_t4120884959A3BC3EAC3D4980A4DA8010E09DA292));
+		ForPrimitives_t4120884959A3BC3EAC3D4980A4DA8010E09DA292 L_1 = V_0;
+		InvokerActionInvoker2< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031**, ForPrimitives_t4120884959A3BC3EAC3D4980A4DA8010E09DA292 >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 1)), il2cpp_rgctx_method(method->rgctx_data, 1), (BufferSerializer_1_tC485B3539F0BCD2241145A679FB202806C206C10*)___0_serializer, L_0, L_1);
 		// }
 		return;
 	}
 }
-IL2CPP_EXTERN_C  void Writer_Write_TisIl2CppFullySharedGenericStruct_m4B52108B68A52441FB126D64ECBC48059BFFE7CB_AdjustorThunk (RuntimeObject* __this, /*Unity.IL2CPP.Metadata.__Il2CppFullySharedGenericStructType*/Il2CppFullySharedGenericStruct ___0_value, const RuntimeMethod* method)
+IL2CPP_EXTERN_C  void ParametersUpdateMessage_NetworkSerialize_TisIl2CppFullySharedGenericAny_m77889F14D21C124F55D53B6DAE359421EC25991B_AdjustorThunk (RuntimeObject* __this, /*Unity.Netcode.BufferSerializer`1<Unity.IL2CPP.Metadata.__Il2CppFullySharedGenericType>*/BufferSerializer_1_tC485B3539F0BCD2241145A679FB202806C206C10 ___0_serializer, const RuntimeMethod* method)
 {
-	Writer_tFFFC2E32CAA4337A0C5E1FAF6127DCC8BBD9DB8F* _thisAdjusted;
+	ParametersUpdateMessage_t005A167C8BAC9D5842F589C807ABF3CF4B3EB536* _thisAdjusted;
 	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<Writer_tFFFC2E32CAA4337A0C5E1FAF6127DCC8BBD9DB8F*>(__this + _offset);
-	Writer_Write_TisIl2CppFullySharedGenericStruct_m4B52108B68A52441FB126D64ECBC48059BFFE7CB(_thisAdjusted, ___0_value, method);
+	_thisAdjusted = reinterpret_cast<ParametersUpdateMessage_t005A167C8BAC9D5842F589C807ABF3CF4B3EB536*>(__this + _offset);
+	ParametersUpdateMessage_NetworkSerialize_TisIl2CppFullySharedGenericAny_m77889F14D21C124F55D53B6DAE359421EC25991B(_thisAdjusted, ___0_serializer, method);
 }
 // System.Void Unity.Netcode.NetworkManager/NetworkManagerHooks::OnAfterHandleMessage<Unity.IL2CPP.Metadata.__Il2CppFullySharedGenericType>(T&,Unity.Netcode.NetworkContext&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkManagerHooks_OnAfterHandleMessage_TisIl2CppFullySharedGenericAny_mDB6636F7F090BF8A171E8C602D42C3C4507F2C23_gshared (NetworkManagerHooks_t93458A933EFB97C9290803810FC835C53384DC5C* __this, /*Unity.IL2CPP.Metadata.__Il2CppFullySharedGenericType&*/Il2CppFullySharedGenericAny* ___0_message, NetworkContext_t1978043F273D5D5DDF727F6CC654BB259C8A87A1* ___1_context, const RuntimeMethod* method) 
@@ -2609,6 +2677,281 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkManagerHooks_OnBeforeSendMessage_
 		// }
 		return;
 	}
+}
+// System.Void Unity.Netcode.Components.NetworkTransform/NetworkTransformState::NetworkSerialize<Unity.IL2CPP.Metadata.__Il2CppFullySharedGenericType>(Unity.Netcode.BufferSerializer`1<T>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkTransformState_NetworkSerialize_TisIl2CppFullySharedGenericAny_mF1AE35F9ACC173849CAF88BF7240733114AF4597_gshared (NetworkTransformState_t79E8E299A31239DA71F98A03FDE191019CF1C8C0* __this, /*Unity.Netcode.BufferSerializer`1<Unity.IL2CPP.Metadata.__Il2CppFullySharedGenericType>*/BufferSerializer_1_tC485B3539F0BCD2241145A679FB202806C206C10 ___0_serializer, const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	ForPrimitives_t4120884959A3BC3EAC3D4980A4DA8010E09DA292 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	bool V_1 = false;
+	bool V_2 = false;
+	bool V_3 = false;
+	bool V_4 = false;
+	bool V_5 = false;
+	bool V_6 = false;
+	bool V_7 = false;
+	bool V_8 = false;
+	bool V_9 = false;
+	bool V_10 = false;
+	NetworkTransformState_t79E8E299A31239DA71F98A03FDE191019CF1C8C0* G_B22_0 = NULL;
+	NetworkTransformState_t79E8E299A31239DA71F98A03FDE191019CF1C8C0* G_B20_0 = NULL;
+	NetworkTransformState_t79E8E299A31239DA71F98A03FDE191019CF1C8C0* G_B21_0 = NULL;
+	int32_t G_B23_0 = 0;
+	NetworkTransformState_t79E8E299A31239DA71F98A03FDE191019CF1C8C0* G_B23_1 = NULL;
+	{
+		// serializer.SerializeValue(ref SentTime);
+		double* L_0 = (double*)(&__this->___SentTime_21);
+		il2cpp_codegen_initobj((&V_0), sizeof(ForPrimitives_t4120884959A3BC3EAC3D4980A4DA8010E09DA292));
+		ForPrimitives_t4120884959A3BC3EAC3D4980A4DA8010E09DA292 L_1 = V_0;
+		InvokerActionInvoker2< double*, ForPrimitives_t4120884959A3BC3EAC3D4980A4DA8010E09DA292 >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 1)), il2cpp_rgctx_method(method->rgctx_data, 1), (BufferSerializer_1_tC485B3539F0BCD2241145A679FB202806C206C10*)___0_serializer, L_0, L_1);
+		// serializer.SerializeValue(ref m_Bitset);
+		uint16_t* L_2 = (uint16_t*)(&__this->___m_Bitset_11);
+		il2cpp_codegen_initobj((&V_0), sizeof(ForPrimitives_t4120884959A3BC3EAC3D4980A4DA8010E09DA292));
+		ForPrimitives_t4120884959A3BC3EAC3D4980A4DA8010E09DA292 L_3 = V_0;
+		InvokerActionInvoker2< uint16_t*, ForPrimitives_t4120884959A3BC3EAC3D4980A4DA8010E09DA292 >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 2)), il2cpp_rgctx_method(method->rgctx_data, 2), (BufferSerializer_1_tC485B3539F0BCD2241145A679FB202806C206C10*)___0_serializer, L_2, L_3);
+		// if (HasPositionX)
+		bool L_4;
+		L_4 = NetworkTransformState_get_HasPositionX_m38C1D7FA45D4F042E1DF6DF427769E833DB1562B(__this, NULL);
+		V_1 = L_4;
+		bool L_5 = V_1;
+		if (!L_5)
+		{
+			goto IL_0052;
+		}
+	}
+	{
+		// serializer.SerializeValue(ref PositionX);
+		float* L_6 = (float*)(&__this->___PositionX_12);
+		il2cpp_codegen_initobj((&V_0), sizeof(ForPrimitives_t4120884959A3BC3EAC3D4980A4DA8010E09DA292));
+		ForPrimitives_t4120884959A3BC3EAC3D4980A4DA8010E09DA292 L_7 = V_0;
+		InvokerActionInvoker2< float*, ForPrimitives_t4120884959A3BC3EAC3D4980A4DA8010E09DA292 >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 3)), il2cpp_rgctx_method(method->rgctx_data, 3), (BufferSerializer_1_tC485B3539F0BCD2241145A679FB202806C206C10*)___0_serializer, L_6, L_7);
+	}
+
+IL_0052:
+	{
+		// if (HasPositionY)
+		bool L_8;
+		L_8 = NetworkTransformState_get_HasPositionY_mAE9F9A90D1BE78E78A7B06EBFD935553D7B5BC1A(__this, NULL);
+		V_2 = L_8;
+		bool L_9 = V_2;
+		if (!L_9)
+		{
+			goto IL_0075;
+		}
+	}
+	{
+		// serializer.SerializeValue(ref PositionY);
+		float* L_10 = (float*)(&__this->___PositionY_13);
+		il2cpp_codegen_initobj((&V_0), sizeof(ForPrimitives_t4120884959A3BC3EAC3D4980A4DA8010E09DA292));
+		ForPrimitives_t4120884959A3BC3EAC3D4980A4DA8010E09DA292 L_11 = V_0;
+		InvokerActionInvoker2< float*, ForPrimitives_t4120884959A3BC3EAC3D4980A4DA8010E09DA292 >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 3)), il2cpp_rgctx_method(method->rgctx_data, 3), (BufferSerializer_1_tC485B3539F0BCD2241145A679FB202806C206C10*)___0_serializer, L_10, L_11);
+	}
+
+IL_0075:
+	{
+		// if (HasPositionZ)
+		bool L_12;
+		L_12 = NetworkTransformState_get_HasPositionZ_m720D04DBA54389D30D834C4317BC520A023ED05A(__this, NULL);
+		V_3 = L_12;
+		bool L_13 = V_3;
+		if (!L_13)
+		{
+			goto IL_0098;
+		}
+	}
+	{
+		// serializer.SerializeValue(ref PositionZ);
+		float* L_14 = (float*)(&__this->___PositionZ_14);
+		il2cpp_codegen_initobj((&V_0), sizeof(ForPrimitives_t4120884959A3BC3EAC3D4980A4DA8010E09DA292));
+		ForPrimitives_t4120884959A3BC3EAC3D4980A4DA8010E09DA292 L_15 = V_0;
+		InvokerActionInvoker2< float*, ForPrimitives_t4120884959A3BC3EAC3D4980A4DA8010E09DA292 >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 3)), il2cpp_rgctx_method(method->rgctx_data, 3), (BufferSerializer_1_tC485B3539F0BCD2241145A679FB202806C206C10*)___0_serializer, L_14, L_15);
+	}
+
+IL_0098:
+	{
+		// if (HasRotAngleX)
+		bool L_16;
+		L_16 = NetworkTransformState_get_HasRotAngleX_m1C906A4534F5AF8B6648B87FB651D799E9818E81(__this, NULL);
+		V_4 = L_16;
+		bool L_17 = V_4;
+		if (!L_17)
+		{
+			goto IL_00bd;
+		}
+	}
+	{
+		// serializer.SerializeValue(ref RotAngleX);
+		float* L_18 = (float*)(&__this->___RotAngleX_15);
+		il2cpp_codegen_initobj((&V_0), sizeof(ForPrimitives_t4120884959A3BC3EAC3D4980A4DA8010E09DA292));
+		ForPrimitives_t4120884959A3BC3EAC3D4980A4DA8010E09DA292 L_19 = V_0;
+		InvokerActionInvoker2< float*, ForPrimitives_t4120884959A3BC3EAC3D4980A4DA8010E09DA292 >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 3)), il2cpp_rgctx_method(method->rgctx_data, 3), (BufferSerializer_1_tC485B3539F0BCD2241145A679FB202806C206C10*)___0_serializer, L_18, L_19);
+	}
+
+IL_00bd:
+	{
+		// if (HasRotAngleY)
+		bool L_20;
+		L_20 = NetworkTransformState_get_HasRotAngleY_m725B8770DD0AB539D53748D175EC57D5C3ECB5EC(__this, NULL);
+		V_5 = L_20;
+		bool L_21 = V_5;
+		if (!L_21)
+		{
+			goto IL_00e2;
+		}
+	}
+	{
+		// serializer.SerializeValue(ref RotAngleY);
+		float* L_22 = (float*)(&__this->___RotAngleY_16);
+		il2cpp_codegen_initobj((&V_0), sizeof(ForPrimitives_t4120884959A3BC3EAC3D4980A4DA8010E09DA292));
+		ForPrimitives_t4120884959A3BC3EAC3D4980A4DA8010E09DA292 L_23 = V_0;
+		InvokerActionInvoker2< float*, ForPrimitives_t4120884959A3BC3EAC3D4980A4DA8010E09DA292 >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 3)), il2cpp_rgctx_method(method->rgctx_data, 3), (BufferSerializer_1_tC485B3539F0BCD2241145A679FB202806C206C10*)___0_serializer, L_22, L_23);
+	}
+
+IL_00e2:
+	{
+		// if (HasRotAngleZ)
+		bool L_24;
+		L_24 = NetworkTransformState_get_HasRotAngleZ_m0E8B47FF7B00F0AF937652726E9B3D47CBA254FE(__this, NULL);
+		V_6 = L_24;
+		bool L_25 = V_6;
+		if (!L_25)
+		{
+			goto IL_0107;
+		}
+	}
+	{
+		// serializer.SerializeValue(ref RotAngleZ);
+		float* L_26 = (float*)(&__this->___RotAngleZ_17);
+		il2cpp_codegen_initobj((&V_0), sizeof(ForPrimitives_t4120884959A3BC3EAC3D4980A4DA8010E09DA292));
+		ForPrimitives_t4120884959A3BC3EAC3D4980A4DA8010E09DA292 L_27 = V_0;
+		InvokerActionInvoker2< float*, ForPrimitives_t4120884959A3BC3EAC3D4980A4DA8010E09DA292 >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 3)), il2cpp_rgctx_method(method->rgctx_data, 3), (BufferSerializer_1_tC485B3539F0BCD2241145A679FB202806C206C10*)___0_serializer, L_26, L_27);
+	}
+
+IL_0107:
+	{
+		// if (HasScaleX)
+		bool L_28;
+		L_28 = NetworkTransformState_get_HasScaleX_m62884CDB2892EBAA435E6B5990ED6E263813E27F(__this, NULL);
+		V_7 = L_28;
+		bool L_29 = V_7;
+		if (!L_29)
+		{
+			goto IL_012c;
+		}
+	}
+	{
+		// serializer.SerializeValue(ref ScaleX);
+		float* L_30 = (float*)(&__this->___ScaleX_18);
+		il2cpp_codegen_initobj((&V_0), sizeof(ForPrimitives_t4120884959A3BC3EAC3D4980A4DA8010E09DA292));
+		ForPrimitives_t4120884959A3BC3EAC3D4980A4DA8010E09DA292 L_31 = V_0;
+		InvokerActionInvoker2< float*, ForPrimitives_t4120884959A3BC3EAC3D4980A4DA8010E09DA292 >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 3)), il2cpp_rgctx_method(method->rgctx_data, 3), (BufferSerializer_1_tC485B3539F0BCD2241145A679FB202806C206C10*)___0_serializer, L_30, L_31);
+	}
+
+IL_012c:
+	{
+		// if (HasScaleY)
+		bool L_32;
+		L_32 = NetworkTransformState_get_HasScaleY_m08BBB82139D65BFEB7A608F9CFC048E841ACA9DE(__this, NULL);
+		V_8 = L_32;
+		bool L_33 = V_8;
+		if (!L_33)
+		{
+			goto IL_0151;
+		}
+	}
+	{
+		// serializer.SerializeValue(ref ScaleY);
+		float* L_34 = (float*)(&__this->___ScaleY_19);
+		il2cpp_codegen_initobj((&V_0), sizeof(ForPrimitives_t4120884959A3BC3EAC3D4980A4DA8010E09DA292));
+		ForPrimitives_t4120884959A3BC3EAC3D4980A4DA8010E09DA292 L_35 = V_0;
+		InvokerActionInvoker2< float*, ForPrimitives_t4120884959A3BC3EAC3D4980A4DA8010E09DA292 >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 3)), il2cpp_rgctx_method(method->rgctx_data, 3), (BufferSerializer_1_tC485B3539F0BCD2241145A679FB202806C206C10*)___0_serializer, L_34, L_35);
+	}
+
+IL_0151:
+	{
+		// if (HasScaleZ)
+		bool L_36;
+		L_36 = NetworkTransformState_get_HasScaleZ_m4C1375674CCF760F831467D767B1CB24DB916F12(__this, NULL);
+		V_9 = L_36;
+		bool L_37 = V_9;
+		if (!L_37)
+		{
+			goto IL_0176;
+		}
+	}
+	{
+		// serializer.SerializeValue(ref ScaleZ);
+		float* L_38 = (float*)(&__this->___ScaleZ_20);
+		il2cpp_codegen_initobj((&V_0), sizeof(ForPrimitives_t4120884959A3BC3EAC3D4980A4DA8010E09DA292));
+		ForPrimitives_t4120884959A3BC3EAC3D4980A4DA8010E09DA292 L_39 = V_0;
+		InvokerActionInvoker2< float*, ForPrimitives_t4120884959A3BC3EAC3D4980A4DA8010E09DA292 >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 3)), il2cpp_rgctx_method(method->rgctx_data, 3), (BufferSerializer_1_tC485B3539F0BCD2241145A679FB202806C206C10*)___0_serializer, L_38, L_39);
+	}
+
+IL_0176:
+	{
+		// if (serializer.IsReader)
+		bool L_40;
+		L_40 = InvokerFuncInvoker0< bool >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 4)), il2cpp_rgctx_method(method->rgctx_data, 4), (BufferSerializer_1_tC485B3539F0BCD2241145A679FB202806C206C10*)___0_serializer);
+		V_10 = L_40;
+		bool L_41 = V_10;
+		if (!L_41)
+		{
+			goto IL_01a4;
+		}
+	}
+	{
+		// IsDirty = HasPositionChange || HasRotAngleChange || HasScaleChange;
+		bool L_42;
+		L_42 = NetworkTransformState_get_HasPositionChange_m2914558867BE5E630E14B06A65AFA70242957FAD(__this, NULL);
+		G_B20_0 = __this;
+		if (L_42)
+		{
+			G_B22_0 = __this;
+			goto IL_019d;
+		}
+	}
+	{
+		bool L_43;
+		L_43 = NetworkTransformState_get_HasRotAngleChange_m422A91DCE0FBAFD8B608131ED3D2C0C5E123EAF0(__this, NULL);
+		G_B21_0 = G_B20_0;
+		if (L_43)
+		{
+			G_B22_0 = G_B20_0;
+			goto IL_019d;
+		}
+	}
+	{
+		bool L_44;
+		L_44 = NetworkTransformState_get_HasScaleChange_m86DDA3159D5CC25EB66F58C543B247F0D7D94E5C(__this, NULL);
+		G_B23_0 = ((int32_t)(L_44));
+		G_B23_1 = G_B21_0;
+		goto IL_019e;
+	}
+
+IL_019d:
+	{
+		G_B23_0 = 1;
+		G_B23_1 = G_B22_0;
+	}
+
+IL_019e:
+	{
+		G_B23_1->___IsDirty_22 = (bool)G_B23_0;
+	}
+
+IL_01a4:
+	{
+		// }
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void NetworkTransformState_NetworkSerialize_TisIl2CppFullySharedGenericAny_mF1AE35F9ACC173849CAF88BF7240733114AF4597_AdjustorThunk (RuntimeObject* __this, /*Unity.Netcode.BufferSerializer`1<Unity.IL2CPP.Metadata.__Il2CppFullySharedGenericType>*/BufferSerializer_1_tC485B3539F0BCD2241145A679FB202806C206C10 ___0_serializer, const RuntimeMethod* method)
+{
+	NetworkTransformState_t79E8E299A31239DA71F98A03FDE191019CF1C8C0* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<NetworkTransformState_t79E8E299A31239DA71F98A03FDE191019CF1C8C0*>(__this + _offset);
+	NetworkTransformState_NetworkSerialize_TisIl2CppFullySharedGenericAny_mF1AE35F9ACC173849CAF88BF7240733114AF4597(_thisAdjusted, ___0_serializer, method);
 }
 // System.Int32 UnityEngine.Experimental.Rendering.RenderGraphModule.RenderGraphResourceRegistry/RenderGraphResourcesData::AddNewRenderGraphResource<System.Object>(ResType&,System.Boolean)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t RenderGraphResourcesData_AddNewRenderGraphResource_TisRuntimeObject_mB9040DF97633813729CADB454AAEAF31E23C7E91_gshared (RenderGraphResourcesData_tB2FF97B16A3E1DE700283778679C5CC0C39F4CFE* __this, RuntimeObject** ___0_outRes, bool ___1_pooledResource, const RuntimeMethod* method) 

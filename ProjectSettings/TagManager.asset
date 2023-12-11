@@ -8,6 +8,8 @@ TagManager:
   - Flame
   - Water
   - Destroyer
+  - Mirror
+  - Laser Activatable
   layers:
   - Default
   - TransparentFX

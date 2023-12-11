@@ -674,16 +674,6 @@ struct CharacterController_t847C1A2719F60547D7D6077B648D6CE2D1EF3A6A  : public C
 {
 };
 
-// UnityEngine.ConfigurableJoint
-struct ConfigurableJoint_t8B33AB5A6B8D52493F14C4B8DBDF78A1C94ECB77  : public Joint_tB2C5499F976EBB1EA1C11A80E1BD9F5E2EE4D682
-{
-};
-
-// UnityEngine.FixedJoint
-struct FixedJoint_tA10A077292A86BA2A2AB3542E3441610055F806E  : public Joint_tB2C5499F976EBB1EA1C11A80E1BD9F5E2EE4D682
-{
-};
-
 // UnityEngine.HingeJoint
 struct HingeJoint_t70A95A9F77881D06B0A7BE99B7B16EA40332D2D7  : public Joint_tB2C5499F976EBB1EA1C11A80E1BD9F5E2EE4D682
 {
@@ -696,11 +686,6 @@ struct MeshCollider_tB525E4DDE383252364ED0BDD32CF2B53914EE455  : public Collider
 
 // UnityEngine.SphereCollider
 struct SphereCollider_tBA111C542CE97F6873DE742757213D6265C7D275  : public Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76
-{
-};
-
-// UnityEngine.SpringJoint
-struct SpringJoint_t0DDC4B5817F02316DD25FDB34CB5ADF462E1AA09  : public Joint_tB2C5499F976EBB1EA1C11A80E1BD9F5E2EE4D682
 {
 };
 
@@ -953,14 +938,6 @@ struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
 
 // UnityEngine.CharacterController
 
-// UnityEngine.ConfigurableJoint
-
-// UnityEngine.ConfigurableJoint
-
-// UnityEngine.FixedJoint
-
-// UnityEngine.FixedJoint
-
 // UnityEngine.HingeJoint
 
 // UnityEngine.HingeJoint
@@ -972,10 +949,6 @@ struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
 // UnityEngine.SphereCollider
 
 // UnityEngine.SphereCollider
-
-// UnityEngine.SpringJoint
-
-// UnityEngine.SpringJoint
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -2657,6 +2630,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rigidbody_set_rotation_mF2FC85A4A26AD9FE
 		return;
 	}
 }
+// UnityEngine.RigidbodyInterpolation UnityEngine.Rigidbody::get_interpolation()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Rigidbody_get_interpolation_mE508FC846FB031C118464637507C004408A32696 (Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* __this, const RuntimeMethod* method) 
+{
+	typedef int32_t (*Rigidbody_get_interpolation_mE508FC846FB031C118464637507C004408A32696_ftn) (Rigidbody_t268697F5A994213ED97393309870968BC1C7393C*);
+	static Rigidbody_get_interpolation_mE508FC846FB031C118464637507C004408A32696_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Rigidbody_get_interpolation_mE508FC846FB031C118464637507C004408A32696_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Rigidbody::get_interpolation()");
+	int32_t icallRetVal = _il2cpp_icall_func(__this);
+	return icallRetVal;
+}
+// System.Void UnityEngine.Rigidbody::set_interpolation(UnityEngine.RigidbodyInterpolation)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rigidbody_set_interpolation_mC7D39114A7AC6ED0AB2B40FECA4E2ED3C1D7603C (Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* __this, int32_t ___0_value, const RuntimeMethod* method) 
+{
+	typedef void (*Rigidbody_set_interpolation_mC7D39114A7AC6ED0AB2B40FECA4E2ED3C1D7603C_ftn) (Rigidbody_t268697F5A994213ED97393309870968BC1C7393C*, int32_t);
+	static Rigidbody_set_interpolation_mC7D39114A7AC6ED0AB2B40FECA4E2ED3C1D7603C_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Rigidbody_set_interpolation_mC7D39114A7AC6ED0AB2B40FECA4E2ED3C1D7603C_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Rigidbody::set_interpolation(UnityEngine.RigidbodyInterpolation)");
+	_il2cpp_icall_func(__this, ___0_value);
+}
 // System.Void UnityEngine.Rigidbody::MovePosition(UnityEngine.Vector3)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rigidbody_MovePosition_mB2CD29ABC8F59AC338C0A3A5A6B75C38FDA92CA9 (Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_position, const RuntimeMethod* method) 
 {
@@ -3413,30 +3405,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HingeJoint_set_limits_Injected_mF946129A
 	_il2cpp_icall_func = (HingeJoint_set_limits_Injected_mF946129ADB63E27A95D9F71B5FFC54A0341AE78E_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.HingeJoint::set_limits_Injected(UnityEngine.JointLimits&)");
 	_il2cpp_icall_func(__this, ___0_value);
 }
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif

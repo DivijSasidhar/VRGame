@@ -63,13 +63,13 @@ IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Unity_Collections_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Unity_Collections_LowLevel_ILSupport_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Unity_InputSystem_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Unity_Mathematics_CodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Unity_Netcode_Components_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Unity_Netcode_Runtime_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Unity_Networking_Transport_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Unity_RenderPipeline_Universal_ShaderLibrary_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Unity_RenderPipelines_Core_Runtime_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Unity_RenderPipelines_Universal_Runtime_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Unity_TextMeshPro_CodeGenModule;
-IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Unity_Timeline_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Unity_XR_CoreUtils_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Unity_XR_Interaction_Toolkit_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Unity_XR_Interaction_Toolkit_Samples_StarterAssets_CodeGenModule;
@@ -130,13 +130,13 @@ const Il2CppCodeGenModule* g_CodeGenModules[64] =
 	(&g_Unity_Collections_LowLevel_ILSupport_CodeGenModule),
 	(&g_Unity_InputSystem_CodeGenModule),
 	(&g_Unity_Mathematics_CodeGenModule),
+	(&g_Unity_Netcode_Components_CodeGenModule),
 	(&g_Unity_Netcode_Runtime_CodeGenModule),
 	(&g_Unity_Networking_Transport_CodeGenModule),
 	(&g_Unity_RenderPipeline_Universal_ShaderLibrary_CodeGenModule),
 	(&g_Unity_RenderPipelines_Core_Runtime_CodeGenModule),
 	(&g_Unity_RenderPipelines_Universal_Runtime_CodeGenModule),
 	(&g_Unity_TextMeshPro_CodeGenModule),
-	(&g_Unity_Timeline_CodeGenModule),
 	(&g_Unity_XR_CoreUtils_CodeGenModule),
 	(&g_Unity_XR_Interaction_Toolkit_CodeGenModule),
 	(&g_Unity_XR_Interaction_Toolkit_Samples_StarterAssets_CodeGenModule),
@@ -155,14 +155,14 @@ const Il2CppCodeRegistration g_CodeRegistration =
 {
 	66,
 	g_ReversePInvokeWrapperPointers,
-	5371,
+	5317,
 	g_Il2CppGenericMethodPointers,
 	g_Il2CppGenericAdjustorThunks,
-	8537,
+	8396,
 	g_Il2CppInvokerPointers,
-	495,
+	491,
 	g_UnresolvedVirtualMethodPointers,
-	627,
+	630,
 	g_Il2CppInteropData,
 	0,
 	NULL,
