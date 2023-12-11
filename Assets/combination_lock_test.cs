@@ -54,8 +54,7 @@ public class combination_lock_test : MonoBehaviour
     // Start is called before the first frame update
     void Start(){
         //Generate the combination
-        //code = rnd.Next(0,10000);
-        code = 1231;
+        code = rnd.Next(0,10000);
 
         //initialize then clear the display
         displayArray = new TMP_Text[]{ display_0, display_1, display_2, display_3 };
