@@ -96,7 +96,7 @@ public class combination_lock_test : MonoBehaviour
     public void ButtonUpdate(int digit){
         if (unsolved)
         {
-            entered = entered + digit * (int)(Math.Pow(10, count));
+            entered = entered*10+digit;
             displayArray[count].text = digit.ToString();
             count = count + 1;
             if (count == 4)
