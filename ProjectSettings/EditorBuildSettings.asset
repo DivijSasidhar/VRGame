@@ -12,9 +12,6 @@ EditorBuildSettings:
     path: Assets/Scenes/2 Game Scene.unity
     guid: eccb2bc76074b2849b626b75e749890d
   - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
     path: Assets/Scenes/Multiplayer trial.unity
     guid: cabe8880b01680e4890f10964ad24986
   - enabled: 0
