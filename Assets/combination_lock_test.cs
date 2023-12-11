@@ -34,6 +34,8 @@ public class combination_lock_test : MonoBehaviour
 
     private TMP_Text[] revealArray;
 
+    private bool unsolved = true;
+
     // Most likely here would be just the open door script
     /// <summary>
     /// Events to trigger when the code is correct
@@ -92,17 +94,25 @@ public class combination_lock_test : MonoBehaviour
 
     //Buttons should trigger this script and pass their value
     public void ButtonUpdate(int digit){
-        entered = entered + digit * (int) (Math.Pow(10, count));
-        displayArray[count].text = digit.ToString();
-        count = count + 1;
-        if (count == 4) {
-            if (entered == code) {
-                m_OnCorrect.Invoke();
-            }
-            else {
-                ResetDisplay();
+        if (unsolved)
+        {
+            entered = entered + digit * (int)(Math.Pow(10, count));
+            displayArray[count].text = digit.ToString();
+            count = count + 1;
+            if (count == 4)
+            {
+                if (entered == code)
+                {
+                    m_OnCorrect.Invoke();
+                    unsolved = false;
+                }
+                else
+                {
+                    ResetDisplay();
+                }
             }
         }
+        
 
     }
 
