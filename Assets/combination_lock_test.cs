@@ -20,7 +20,19 @@ public class combination_lock_test : MonoBehaviour
     [SerializeField]
     private TMP_Text display_3;
 
+
+    [SerializeField]
+    private TMP_Text code_reveal_0;
+    [SerializeField]
+    private TMP_Text code_reveal_1;
+    [SerializeField]
+    private TMP_Text code_reveal_2;
+    [SerializeField]
+    private TMP_Text code_reveal_3;
+
     private TMP_Text[] displayArray;
+
+    private TMP_Text[] revealArray;
 
     // Most likely here would be just the open door script
     /// <summary>
@@ -42,6 +54,7 @@ public class combination_lock_test : MonoBehaviour
         //Generate the combination
         //code = rnd.Next(0,10000);
         code = 1231;
+
         //initialize then clear the display
         displayArray = new TMP_Text[]{ display_0, display_1, display_2, display_3 };
        
@@ -49,7 +62,18 @@ public class combination_lock_test : MonoBehaviour
         {
             displayArray[i].text = "";
         }
+
+        revealArray = new TMP_Text[] { code_reveal_0, code_reveal_1, code_reveal_2, code_reveal_3 };
+
         //DISTRIBUTE THIS COMBINATION SOMEHOW
+        int disposable_code = code;
+        for (int j = 3; j >= 0; j-- )
+        {
+            revealArray[j].text = (disposable_code % 10).ToString();
+            disposable_code = (disposable_code - (disposable_code % 10)) / 10;
+
+
+        }
     }
 
     // Update is called once per frame
