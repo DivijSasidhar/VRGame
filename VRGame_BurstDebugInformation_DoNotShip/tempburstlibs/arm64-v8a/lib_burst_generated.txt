@@ -161,6 +161,7 @@ Library: C:\Users\24SASDIV\Documents\GitHub\VRGame\Temp\StagingArea\tempburstlib
 --compilation-defines=COM_UNITY_MODULES_ANIMATION
 --compilation-defines=COM_UNITY_MODULES_PHYSICS
 --compilation-defines=COM_UNITY_MODULES_PHYSICS2D
+--compilation-defines=USING_PARTICLE_SYSTEM
 --generate-link-xml=Temp\burst.link.xml
 --temp-folder=C:\Users\24SASDIV\Documents\GitHub\VRGame\Temp\Burst
 --debug=Full
