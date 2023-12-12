@@ -9,13 +9,20 @@ using Unity.Services.Relay.Models;
 using Unity.Netcode.Transports.UTP;
 using Unity.Services.Lobbies;
 using Unity.Services.Lobbies.Models;
+using UnityEngine.Events;
 
 public class NetworkConnect : MonoBehaviour
 {
     
-    public int maxConnection = 20;
+    public int maxConnection = 2;
     public UnityTransport transport;
 
+    [SerializeField]
+    UnityEvent m_OnConnect;
+    /// <summary>
+    /// Events to trigger when the collision is entered
+    /// </summary>
+    public UnityEvent onConnect => m_OnConnect;
     private Lobby currentLobby;
 
     private async void Awake()
@@ -61,8 +68,9 @@ public class NetworkConnect : MonoBehaviour
         transport.SetClientRelayData(allocation.RelayServer.IpV4, (ushort)allocation.RelayServer.Port, allocation.AllocationIdBytes, allocation.Key, allocation.ConnectionData, allocation.HostConnectionData);
         
         NetworkManager.Singleton.StartClient();
-
-        Debug.LogError("Client joined");
+        Debug.LogError("Client Joined");
+        onConnect.Invoke();
     }
+
 
 }

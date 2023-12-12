@@ -156,6 +156,8 @@ Library: C:\Users\24SASDIV\Documents\GitHub\VRGame\Temp\StagingArea\tempburstlib
 --compilation-defines=INCLUDE_LEGACY_INPUT_HELPERS
 --compilation-defines=UNITY_ANALYTICS
 --compilation-defines=TIMELINE_FRAMEACCURATE
+--compilation-defines=RELAY_SDK_INSTALLED
+--compilation-defines=UGS_QOS_SUPPORTED
 --compilation-defines=COM_UNITY_MODULES_ANIMATION
 --compilation-defines=COM_UNITY_MODULES_PHYSICS
 --compilation-defines=COM_UNITY_MODULES_PHYSICS2D

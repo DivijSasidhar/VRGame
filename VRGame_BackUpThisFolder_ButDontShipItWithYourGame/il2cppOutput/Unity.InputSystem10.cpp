@@ -358,6 +358,8 @@ struct AnyKeyControl_t88E59A594CAF1E3A432C3BEC2634C0CA462D8A14;
 struct ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263;
 // System.ArgumentNullException
 struct ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129;
+// System.AsyncCallback
+struct AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C;
 // System.Attribute
 struct Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA;
 // UnityEngine.InputSystem.Controls.AxisControl
@@ -394,6 +396,8 @@ struct ExclusiveReference_t411F04D4CC440EB7399290027E1BBABEF4C28837;
 struct Hashtable_tEFC3B6496E6747787D8BB761B51F2AE3A8CFFE2D;
 // UnityEngine.InputSystem.Interactions.HoldInteraction
 struct HoldInteraction_t636DDC457955E74454991E73F9B048F8B5B2BE4E;
+// System.IAsyncResult
+struct IAsyncResult_t7B9B5A0ECB35DCEC31B8A8122C37D687369253B5;
 // System.Collections.IDictionary
 struct IDictionary_t6D03155AF1FA9083817AA5B6AD7DEEACC26AB220;
 // System.Collections.IEnumerator
@@ -12850,7 +12854,7 @@ IL_007b:
 		Type_t* L_21 = V_0;
 		NullCheck(L_20);
 		bool L_22;
-		L_22 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(21 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_20, L_21);
+		L_22 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(22 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_20, L_21);
 		V_4 = (bool)((((int32_t)L_22) == ((int32_t)0))? 1 : 0);
 		bool L_23 = V_4;
 		if (!L_23)
@@ -13499,7 +13503,7 @@ IL_002a:
 	{
 		NullCheck(G_B2_0);
 		String_t* L_6;
-		L_6 = VirtualFuncInvoker0< String_t* >::Invoke(24 /* System.String System.Type::get_AssemblyQualifiedName() */, G_B2_0);
+		L_6 = VirtualFuncInvoker0< String_t* >::Invoke(25 /* System.String System.Type::get_AssemblyQualifiedName() */, G_B2_0);
 		G_B3_0 = L_6;
 		G_B3_1 = G_B2_1;
 	}
@@ -16615,7 +16619,7 @@ IL_003b:
 		Type_t* L_13 = V_1;
 		NullCheck(L_12);
 		bool L_14;
-		L_14 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(21 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_12, L_13);
+		L_14 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(22 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_12, L_13);
 		V_3 = L_14;
 		goto IL_0045;
 	}
@@ -18407,7 +18411,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR InputControl_t74F06B623518F992BF8E38656A5E085
 		L_10 = InputControlLayout_get_type_mB36B8AAE50EB013820BFB388233F4BCC6AD419B3_inline(L_9, NULL);
 		NullCheck(L_10);
 		String_t* L_11;
-		L_11 = VirtualFuncInvoker0< String_t* >::Invoke(7 /* System.String System.Reflection.MemberInfo::get_Name() */, L_10);
+		L_11 = VirtualFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_10);
 		InputControlLayout_t46A40BE4C976BE33E85F61E63EB34323FED9831D* L_12 = ___0_layout;
 		NullCheck(L_12);
 		InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 L_13;

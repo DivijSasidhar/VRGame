@@ -288,6 +288,8 @@ struct ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263;
 struct ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129;
 // System.ArgumentOutOfRangeException
 struct ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F;
+// System.AsyncCallback
+struct AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C;
 // UnityEngine.InputSystem.Controls.AxisControl
 struct AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7;
 // System.Reflection.Binder
@@ -312,6 +314,8 @@ struct FieldInfo_t;
 struct HandedViveTracker_tC5271F12BDA5976E7419EE56E13F42B9487BE39B;
 // UnityEngine.XR.WindowsMR.Input.HololensHand
 struct HololensHand_t3AF16AF7A1F5490B3C991E628D34CD3676B67BDE;
+// System.IAsyncResult
+struct IAsyncResult_t7B9B5A0ECB35DCEC31B8A8122C37D687369253B5;
 // System.Collections.IDictionary
 struct IDictionary_t6D03155AF1FA9083817AA5B6AD7DEEACC26AB220;
 // System.Collections.IEnumerator
@@ -11681,7 +11685,7 @@ IL_0017:
 		Type_t* L_8 = ___0_interactionType;
 		NullCheck(L_8);
 		String_t* L_9;
-		L_9 = VirtualFuncInvoker0< String_t* >::Invoke(7 /* System.String System.Reflection.MemberInfo::get_Name() */, L_8);
+		L_9 = VirtualFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_8);
 		NullCheck(L_9);
 		bool L_10;
 		L_10 = String_EndsWith_mCD3754F5401E19CE7821CD398986E4EAA6AD87DC(L_9, _stringLiteralAF8E649A3EF1AB74A43C9F88015FA68AC719215A, NULL);
@@ -11697,11 +11701,11 @@ IL_0017:
 		Type_t* L_12 = ___0_interactionType;
 		NullCheck(L_12);
 		String_t* L_13;
-		L_13 = VirtualFuncInvoker0< String_t* >::Invoke(7 /* System.String System.Reflection.MemberInfo::get_Name() */, L_12);
+		L_13 = VirtualFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_12);
 		Type_t* L_14 = ___0_interactionType;
 		NullCheck(L_14);
 		String_t* L_15;
-		L_15 = VirtualFuncInvoker0< String_t* >::Invoke(7 /* System.String System.Reflection.MemberInfo::get_Name() */, L_14);
+		L_15 = VirtualFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_14);
 		NullCheck(L_15);
 		int32_t L_16;
 		L_16 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_15, NULL);
@@ -11721,7 +11725,7 @@ IL_0061:
 		Type_t* L_19 = ___0_interactionType;
 		NullCheck(L_19);
 		String_t* L_20;
-		L_20 = VirtualFuncInvoker0< String_t* >::Invoke(7 /* System.String System.Reflection.MemberInfo::get_Name() */, L_19);
+		L_20 = VirtualFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_19);
 		V_4 = L_20;
 		goto IL_0075;
 	}
@@ -11732,7 +11736,7 @@ IL_006b:
 		DisplayNameAttribute_tECBA9AC4CCBE61186E2B3C397C93AAFA5A2631E8* L_21 = V_0;
 		NullCheck(L_21);
 		String_t* L_22;
-		L_22 = VirtualFuncInvoker0< String_t* >::Invoke(4 /* System.String System.ComponentModel.DisplayNameAttribute::get_DisplayName() */, L_21);
+		L_22 = VirtualFuncInvoker0< String_t* >::Invoke(7 /* System.String System.ComponentModel.DisplayNameAttribute::get_DisplayName() */, L_21);
 		V_4 = L_22;
 		goto IL_0075;
 	}
@@ -27988,7 +27992,7 @@ IL_0040_1:
 				RuntimeObject* L_18 = L_17.___instance_0;
 				NullCheck(L_16);
 				RuntimeObject* L_19;
-				L_19 = VirtualFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(21 /* System.Object System.Reflection.FieldInfo::GetValue(System.Object) */, L_16, L_18);
+				L_19 = VirtualFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(25 /* System.Object System.Reflection.FieldInfo::GetValue(System.Object) */, L_16, L_18);
 				V_4 = L_19;
 				// return PrimitiveValue.FromObject(value);
 				RuntimeObject* L_20 = V_4;
@@ -28810,7 +28814,7 @@ IL_00b0_1:
 				FieldInfo_t* L_59 = L_58.___field_1;
 				NullCheck(L_59);
 				Type_t* L_60;
-				L_60 = VirtualFuncInvoker0< Type_t* >::Invoke(16 /* System.Type System.Reflection.FieldInfo::get_FieldType() */, L_59);
+				L_60 = VirtualFuncInvoker0< Type_t* >::Invoke(17 /* System.Type System.Reflection.FieldInfo::get_FieldType() */, L_59);
 				il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
 				int32_t L_61;
 				L_61 = Type_GetTypeCode_m2CE476933AF4B381D7A52F4343B70E9878FDF466(L_60, NULL);
@@ -33524,7 +33528,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParameterEnumerator__ctor_m4EF426FC2AE59
 		Type_t* L_9 = __this->___m_ObjectType_9;
 		NullCheck(L_8);
 		bool L_10;
-		L_10 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(21 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_8, L_9);
+		L_10 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(22 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_8, L_9);
 		G_B3_0 = ((int32_t)(L_10));
 		G_B3_1 = G_B1_0;
 		goto IL_0056;
@@ -33559,7 +33563,7 @@ IL_0056:
 		Type_t* L_15 = __this->___m_ObjectType_9;
 		NullCheck(L_14);
 		bool L_16;
-		L_16 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(21 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_14, L_15);
+		L_16 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(22 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_14, L_15);
 		G_B6_0 = ((int32_t)(L_16));
 		G_B6_1 = G_B4_0;
 		goto IL_0082;
@@ -33594,7 +33598,7 @@ IL_0082:
 		Type_t* L_21 = __this->___m_ObjectType_9;
 		NullCheck(L_20);
 		bool L_22;
-		L_22 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(21 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_20, L_21);
+		L_22 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(22 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_20, L_21);
 		G_B9_0 = ((int32_t)(L_22));
 		G_B9_1 = G_B7_0;
 		goto IL_00ae;
@@ -34230,7 +34234,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ParameterEnumerator_FindParameter_mB2688
 		RuntimeObject* L_3 = ___0_instance;
 		NullCheck(L_2);
 		bool L_4;
-		L_4 = VirtualFuncInvoker1< bool, RuntimeObject* >::Invoke(111 /* System.Boolean System.Type::IsInstanceOfType(System.Object) */, L_2, L_3);
+		L_4 = VirtualFuncInvoker1< bool, RuntimeObject* >::Invoke(117 /* System.Boolean System.Type::IsInstanceOfType(System.Object) */, L_2, L_3);
 		G_B3_0 = ((((int32_t)L_4) == ((int32_t)0))? 1 : 0);
 		goto IL_0021;
 	}
@@ -34266,7 +34270,7 @@ IL_0029:
 		String_t* L_8 = __this->___m_ParameterName_10;
 		NullCheck(L_7);
 		FieldInfo_t* L_9;
-		L_9 = VirtualFuncInvoker2< FieldInfo_t*, String_t*, int32_t >::Invoke(83 /* System.Reflection.FieldInfo System.Type::GetField(System.String,System.Reflection.BindingFlags) */, L_7, L_8, ((int32_t)21));
+		L_9 = VirtualFuncInvoker2< FieldInfo_t*, String_t*, int32_t >::Invoke(87 /* System.Reflection.FieldInfo System.Type::GetField(System.String,System.Reflection.BindingFlags) */, L_7, L_8, ((int32_t)21));
 		V_0 = L_9;
 		// if (field == null)
 		FieldInfo_t* L_10 = V_0;
@@ -36149,7 +36153,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RebindingOperation_tF7D9BCBB6E69668FA3A5C2111
 		Type_t* L_4 = ___0_type;
 		NullCheck(L_3);
 		bool L_5;
-		L_5 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(21 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_3, L_4);
+		L_5 = VirtualFuncInvoker1< bool, Type_t* >::Invoke(22 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_3, L_4);
 		G_B3_0 = ((((int32_t)L_5) == ((int32_t)0))? 1 : 0);
 		goto IL_0027;
 	}
@@ -36173,7 +36177,7 @@ IL_0027:
 		Type_t* L_7 = ___0_type;
 		NullCheck(L_7);
 		String_t* L_8;
-		L_8 = VirtualFuncInvoker0< String_t* >::Invoke(7 /* System.String System.Reflection.MemberInfo::get_Name() */, L_7);
+		L_8 = VirtualFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_7);
 		String_t* L_9;
 		L_9 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral3C686C624D22B0C45E4FADFB00FA535DDDC88AD7)), L_8, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral92B8E551EF78EA21EABB85995C1DDDF9474CD320)), NULL);
 		ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263* L_10 = (ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263_il2cpp_TypeInfo_var)));
@@ -38205,7 +38209,7 @@ IL_0131_1:
 				InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* L_46 = V_8;
 				NullCheck(L_45);
 				bool L_47;
-				L_47 = VirtualFuncInvoker1< bool, RuntimeObject* >::Invoke(111 /* System.Boolean System.Type::IsInstanceOfType(System.Object) */, L_45, L_46);
+				L_47 = VirtualFuncInvoker1< bool, RuntimeObject* >::Invoke(117 /* System.Boolean System.Type::IsInstanceOfType(System.Object) */, L_45, L_46);
 				G_B28_0 = ((((int32_t)L_47) == ((int32_t)0))? 1 : 0);
 				goto IL_0152_1;
 			}

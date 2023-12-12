@@ -161,6 +161,8 @@ struct ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263;
 struct ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129;
 // System.ArgumentOutOfRangeException
 struct ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F;
+// System.AsyncCallback
+struct AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C;
 // UnityEngine.InputSystem.Controls.AxisControl
 struct AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7;
 // System.Reflection.Binder
@@ -181,6 +183,8 @@ struct DpadControl_t517E87BF3EB22369B71EA1941648079B468A45AB;
 struct FastKeyboard_t2AD2BAAE315832F97141A23E6A032BCD372824A6;
 // UnityEngine.InputSystem.Gamepad
 struct Gamepad_tA8C0E40B4F0828615C6C6E1A69AAEBE5AA643A4C;
+// System.IAsyncResult
+struct IAsyncResult_t7B9B5A0ECB35DCEC31B8A8122C37D687369253B5;
 // System.Collections.IDictionary
 struct IDictionary_t6D03155AF1FA9083817AA5B6AD7DEEACC26AB220;
 // System.Collections.IEnumerator
