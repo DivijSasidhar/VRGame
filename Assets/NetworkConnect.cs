@@ -68,7 +68,7 @@ public class NetworkConnect : MonoBehaviour
         transport.SetClientRelayData(allocation.RelayServer.IpV4, (ushort)allocation.RelayServer.Port, allocation.AllocationIdBytes, allocation.Key, allocation.ConnectionData, allocation.HostConnectionData);
         
         NetworkManager.Singleton.StartClient();
-        Debug.LogError("Client Joined");
+        NetworkLog.LogInfoServer("Client Joined");
         onConnect.Invoke();
     }
 
