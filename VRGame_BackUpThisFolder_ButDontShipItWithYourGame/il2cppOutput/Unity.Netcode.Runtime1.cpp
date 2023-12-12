@@ -12345,7 +12345,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t XXHash_Hash32_mBC24A58B0A1D0F069FA2D
 		String_t* L_1 = ___0_text;
 		NullCheck(L_0);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_2;
-		L_2 = VirtualFuncInvoker1< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, String_t* >::Invoke(16 /* System.Byte[] System.Text.Encoding::GetBytes(System.String) */, L_0, L_1);
+		L_2 = VirtualFuncInvoker1< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, String_t* >::Invoke(17 /* System.Byte[] System.Text.Encoding::GetBytes(System.String) */, L_0, L_1);
 		uint32_t L_3;
 		L_3 = XXHash_Hash32_m138B37A17F29CC75B22A5AE277C1223A76A53F9A(L_2, NULL);
 		return L_3;
@@ -12535,7 +12535,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t XXHash_Hash64_m2B292E73684BD89EFF84C
 		String_t* L_1 = ___0_text;
 		NullCheck(L_0);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_2;
-		L_2 = VirtualFuncInvoker1< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, String_t* >::Invoke(16 /* System.Byte[] System.Text.Encoding::GetBytes(System.String) */, L_0, L_1);
+		L_2 = VirtualFuncInvoker1< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, String_t* >::Invoke(17 /* System.Byte[] System.Text.Encoding::GetBytes(System.String) */, L_0, L_1);
 		uint64_t L_3;
 		L_3 = XXHash_Hash64_m114637D3DC860457D89B4E70C47E6A53EAED7F73(L_2, NULL);
 		return L_3;
@@ -19054,7 +19054,7 @@ IL_0139:
 		L_59 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_58, NULL);
 		NullCheck(L_59);
 		String_t* L_60;
-		L_60 = VirtualFuncInvoker0< String_t* >::Invoke(7 /* System.String System.Reflection.MemberInfo::get_Name() */, L_59);
+		L_60 = VirtualFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_59);
 		NullCheck(L_57);
 		ArrayElementTypeCheck (L_57, L_60);
 		(L_57)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_60);
@@ -19101,7 +19101,7 @@ IL_0139:
 		L_79 = Object_GetType_mE10A8FC1E57F3DF29972CCBC026C2DC3942263B3(L_78, NULL);
 		NullCheck(L_79);
 		String_t* L_80;
-		L_80 = VirtualFuncInvoker0< String_t* >::Invoke(7 /* System.String System.Reflection.MemberInfo::get_Name() */, L_79);
+		L_80 = VirtualFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_79);
 		String_t* L_81;
 		L_81 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(_stringLiteralD9691C4FD8A1F6B09DB1147CA32B442772FB46A1, L_80, _stringLiteralE166C9564FBDE461738077E3B1B506525EB6ACCC, NULL);
 		NetworkLog_LogError_m6E8EB7F038ACD2B5763437173ACCED5959883428(L_81, NULL);
@@ -19142,7 +19142,7 @@ IL_020d:
 		L_91 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_90, NULL);
 		NullCheck(L_91);
 		String_t* L_92;
-		L_92 = VirtualFuncInvoker0< String_t* >::Invoke(7 /* System.String System.Reflection.MemberInfo::get_Name() */, L_91);
+		L_92 = VirtualFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_91);
 		NullCheck(L_89);
 		ArrayElementTypeCheck (L_89, L_92);
 		(L_89)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_92);
@@ -19189,7 +19189,7 @@ IL_020d:
 		L_111 = Object_GetType_mE10A8FC1E57F3DF29972CCBC026C2DC3942263B3(L_110, NULL);
 		NullCheck(L_111);
 		String_t* L_112;
-		L_112 = VirtualFuncInvoker0< String_t* >::Invoke(7 /* System.String System.Reflection.MemberInfo::get_Name() */, L_111);
+		L_112 = VirtualFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_111);
 		String_t* L_113;
 		L_113 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(_stringLiteralD9691C4FD8A1F6B09DB1147CA32B442772FB46A1, L_112, _stringLiteralE166C9564FBDE461738077E3B1B506525EB6ACCC, NULL);
 		NetworkLog_LogError_m6E8EB7F038ACD2B5763437173ACCED5959883428(L_113, NULL);
@@ -21588,7 +21588,7 @@ IL_0011_1:
 				Type_t* L_5 = L_4.___MessageType_0;
 				NullCheck(L_5);
 				String_t* L_6;
-				L_6 = VirtualFuncInvoker0< String_t* >::Invoke(25 /* System.String System.Type::get_FullName() */, L_5);
+				L_6 = VirtualFuncInvoker0< String_t* >::Invoke(26 /* System.String System.Type::get_FullName() */, L_5);
 				bool L_7;
 				L_7 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_6, _stringLiteralEB29B924D5B4FB3EC265AEABF77279657F37BC82, NULL);
 				if (L_7)
@@ -21601,7 +21601,7 @@ IL_0011_1:
 				Type_t* L_9 = L_8.___MessageType_0;
 				NullCheck(L_9);
 				String_t* L_10;
-				L_10 = VirtualFuncInvoker0< String_t* >::Invoke(25 /* System.String System.Type::get_FullName() */, L_9);
+				L_10 = VirtualFuncInvoker0< String_t* >::Invoke(26 /* System.String System.Type::get_FullName() */, L_9);
 				bool L_11;
 				L_11 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_10, _stringLiteral3719A431B29469AE35CABD74C5D6E0882BD52AA3, NULL);
 				if (L_11)
@@ -21614,7 +21614,7 @@ IL_0011_1:
 				Type_t* L_13 = L_12.___MessageType_0;
 				NullCheck(L_13);
 				String_t* L_14;
-				L_14 = VirtualFuncInvoker0< String_t* >::Invoke(25 /* System.String System.Type::get_FullName() */, L_13);
+				L_14 = VirtualFuncInvoker0< String_t* >::Invoke(26 /* System.String System.Type::get_FullName() */, L_13);
 				bool L_15;
 				L_15 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_14, _stringLiteralF87DEB11F260F736336B4CC5536C5C70EA595C21, NULL);
 				G_B6_0 = ((int32_t)(L_15));
@@ -21705,7 +21705,7 @@ IL_0094_1:
 				Type_t* L_24 = L_23.___MessageType_0;
 				NullCheck(L_24);
 				String_t* L_25;
-				L_25 = VirtualFuncInvoker0< String_t* >::Invoke(25 /* System.String System.Type::get_FullName() */, L_24);
+				L_25 = VirtualFuncInvoker0< String_t* >::Invoke(26 /* System.String System.Type::get_FullName() */, L_24);
 				bool L_26;
 				L_26 = String_op_Inequality_m8C940F3CFC42866709D7CA931B3D77B4BE94BCB6(L_25, _stringLiteralEB29B924D5B4FB3EC265AEABF77279657F37BC82, NULL);
 				if (!L_26)
@@ -21718,7 +21718,7 @@ IL_0094_1:
 				Type_t* L_28 = L_27.___MessageType_0;
 				NullCheck(L_28);
 				String_t* L_29;
-				L_29 = VirtualFuncInvoker0< String_t* >::Invoke(25 /* System.String System.Type::get_FullName() */, L_28);
+				L_29 = VirtualFuncInvoker0< String_t* >::Invoke(26 /* System.String System.Type::get_FullName() */, L_28);
 				bool L_30;
 				L_30 = String_op_Inequality_m8C940F3CFC42866709D7CA931B3D77B4BE94BCB6(L_29, _stringLiteral3719A431B29469AE35CABD74C5D6E0882BD52AA3, NULL);
 				if (!L_30)
@@ -21731,7 +21731,7 @@ IL_0094_1:
 				Type_t* L_32 = L_31.___MessageType_0;
 				NullCheck(L_32);
 				String_t* L_33;
-				L_33 = VirtualFuncInvoker0< String_t* >::Invoke(25 /* System.String System.Type::get_FullName() */, L_32);
+				L_33 = VirtualFuncInvoker0< String_t* >::Invoke(26 /* System.String System.Type::get_FullName() */, L_32);
 				bool L_34;
 				L_34 = String_op_Inequality_m8C940F3CFC42866709D7CA931B3D77B4BE94BCB6(L_33, _stringLiteralF87DEB11F260F736336B4CC5536C5C70EA595C21, NULL);
 				G_B18_0 = ((int32_t)(L_34));
@@ -22812,7 +22812,7 @@ IL_0017:
 		Type_t* L_8 = (L_5)->GetAt(static_cast<il2cpp_array_size_t>(L_7));
 		NullCheck(L_8);
 		String_t* L_9;
-		L_9 = VirtualFuncInvoker0< String_t* >::Invoke(25 /* System.String System.Type::get_FullName() */, L_8);
+		L_9 = VirtualFuncInvoker0< String_t* >::Invoke(26 /* System.String System.Type::get_FullName() */, L_8);
 		uint32_t L_10;
 		L_10 = XXHash_Hash32_mDAC30AB830DFD291A7AA57B33B1424F7DBC972AB(L_9, NULL);
 		uint32_t L_11 = ___1_targetHash;
@@ -22907,7 +22907,7 @@ IL_009a:
 		L_33 = List_1_get_Item_m7A1C2D221A00D4DE76431FB2903CCAC7CDA3A33B(L_31, L_32, List_1_get_Item_m7A1C2D221A00D4DE76431FB2903CCAC7CDA3A33B_RuntimeMethod_var);
 		NullCheck(L_33);
 		String_t* L_34;
-		L_34 = VirtualFuncInvoker0< String_t* >::Invoke(25 /* System.String System.Type::get_FullName() */, L_33);
+		L_34 = VirtualFuncInvoker0< String_t* >::Invoke(26 /* System.String System.Type::get_FullName() */, L_33);
 		uint32_t L_35;
 		L_35 = XXHash_Hash32_mDAC30AB830DFD291A7AA57B33B1424F7DBC972AB(L_34, NULL);
 		uint32_t L_36 = ___1_targetHash;
@@ -24213,12 +24213,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t U3CU3Ec_U3C_ctorU3Eb__24_0_m969798428
 		Type_t* L_1 = L_0.___MessageType_0;
 		NullCheck(L_1);
 		String_t* L_2;
-		L_2 = VirtualFuncInvoker0< String_t* >::Invoke(25 /* System.String System.Type::get_FullName() */, L_1);
+		L_2 = VirtualFuncInvoker0< String_t* >::Invoke(26 /* System.String System.Type::get_FullName() */, L_1);
 		MessageWithHandler_t4ACB5C5EEE685A991095B46F0029CEF035C51928 L_3 = ___1_b;
 		Type_t* L_4 = L_3.___MessageType_0;
 		NullCheck(L_4);
 		String_t* L_5;
-		L_5 = VirtualFuncInvoker0< String_t* >::Invoke(25 /* System.String System.Type::get_FullName() */, L_4);
+		L_5 = VirtualFuncInvoker0< String_t* >::Invoke(26 /* System.String System.Type::get_FullName() */, L_4);
 		int32_t L_6;
 		L_6 = String_CompareOrdinal_mC6F612DEA1F7B3BF24A44C79D17AF7F8C29C9D3C(L_2, L_5, NULL);
 		return L_6;
@@ -24623,7 +24623,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MetricHooks_OnBeforeReceiveMessage_mAFCE
 		Type_t* L_3 = ___1_messageType;
 		NullCheck(L_3);
 		String_t* L_4;
-		L_4 = VirtualFuncInvoker0< String_t* >::Invoke(7 /* System.String System.Reflection.MemberInfo::get_Name() */, L_3);
+		L_4 = VirtualFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_3);
 		int32_t L_5 = ___2_messageSizeBytes;
 		NullCheck(L_1);
 		InterfaceActionInvoker3< uint64_t, String_t*, int64_t >::Invoke(4 /* System.Void Unity.Netcode.INetworkMetrics::TrackNetworkMessageReceived(System.UInt64,System.String,System.Int64) */, INetworkMetrics_tE2C13758A950A5C77D2682C15F47914B13AC1C41_il2cpp_TypeInfo_var, L_1, L_2, L_4, ((int64_t)L_5));
@@ -25417,7 +25417,7 @@ IL_001a:
 		Type_t* L_6 = ___0_type;
 		NullCheck(L_6);
 		String_t* L_7;
-		L_7 = VirtualFuncInvoker0< String_t* >::Invoke(7 /* System.String System.Reflection.MemberInfo::get_Name() */, L_6);
+		L_7 = VirtualFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_6);
 		String_t* L_8;
 		L_8 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral8BBD1AF0025BD49C7DDBD828C57E16C2211E5DD5, L_7, NULL);
 		ProfilerMarker__ctor_mDD68B0A8B71E0301F592AF8891560150E55699C8_inline((&V_1), L_8, NULL);
@@ -25487,7 +25487,7 @@ IL_001a:
 		Type_t* L_6 = ___0_type;
 		NullCheck(L_6);
 		String_t* L_7;
-		L_7 = VirtualFuncInvoker0< String_t* >::Invoke(7 /* System.String System.Reflection.MemberInfo::get_Name() */, L_6);
+		L_7 = VirtualFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_6);
 		String_t* L_8;
 		L_8 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral11ACCDE3D2D241C92F2F6ED30DD1FA9C80D23DB7, L_7, NULL);
 		ProfilerMarker__ctor_mDD68B0A8B71E0301F592AF8891560150E55699C8_inline((&V_1), L_8, NULL);

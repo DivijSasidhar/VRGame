@@ -12,11 +12,11 @@ EditorBuildSettings:
     path: Assets/Scenes/2 Game Scene.unity
     guid: eccb2bc76074b2849b626b75e749890d
   - enabled: 0
-    path: Assets/Scenes/Multiplayer trial.unity
-    guid: cabe8880b01680e4890f10964ad24986
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 0
-    path: Assets/Scenes/Multiplayer trial.unity
-    guid: cabe8880b01680e4890f10964ad24986
+    path: Assets/Scenes/New attempt.unity
+    guid: b441a44031247904ea175b98a0c7df03
   - enabled: 0
     path: Assets/Scenes/Throwing Test.unity
     guid: 6306ef2d91f7122468f59816871c7ed0
@@ -29,9 +29,12 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Level 1.unity
     guid: e0a1e43c311722e448a0279ae6190c74
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Code Door Test.unity
     guid: 68113e2ea79bd1e40a65bdf2f19b4b82
+  - enabled: 1
+    path: Assets/Scenes/Multiplayer trial.unity
+    guid: cabe8880b01680e4890f10964ad24986
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 2238d457089b9494896515a25debf01c,
       type: 2}

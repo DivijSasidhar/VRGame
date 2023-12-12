@@ -28,7 +28,7 @@ public class NetworkPlayer : NetworkBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(IsOwner)
+        if(VRRigReferences.Singleton != null && IsOwner)
         {
         root.position = VRRigReferences.Singleton.root.position;
         root.rotation = VRRigReferences.Singleton.root.rotation;
