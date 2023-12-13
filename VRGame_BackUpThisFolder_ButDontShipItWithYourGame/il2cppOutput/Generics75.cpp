@@ -178,18 +178,10 @@ struct IDictionary_2_t51DBA2F8AFDC8E5CC588729B12034B8C4D30B0AF;
 struct IEnumerable_1_tCE758D940790D6D0D56B457E522C195F8C413AF2;
 // System.Collections.Generic.IEnumerable`1<System.Object>
 struct IEnumerable_1_tF95C9E01A913DD50575531C8305932628663D9E9;
-// System.Collections.Generic.IEnumerable`1<Unity.Netcode.ReleasedNetworkId>
-struct IEnumerable_1_t872718823D97832A53641C22943D770968336CDD;
-// System.Collections.Generic.IEnumerable`1<System.UInt32>
-struct IEnumerable_1_tF78C5A55C1D093F0B8CD95E0247BA2EE703D9D55;
 // System.Collections.Generic.IEnumerator`1<System.Int32>
 struct IEnumerator_1_tD6A90A7446DA8E6CF865EDFBBF18C1200BB6D452;
 // System.Collections.Generic.IEnumerator`1<System.Object>
 struct IEnumerator_1_t43D2E4BA9246755F293DFA74F001FB1A70A648FD;
-// System.Collections.Generic.IEnumerator`1<Unity.Netcode.ReleasedNetworkId>
-struct IEnumerator_1_t1302B886C06D4CDCC86AD1923C91991509E47E6D;
-// System.Collections.Generic.IEnumerator`1<System.UInt32>
-struct IEnumerator_1_t737E5D96E5E3657734509E507812DBA5E7EDD547;
 // System.Collections.Generic.IEnumerator`1<System.UInt64>
 struct IEnumerator_1_tE07B98951C528DCEC133D87CFB6966101285E71E;
 // UnityEngine.Pool.IObjectPool`1<System.Object>
@@ -634,10 +626,6 @@ struct QueueDebugView_1_tC025F5831E126D041C81DC488DE5A3FD06BDF7C4;
 struct Queue_1_tCA24E420CB13C6411AEFC3ECE9E62219F7937A1E;
 // System.Collections.Generic.Queue`1<System.Object>
 struct Queue_1_tE9EF546915795972C3BFD68FBB8FA859D3BAF3B5;
-// System.Collections.Generic.Queue`1<Unity.Netcode.ReleasedNetworkId>
-struct Queue_1_tD0B32970076D62B677279D96972006677EEE25A7;
-// System.Collections.Generic.Queue`1<System.UInt32>
-struct Queue_1_tA93BCCFDEFF25FCF9C491D240D49B2B8B9C37850;
 // UnityEngine.UIElements.StyleDataRef`1/RefCounted<UnityEngine.UIElements.InheritedData>
 struct RefCounted_t6B975CD3D06E8D955346FC0D66E8F6E449D49A44;
 // UnityEngine.UIElements.StyleDataRef`1/RefCounted<UnityEngine.UIElements.LayoutData>
@@ -654,6 +642,24 @@ struct RefCounted_t812D790A2C787F18230F9234F6C9B84D4AC1A85A;
 struct Stack_1_tAD790A47551563636908E21E4F08C54C0C323EB5;
 // UnityEngine.Events.UnityAction`1<System.Object>
 struct UnityAction_1_t9C30BCD020745BF400CBACF22C6F34ADBA2DDA6A;
+// Unity.Collections.LowLevel.Unsafe.UnsafeList`1<System.IntPtr>
+struct UnsafeList_1_t7F37B06177929AC50704A82689AED5BBFE830613;
+// Unity.Collections.LowLevel.Unsafe.UnsafeList`1<Unity.Netcode.DeferredMessageManager/TriggerData>
+struct UnsafeList_1_t7576474D288A30F1540A43F66481308FA0558594;
+// Unity.Collections.LowLevel.Unsafe.UnsafeList`1<Unity.Networking.Transport.IPCManager/IPCData>
+struct UnsafeList_1_t97F38A4A58468F12153209EBA329A7E123DFCBCB;
+// Unity.Collections.LowLevel.Unsafe.UnsafeList`1<Unity.Netcode.MessagingSystem/ReceiveQueueItem>
+struct UnsafeList_1_t89BFA272C688229184DE0B26E132A0C55C159B6B;
+// Unity.Collections.LowLevel.Unsafe.UnsafeList`1<Unity.Netcode.MessagingSystem/SendQueueItem>
+struct UnsafeList_1_tE941F153E0D05B0746B266E9F8686EBDA90F1A12;
+// Unity.Collections.LowLevel.Unsafe.UnsafeList`1<Unity.Networking.Transport.NetworkDriver/Connection>
+struct UnsafeList_1_tF90CD1BACB3990B533D04C98C2C90161BD7F9C20;
+// Unity.Collections.LowLevel.Unsafe.UnsafeList`1<Unity.Networking.Transport.NetworkPipelineProcessor/PipelineImpl>
+struct UnsafeList_1_t557C9C31121D73D732851DA0465D2D22CFFBF099;
+// Unity.Collections.LowLevel.Unsafe.UnsafeList`1<Unity.Networking.Transport.NetworkPipelineProcessor/UpdatePipeline>
+struct UnsafeList_1_t5D77D9399869F973DD7861206FE7B0BB5254BEDA;
+// Unity.Collections.LowLevel.Unsafe.UnsafeList`1<Unity.Netcode.Transports.UTP.UnityTransport/SendTarget>
+struct UnsafeList_1_t501C48EF6B212CE7B242B47AE1184A6DE456C629;
 // System.Action`1<UnityEngine.InputSystem.EnhancedTouch.Finger>[]
 struct Action_1U5BU5D_t18C922CAB85EAE463E29566305D718EF64B12A16;
 // System.Action`2<UnityEngine.InputSystem.InputControl,UnityEngine.InputSystem.LowLevel.InputEventPtr>[]
@@ -718,8 +724,6 @@ struct NamedValueU5BU5D_tADD8F1373B88C55F68499688D72C21A97F63303A;
 struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918;
 // UnityEngine.LowLevel.PlayerLoopSystem[]
 struct PlayerLoopSystemU5BU5D_t07C04E53AAC3CDA17603E8BA1B41D7E1AC083C6D;
-// Unity.Netcode.ReleasedNetworkId[]
-struct ReleasedNetworkIdU5BU5D_t52D25C7546481273DC02D6EA1296FB2E1D76F6DD;
 // UnityEngine.Rendering.ShaderTagId[]
 struct ShaderTagIdU5BU5D_tE1BA124E13B8096153E25C5AF9C1D15D71466143;
 // System.Diagnostics.StackTrace[]
@@ -734,8 +738,6 @@ struct TouchU5BU5D_t32B2235E604E83356406C886C1A817C01F7C6354;
 struct TouchscreenU5BU5D_t73D22E3D2A7039C6C374D75B796C8F83BCA897E3;
 // System.Type[]
 struct TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB;
-// System.UInt32[]
-struct UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA;
 // UnityEngine.InputSystem.InputControlScheme/DeviceRequirement[]
 struct DeviceRequirementU5BU5D_t0496FAAB7554B7BFC270BA53BA6A5EFD5DE061CE;
 // UnityEngine.InputSystem.Users.InputUser/OngoingAccountSelection[]
@@ -836,6 +838,8 @@ struct InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B;
 struct InputEvent_t10F727342D1A79DCFC06529C203BB61C194AEBC5;
 // System.Linq.Expressions.Interpreter.Instruction
 struct Instruction_t7ED95EF62BBC5003D30C1CE0FF8B1D79105A8998;
+// System.IntPtr
+struct IntPtr_t;
 // System.InvalidOperationException
 struct InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB;
 // System.Threading.ManualResetEvent
@@ -852,6 +856,12 @@ struct Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4;
 struct MeshHandle_tC1E9A7ECCFDAEFDE064B8D58B35B9CEE5A70A22E;
 // System.Reflection.MethodInfo
 struct MethodInfo_t;
+// Unity.Collections.NativeQueueBlockHeader
+struct NativeQueueBlockHeader_tD74DEA5A5D8C910AA5ED04C5E89F2FE1B0521004;
+// Unity.Collections.NativeQueueBlockPoolData
+struct NativeQueueBlockPoolData_t3A0B3E1B852D995248D51AB68660D1B367D28E87;
+// Unity.Collections.NativeQueueData
+struct NativeQueueData_t61B94D7FE48C5715DD5D0C8CB574F73BF15C6E52;
 // System.NotImplementedException
 struct NotImplementedException_t6366FE4DCF15094C51F4833B91A2AE68D4DA90E8;
 // UnityEngine.UIElements.UIR.Page
@@ -918,14 +928,36 @@ struct XmlSchemaObject_t82CCD87AADB4BEF4E9DFE4C501F09EDA372AA19D;
 struct YogaConfig_tE8B56F99460C291C1F7F46DBD8BAC9F0B653A345;
 // UnityEngine.Yoga.YogaNode
 struct YogaNode_t4B5B593220CCB315B5A60CB48BA4795636F04DDA;
+// Unity.Baselib.LowLevel.Binding/Baselib_RegisteredNetwork_Buffer
+struct Baselib_RegisteredNetwork_Buffer_t2D0BDFB0FC8B41F70E5AD38C481363BEDC54EB42;
 // Unity.TLS.LowLevel.Binding/unitytls_client
 struct unitytls_client_t24835A1F9F3B994DE3AE5B3B84792289F563AC80;
 // Unity.TLS.LowLevel.Binding/unitytls_client_config
 struct unitytls_client_config_t573FD029CCF308C0D922A8643773696C20726F4F;
+// Unity.Netcode.DeferredMessageManager/TriggerData
+struct TriggerData_t961063E87733CDD8443A71444D93E7529D0FD3F7;
+// Unity.Netcode.FastBufferReader/ReaderHandle
+struct ReaderHandle_t7A818FF1A9ACF79E6D6322AFF494B9FB12C48CC8;
+// Unity.Netcode.FastBufferWriter/WriterHandle
+struct WriterHandle_tBDBA7A52860089574884E6269EF80A4ABDA26BE6;
+// Unity.Networking.Transport.IPCManager/IPCData
+struct IPCData_t46E9604572E2A38CBBA8A418C6E25E6BAE2757CC;
 // Unity.Netcode.MessagingSystem/MessageHandler
 struct MessageHandler_t274427DA3D8CD7F490DA359D05918564E2D8CF2F;
+// Unity.Netcode.MessagingSystem/ReceiveQueueItem
+struct ReceiveQueueItem_t60F7AA40B886CF8C6231945A5262F76297738DB6;
+// Unity.Netcode.MessagingSystem/SendQueueItem
+struct SendQueueItem_tFA46EA1EF42596165A1AAE755E4984B2DBFB1B47;
+// Unity.Networking.Transport.NetworkDriver/Connection
+struct Connection_t57B7A8186502E304AD87933A0FFD76FDF0972D70;
+// Unity.Networking.Transport.NetworkPipelineProcessor/PipelineImpl
+struct PipelineImpl_t422927EB35F759F18ECBA1C7B075AAC92918017E;
+// Unity.Networking.Transport.NetworkPipelineProcessor/UpdatePipeline
+struct UpdatePipeline_t8D511DB7DDEC2170FC3349B879D1E46CD18C35D2;
 // UnityEngine.LowLevel.PlayerLoopSystem/UpdateFunction
 struct UpdateFunction_t1C48B7EECBE47AC123A9D9D7D9D2A9EE951C56C4;
+// Unity.Netcode.Transports.UTP.UnityTransport/SendTarget
+struct SendTarget_tAD1A6A2A5769AE7D57910A8DA4F258B09A45F653;
 // UnityEngine.UIElements.VisualElement/CustomStyleAccess
 struct CustomStyleAccess_t170C852102B4D09FB478B620A75B14D096F9F2B1;
 // UnityEngine.UIElements.VisualElement/TypeData
@@ -978,22 +1010,16 @@ IL2CPP_EXTERN_C String_t* _stringLiteralEFE062DF67C285D56CB24D5951F65D54EBDAF200
 IL2CPP_EXTERN_C const RuntimeMethod* Array_Resize_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_m6BAA7BD6F22421B894347B1476C37052FAC6C916_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* PointerListWrapper_1_GetEnumerator_m55F02D9C510FBBBFC232136BDA3B35F3AC8A09AE_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* QueueDebugView_1__ctor_m6D141CC0022B09ADFCC0EB2032C4E50C136E4D6F_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Queue_1_System_Collections_ICollection_CopyTo_m1D3DF3EFD4164BD00A592079F5C2EC3A396DE35A_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Queue_1_System_Collections_ICollection_CopyTo_m572DC5F181C946D6260596572A6EC32582C4B7DA_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Queue_1_System_Collections_ICollection_CopyTo_m7EC23B77294ABA74E78B728FBA0C420C959CE4A0_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Queue_1_System_Collections_ICollection_CopyTo_m951B065722F6BAD8756DF930F0E77EFC01865B73_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Queue_1_ThrowForEmptyQueue_m3E1E3A8D5B45A051842B75BE822847FE8320A26F_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Queue_1_ThrowForEmptyQueue_m5D8FD90EDA9D9EB662F56AAE70DCE0AEDC773CFF_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Queue_1_ThrowForEmptyQueue_m79CDC02B168158EA24B805B9CB987F18C37638EA_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Queue_1_ThrowForEmptyQueue_m87C0DAA7B799FEF651F40F96BDB0A437E1D24CEE_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Queue_1__ctor_m076C3301880A7D7DD727CD62410765F552251804_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Queue_1__ctor_m14AA54830ECCA863716D82DBE65BED968A7B0042_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Queue_1__ctor_m3DA078D58BF2E40F3254871DE5313FD31671B90C_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Queue_1__ctor_m487BCAF8F7A2FB003B54B1E744B80FB6651B4963_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Queue_1__ctor_m8CADA3C00B12572400174949D4F271FB93149C5F_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Queue_1__ctor_m8FDD9C089831C7940194DA60CA2E1969FEFF9DB4_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Queue_1__ctor_mCFBB78D8B30A0F7F62B7B13B48794314CF472D4D_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Queue_1__ctor_mDFB3CD7FACAF85AFE5750DED2E3222107C996168_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* UnsafeList_1_AddNoResize_m4752E4711FAE546C2C0CE090C639FE6F4BA23BED_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* UnsafeList_1_AddRangeNoResize_m81FD9782A3159D8F6EF737C45F8AE808927345BC_RuntimeMethod_var;
 struct ComputedTransitionProperty_tD8E4D8EB5DD69E063944F27A48D9263F4F1354E1_marshaled_com;
 struct ComputedTransitionProperty_tD8E4D8EB5DD69E063944F27A48D9263F4F1354E1_marshaled_pinvoke;
 struct Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F;
@@ -1023,9 +1049,7 @@ struct CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB;
 struct DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771;
 struct Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C;
 struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918;
-struct ReleasedNetworkIdU5BU5D_t52D25C7546481273DC02D6EA1296FB2E1D76F6DD;
 struct StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248;
-struct UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA;
 
 IL2CPP_EXTERN_C_BEGIN
 IL2CPP_EXTERN_C_END
@@ -1239,40 +1263,6 @@ struct Queue_1_tE9EF546915795972C3BFD68FBB8FA859D3BAF3B5  : public RuntimeObject
 	RuntimeObject* ____syncRoot_5;
 };
 
-// System.Collections.Generic.Queue`1<Unity.Netcode.ReleasedNetworkId>
-struct Queue_1_tD0B32970076D62B677279D96972006677EEE25A7  : public RuntimeObject
-{
-	// T[] System.Collections.Generic.Queue`1::_array
-	ReleasedNetworkIdU5BU5D_t52D25C7546481273DC02D6EA1296FB2E1D76F6DD* ____array_0;
-	// System.Int32 System.Collections.Generic.Queue`1::_head
-	int32_t ____head_1;
-	// System.Int32 System.Collections.Generic.Queue`1::_tail
-	int32_t ____tail_2;
-	// System.Int32 System.Collections.Generic.Queue`1::_size
-	int32_t ____size_3;
-	// System.Int32 System.Collections.Generic.Queue`1::_version
-	int32_t ____version_4;
-	// System.Object System.Collections.Generic.Queue`1::_syncRoot
-	RuntimeObject* ____syncRoot_5;
-};
-
-// System.Collections.Generic.Queue`1<System.UInt32>
-struct Queue_1_tA93BCCFDEFF25FCF9C491D240D49B2B8B9C37850  : public RuntimeObject
-{
-	// T[] System.Collections.Generic.Queue`1::_array
-	UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* ____array_0;
-	// System.Int32 System.Collections.Generic.Queue`1::_head
-	int32_t ____head_1;
-	// System.Int32 System.Collections.Generic.Queue`1::_tail
-	int32_t ____tail_2;
-	// System.Int32 System.Collections.Generic.Queue`1::_size
-	int32_t ____size_3;
-	// System.Int32 System.Collections.Generic.Queue`1::_version
-	int32_t ____version_4;
-	// System.Object System.Collections.Generic.Queue`1::_syncRoot
-	RuntimeObject* ____syncRoot_5;
-};
-
 // UnityEngine.Rendering.Universal.LibTessDotNet.PriorityQueue`1/StackItem<System.Object>
 struct StackItem_t653DA96524E2146197E46E4AB44EB360B1531DEB  : public RuntimeObject
 {
@@ -1390,19 +1380,6 @@ struct Enumerator_t30E3290EE12437374037B3CF0EE4D614F96D030A
 	int32_t ____index_2;
 	// T System.Collections.Generic.Queue`1/Enumerator::_currentElement
 	RuntimeObject* ____currentElement_3;
-};
-
-// System.Collections.Generic.Queue`1/Enumerator<System.UInt32>
-struct Enumerator_t85344E4ACE131A91BC38A5761E3E64011789C891 
-{
-	// System.Collections.Generic.Queue`1<T> System.Collections.Generic.Queue`1/Enumerator::_q
-	Queue_1_tA93BCCFDEFF25FCF9C491D240D49B2B8B9C37850* ____q_0;
-	// System.Int32 System.Collections.Generic.Queue`1/Enumerator::_version
-	int32_t ____version_1;
-	// System.Int32 System.Collections.Generic.Queue`1/Enumerator::_index
-	int32_t ____index_2;
-	// T System.Collections.Generic.Queue`1/Enumerator::_currentElement
-	uint32_t ____currentElement_3;
 };
 
 // UnityEngine.InputSystem.Utilities.InlinedArray`1<System.Action`1<UnityEngine.InputSystem.EnhancedTouch.Finger>>
@@ -1571,6 +1548,160 @@ struct Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28
 	bool ___hasValue_0;
 	// T System.Nullable`1::value
 	int32_t ___value_1;
+};
+
+// Unity.Collections.NativeQueue`1/ParallelWriter<Unity.Networking.Transport.QueuedSendMessage>
+struct ParallelWriter_tD2337D6A048735D05F7C0698B7FEEDAD7153DE97 
+{
+	// Unity.Collections.NativeQueueData* Unity.Collections.NativeQueue`1/ParallelWriter::m_Buffer
+	NativeQueueData_t61B94D7FE48C5715DD5D0C8CB574F73BF15C6E52* ___m_Buffer_0;
+	// Unity.Collections.NativeQueueBlockPoolData* Unity.Collections.NativeQueue`1/ParallelWriter::m_QueuePool
+	NativeQueueBlockPoolData_t3A0B3E1B852D995248D51AB68660D1B367D28E87* ___m_QueuePool_1;
+	// System.Int32 Unity.Collections.NativeQueue`1/ParallelWriter::m_ThreadIndex
+	int32_t ___m_ThreadIndex_2;
+};
+
+// Unity.Collections.LowLevel.Unsafe.UnsafePtrList`1/ParallelWriter<Unity.Baselib.LowLevel.Binding/Baselib_RegisteredNetwork_Buffer>
+struct ParallelWriter_t940D3FB37B7548484C5E6F493E6AB17E17D94326 
+{
+	// T** Unity.Collections.LowLevel.Unsafe.UnsafePtrList`1/ParallelWriter::Ptr
+	Baselib_RegisteredNetwork_Buffer_t2D0BDFB0FC8B41F70E5AD38C481363BEDC54EB42** ___Ptr_0;
+	// Unity.Collections.LowLevel.Unsafe.UnsafeList`1<System.IntPtr>* Unity.Collections.LowLevel.Unsafe.UnsafePtrList`1/ParallelWriter::ListData
+	UnsafeList_1_t7F37B06177929AC50704A82689AED5BBFE830613* ___ListData_1;
+};
+
+// Unity.Collections.NativeList`1/ParallelWriter<Unity.Netcode.DeferredMessageManager/TriggerData>
+struct ParallelWriter_t03F7F8FE5DC88E316BF956D72795F40611400D56 
+{
+	// Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>* Unity.Collections.NativeList`1/ParallelWriter::ListData
+	UnsafeList_1_t7576474D288A30F1540A43F66481308FA0558594* ___ListData_0;
+};
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Netcode.DeferredMessageManager/TriggerData>
+struct ParallelWriter_t441F54F89444B12280079F24628FBE42D4628577 
+{
+	// Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>* Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter::ListData
+	UnsafeList_1_t7576474D288A30F1540A43F66481308FA0558594* ___ListData_0;
+};
+
+// Unity.Collections.NativeList`1/ParallelWriter<Unity.Networking.Transport.IPCManager/IPCData>
+struct ParallelWriter_t94F9FFD53B9AE8430CD8498CF5CBB71E789E2901 
+{
+	// Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>* Unity.Collections.NativeList`1/ParallelWriter::ListData
+	UnsafeList_1_t97F38A4A58468F12153209EBA329A7E123DFCBCB* ___ListData_0;
+};
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Networking.Transport.IPCManager/IPCData>
+struct ParallelWriter_t2CB5D534A368A60C6135B62EED9189BC2479772E 
+{
+	// Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>* Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter::ListData
+	UnsafeList_1_t97F38A4A58468F12153209EBA329A7E123DFCBCB* ___ListData_0;
+};
+
+// Unity.Collections.NativeList`1/ParallelWriter<Unity.Netcode.MessagingSystem/ReceiveQueueItem>
+struct ParallelWriter_tCFD714C5DD7537D38BE908F26105B026AEBA43C9 
+{
+	// Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>* Unity.Collections.NativeList`1/ParallelWriter::ListData
+	UnsafeList_1_t89BFA272C688229184DE0B26E132A0C55C159B6B* ___ListData_0;
+};
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Netcode.MessagingSystem/ReceiveQueueItem>
+struct ParallelWriter_t38A408C31D5DF2B785A11B0D850011D3BA6598C8 
+{
+	// Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>* Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter::ListData
+	UnsafeList_1_t89BFA272C688229184DE0B26E132A0C55C159B6B* ___ListData_0;
+};
+
+// Unity.Collections.NativeList`1/ParallelWriter<Unity.Netcode.MessagingSystem/SendQueueItem>
+struct ParallelWriter_t22DDCE675B2008D902EE4A8DEA86C990F8D0F39A 
+{
+	// Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>* Unity.Collections.NativeList`1/ParallelWriter::ListData
+	UnsafeList_1_tE941F153E0D05B0746B266E9F8686EBDA90F1A12* ___ListData_0;
+};
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Netcode.MessagingSystem/SendQueueItem>
+struct ParallelWriter_t5CA5B52F0C222EAC6D1D16D33F59DA596E039322 
+{
+	// Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>* Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter::ListData
+	UnsafeList_1_tE941F153E0D05B0746B266E9F8686EBDA90F1A12* ___ListData_0;
+};
+
+// Unity.Collections.NativeList`1/ParallelWriter<Unity.Networking.Transport.NetworkDriver/Connection>
+struct ParallelWriter_t803C620C6C990806F18641155AC85D7A01D82CE2 
+{
+	// Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>* Unity.Collections.NativeList`1/ParallelWriter::ListData
+	UnsafeList_1_tF90CD1BACB3990B533D04C98C2C90161BD7F9C20* ___ListData_0;
+};
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Networking.Transport.NetworkDriver/Connection>
+struct ParallelWriter_t9C08A9CE034DD792954BE5930D8EC268BA988D41 
+{
+	// Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>* Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter::ListData
+	UnsafeList_1_tF90CD1BACB3990B533D04C98C2C90161BD7F9C20* ___ListData_0;
+};
+
+// Unity.Collections.NativeQueue`1/ParallelWriter<Unity.Networking.Transport.NetworkEventQueue/SubQueueItem>
+struct ParallelWriter_tD14C7A3C4731767076B3C7DB4613E59DFDD2DE7B 
+{
+	// Unity.Collections.NativeQueueData* Unity.Collections.NativeQueue`1/ParallelWriter::m_Buffer
+	NativeQueueData_t61B94D7FE48C5715DD5D0C8CB574F73BF15C6E52* ___m_Buffer_0;
+	// Unity.Collections.NativeQueueBlockPoolData* Unity.Collections.NativeQueue`1/ParallelWriter::m_QueuePool
+	NativeQueueBlockPoolData_t3A0B3E1B852D995248D51AB68660D1B367D28E87* ___m_QueuePool_1;
+	// System.Int32 Unity.Collections.NativeQueue`1/ParallelWriter::m_ThreadIndex
+	int32_t ___m_ThreadIndex_2;
+};
+
+// Unity.Collections.NativeList`1/ParallelWriter<Unity.Networking.Transport.NetworkPipelineProcessor/PipelineImpl>
+struct ParallelWriter_tB41779E5BCCF7FD4396126965EEE1ADFD8D3A653 
+{
+	// Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>* Unity.Collections.NativeList`1/ParallelWriter::ListData
+	UnsafeList_1_t557C9C31121D73D732851DA0465D2D22CFFBF099* ___ListData_0;
+};
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Networking.Transport.NetworkPipelineProcessor/PipelineImpl>
+struct ParallelWriter_tDE0F3CEBA8724546ED627F8F8D52A3BA57C08FB6 
+{
+	// Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>* Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter::ListData
+	UnsafeList_1_t557C9C31121D73D732851DA0465D2D22CFFBF099* ___ListData_0;
+};
+
+// Unity.Collections.NativeList`1/ParallelWriter<Unity.Networking.Transport.NetworkPipelineProcessor/UpdatePipeline>
+struct ParallelWriter_tC50E8137F551749AC8F77272BE6E3AE2DF39B69B 
+{
+	// Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>* Unity.Collections.NativeList`1/ParallelWriter::ListData
+	UnsafeList_1_t5D77D9399869F973DD7861206FE7B0BB5254BEDA* ___ListData_0;
+};
+
+// Unity.Collections.NativeQueue`1/ParallelWriter<Unity.Networking.Transport.NetworkPipelineProcessor/UpdatePipeline>
+struct ParallelWriter_t55B873B53088E2C14EC0CE7DD3ECA37705CB04CC 
+{
+	// Unity.Collections.NativeQueueData* Unity.Collections.NativeQueue`1/ParallelWriter::m_Buffer
+	NativeQueueData_t61B94D7FE48C5715DD5D0C8CB574F73BF15C6E52* ___m_Buffer_0;
+	// Unity.Collections.NativeQueueBlockPoolData* Unity.Collections.NativeQueue`1/ParallelWriter::m_QueuePool
+	NativeQueueBlockPoolData_t3A0B3E1B852D995248D51AB68660D1B367D28E87* ___m_QueuePool_1;
+	// System.Int32 Unity.Collections.NativeQueue`1/ParallelWriter::m_ThreadIndex
+	int32_t ___m_ThreadIndex_2;
+};
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Networking.Transport.NetworkPipelineProcessor/UpdatePipeline>
+struct ParallelWriter_tF2AD77C8A90F1D5807B0720121A0F3B27BC5B98B 
+{
+	// Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>* Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter::ListData
+	UnsafeList_1_t5D77D9399869F973DD7861206FE7B0BB5254BEDA* ___ListData_0;
+};
+
+// Unity.Collections.NativeList`1/ParallelWriter<Unity.Netcode.Transports.UTP.UnityTransport/SendTarget>
+struct ParallelWriter_t3C162ED583BAE2C535EBBBB3BFC6F5C57D455292 
+{
+	// Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>* Unity.Collections.NativeList`1/ParallelWriter::ListData
+	UnsafeList_1_t501C48EF6B212CE7B242B47AE1184A6DE456C629* ___ListData_0;
+};
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Netcode.Transports.UTP.UnityTransport/SendTarget>
+struct ParallelWriter_tEFE3618DE0C507FD34664ECC5492F65E1CDDC870 
+{
+	// Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>* Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter::ListData
+	UnsafeList_1_t501C48EF6B212CE7B242B47AE1184A6DE456C629* ___ListData_0;
 };
 
 // Unity.Collections.LowLevel.Unsafe.UnsafeHashMap`2/ParallelWriter<Unity.Collections.FixedString64Bytes,System.Int32>
@@ -1855,6 +1986,13 @@ struct BMPAlloc_t29DA9D09157B8BAD2D5643711A53A5F11D216D30
 	uint8_t ___bitIndex_3;
 	// UnityEngine.UIElements.UIR.OwnedState UnityEngine.UIElements.UIR.BMPAlloc::ownedState
 	uint8_t ___ownedState_4;
+};
+
+// Unity.Netcode.BatchHeader
+struct BatchHeader_t91532F4048A735C272961ED089CD374AAB3A019B 
+{
+	// System.UInt16 Unity.Netcode.BatchHeader::BatchSize
+	uint16_t ___BatchSize_0;
 };
 
 // System.Boolean
@@ -2160,6 +2298,20 @@ struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_pinvoke
 // Native definition for COM marshalling of System.Enum
 struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_com
 {
+};
+
+// Unity.Netcode.FastBufferReader
+struct FastBufferReader_t1FA49C2063B2EAAADB8DE7FF571FF284719D0E99 
+{
+	// Unity.Netcode.FastBufferReader/ReaderHandle* Unity.Netcode.FastBufferReader::Handle
+	ReaderHandle_t7A818FF1A9ACF79E6D6322AFF494B9FB12C48CC8* ___Handle_0;
+};
+
+// Unity.Netcode.FastBufferWriter
+struct FastBufferWriter_tE6AFE9436BD125AF309056A81B70F95625FB96EC 
+{
+	// Unity.Netcode.FastBufferWriter/WriterHandle* Unity.Netcode.FastBufferWriter::Handle
+	WriterHandle_tBDBA7A52860089574884E6269EF80A4ABDA26BE6* ___Handle_0;
 };
 
 // Unity.Collections.FixedBytes16
@@ -2783,6 +2935,15 @@ struct Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6
 	float ___m33_15;
 };
 
+// Unity.Netcode.MessageHeader
+struct MessageHeader_tA497137CB00465BF3A030227D406C71C5124B280 
+{
+	// System.UInt32 Unity.Netcode.MessageHeader::MessageType
+	uint32_t ___MessageType_0;
+	// System.UInt32 Unity.Netcode.MessageHeader::MessageSize
+	uint32_t ___MessageSize_1;
+};
+
 // Unity.Services.Core.Telemetry.Internal.Metric
 struct Metric_t98E6B95DCBA4A31D77AF8DA5F592459AB3FE49F3 
 {
@@ -2810,6 +2971,31 @@ struct Metric_t98E6B95DCBA4A31D77AF8DA5F592459AB3FE49F3_marshaled_com
 	double ___Value_1;
 	int32_t ___Type_2;
 	RuntimeObject* ___Tags_3;
+};
+
+// Unity.Collections.NativeQueueBlockHeader
+struct NativeQueueBlockHeader_tD74DEA5A5D8C910AA5ED04C5E89F2FE1B0521004 
+{
+	// Unity.Collections.NativeQueueBlockHeader* Unity.Collections.NativeQueueBlockHeader::m_NextBlock
+	NativeQueueBlockHeader_tD74DEA5A5D8C910AA5ED04C5E89F2FE1B0521004* ___m_NextBlock_0;
+	// System.Int32 Unity.Collections.NativeQueueBlockHeader::m_NumItems
+	int32_t ___m_NumItems_1;
+};
+
+// Unity.Networking.Transport.NetworkConnection
+struct NetworkConnection_t0A1170D9665C62249582E5DAABC2EAF2D01DEDF4 
+{
+	// System.Int32 Unity.Networking.Transport.NetworkConnection::m_NetworkId
+	int32_t ___m_NetworkId_0;
+	// System.Int32 Unity.Networking.Transport.NetworkConnection::m_NetworkVersion
+	int32_t ___m_NetworkVersion_1;
+};
+
+// Unity.Networking.Transport.NetworkPipeline
+struct NetworkPipeline_t83BB00B4CE9811A2B75D37E50EFB85FD60044A69 
+{
+	// System.Int32 Unity.Networking.Transport.NetworkPipeline::Id
+	int32_t ___Id_0;
 };
 
 // UnityEngine.Rendering.Universal.LibTessDotNet.PQHandle
@@ -3467,15 +3653,6 @@ struct RectInt_t1744D10E1063135DA9D574F95205B98DAC600CB8
 	int32_t ___m_Height_3;
 };
 
-// Unity.Netcode.ReleasedNetworkId
-struct ReleasedNetworkId_t7D3158E07773C6B85BCBAA69507DC8BEB8547414 
-{
-	// System.UInt64 Unity.Netcode.ReleasedNetworkId::NetworkId
-	uint64_t ___NetworkId_0;
-	// System.Single Unity.Netcode.ReleasedNetworkId::ReleaseTime
-	float ___ReleaseTime_1;
-};
-
 // UnityEngine.UIElements.UIR.RenderChainTextEntry
 struct RenderChainTextEntry_t3B07A86ED897E1859552D13B1CF046F585CF9D11 
 {
@@ -4089,6 +4266,15 @@ struct ShadowResolutionRequest_tE0E30FA18ACE318D6540C2BA217F4E8B3E6766CA_marshal
 	int32_t ___allocatedResolution_7;
 };
 
+// Unity.Collections.AllocatorManager/AllocatorHandle
+struct AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 
+{
+	// System.UInt16 Unity.Collections.AllocatorManager/AllocatorHandle::Index
+	uint16_t ___Index_0;
+	// System.UInt16 Unity.Collections.AllocatorManager/AllocatorHandle::Version
+	uint16_t ___Version_1;
+};
+
 // UnityEngine.BeforeRenderHelper/OrderBlock
 struct OrderBlock_t62FD6F6544F34B5298DEF2F77AAE446F269B7837 
 {
@@ -4473,6 +4659,15 @@ struct ParametersUpdateMessage_t005A167C8BAC9D5842F589C807ABF3CF4B3EB536_marshal
 	Il2CppSafeArray/*NONE*/* ___Parameters_0;
 };
 
+// Unity.Networking.Transport.NetworkEventQueue/SubQueueItem
+struct SubQueueItem_tAE6DA2A0B68107490190DB4680442767B9D420B7 
+{
+	// System.Int32 Unity.Networking.Transport.NetworkEventQueue/SubQueueItem::connection
+	int32_t ___connection_0;
+	// System.Int32 Unity.Networking.Transport.NetworkEventQueue/SubQueueItem::idx
+	int32_t ___idx_1;
+};
+
 // Unity.Networking.Transport.NetworkInterfaceEndPoint/<data>e__FixedBuffer
 struct U3CdataU3Ee__FixedBuffer_tA444E672C5AB32F413A3235C5075E48F04008AA0 
 {
@@ -4485,6 +4680,25 @@ struct U3CdataU3Ee__FixedBuffer_tA444E672C5AB32F413A3235C5075E48F04008AA0
 		};
 		uint8_t U3CdataU3Ee__FixedBuffer_tA444E672C5AB32F413A3235C5075E48F04008AA0__padding[56];
 	};
+};
+
+// Unity.Networking.Transport.NetworkPipelineProcessor/PipelineImpl
+struct PipelineImpl_t422927EB35F759F18ECBA1C7B075AAC92918017E 
+{
+	// System.Int32 Unity.Networking.Transport.NetworkPipelineProcessor/PipelineImpl::FirstStageIndex
+	int32_t ___FirstStageIndex_0;
+	// System.Int32 Unity.Networking.Transport.NetworkPipelineProcessor/PipelineImpl::NumStages
+	int32_t ___NumStages_1;
+	// System.Int32 Unity.Networking.Transport.NetworkPipelineProcessor/PipelineImpl::receiveBufferOffset
+	int32_t ___receiveBufferOffset_2;
+	// System.Int32 Unity.Networking.Transport.NetworkPipelineProcessor/PipelineImpl::sendBufferOffset
+	int32_t ___sendBufferOffset_3;
+	// System.Int32 Unity.Networking.Transport.NetworkPipelineProcessor/PipelineImpl::sharedBufferOffset
+	int32_t ___sharedBufferOffset_4;
+	// System.Int32 Unity.Networking.Transport.NetworkPipelineProcessor/PipelineImpl::headerCapacity
+	int32_t ___headerCapacity_5;
+	// System.Int32 Unity.Networking.Transport.NetworkPipelineProcessor/PipelineImpl::payloadCapacity
+	int32_t ___payloadCapacity_6;
 };
 
 // Unity.Networking.Transport.NetworkSettings/ParameterSlice
@@ -4596,6 +4810,20 @@ struct SerializablePVProfile_tD3D31A9B22592CE78C6B023E2A4DD629680BD069_marshaled
 {
 	Il2CppChar* ___sceneGUID_0;
 	ProbeReferenceVolumeProfile_t7E258E0C21DBA74C68F6F73D272EB9B56A15C7A5* ___profile_1;
+};
+
+// Unity.Networking.Transport.QueuedSendMessage/<Data>e__FixedBuffer
+struct U3CDataU3Ee__FixedBuffer_t9CA34D06E52CA65A771BBBC587988FFE684EAB0B 
+{
+	union
+	{
+		struct
+		{
+			// System.Byte Unity.Networking.Transport.QueuedSendMessage/<Data>e__FixedBuffer::FixedElementField
+			uint8_t ___FixedElementField_0;
+		};
+		uint8_t U3CDataU3Ee__FixedBuffer_t9CA34D06E52CA65A771BBBC587988FFE684EAB0B__padding[1400];
+	};
 };
 
 // System.Text.RegularExpressions.RegexCharClass/SingleRange
@@ -5118,6 +5346,20 @@ struct ContextMenuItem_t0D29D1ECB0C1F769EFC9ACA2D0AE6B1A8A4736A9_marshaled_com
 	Il2CppMethodPointer ___action_1;
 };
 
+// Unity.Networking.Transport.IPCManager/IPCData/<data>e__FixedBuffer
+struct U3CdataU3Ee__FixedBuffer_t35C35C5485EB6B7C62FF85A3530B348BB20B550F 
+{
+	union
+	{
+		struct
+		{
+			// System.Byte Unity.Networking.Transport.IPCManager/IPCData/<data>e__FixedBuffer::FixedElementField
+			uint8_t ___FixedElementField_0;
+		};
+		uint8_t U3CdataU3Ee__FixedBuffer_t35C35C5485EB6B7C62FF85A3530B348BB20B550F__padding[1400];
+	};
+};
+
 // System.Linq.Expressions.Interpreter.InstructionList/DebugView/InstructionView
 struct InstructionView_tA381D8A27DEDDEE43C71B3BB3A2FADC0CD059A3D 
 {
@@ -5212,19 +5454,6 @@ struct CallbackArray_1_t1A72A00347540C99C2A4BF0488E37A8C1B45C1BE
 	InlinedArray_1_t89D09048674475F5C319FE41264ED79405A8209D ___m_CallbacksToRemove_3;
 };
 
-// System.Collections.Generic.Queue`1/Enumerator<Unity.Netcode.ReleasedNetworkId>
-struct Enumerator_t3C2A019B409CEB54CD6349665DC33F8292D54B5E 
-{
-	// System.Collections.Generic.Queue`1<T> System.Collections.Generic.Queue`1/Enumerator::_q
-	Queue_1_tD0B32970076D62B677279D96972006677EEE25A7* ____q_0;
-	// System.Int32 System.Collections.Generic.Queue`1/Enumerator::_version
-	int32_t ____version_1;
-	// System.Int32 System.Collections.Generic.Queue`1/Enumerator::_index
-	int32_t ____index_2;
-	// T System.Collections.Generic.Queue`1/Enumerator::_currentElement
-	ReleasedNetworkId_t7D3158E07773C6B85BCBAA69507DC8BEB8547414 ____currentElement_3;
-};
-
 // UnityEngine.InputSystem.Utilities.InlinedArray`1<UnityEngine.InputSystem.Users.InputUser/OngoingAccountSelection>
 struct InlinedArray_1_tED5DB880E229C88EB2F96B60C2BFBEC2CA7EC28C 
 {
@@ -5245,6 +5474,78 @@ struct KeyValuePair_2_t7D311E49C5BFA7AD0E1B6BDE838D7428E2CEDA13
 	RuntimeObject* ___value_1;
 };
 
+// Unity.Collections.NativeList`1<Unity.Netcode.DeferredMessageManager/TriggerData>
+struct NativeList_1_t04917686A677DCA96B3A082C15D174D765D4DF5F 
+{
+	// Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>* Unity.Collections.NativeList`1::m_ListData
+	UnsafeList_1_t7576474D288A30F1540A43F66481308FA0558594* ___m_ListData_0;
+	// Unity.Collections.AllocatorManager/AllocatorHandle Unity.Collections.NativeList`1::m_DeprecatedAllocator
+	AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 ___m_DeprecatedAllocator_1;
+};
+
+// Unity.Collections.NativeList`1<Unity.Networking.Transport.IPCManager/IPCData>
+struct NativeList_1_t862569E04EFA1C3B62DB1E9E8147645A790CCF79 
+{
+	// Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>* Unity.Collections.NativeList`1::m_ListData
+	UnsafeList_1_t97F38A4A58468F12153209EBA329A7E123DFCBCB* ___m_ListData_0;
+	// Unity.Collections.AllocatorManager/AllocatorHandle Unity.Collections.NativeList`1::m_DeprecatedAllocator
+	AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 ___m_DeprecatedAllocator_1;
+};
+
+// Unity.Collections.NativeList`1<Unity.Netcode.MessagingSystem/ReceiveQueueItem>
+struct NativeList_1_t138CBF168BB8AFE6930827B640D1B7DDB429657B 
+{
+	// Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>* Unity.Collections.NativeList`1::m_ListData
+	UnsafeList_1_t89BFA272C688229184DE0B26E132A0C55C159B6B* ___m_ListData_0;
+	// Unity.Collections.AllocatorManager/AllocatorHandle Unity.Collections.NativeList`1::m_DeprecatedAllocator
+	AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 ___m_DeprecatedAllocator_1;
+};
+
+// Unity.Collections.NativeList`1<Unity.Netcode.MessagingSystem/SendQueueItem>
+struct NativeList_1_t663B318E0C7E204D6FB8867DB99328D712EACB2C 
+{
+	// Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>* Unity.Collections.NativeList`1::m_ListData
+	UnsafeList_1_tE941F153E0D05B0746B266E9F8686EBDA90F1A12* ___m_ListData_0;
+	// Unity.Collections.AllocatorManager/AllocatorHandle Unity.Collections.NativeList`1::m_DeprecatedAllocator
+	AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 ___m_DeprecatedAllocator_1;
+};
+
+// Unity.Collections.NativeList`1<Unity.Networking.Transport.NetworkDriver/Connection>
+struct NativeList_1_tD3715B1226B4E157D6FC09924FDC7EDC5FC0E8C9 
+{
+	// Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>* Unity.Collections.NativeList`1::m_ListData
+	UnsafeList_1_tF90CD1BACB3990B533D04C98C2C90161BD7F9C20* ___m_ListData_0;
+	// Unity.Collections.AllocatorManager/AllocatorHandle Unity.Collections.NativeList`1::m_DeprecatedAllocator
+	AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 ___m_DeprecatedAllocator_1;
+};
+
+// Unity.Collections.NativeList`1<Unity.Networking.Transport.NetworkPipelineProcessor/PipelineImpl>
+struct NativeList_1_t7D0C4FADF421E663CFE4731E9B320F919701A66C 
+{
+	// Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>* Unity.Collections.NativeList`1::m_ListData
+	UnsafeList_1_t557C9C31121D73D732851DA0465D2D22CFFBF099* ___m_ListData_0;
+	// Unity.Collections.AllocatorManager/AllocatorHandle Unity.Collections.NativeList`1::m_DeprecatedAllocator
+	AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 ___m_DeprecatedAllocator_1;
+};
+
+// Unity.Collections.NativeList`1<Unity.Networking.Transport.NetworkPipelineProcessor/UpdatePipeline>
+struct NativeList_1_t1869FE735F5176A07019C960A26F7477BA6142B3 
+{
+	// Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>* Unity.Collections.NativeList`1::m_ListData
+	UnsafeList_1_t5D77D9399869F973DD7861206FE7B0BB5254BEDA* ___m_ListData_0;
+	// Unity.Collections.AllocatorManager/AllocatorHandle Unity.Collections.NativeList`1::m_DeprecatedAllocator
+	AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 ___m_DeprecatedAllocator_1;
+};
+
+// Unity.Collections.NativeList`1<Unity.Netcode.Transports.UTP.UnityTransport/SendTarget>
+struct NativeList_1_t19C42565694B875C975B0E66AD45E82CDE2EE935 
+{
+	// Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>* Unity.Collections.NativeList`1::m_ListData
+	UnsafeList_1_t501C48EF6B212CE7B242B47AE1184A6DE456C629* ___m_ListData_0;
+	// Unity.Collections.AllocatorManager/AllocatorHandle Unity.Collections.NativeList`1::m_DeprecatedAllocator
+	AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 ___m_DeprecatedAllocator_1;
+};
+
 // System.Nullable`1<Unity.Collections.NativeArray`1<System.UInt64>>
 struct Nullable_1_tABEB3B55130E30F5C126E7166574311CECAF7CF1 
 {
@@ -5252,6 +5553,13 @@ struct Nullable_1_tABEB3B55130E30F5C126E7166574311CECAF7CF1
 	bool ___hasValue_0;
 	// T System.Nullable`1::value
 	NativeArray_1_t07975297AD7F7512193094A7C0703BA872EF7A7B ___value_1;
+};
+
+// Unity.Collections.NativeHashMap`2/ParallelWriter<Unity.Collections.FixedString64Bytes,System.Int32>
+struct ParallelWriter_t04EEB5F9B9077D32CA102FF43469F846B24C56F4 
+{
+	// Unity.Collections.LowLevel.Unsafe.UnsafeHashMap`2/ParallelWriter<TKey,TValue> Unity.Collections.NativeHashMap`2/ParallelWriter::m_Writer
+	ParallelWriter_t88FEDD92B5A8F69BFCB0A3972B37F97109EF5AD7 ___m_Writer_0;
 };
 
 // Unity.Collections.NativeMultiHashMap`2/ParallelWriter<System.Int32,System.Int32>
@@ -5348,6 +5656,176 @@ struct PrimitiveParameterExpression_1_tBC700C0B6EDB3B78BFCEA74F8C24432261BD81AF 
 // System.Linq.Expressions.PrimitiveParameterExpression`1<System.UInt64>
 struct PrimitiveParameterExpression_1_tDF794270F4B8AB052535A17E28757CE8124CAC71  : public ParameterExpression_tE8D3A1137422F75D256CBB200EDC82820F240110
 {
+};
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeList`1<System.IntPtr>
+struct UnsafeList_1_t7F37B06177929AC50704A82689AED5BBFE830613 
+{
+	// T* Unity.Collections.LowLevel.Unsafe.UnsafeList`1::Ptr
+	intptr_t* ___Ptr_0;
+	// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeList`1::m_length
+	int32_t ___m_length_1;
+	// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeList`1::m_capacity
+	int32_t ___m_capacity_2;
+	// Unity.Collections.AllocatorManager/AllocatorHandle Unity.Collections.LowLevel.Unsafe.UnsafeList`1::Allocator
+	AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 ___Allocator_3;
+	// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeList`1::length
+	int32_t ___length_4;
+	// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeList`1::capacity
+	int32_t ___capacity_5;
+};
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeList`1<Unity.Netcode.DeferredMessageManager/TriggerData>
+struct UnsafeList_1_t7576474D288A30F1540A43F66481308FA0558594 
+{
+	// T* Unity.Collections.LowLevel.Unsafe.UnsafeList`1::Ptr
+	TriggerData_t961063E87733CDD8443A71444D93E7529D0FD3F7* ___Ptr_0;
+	// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeList`1::m_length
+	int32_t ___m_length_1;
+	// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeList`1::m_capacity
+	int32_t ___m_capacity_2;
+	// Unity.Collections.AllocatorManager/AllocatorHandle Unity.Collections.LowLevel.Unsafe.UnsafeList`1::Allocator
+	AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 ___Allocator_3;
+	// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeList`1::length
+	int32_t ___length_4;
+	// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeList`1::capacity
+	int32_t ___capacity_5;
+};
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeList`1<Unity.Networking.Transport.IPCManager/IPCData>
+struct UnsafeList_1_t97F38A4A58468F12153209EBA329A7E123DFCBCB 
+{
+	// T* Unity.Collections.LowLevel.Unsafe.UnsafeList`1::Ptr
+	IPCData_t46E9604572E2A38CBBA8A418C6E25E6BAE2757CC* ___Ptr_0;
+	// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeList`1::m_length
+	int32_t ___m_length_1;
+	// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeList`1::m_capacity
+	int32_t ___m_capacity_2;
+	// Unity.Collections.AllocatorManager/AllocatorHandle Unity.Collections.LowLevel.Unsafe.UnsafeList`1::Allocator
+	AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 ___Allocator_3;
+	// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeList`1::length
+	int32_t ___length_4;
+	// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeList`1::capacity
+	int32_t ___capacity_5;
+};
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeList`1<Unity.Netcode.MessagingSystem/ReceiveQueueItem>
+struct UnsafeList_1_t89BFA272C688229184DE0B26E132A0C55C159B6B 
+{
+	// T* Unity.Collections.LowLevel.Unsafe.UnsafeList`1::Ptr
+	ReceiveQueueItem_t60F7AA40B886CF8C6231945A5262F76297738DB6* ___Ptr_0;
+	// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeList`1::m_length
+	int32_t ___m_length_1;
+	// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeList`1::m_capacity
+	int32_t ___m_capacity_2;
+	// Unity.Collections.AllocatorManager/AllocatorHandle Unity.Collections.LowLevel.Unsafe.UnsafeList`1::Allocator
+	AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 ___Allocator_3;
+	// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeList`1::length
+	int32_t ___length_4;
+	// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeList`1::capacity
+	int32_t ___capacity_5;
+};
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeList`1<Unity.Netcode.MessagingSystem/SendQueueItem>
+struct UnsafeList_1_tE941F153E0D05B0746B266E9F8686EBDA90F1A12 
+{
+	// T* Unity.Collections.LowLevel.Unsafe.UnsafeList`1::Ptr
+	SendQueueItem_tFA46EA1EF42596165A1AAE755E4984B2DBFB1B47* ___Ptr_0;
+	// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeList`1::m_length
+	int32_t ___m_length_1;
+	// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeList`1::m_capacity
+	int32_t ___m_capacity_2;
+	// Unity.Collections.AllocatorManager/AllocatorHandle Unity.Collections.LowLevel.Unsafe.UnsafeList`1::Allocator
+	AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 ___Allocator_3;
+	// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeList`1::length
+	int32_t ___length_4;
+	// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeList`1::capacity
+	int32_t ___capacity_5;
+};
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeList`1<Unity.Networking.Transport.NetworkDriver/Connection>
+struct UnsafeList_1_tF90CD1BACB3990B533D04C98C2C90161BD7F9C20 
+{
+	// T* Unity.Collections.LowLevel.Unsafe.UnsafeList`1::Ptr
+	Connection_t57B7A8186502E304AD87933A0FFD76FDF0972D70* ___Ptr_0;
+	// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeList`1::m_length
+	int32_t ___m_length_1;
+	// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeList`1::m_capacity
+	int32_t ___m_capacity_2;
+	// Unity.Collections.AllocatorManager/AllocatorHandle Unity.Collections.LowLevel.Unsafe.UnsafeList`1::Allocator
+	AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 ___Allocator_3;
+	// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeList`1::length
+	int32_t ___length_4;
+	// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeList`1::capacity
+	int32_t ___capacity_5;
+};
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeList`1<Unity.Networking.Transport.NetworkPipelineProcessor/PipelineImpl>
+struct UnsafeList_1_t557C9C31121D73D732851DA0465D2D22CFFBF099 
+{
+	// T* Unity.Collections.LowLevel.Unsafe.UnsafeList`1::Ptr
+	PipelineImpl_t422927EB35F759F18ECBA1C7B075AAC92918017E* ___Ptr_0;
+	// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeList`1::m_length
+	int32_t ___m_length_1;
+	// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeList`1::m_capacity
+	int32_t ___m_capacity_2;
+	// Unity.Collections.AllocatorManager/AllocatorHandle Unity.Collections.LowLevel.Unsafe.UnsafeList`1::Allocator
+	AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 ___Allocator_3;
+	// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeList`1::length
+	int32_t ___length_4;
+	// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeList`1::capacity
+	int32_t ___capacity_5;
+};
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeList`1<Unity.Networking.Transport.NetworkPipelineProcessor/UpdatePipeline>
+struct UnsafeList_1_t5D77D9399869F973DD7861206FE7B0BB5254BEDA 
+{
+	// T* Unity.Collections.LowLevel.Unsafe.UnsafeList`1::Ptr
+	UpdatePipeline_t8D511DB7DDEC2170FC3349B879D1E46CD18C35D2* ___Ptr_0;
+	// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeList`1::m_length
+	int32_t ___m_length_1;
+	// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeList`1::m_capacity
+	int32_t ___m_capacity_2;
+	// Unity.Collections.AllocatorManager/AllocatorHandle Unity.Collections.LowLevel.Unsafe.UnsafeList`1::Allocator
+	AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 ___Allocator_3;
+	// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeList`1::length
+	int32_t ___length_4;
+	// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeList`1::capacity
+	int32_t ___capacity_5;
+};
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeList`1<Unity.Netcode.Transports.UTP.UnityTransport/SendTarget>
+struct UnsafeList_1_t501C48EF6B212CE7B242B47AE1184A6DE456C629 
+{
+	// T* Unity.Collections.LowLevel.Unsafe.UnsafeList`1::Ptr
+	SendTarget_tAD1A6A2A5769AE7D57910A8DA4F258B09A45F653* ___Ptr_0;
+	// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeList`1::m_length
+	int32_t ___m_length_1;
+	// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeList`1::m_capacity
+	int32_t ___m_capacity_2;
+	// Unity.Collections.AllocatorManager/AllocatorHandle Unity.Collections.LowLevel.Unsafe.UnsafeList`1::Allocator
+	AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 ___Allocator_3;
+	// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeList`1::length
+	int32_t ___length_4;
+	// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeList`1::capacity
+	int32_t ___capacity_5;
+};
+
+// Unity.Collections.LowLevel.Unsafe.UnsafePtrList`1<Unity.Baselib.LowLevel.Binding/Baselib_RegisteredNetwork_Buffer>
+struct UnsafePtrList_1_tAD86775FD13A7BFCCD3E9ACA2796FFE62044B970 
+{
+	// T** Unity.Collections.LowLevel.Unsafe.UnsafePtrList`1::Ptr
+	Baselib_RegisteredNetwork_Buffer_t2D0BDFB0FC8B41F70E5AD38C481363BEDC54EB42** ___Ptr_0;
+	// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafePtrList`1::m_length
+	int32_t ___m_length_1;
+	// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafePtrList`1::m_capacity
+	int32_t ___m_capacity_2;
+	// Unity.Collections.AllocatorManager/AllocatorHandle Unity.Collections.LowLevel.Unsafe.UnsafePtrList`1::Allocator
+	AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 ___Allocator_3;
+	// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafePtrList`1::length
+	int32_t ___length_4;
+	// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafePtrList`1::capacity
+	int32_t ___capacity_5;
 };
 
 // System.ValueTuple`2<System.Int32,UnityEngine.Vector2Int>
@@ -6017,6 +6495,34 @@ struct NamedValue_t1D89B1ACD11D2B5284666865014E67683742B8ED_marshaled_com
 {
 	Il2CppChar* ___U3CnameU3Ek__BackingField_1;
 	PrimitiveValue_t1CC37566F40746757D5E3F87474A05909D85C2D4_marshaled_com ___U3CvalueU3Ek__BackingField_2;
+};
+
+// Unity.Collections.NativeQueueBlockPoolData
+struct NativeQueueBlockPoolData_t3A0B3E1B852D995248D51AB68660D1B367D28E87 
+{
+	// System.IntPtr Unity.Collections.NativeQueueBlockPoolData::m_FirstBlock
+	intptr_t ___m_FirstBlock_0;
+	// System.Int32 Unity.Collections.NativeQueueBlockPoolData::m_NumBlocks
+	int32_t ___m_NumBlocks_1;
+	// System.Int32 Unity.Collections.NativeQueueBlockPoolData::m_MaxBlocks
+	int32_t ___m_MaxBlocks_2;
+	// System.Int32 Unity.Collections.NativeQueueBlockPoolData::m_AllocLock
+	int32_t ___m_AllocLock_4;
+};
+
+// Unity.Collections.NativeQueueData
+struct NativeQueueData_t61B94D7FE48C5715DD5D0C8CB574F73BF15C6E52 
+{
+	// System.IntPtr Unity.Collections.NativeQueueData::m_FirstBlock
+	intptr_t ___m_FirstBlock_0;
+	// System.IntPtr Unity.Collections.NativeQueueData::m_LastBlock
+	intptr_t ___m_LastBlock_1;
+	// System.Int32 Unity.Collections.NativeQueueData::m_MaxItems
+	int32_t ___m_MaxItems_2;
+	// System.Int32 Unity.Collections.NativeQueueData::m_CurrentRead
+	int32_t ___m_CurrentRead_3;
+	// System.Byte* Unity.Collections.NativeQueueData::m_CurrentWriteBlockTLS
+	uint8_t* ___m_CurrentWriteBlockTLS_4;
 };
 
 // Unity.Networking.Transport.NetworkInterfaceEndPoint
@@ -6758,6 +7264,32 @@ struct XRView_t2ECA2D8B3ACBDF90DAD643B2766AF68A56E12A27_marshaled_com
 	int32_t ___textureArraySlice_4;
 };
 
+// Unity.Baselib.LowLevel.Binding/Baselib_Memory_PageAllocation
+struct Baselib_Memory_PageAllocation_t2CB618461078D185B36114A1AEC2B62D127827A1 
+{
+	// System.IntPtr Unity.Baselib.LowLevel.Binding/Baselib_Memory_PageAllocation::ptr
+	intptr_t ___ptr_0;
+	// System.UInt64 Unity.Baselib.LowLevel.Binding/Baselib_Memory_PageAllocation::pageSize
+	uint64_t ___pageSize_1;
+	// System.UInt64 Unity.Baselib.LowLevel.Binding/Baselib_Memory_PageAllocation::pageCount
+	uint64_t ___pageCount_2;
+};
+
+// Unity.Netcode.DeferredMessageManager/TriggerData
+struct TriggerData_t961063E87733CDD8443A71444D93E7529D0FD3F7 
+{
+	// Unity.Netcode.FastBufferReader Unity.Netcode.DeferredMessageManager/TriggerData::Reader
+	FastBufferReader_t1FA49C2063B2EAAADB8DE7FF571FF284719D0E99 ___Reader_0;
+	// Unity.Netcode.MessageHeader Unity.Netcode.DeferredMessageManager/TriggerData::Header
+	MessageHeader_tA497137CB00465BF3A030227D406C71C5124B280 ___Header_1;
+	// System.UInt64 Unity.Netcode.DeferredMessageManager/TriggerData::SenderId
+	uint64_t ___SenderId_2;
+	// System.Single Unity.Netcode.DeferredMessageManager/TriggerData::Timestamp
+	float ___Timestamp_3;
+	// System.Int32 Unity.Netcode.DeferredMessageManager/TriggerData::SerializedHeaderSize
+	int32_t ___SerializedHeaderSize_4;
+};
+
 // UnityEngine.InputSystem.HID.HID/HIDElementDescriptor
 struct HIDElementDescriptor_t18CA9618F730F541BA1C873745A1AE71823D4CED 
 {
@@ -6833,6 +7365,51 @@ struct HIDElementDescriptor_t18CA9618F730F541BA1C873745A1AE71823D4CED_marshaled_
 	int32_t ___flags_13;
 	Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 ___usageMin_14;
 	Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 ___usageMax_15;
+};
+
+// Unity.Networking.Transport.IPCManager/IPCData
+struct IPCData_t46E9604572E2A38CBBA8A418C6E25E6BAE2757CC 
+{
+	union
+	{
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			// System.Int32 Unity.Networking.Transport.IPCManager/IPCData::from
+			int32_t ___from_0;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			int32_t ___from_0_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___length_1_OffsetPadding[4];
+			// System.Int32 Unity.Networking.Transport.IPCManager/IPCData::length
+			int32_t ___length_1;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___length_1_OffsetPadding_forAlignmentOnly[4];
+			int32_t ___length_1_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___data_2_OffsetPadding[8];
+			// Unity.Networking.Transport.IPCManager/IPCData/<data>e__FixedBuffer Unity.Networking.Transport.IPCManager/IPCData::data
+			U3CdataU3Ee__FixedBuffer_t35C35C5485EB6B7C62FF85A3530B348BB20B550F ___data_2;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___data_2_OffsetPadding_forAlignmentOnly[8];
+			U3CdataU3Ee__FixedBuffer_t35C35C5485EB6B7C62FF85A3530B348BB20B550F ___data_2_forAlignmentOnly;
+		};
+	};
 };
 
 // UnityEngine.InputSystem.Layouts.InputControlLayout/ControlItem
@@ -6976,6 +7553,43 @@ struct JsonString_tE22CDDA995FEFF514F3F334C93B6AB31B49773CB_marshaled_com
 {
 	Substring_t2E16755269E6716C22074D6BC0A9099915E67849_marshaled_com ___text_0;
 	int32_t ___hasEscapes_1;
+};
+
+// Unity.Netcode.MessagingSystem/ReceiveQueueItem
+struct ReceiveQueueItem_t60F7AA40B886CF8C6231945A5262F76297738DB6 
+{
+	// Unity.Netcode.FastBufferReader Unity.Netcode.MessagingSystem/ReceiveQueueItem::Reader
+	FastBufferReader_t1FA49C2063B2EAAADB8DE7FF571FF284719D0E99 ___Reader_0;
+	// Unity.Netcode.MessageHeader Unity.Netcode.MessagingSystem/ReceiveQueueItem::Header
+	MessageHeader_tA497137CB00465BF3A030227D406C71C5124B280 ___Header_1;
+	// System.UInt64 Unity.Netcode.MessagingSystem/ReceiveQueueItem::SenderId
+	uint64_t ___SenderId_2;
+	// System.Single Unity.Netcode.MessagingSystem/ReceiveQueueItem::Timestamp
+	float ___Timestamp_3;
+	// System.Int32 Unity.Netcode.MessagingSystem/ReceiveQueueItem::MessageHeaderSerializedSize
+	int32_t ___MessageHeaderSerializedSize_4;
+};
+
+// Unity.Netcode.MessagingSystem/SendQueueItem
+struct SendQueueItem_tFA46EA1EF42596165A1AAE755E4984B2DBFB1B47 
+{
+	// Unity.Netcode.BatchHeader Unity.Netcode.MessagingSystem/SendQueueItem::BatchHeader
+	BatchHeader_t91532F4048A735C272961ED089CD374AAB3A019B ___BatchHeader_0;
+	// Unity.Netcode.FastBufferWriter Unity.Netcode.MessagingSystem/SendQueueItem::Writer
+	FastBufferWriter_tE6AFE9436BD125AF309056A81B70F95625FB96EC ___Writer_1;
+	// Unity.Netcode.NetworkDelivery Unity.Netcode.MessagingSystem/SendQueueItem::NetworkDelivery
+	int32_t ___NetworkDelivery_2;
+};
+
+// Unity.Networking.Transport.NetworkPipelineProcessor/UpdatePipeline
+struct UpdatePipeline_t8D511DB7DDEC2170FC3349B879D1E46CD18C35D2 
+{
+	// Unity.Networking.Transport.NetworkPipeline Unity.Networking.Transport.NetworkPipelineProcessor/UpdatePipeline::pipeline
+	NetworkPipeline_t83BB00B4CE9811A2B75D37E50EFB85FD60044A69 ___pipeline_0;
+	// System.Int32 Unity.Networking.Transport.NetworkPipelineProcessor/UpdatePipeline::stage
+	int32_t ___stage_1;
+	// Unity.Networking.Transport.NetworkConnection Unity.Networking.Transport.NetworkPipelineProcessor/UpdatePipeline::connection
+	NetworkConnection_t0A1170D9665C62249582E5DAABC2EAF2D01DEDF4 ___connection_2;
 };
 
 // UnityEngine.Experimental.Rendering.ProbeBrickIndex/Brick
@@ -7365,6 +7979,15 @@ struct AllocToUpdate_tD0221D0ABC5378DDE5AAB1DAA219C337E562B512_marshaled_com
 	int32_t ___copyBackIndices_6;
 };
 
+// Unity.Netcode.Transports.UTP.UnityTransport/SendTarget
+struct SendTarget_tAD1A6A2A5769AE7D57910A8DA4F258B09A45F653 
+{
+	// System.UInt64 Unity.Netcode.Transports.UTP.UnityTransport/SendTarget::ClientId
+	uint64_t ___ClientId_0;
+	// Unity.Networking.Transport.NetworkPipeline Unity.Netcode.Transports.UTP.UnityTransport/SendTarget::NetworkPipeline
+	NetworkPipeline_t83BB00B4CE9811A2B75D37E50EFB85FD60044A69 ___NetworkPipeline_1;
+};
+
 // UnityEngine.XR.Interaction.Toolkit.XRRayInteractor/SamplePoint
 struct SamplePoint_t07822152EA6F1E51CABC74DBB1206EB8828D4B4C 
 {
@@ -7492,6 +8115,17 @@ struct MulticastDelegate_t_marshaled_pinvoke : public Delegate_t_marshaled_pinvo
 struct MulticastDelegate_t_marshaled_com : public Delegate_t_marshaled_com
 {
 	Delegate_t_marshaled_com** ___delegates_13;
+};
+
+// Unity.Networking.Transport.QueuedSendMessage
+struct QueuedSendMessage_t9494177D0BFD69EB7AC297ED869BC9AA81A7D603 
+{
+	// Unity.Networking.Transport.QueuedSendMessage/<Data>e__FixedBuffer Unity.Networking.Transport.QueuedSendMessage::Data
+	U3CDataU3Ee__FixedBuffer_t9CA34D06E52CA65A771BBBC587988FFE684EAB0B ___Data_0;
+	// Unity.Networking.Transport.NetworkInterfaceEndPoint Unity.Networking.Transport.QueuedSendMessage::Dest
+	NetworkInterfaceEndPoint_t19ADA9DC012F2BEFFD7234FF77DA83DB8C8B7686 ___Dest_1;
+	// System.Int32 Unity.Networking.Transport.QueuedSendMessage::DataLength
+	int32_t ___DataLength_2;
 };
 
 // UnityEngine.Rendering.RenderStateBlock
@@ -7719,6 +8353,15 @@ struct VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115  : public Focusab
 	List_1_t96E9133B70FB6765E6B138E810D33E18901715DA* ___m_RunningAnimations_64;
 };
 
+// Unity.Baselib.LowLevel.Binding/Baselib_RegisteredNetwork_Buffer
+struct Baselib_RegisteredNetwork_Buffer_t2D0BDFB0FC8B41F70E5AD38C481363BEDC54EB42 
+{
+	// System.IntPtr Unity.Baselib.LowLevel.Binding/Baselib_RegisteredNetwork_Buffer::id
+	intptr_t ___id_0;
+	// Unity.Baselib.LowLevel.Binding/Baselib_Memory_PageAllocation Unity.Baselib.LowLevel.Binding/Baselib_RegisteredNetwork_Buffer::allocation
+	Baselib_Memory_PageAllocation_t2CB618461078D185B36114A1AEC2B62D127827A1 ___allocation_1;
+};
+
 // UnityEngine.InputSystem.Users.InputUser/GlobalState
 struct GlobalState_t11A6C6C3EF611D00EF34976903A48BCABCD6C9D3 
 {
@@ -7855,6 +8498,33 @@ struct JsonValue_t01DB320267C848E729A400EF2345979978F851D2_marshaled_com
 	List_1_t4A80BCCFB0BC8742C8BB601365DB07226750573A* ___arrayValue_5;
 	Dictionary_2_t6682243BDABA638FCBE4F1D9875B5B1455A7686E* ___objectValue_6;
 	Il2CppIUnknown* ___anyValue_7;
+};
+
+// Unity.Networking.Transport.NetworkDriver/Connection
+struct Connection_t57B7A8186502E304AD87933A0FFD76FDF0972D70 
+{
+	// Unity.Networking.Transport.NetworkInterfaceEndPoint Unity.Networking.Transport.NetworkDriver/Connection::Address
+	NetworkInterfaceEndPoint_t19ADA9DC012F2BEFFD7234FF77DA83DB8C8B7686 ___Address_0;
+	// System.Int64 Unity.Networking.Transport.NetworkDriver/Connection::LastNonDataSend
+	int64_t ___LastNonDataSend_1;
+	// System.Int64 Unity.Networking.Transport.NetworkDriver/Connection::LastReceive
+	int64_t ___LastReceive_2;
+	// System.Int32 Unity.Networking.Transport.NetworkDriver/Connection::Id
+	int32_t ___Id_3;
+	// System.Int32 Unity.Networking.Transport.NetworkDriver/Connection::Version
+	int32_t ___Version_4;
+	// System.Int32 Unity.Networking.Transport.NetworkDriver/Connection::ConnectAttempts
+	int32_t ___ConnectAttempts_5;
+	// Unity.Networking.Transport.NetworkConnection/State Unity.Networking.Transport.NetworkDriver/Connection::State
+	int32_t ___State_6;
+	// Unity.Networking.Transport.SessionIdToken Unity.Networking.Transport.NetworkDriver/Connection::ReceiveToken
+	SessionIdToken_tC99CC2FCFBDC94BA4D4A024CF8863DA9971F1672 ___ReceiveToken_7;
+	// Unity.Networking.Transport.SessionIdToken Unity.Networking.Transport.NetworkDriver/Connection::SendToken
+	SessionIdToken_tC99CC2FCFBDC94BA4D4A024CF8863DA9971F1672 ___SendToken_8;
+	// System.Byte Unity.Networking.Transport.NetworkDriver/Connection::DidReceiveData
+	uint8_t ___DidReceiveData_9;
+	// System.Byte Unity.Networking.Transport.NetworkDriver/Connection::IsAccepted
+	uint8_t ___IsAccepted_10;
 };
 
 // UnityEngine.Experimental.Rendering.ProbeBrickIndex/ReservedBrick
@@ -9504,14 +10174,6 @@ struct Pooled_1_t27E4FD357A3B81F8F35FB8CAB45141E3C6A6795A_StaticFields
 
 // System.Collections.Generic.Queue`1<System.Object>
 
-// System.Collections.Generic.Queue`1<Unity.Netcode.ReleasedNetworkId>
-
-// System.Collections.Generic.Queue`1<Unity.Netcode.ReleasedNetworkId>
-
-// System.Collections.Generic.Queue`1<System.UInt32>
-
-// System.Collections.Generic.Queue`1<System.UInt32>
-
 // UnityEngine.Rendering.Universal.LibTessDotNet.PriorityQueue`1/StackItem<System.Object>
 
 // UnityEngine.Rendering.Universal.LibTessDotNet.PriorityQueue`1/StackItem<System.Object>
@@ -9608,10 +10270,6 @@ struct String_t_StaticFields
 
 // System.Collections.Generic.Queue`1/Enumerator<System.Object>
 
-// System.Collections.Generic.Queue`1/Enumerator<System.UInt32>
-
-// System.Collections.Generic.Queue`1/Enumerator<System.UInt32>
-
 // UnityEngine.InputSystem.Utilities.InlinedArray`1<System.Action`1<UnityEngine.InputSystem.EnhancedTouch.Finger>>
 
 // UnityEngine.InputSystem.Utilities.InlinedArray`1<System.Action`1<UnityEngine.InputSystem.EnhancedTouch.Finger>>
@@ -9675,6 +10333,86 @@ struct String_t_StaticFields
 // System.Nullable`1<System.Int32>
 
 // System.Nullable`1<System.Int32>
+
+// Unity.Collections.NativeQueue`1/ParallelWriter<Unity.Networking.Transport.QueuedSendMessage>
+
+// Unity.Collections.NativeQueue`1/ParallelWriter<Unity.Networking.Transport.QueuedSendMessage>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafePtrList`1/ParallelWriter<Unity.Baselib.LowLevel.Binding/Baselib_RegisteredNetwork_Buffer>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafePtrList`1/ParallelWriter<Unity.Baselib.LowLevel.Binding/Baselib_RegisteredNetwork_Buffer>
+
+// Unity.Collections.NativeList`1/ParallelWriter<Unity.Netcode.DeferredMessageManager/TriggerData>
+
+// Unity.Collections.NativeList`1/ParallelWriter<Unity.Netcode.DeferredMessageManager/TriggerData>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Netcode.DeferredMessageManager/TriggerData>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Netcode.DeferredMessageManager/TriggerData>
+
+// Unity.Collections.NativeList`1/ParallelWriter<Unity.Networking.Transport.IPCManager/IPCData>
+
+// Unity.Collections.NativeList`1/ParallelWriter<Unity.Networking.Transport.IPCManager/IPCData>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Networking.Transport.IPCManager/IPCData>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Networking.Transport.IPCManager/IPCData>
+
+// Unity.Collections.NativeList`1/ParallelWriter<Unity.Netcode.MessagingSystem/ReceiveQueueItem>
+
+// Unity.Collections.NativeList`1/ParallelWriter<Unity.Netcode.MessagingSystem/ReceiveQueueItem>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Netcode.MessagingSystem/ReceiveQueueItem>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Netcode.MessagingSystem/ReceiveQueueItem>
+
+// Unity.Collections.NativeList`1/ParallelWriter<Unity.Netcode.MessagingSystem/SendQueueItem>
+
+// Unity.Collections.NativeList`1/ParallelWriter<Unity.Netcode.MessagingSystem/SendQueueItem>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Netcode.MessagingSystem/SendQueueItem>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Netcode.MessagingSystem/SendQueueItem>
+
+// Unity.Collections.NativeList`1/ParallelWriter<Unity.Networking.Transport.NetworkDriver/Connection>
+
+// Unity.Collections.NativeList`1/ParallelWriter<Unity.Networking.Transport.NetworkDriver/Connection>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Networking.Transport.NetworkDriver/Connection>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Networking.Transport.NetworkDriver/Connection>
+
+// Unity.Collections.NativeQueue`1/ParallelWriter<Unity.Networking.Transport.NetworkEventQueue/SubQueueItem>
+
+// Unity.Collections.NativeQueue`1/ParallelWriter<Unity.Networking.Transport.NetworkEventQueue/SubQueueItem>
+
+// Unity.Collections.NativeList`1/ParallelWriter<Unity.Networking.Transport.NetworkPipelineProcessor/PipelineImpl>
+
+// Unity.Collections.NativeList`1/ParallelWriter<Unity.Networking.Transport.NetworkPipelineProcessor/PipelineImpl>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Networking.Transport.NetworkPipelineProcessor/PipelineImpl>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Networking.Transport.NetworkPipelineProcessor/PipelineImpl>
+
+// Unity.Collections.NativeList`1/ParallelWriter<Unity.Networking.Transport.NetworkPipelineProcessor/UpdatePipeline>
+
+// Unity.Collections.NativeList`1/ParallelWriter<Unity.Networking.Transport.NetworkPipelineProcessor/UpdatePipeline>
+
+// Unity.Collections.NativeQueue`1/ParallelWriter<Unity.Networking.Transport.NetworkPipelineProcessor/UpdatePipeline>
+
+// Unity.Collections.NativeQueue`1/ParallelWriter<Unity.Networking.Transport.NetworkPipelineProcessor/UpdatePipeline>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Networking.Transport.NetworkPipelineProcessor/UpdatePipeline>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Networking.Transport.NetworkPipelineProcessor/UpdatePipeline>
+
+// Unity.Collections.NativeList`1/ParallelWriter<Unity.Netcode.Transports.UTP.UnityTransport/SendTarget>
+
+// Unity.Collections.NativeList`1/ParallelWriter<Unity.Netcode.Transports.UTP.UnityTransport/SendTarget>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Netcode.Transports.UTP.UnityTransport/SendTarget>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Netcode.Transports.UTP.UnityTransport/SendTarget>
 
 // Unity.Collections.LowLevel.Unsafe.UnsafeHashMap`2/ParallelWriter<Unity.Collections.FixedString64Bytes,System.Int32>
 
@@ -9789,6 +10527,10 @@ struct BMPAlloc_t29DA9D09157B8BAD2D5643711A53A5F11D216D30_StaticFields
 
 // UnityEngine.UIElements.UIR.BMPAlloc
 
+// Unity.Netcode.BatchHeader
+
+// Unity.Netcode.BatchHeader
+
 // System.Boolean
 struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
 {
@@ -9895,6 +10637,19 @@ struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_StaticFields
 };
 
 // System.Enum
+
+// Unity.Netcode.FastBufferReader
+
+// Unity.Netcode.FastBufferReader
+
+// Unity.Netcode.FastBufferWriter
+struct FastBufferWriter_tE6AFE9436BD125AF309056A81B70F95625FB96EC_StaticFields
+{
+	// System.Byte[] Unity.Netcode.FastBufferWriter::s_ByteArrayCache
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___s_ByteArrayCache_1;
+};
+
+// Unity.Netcode.FastBufferWriter
 
 // Unity.Collections.FixedBytes16
 
@@ -10015,9 +10770,25 @@ struct Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6_StaticFields
 
 // UnityEngine.Matrix4x4
 
+// Unity.Netcode.MessageHeader
+
+// Unity.Netcode.MessageHeader
+
 // Unity.Services.Core.Telemetry.Internal.Metric
 
 // Unity.Services.Core.Telemetry.Internal.Metric
+
+// Unity.Collections.NativeQueueBlockHeader
+
+// Unity.Collections.NativeQueueBlockHeader
+
+// Unity.Networking.Transport.NetworkConnection
+
+// Unity.Networking.Transport.NetworkConnection
+
+// Unity.Networking.Transport.NetworkPipeline
+
+// Unity.Networking.Transport.NetworkPipeline
 
 // UnityEngine.Rendering.Universal.LibTessDotNet.PQHandle
 struct PQHandle_t96E5130EBA537AEB88E7D51B009EEFF616A18C1B_StaticFields
@@ -10077,10 +10848,6 @@ struct RasterState_tA30E8336EA5D1E2152A6C7252F15384985B98A26_StaticFields
 // UnityEngine.RectInt
 
 // UnityEngine.RectInt
-
-// Unity.Netcode.ReleasedNetworkId
-
-// Unity.Netcode.ReleasedNetworkId
 
 // UnityEngine.UIElements.UIR.RenderChainTextEntry
 
@@ -10364,6 +11131,10 @@ struct Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_StaticFields
 
 // UnityEngine.Rendering.Universal.Internal.AdditionalLightsShadowCasterPass/ShadowResolutionRequest
 
+// Unity.Collections.AllocatorManager/AllocatorHandle
+
+// Unity.Collections.AllocatorManager/AllocatorHandle
+
 // UnityEngine.BeforeRenderHelper/OrderBlock
 
 // UnityEngine.BeforeRenderHelper/OrderBlock
@@ -10436,9 +11207,17 @@ struct Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_StaticFields
 
 // Unity.Netcode.Components.NetworkAnimator/ParametersUpdateMessage
 
+// Unity.Networking.Transport.NetworkEventQueue/SubQueueItem
+
+// Unity.Networking.Transport.NetworkEventQueue/SubQueueItem
+
 // Unity.Networking.Transport.NetworkInterfaceEndPoint/<data>e__FixedBuffer
 
 // Unity.Networking.Transport.NetworkInterfaceEndPoint/<data>e__FixedBuffer
+
+// Unity.Networking.Transport.NetworkPipelineProcessor/PipelineImpl
+
+// Unity.Networking.Transport.NetworkPipelineProcessor/PipelineImpl
 
 // Unity.Networking.Transport.NetworkSettings/ParameterSlice
 
@@ -10467,6 +11246,10 @@ struct Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_StaticFields
 // UnityEngine.Experimental.Rendering.ProbeVolumeSceneData/SerializablePVProfile
 
 // UnityEngine.Experimental.Rendering.ProbeVolumeSceneData/SerializablePVProfile
+
+// Unity.Networking.Transport.QueuedSendMessage/<Data>e__FixedBuffer
+
+// Unity.Networking.Transport.QueuedSendMessage/<Data>e__FixedBuffer
 
 // System.Text.RegularExpressions.RegexCharClass/SingleRange
 
@@ -10561,6 +11344,10 @@ struct UsingEntry_t0454AD34026FDFD1733CE07BD4AE807B0FBCE484_StaticFields
 
 // UnityEngine.Rendering.DebugUI/Foldout/ContextMenuItem
 
+// Unity.Networking.Transport.IPCManager/IPCData/<data>e__FixedBuffer
+
+// Unity.Networking.Transport.IPCManager/IPCData/<data>e__FixedBuffer
+
 // System.Linq.Expressions.Interpreter.InstructionList/DebugView/InstructionView
 
 // System.Linq.Expressions.Interpreter.InstructionList/DebugView/InstructionView
@@ -10585,10 +11372,6 @@ struct UsingEntry_t0454AD34026FDFD1733CE07BD4AE807B0FBCE484_StaticFields
 
 // UnityEngine.InputSystem.Utilities.CallbackArray`1<System.Func`3<UnityEngine.InputSystem.InputDevice,UnityEngine.InputSystem.LowLevel.InputEventPtr,System.Boolean>>
 
-// System.Collections.Generic.Queue`1/Enumerator<Unity.Netcode.ReleasedNetworkId>
-
-// System.Collections.Generic.Queue`1/Enumerator<Unity.Netcode.ReleasedNetworkId>
-
 // UnityEngine.InputSystem.Utilities.InlinedArray`1<UnityEngine.InputSystem.Users.InputUser/OngoingAccountSelection>
 
 // UnityEngine.InputSystem.Utilities.InlinedArray`1<UnityEngine.InputSystem.Users.InputUser/OngoingAccountSelection>
@@ -10597,9 +11380,45 @@ struct UsingEntry_t0454AD34026FDFD1733CE07BD4AE807B0FBCE484_StaticFields
 
 // System.Collections.Generic.KeyValuePair`2<UnityEngine.PropertyName,System.Object>
 
+// Unity.Collections.NativeList`1<Unity.Netcode.DeferredMessageManager/TriggerData>
+
+// Unity.Collections.NativeList`1<Unity.Netcode.DeferredMessageManager/TriggerData>
+
+// Unity.Collections.NativeList`1<Unity.Networking.Transport.IPCManager/IPCData>
+
+// Unity.Collections.NativeList`1<Unity.Networking.Transport.IPCManager/IPCData>
+
+// Unity.Collections.NativeList`1<Unity.Netcode.MessagingSystem/ReceiveQueueItem>
+
+// Unity.Collections.NativeList`1<Unity.Netcode.MessagingSystem/ReceiveQueueItem>
+
+// Unity.Collections.NativeList`1<Unity.Netcode.MessagingSystem/SendQueueItem>
+
+// Unity.Collections.NativeList`1<Unity.Netcode.MessagingSystem/SendQueueItem>
+
+// Unity.Collections.NativeList`1<Unity.Networking.Transport.NetworkDriver/Connection>
+
+// Unity.Collections.NativeList`1<Unity.Networking.Transport.NetworkDriver/Connection>
+
+// Unity.Collections.NativeList`1<Unity.Networking.Transport.NetworkPipelineProcessor/PipelineImpl>
+
+// Unity.Collections.NativeList`1<Unity.Networking.Transport.NetworkPipelineProcessor/PipelineImpl>
+
+// Unity.Collections.NativeList`1<Unity.Networking.Transport.NetworkPipelineProcessor/UpdatePipeline>
+
+// Unity.Collections.NativeList`1<Unity.Networking.Transport.NetworkPipelineProcessor/UpdatePipeline>
+
+// Unity.Collections.NativeList`1<Unity.Netcode.Transports.UTP.UnityTransport/SendTarget>
+
+// Unity.Collections.NativeList`1<Unity.Netcode.Transports.UTP.UnityTransport/SendTarget>
+
 // System.Nullable`1<Unity.Collections.NativeArray`1<System.UInt64>>
 
 // System.Nullable`1<Unity.Collections.NativeArray`1<System.UInt64>>
+
+// Unity.Collections.NativeHashMap`2/ParallelWriter<Unity.Collections.FixedString64Bytes,System.Int32>
+
+// Unity.Collections.NativeHashMap`2/ParallelWriter<Unity.Collections.FixedString64Bytes,System.Int32>
 
 // Unity.Collections.NativeMultiHashMap`2/ParallelWriter<System.Int32,System.Int32>
 
@@ -10672,6 +11491,46 @@ struct UsingEntry_t0454AD34026FDFD1733CE07BD4AE807B0FBCE484_StaticFields
 // System.Linq.Expressions.PrimitiveParameterExpression`1<System.UInt64>
 
 // System.Linq.Expressions.PrimitiveParameterExpression`1<System.UInt64>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeList`1<System.IntPtr>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeList`1<System.IntPtr>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeList`1<Unity.Netcode.DeferredMessageManager/TriggerData>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeList`1<Unity.Netcode.DeferredMessageManager/TriggerData>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeList`1<Unity.Networking.Transport.IPCManager/IPCData>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeList`1<Unity.Networking.Transport.IPCManager/IPCData>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeList`1<Unity.Netcode.MessagingSystem/ReceiveQueueItem>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeList`1<Unity.Netcode.MessagingSystem/ReceiveQueueItem>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeList`1<Unity.Netcode.MessagingSystem/SendQueueItem>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeList`1<Unity.Netcode.MessagingSystem/SendQueueItem>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeList`1<Unity.Networking.Transport.NetworkDriver/Connection>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeList`1<Unity.Networking.Transport.NetworkDriver/Connection>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeList`1<Unity.Networking.Transport.NetworkPipelineProcessor/PipelineImpl>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeList`1<Unity.Networking.Transport.NetworkPipelineProcessor/PipelineImpl>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeList`1<Unity.Networking.Transport.NetworkPipelineProcessor/UpdatePipeline>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeList`1<Unity.Networking.Transport.NetworkPipelineProcessor/UpdatePipeline>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeList`1<Unity.Netcode.Transports.UTP.UnityTransport/SendTarget>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafeList`1<Unity.Netcode.Transports.UTP.UnityTransport/SendTarget>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafePtrList`1<Unity.Baselib.LowLevel.Binding/Baselib_RegisteredNetwork_Buffer>
+
+// Unity.Collections.LowLevel.Unsafe.UnsafePtrList`1<Unity.Baselib.LowLevel.Binding/Baselib_RegisteredNetwork_Buffer>
 
 // System.ValueTuple`2<System.Int32,UnityEngine.Vector2Int>
 
@@ -10794,6 +11653,14 @@ struct InputDeviceMatcher_tF9BA551C8BB4AE41672366A7EBEA951543E0C555_StaticFields
 
 // UnityEngine.InputSystem.Utilities.NamedValue
 
+// Unity.Collections.NativeQueueBlockPoolData
+
+// Unity.Collections.NativeQueueBlockPoolData
+
+// Unity.Collections.NativeQueueData
+
+// Unity.Collections.NativeQueueData
+
 // Unity.Networking.Transport.NetworkInterfaceEndPoint
 
 // Unity.Networking.Transport.NetworkInterfaceEndPoint
@@ -10901,9 +11768,21 @@ struct UIVertex_tF5C663F4BBC786C9D56C28016FF66E6C6BF85207_StaticFields
 
 // UnityEngine.Rendering.Universal.XRView
 
+// Unity.Baselib.LowLevel.Binding/Baselib_Memory_PageAllocation
+
+// Unity.Baselib.LowLevel.Binding/Baselib_Memory_PageAllocation
+
+// Unity.Netcode.DeferredMessageManager/TriggerData
+
+// Unity.Netcode.DeferredMessageManager/TriggerData
+
 // UnityEngine.InputSystem.HID.HID/HIDElementDescriptor
 
 // UnityEngine.InputSystem.HID.HID/HIDElementDescriptor
+
+// Unity.Networking.Transport.IPCManager/IPCData
+
+// Unity.Networking.Transport.IPCManager/IPCData
 
 // UnityEngine.InputSystem.Layouts.InputControlLayout/ControlItem
 
@@ -10916,6 +11795,18 @@ struct UIVertex_tF5C663F4BBC786C9D56C28016FF66E6C6BF85207_StaticFields
 // UnityEngine.InputSystem.Utilities.JsonParser/JsonString
 
 // UnityEngine.InputSystem.Utilities.JsonParser/JsonString
+
+// Unity.Netcode.MessagingSystem/ReceiveQueueItem
+
+// Unity.Netcode.MessagingSystem/ReceiveQueueItem
+
+// Unity.Netcode.MessagingSystem/SendQueueItem
+
+// Unity.Netcode.MessagingSystem/SendQueueItem
+
+// Unity.Networking.Transport.NetworkPipelineProcessor/UpdatePipeline
+
+// Unity.Networking.Transport.NetworkPipelineProcessor/UpdatePipeline
 
 // UnityEngine.Experimental.Rendering.ProbeBrickIndex/Brick
 
@@ -10960,6 +11851,10 @@ struct UIVertex_tF5C663F4BBC786C9D56C28016FF66E6C6BF85207_StaticFields
 // UnityEngine.UIElements.UIR.UIRenderDevice/AllocToUpdate
 
 // UnityEngine.UIElements.UIR.UIRenderDevice/AllocToUpdate
+
+// Unity.Netcode.Transports.UTP.UnityTransport/SendTarget
+
+// Unity.Netcode.Transports.UTP.UnityTransport/SendTarget
 
 // UnityEngine.XR.Interaction.Toolkit.XRRayInteractor/SamplePoint
 
@@ -10999,6 +11894,10 @@ struct EventBase_1_t2B9B970022841F58172C0C783B7E1040BEF85AC1_StaticFields
 // System.MulticastDelegate
 
 // System.MulticastDelegate
+
+// Unity.Networking.Transport.QueuedSendMessage
+
+// Unity.Networking.Transport.QueuedSendMessage
 
 // UnityEngine.Rendering.RenderStateBlock
 
@@ -11066,6 +11965,10 @@ struct VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115_StaticFields
 
 // UnityEngine.UIElements.VisualElement
 
+// Unity.Baselib.LowLevel.Binding/Baselib_RegisteredNetwork_Buffer
+
+// Unity.Baselib.LowLevel.Binding/Baselib_RegisteredNetwork_Buffer
+
 // UnityEngine.InputSystem.Users.InputUser/GlobalState
 
 // UnityEngine.InputSystem.Users.InputUser/GlobalState
@@ -11073,6 +11976,10 @@ struct VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115_StaticFields
 // UnityEngine.InputSystem.Utilities.JsonParser/JsonValue
 
 // UnityEngine.InputSystem.Utilities.JsonParser/JsonValue
+
+// Unity.Networking.Transport.NetworkDriver/Connection
+
+// Unity.Networking.Transport.NetworkDriver/Connection
 
 // UnityEngine.Experimental.Rendering.ProbeBrickIndex/ReservedBrick
 
@@ -12254,78 +13161,230 @@ struct HandleElemU5BU5D_t189482DC4CE6DE269E569AC7A07BFD95FBC0C00C  : public Runt
 		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
 	}
 };
-// Unity.Netcode.ReleasedNetworkId[]
-struct ReleasedNetworkIdU5BU5D_t52D25C7546481273DC02D6EA1296FB2E1D76F6DD  : public RuntimeArray
-{
-	ALIGN_FIELD (8) ReleasedNetworkId_t7D3158E07773C6B85BCBAA69507DC8BEB8547414 m_Items[1];
-
-	inline ReleasedNetworkId_t7D3158E07773C6B85BCBAA69507DC8BEB8547414 GetAt(il2cpp_array_size_t index) const
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items[index];
-	}
-	inline ReleasedNetworkId_t7D3158E07773C6B85BCBAA69507DC8BEB8547414* GetAddressAt(il2cpp_array_size_t index)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items + index;
-	}
-	inline void SetAt(il2cpp_array_size_t index, ReleasedNetworkId_t7D3158E07773C6B85BCBAA69507DC8BEB8547414 value)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		m_Items[index] = value;
-	}
-	inline ReleasedNetworkId_t7D3158E07773C6B85BCBAA69507DC8BEB8547414 GetAtUnchecked(il2cpp_array_size_t index) const
-	{
-		return m_Items[index];
-	}
-	inline ReleasedNetworkId_t7D3158E07773C6B85BCBAA69507DC8BEB8547414* GetAddressAtUnchecked(il2cpp_array_size_t index)
-	{
-		return m_Items + index;
-	}
-	inline void SetAtUnchecked(il2cpp_array_size_t index, ReleasedNetworkId_t7D3158E07773C6B85BCBAA69507DC8BEB8547414 value)
-	{
-		m_Items[index] = value;
-	}
-};
-// System.UInt32[]
-struct UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA  : public RuntimeArray
-{
-	ALIGN_FIELD (8) uint32_t m_Items[1];
-
-	inline uint32_t GetAt(il2cpp_array_size_t index) const
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items[index];
-	}
-	inline uint32_t* GetAddressAt(il2cpp_array_size_t index)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items + index;
-	}
-	inline void SetAt(il2cpp_array_size_t index, uint32_t value)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		m_Items[index] = value;
-	}
-	inline uint32_t GetAtUnchecked(il2cpp_array_size_t index) const
-	{
-		return m_Items[index];
-	}
-	inline uint32_t* GetAddressAtUnchecked(il2cpp_array_size_t index)
-	{
-		return m_Items + index;
-	}
-	inline void SetAtUnchecked(il2cpp_array_size_t index, uint32_t value)
-	{
-		m_Items[index] = value;
-	}
-};
 
 
+// System.Void Unity.Collections.NativeQueue`1/ParallelWriter<Unity.Networking.Transport.QueuedSendMessage>::Enqueue(T)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_Enqueue_mEAA74296ADA3C3413CE1D10522F19ECCA2AA0841_gshared (ParallelWriter_tD2337D6A048735D05F7C0698B7FEEDAD7153DE97* __this, QueuedSendMessage_t9494177D0BFD69EB7AC297ED869BC9AA81A7D603 ___0_value, const RuntimeMethod* method) ;
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafePtrList`1/ParallelWriter<Unity.Baselib.LowLevel.Binding/Baselib_RegisteredNetwork_Buffer>::.ctor(T**,Unity.Collections.LowLevel.Unsafe.UnsafeList`1<System.IntPtr>*)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m535D73F469396DC29425F542A5791BD8BD5AF1F6_gshared (ParallelWriter_t940D3FB37B7548484C5E6F493E6AB17E17D94326* __this, Baselib_RegisteredNetwork_Buffer_t2D0BDFB0FC8B41F70E5AD38C481363BEDC54EB42** ___0_ptr, UnsafeList_1_t7F37B06177929AC50704A82689AED5BBFE830613* ___1_listData, const RuntimeMethod* method) ;
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1<System.IntPtr>::AddNoResize(T)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnsafeList_1_AddNoResize_m4752E4711FAE546C2C0CE090C639FE6F4BA23BED_gshared (UnsafeList_1_t7F37B06177929AC50704A82689AED5BBFE830613* __this, intptr_t ___0_value, const RuntimeMethod* method) ;
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafePtrList`1/ParallelWriter<Unity.Baselib.LowLevel.Binding/Baselib_RegisteredNetwork_Buffer>::AddNoResize(T*)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_m8FF0A02D0622989A4FC73984A5381C0C820EDA95_gshared (ParallelWriter_t940D3FB37B7548484C5E6F493E6AB17E17D94326* __this, Baselib_RegisteredNetwork_Buffer_t2D0BDFB0FC8B41F70E5AD38C481363BEDC54EB42* ___0_value, const RuntimeMethod* method) ;
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1<System.IntPtr>::AddRangeNoResize(System.Void*,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnsafeList_1_AddRangeNoResize_m81FD9782A3159D8F6EF737C45F8AE808927345BC_gshared (UnsafeList_1_t7F37B06177929AC50704A82689AED5BBFE830613* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) ;
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafePtrList`1/ParallelWriter<Unity.Baselib.LowLevel.Binding/Baselib_RegisteredNetwork_Buffer>::AddRangeNoResize(T**,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m7A72658C815AB5F182873EE86592A11CAA8A8256_gshared (ParallelWriter_t940D3FB37B7548484C5E6F493E6AB17E17D94326* __this, Baselib_RegisteredNetwork_Buffer_t2D0BDFB0FC8B41F70E5AD38C481363BEDC54EB42** ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) ;
+// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafePtrList`1<Unity.Baselib.LowLevel.Binding/Baselib_RegisteredNetwork_Buffer>::get_Length()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafePtrList_1_get_Length_m15692B27C70D921B523A72C7D2A5DA6A9EB12EB4_gshared (UnsafePtrList_1_tAD86775FD13A7BFCCD3E9ACA2796FFE62044B970* __this, const RuntimeMethod* method) ;
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafePtrList`1/ParallelWriter<Unity.Baselib.LowLevel.Binding/Baselib_RegisteredNetwork_Buffer>::AddRangeNoResize(Unity.Collections.LowLevel.Unsafe.UnsafePtrList`1<T>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m20B593CB7215C74092C07168207F5801E1C412FE_gshared (ParallelWriter_t940D3FB37B7548484C5E6F493E6AB17E17D94326* __this, UnsafePtrList_1_tAD86775FD13A7BFCCD3E9ACA2796FFE62044B970 ___0_list, const RuntimeMethod* method) ;
+// System.Void* Unity.Collections.NativeList`1/ParallelWriter<Unity.Netcode.DeferredMessageManager/TriggerData>::get_Ptr()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mC680C28015BFCC8C1D899129FB42F585A4BAC8AE_gshared (ParallelWriter_t03F7F8FE5DC88E316BF956D72795F40611400D56* __this, const RuntimeMethod* method) ;
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Netcode.DeferredMessageManager/TriggerData>::.ctor(Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>*)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m7FC6EBE0D0F791D44AD2C55DD02E2ABEB45D1874_gshared (ParallelWriter_t03F7F8FE5DC88E316BF956D72795F40611400D56* __this, UnsafeList_1_t7576474D288A30F1540A43F66481308FA0558594* ___0_listData, const RuntimeMethod* method) ;
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Netcode.DeferredMessageManager/TriggerData>::AddNoResize(T)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_m15A2624F312B029412435336EB55B4511A034222_gshared (ParallelWriter_t03F7F8FE5DC88E316BF956D72795F40611400D56* __this, TriggerData_t961063E87733CDD8443A71444D93E7529D0FD3F7 ___0_value, const RuntimeMethod* method) ;
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Netcode.DeferredMessageManager/TriggerData>::AddRangeNoResize(System.Void*,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m299925BAE61F6D26C87729CF3FE7CC8690310273_gshared (ParallelWriter_t03F7F8FE5DC88E316BF956D72795F40611400D56* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) ;
+// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeList`1<Unity.Netcode.DeferredMessageManager/TriggerData>::get_Length()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_mA3FB705F0992938D857A1684F1E4C8F8A6A31199_gshared (UnsafeList_1_t7576474D288A30F1540A43F66481308FA0558594* __this, const RuntimeMethod* method) ;
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Netcode.DeferredMessageManager/TriggerData>::AddRangeNoResize(Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m1CBDF76AAE55B8EC223142CD290FDD09FD3A5489_gshared (ParallelWriter_t03F7F8FE5DC88E316BF956D72795F40611400D56* __this, UnsafeList_1_t7576474D288A30F1540A43F66481308FA0558594 ___0_list, const RuntimeMethod* method) ;
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Netcode.DeferredMessageManager/TriggerData>::AddRangeNoResize(Unity.Collections.NativeList`1<T>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m4AB112FEE213B9E7F79D8F7841B434B3E66402FC_gshared (ParallelWriter_t03F7F8FE5DC88E316BF956D72795F40611400D56* __this, NativeList_1_t04917686A677DCA96B3A082C15D174D765D4DF5F ___0_list, const RuntimeMethod* method) ;
+// System.Void* Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Netcode.DeferredMessageManager/TriggerData>::get_Ptr()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m4D96F5960AD16999716BA033F4EBBA2D7B071B23_gshared (ParallelWriter_t441F54F89444B12280079F24628FBE42D4628577* __this, const RuntimeMethod* method) ;
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Netcode.DeferredMessageManager/TriggerData>::.ctor(Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>*)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mFB7CFADB9B90234B216219830FFF35053CE49455_gshared (ParallelWriter_t441F54F89444B12280079F24628FBE42D4628577* __this, UnsafeList_1_t7576474D288A30F1540A43F66481308FA0558594* ___0_listData, const RuntimeMethod* method) ;
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Netcode.DeferredMessageManager/TriggerData>::AddNoResize(T)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_mFB23728EB19D542CF7D7F2D7C8458F2154F1B6B5_gshared (ParallelWriter_t441F54F89444B12280079F24628FBE42D4628577* __this, TriggerData_t961063E87733CDD8443A71444D93E7529D0FD3F7 ___0_value, const RuntimeMethod* method) ;
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Netcode.DeferredMessageManager/TriggerData>::AddRangeNoResize(System.Void*,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mD5547477F3294B765A75C93D6EABEAF5756C2EAA_gshared (ParallelWriter_t441F54F89444B12280079F24628FBE42D4628577* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) ;
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Netcode.DeferredMessageManager/TriggerData>::AddRangeNoResize(Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mFCB2B9B3256548E94170C5F193F0991D5AA5587A_gshared (ParallelWriter_t441F54F89444B12280079F24628FBE42D4628577* __this, UnsafeList_1_t7576474D288A30F1540A43F66481308FA0558594 ___0_list, const RuntimeMethod* method) ;
+// System.Void* Unity.Collections.NativeList`1/ParallelWriter<Unity.Networking.Transport.IPCManager/IPCData>::get_Ptr()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mAAE6180AED8CA66B560E66181EB883CD32750D9A_gshared (ParallelWriter_t94F9FFD53B9AE8430CD8498CF5CBB71E789E2901* __this, const RuntimeMethod* method) ;
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Networking.Transport.IPCManager/IPCData>::.ctor(Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>*)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m220E0D828A67437520CDA89F7509906ADA399534_gshared (ParallelWriter_t94F9FFD53B9AE8430CD8498CF5CBB71E789E2901* __this, UnsafeList_1_t97F38A4A58468F12153209EBA329A7E123DFCBCB* ___0_listData, const RuntimeMethod* method) ;
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Networking.Transport.IPCManager/IPCData>::AddNoResize(T)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_mF905E95D307860BE743472A37BF5723E1CCF3070_gshared (ParallelWriter_t94F9FFD53B9AE8430CD8498CF5CBB71E789E2901* __this, IPCData_t46E9604572E2A38CBBA8A418C6E25E6BAE2757CC ___0_value, const RuntimeMethod* method) ;
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Networking.Transport.IPCManager/IPCData>::AddRangeNoResize(System.Void*,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m48C5FF1102D91120EFD61CA6B572701E6E322597_gshared (ParallelWriter_t94F9FFD53B9AE8430CD8498CF5CBB71E789E2901* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) ;
+// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeList`1<Unity.Networking.Transport.IPCManager/IPCData>::get_Length()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_mD26D7CFCB3AC3919F73F74559377C21C945739D9_gshared (UnsafeList_1_t97F38A4A58468F12153209EBA329A7E123DFCBCB* __this, const RuntimeMethod* method) ;
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Networking.Transport.IPCManager/IPCData>::AddRangeNoResize(Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m75AFD1C3D0EDFBAE58F6444527EEBAD63350F218_gshared (ParallelWriter_t94F9FFD53B9AE8430CD8498CF5CBB71E789E2901* __this, UnsafeList_1_t97F38A4A58468F12153209EBA329A7E123DFCBCB ___0_list, const RuntimeMethod* method) ;
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Networking.Transport.IPCManager/IPCData>::AddRangeNoResize(Unity.Collections.NativeList`1<T>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mDB01C0AA0390A7BB09C61552C01EDBD049532381_gshared (ParallelWriter_t94F9FFD53B9AE8430CD8498CF5CBB71E789E2901* __this, NativeList_1_t862569E04EFA1C3B62DB1E9E8147645A790CCF79 ___0_list, const RuntimeMethod* method) ;
+// System.Void* Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Networking.Transport.IPCManager/IPCData>::get_Ptr()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mC289A13A6A5F6DD25EFAA4BC8F4477C06C614E1F_gshared (ParallelWriter_t2CB5D534A368A60C6135B62EED9189BC2479772E* __this, const RuntimeMethod* method) ;
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Networking.Transport.IPCManager/IPCData>::.ctor(Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>*)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mAB8E6356CE8E4DBDD7C7AF5D91E333C315F30222_gshared (ParallelWriter_t2CB5D534A368A60C6135B62EED9189BC2479772E* __this, UnsafeList_1_t97F38A4A58468F12153209EBA329A7E123DFCBCB* ___0_listData, const RuntimeMethod* method) ;
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Networking.Transport.IPCManager/IPCData>::AddNoResize(T)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_mD9C24F6D423A4D6CA8A145A549962D1B30E83357_gshared (ParallelWriter_t2CB5D534A368A60C6135B62EED9189BC2479772E* __this, IPCData_t46E9604572E2A38CBBA8A418C6E25E6BAE2757CC ___0_value, const RuntimeMethod* method) ;
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Networking.Transport.IPCManager/IPCData>::AddRangeNoResize(System.Void*,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mDED52451BF8954DEAEFD901C3EB577D22D265F63_gshared (ParallelWriter_t2CB5D534A368A60C6135B62EED9189BC2479772E* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) ;
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Networking.Transport.IPCManager/IPCData>::AddRangeNoResize(Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mA0A03FF056E15B7479CBD7DD0A5D947C47FB2A5B_gshared (ParallelWriter_t2CB5D534A368A60C6135B62EED9189BC2479772E* __this, UnsafeList_1_t97F38A4A58468F12153209EBA329A7E123DFCBCB ___0_list, const RuntimeMethod* method) ;
+// System.Void* Unity.Collections.NativeList`1/ParallelWriter<Unity.Netcode.MessagingSystem/ReceiveQueueItem>::get_Ptr()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m2AF07A3447BCBE200D651A1094505970B7E83141_gshared (ParallelWriter_tCFD714C5DD7537D38BE908F26105B026AEBA43C9* __this, const RuntimeMethod* method) ;
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Netcode.MessagingSystem/ReceiveQueueItem>::.ctor(Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>*)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m9880D90B0334C93DB74BE1C8CCFE4A38907A2AE2_gshared (ParallelWriter_tCFD714C5DD7537D38BE908F26105B026AEBA43C9* __this, UnsafeList_1_t89BFA272C688229184DE0B26E132A0C55C159B6B* ___0_listData, const RuntimeMethod* method) ;
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Netcode.MessagingSystem/ReceiveQueueItem>::AddNoResize(T)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_m082958D4E906ED739967A58B4AE30481023CA5FB_gshared (ParallelWriter_tCFD714C5DD7537D38BE908F26105B026AEBA43C9* __this, ReceiveQueueItem_t60F7AA40B886CF8C6231945A5262F76297738DB6 ___0_value, const RuntimeMethod* method) ;
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Netcode.MessagingSystem/ReceiveQueueItem>::AddRangeNoResize(System.Void*,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m2DDB331733ED7244DF9F0D41717FD533BAAE6015_gshared (ParallelWriter_tCFD714C5DD7537D38BE908F26105B026AEBA43C9* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) ;
+// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeList`1<Unity.Netcode.MessagingSystem/ReceiveQueueItem>::get_Length()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_m0B8AA2F9A7DB8D9E521EAB25DF486A0F9EB3463F_gshared (UnsafeList_1_t89BFA272C688229184DE0B26E132A0C55C159B6B* __this, const RuntimeMethod* method) ;
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Netcode.MessagingSystem/ReceiveQueueItem>::AddRangeNoResize(Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m716D6CB899427BEA6E88D02D8F3FC95B9903AA0D_gshared (ParallelWriter_tCFD714C5DD7537D38BE908F26105B026AEBA43C9* __this, UnsafeList_1_t89BFA272C688229184DE0B26E132A0C55C159B6B ___0_list, const RuntimeMethod* method) ;
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Netcode.MessagingSystem/ReceiveQueueItem>::AddRangeNoResize(Unity.Collections.NativeList`1<T>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m9712AD9CEC6979520C0FC91D0B11FE907FCE36A5_gshared (ParallelWriter_tCFD714C5DD7537D38BE908F26105B026AEBA43C9* __this, NativeList_1_t138CBF168BB8AFE6930827B640D1B7DDB429657B ___0_list, const RuntimeMethod* method) ;
+// System.Void* Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Netcode.MessagingSystem/ReceiveQueueItem>::get_Ptr()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m91FEDC7EE091BC2393AD26C88C05A2282301B407_gshared (ParallelWriter_t38A408C31D5DF2B785A11B0D850011D3BA6598C8* __this, const RuntimeMethod* method) ;
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Netcode.MessagingSystem/ReceiveQueueItem>::.ctor(Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>*)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m34C442439B6C535820216667269DEAF83F3BD357_gshared (ParallelWriter_t38A408C31D5DF2B785A11B0D850011D3BA6598C8* __this, UnsafeList_1_t89BFA272C688229184DE0B26E132A0C55C159B6B* ___0_listData, const RuntimeMethod* method) ;
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Netcode.MessagingSystem/ReceiveQueueItem>::AddNoResize(T)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_m32F01A14AF0C00656967F6C443AD1A1C440415DA_gshared (ParallelWriter_t38A408C31D5DF2B785A11B0D850011D3BA6598C8* __this, ReceiveQueueItem_t60F7AA40B886CF8C6231945A5262F76297738DB6 ___0_value, const RuntimeMethod* method) ;
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Netcode.MessagingSystem/ReceiveQueueItem>::AddRangeNoResize(System.Void*,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m489F4BA775EE0CC5915D9AF2C36173A101B078C6_gshared (ParallelWriter_t38A408C31D5DF2B785A11B0D850011D3BA6598C8* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) ;
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Netcode.MessagingSystem/ReceiveQueueItem>::AddRangeNoResize(Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mD73B2BE314AF1F64F096BAE6ACB98EB93B307CF6_gshared (ParallelWriter_t38A408C31D5DF2B785A11B0D850011D3BA6598C8* __this, UnsafeList_1_t89BFA272C688229184DE0B26E132A0C55C159B6B ___0_list, const RuntimeMethod* method) ;
+// System.Void* Unity.Collections.NativeList`1/ParallelWriter<Unity.Netcode.MessagingSystem/SendQueueItem>::get_Ptr()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m47B82294862D9C763C211EFEE74671B7973DC449_gshared (ParallelWriter_t22DDCE675B2008D902EE4A8DEA86C990F8D0F39A* __this, const RuntimeMethod* method) ;
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Netcode.MessagingSystem/SendQueueItem>::.ctor(Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>*)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mD9D9CA81A573548FAB33D0CC2BD40949AD55708E_gshared (ParallelWriter_t22DDCE675B2008D902EE4A8DEA86C990F8D0F39A* __this, UnsafeList_1_tE941F153E0D05B0746B266E9F8686EBDA90F1A12* ___0_listData, const RuntimeMethod* method) ;
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Netcode.MessagingSystem/SendQueueItem>::AddNoResize(T)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_m97365CBCC2C09094B35F5175DF78404188214815_gshared (ParallelWriter_t22DDCE675B2008D902EE4A8DEA86C990F8D0F39A* __this, SendQueueItem_tFA46EA1EF42596165A1AAE755E4984B2DBFB1B47 ___0_value, const RuntimeMethod* method) ;
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Netcode.MessagingSystem/SendQueueItem>::AddRangeNoResize(System.Void*,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m79AFEA665BD965D94671F578F524A88299FF791C_gshared (ParallelWriter_t22DDCE675B2008D902EE4A8DEA86C990F8D0F39A* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) ;
+// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeList`1<Unity.Netcode.MessagingSystem/SendQueueItem>::get_Length()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_mD5B5719E7FACD4769FD7EB73521F99F6A2365FAE_gshared (UnsafeList_1_tE941F153E0D05B0746B266E9F8686EBDA90F1A12* __this, const RuntimeMethod* method) ;
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Netcode.MessagingSystem/SendQueueItem>::AddRangeNoResize(Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m595294E14532BCBF77A96CD1590F9A9ADF4F9CC3_gshared (ParallelWriter_t22DDCE675B2008D902EE4A8DEA86C990F8D0F39A* __this, UnsafeList_1_tE941F153E0D05B0746B266E9F8686EBDA90F1A12 ___0_list, const RuntimeMethod* method) ;
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Netcode.MessagingSystem/SendQueueItem>::AddRangeNoResize(Unity.Collections.NativeList`1<T>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m6528990C8D82E91B0ABB6B594207865D566D79DA_gshared (ParallelWriter_t22DDCE675B2008D902EE4A8DEA86C990F8D0F39A* __this, NativeList_1_t663B318E0C7E204D6FB8867DB99328D712EACB2C ___0_list, const RuntimeMethod* method) ;
+// System.Void* Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Netcode.MessagingSystem/SendQueueItem>::get_Ptr()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m7BD9BC9F58ACC5AB51AA10830091966B5B30E4D1_gshared (ParallelWriter_t5CA5B52F0C222EAC6D1D16D33F59DA596E039322* __this, const RuntimeMethod* method) ;
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Netcode.MessagingSystem/SendQueueItem>::.ctor(Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>*)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m0C424DDDB2EAAB7855496896CE83395D02380D22_gshared (ParallelWriter_t5CA5B52F0C222EAC6D1D16D33F59DA596E039322* __this, UnsafeList_1_tE941F153E0D05B0746B266E9F8686EBDA90F1A12* ___0_listData, const RuntimeMethod* method) ;
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Netcode.MessagingSystem/SendQueueItem>::AddNoResize(T)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_m5A6AFC12A8C0C77FEBBD68503CA7999570B9D94F_gshared (ParallelWriter_t5CA5B52F0C222EAC6D1D16D33F59DA596E039322* __this, SendQueueItem_tFA46EA1EF42596165A1AAE755E4984B2DBFB1B47 ___0_value, const RuntimeMethod* method) ;
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Netcode.MessagingSystem/SendQueueItem>::AddRangeNoResize(System.Void*,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m2225E5137C71D15F49E7B8464235A247A0D3D1EA_gshared (ParallelWriter_t5CA5B52F0C222EAC6D1D16D33F59DA596E039322* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) ;
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Netcode.MessagingSystem/SendQueueItem>::AddRangeNoResize(Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m33DC5E2C4820E66BBC0159C54CE137ACF1430D62_gshared (ParallelWriter_t5CA5B52F0C222EAC6D1D16D33F59DA596E039322* __this, UnsafeList_1_tE941F153E0D05B0746B266E9F8686EBDA90F1A12 ___0_list, const RuntimeMethod* method) ;
+// System.Void* Unity.Collections.NativeList`1/ParallelWriter<Unity.Networking.Transport.NetworkDriver/Connection>::get_Ptr()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m71B73FECDD70DF9418CD483F1DB441CCE641E2D7_gshared (ParallelWriter_t803C620C6C990806F18641155AC85D7A01D82CE2* __this, const RuntimeMethod* method) ;
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Networking.Transport.NetworkDriver/Connection>::.ctor(Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>*)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m9AAE4248654C81759F3AA866DC83A521998E1543_gshared (ParallelWriter_t803C620C6C990806F18641155AC85D7A01D82CE2* __this, UnsafeList_1_tF90CD1BACB3990B533D04C98C2C90161BD7F9C20* ___0_listData, const RuntimeMethod* method) ;
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Networking.Transport.NetworkDriver/Connection>::AddNoResize(T)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_mA9D8B94ABAA32F7075DA19C2C4D0DC4830CA21B1_gshared (ParallelWriter_t803C620C6C990806F18641155AC85D7A01D82CE2* __this, Connection_t57B7A8186502E304AD87933A0FFD76FDF0972D70 ___0_value, const RuntimeMethod* method) ;
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Networking.Transport.NetworkDriver/Connection>::AddRangeNoResize(System.Void*,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mE80D8BF1E511DEA62FD47DB691152EF8E6943770_gshared (ParallelWriter_t803C620C6C990806F18641155AC85D7A01D82CE2* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) ;
+// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeList`1<Unity.Networking.Transport.NetworkDriver/Connection>::get_Length()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_m8B6A2812A404CE8BDF0E18E0290942D610D10BBB_gshared (UnsafeList_1_tF90CD1BACB3990B533D04C98C2C90161BD7F9C20* __this, const RuntimeMethod* method) ;
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Networking.Transport.NetworkDriver/Connection>::AddRangeNoResize(Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mF4116E021D34DCD351DDA265FF3F57CC6F6D8D4D_gshared (ParallelWriter_t803C620C6C990806F18641155AC85D7A01D82CE2* __this, UnsafeList_1_tF90CD1BACB3990B533D04C98C2C90161BD7F9C20 ___0_list, const RuntimeMethod* method) ;
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Networking.Transport.NetworkDriver/Connection>::AddRangeNoResize(Unity.Collections.NativeList`1<T>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m051E19758B7945CFF1046CAA6344687E62D69C83_gshared (ParallelWriter_t803C620C6C990806F18641155AC85D7A01D82CE2* __this, NativeList_1_tD3715B1226B4E157D6FC09924FDC7EDC5FC0E8C9 ___0_list, const RuntimeMethod* method) ;
+// System.Void* Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Networking.Transport.NetworkDriver/Connection>::get_Ptr()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m4F77E8BCD7852EA17250CE73B6EC41D504C181B9_gshared (ParallelWriter_t9C08A9CE034DD792954BE5930D8EC268BA988D41* __this, const RuntimeMethod* method) ;
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Networking.Transport.NetworkDriver/Connection>::.ctor(Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>*)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mF0CA24B6D15530A6AC04B19F628A8CC10E6F2C46_gshared (ParallelWriter_t9C08A9CE034DD792954BE5930D8EC268BA988D41* __this, UnsafeList_1_tF90CD1BACB3990B533D04C98C2C90161BD7F9C20* ___0_listData, const RuntimeMethod* method) ;
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Networking.Transport.NetworkDriver/Connection>::AddNoResize(T)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_m7BDFED140857F5661B75FF775E1A74418E379554_gshared (ParallelWriter_t9C08A9CE034DD792954BE5930D8EC268BA988D41* __this, Connection_t57B7A8186502E304AD87933A0FFD76FDF0972D70 ___0_value, const RuntimeMethod* method) ;
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Networking.Transport.NetworkDriver/Connection>::AddRangeNoResize(System.Void*,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m869AE290801940B77A41C2A3495F1EFB570228E5_gshared (ParallelWriter_t9C08A9CE034DD792954BE5930D8EC268BA988D41* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) ;
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Networking.Transport.NetworkDriver/Connection>::AddRangeNoResize(Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m02A8C44BA14CB8A996DA11F4DB5E047CF069391E_gshared (ParallelWriter_t9C08A9CE034DD792954BE5930D8EC268BA988D41* __this, UnsafeList_1_tF90CD1BACB3990B533D04C98C2C90161BD7F9C20 ___0_list, const RuntimeMethod* method) ;
+// System.Void Unity.Collections.NativeQueue`1/ParallelWriter<Unity.Networking.Transport.NetworkEventQueue/SubQueueItem>::Enqueue(T)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_Enqueue_m39EEE0D801A05E6AF627401D8C629D26383B1A78_gshared (ParallelWriter_tD14C7A3C4731767076B3C7DB4613E59DFDD2DE7B* __this, SubQueueItem_tAE6DA2A0B68107490190DB4680442767B9D420B7 ___0_value, const RuntimeMethod* method) ;
+// System.Void* Unity.Collections.NativeList`1/ParallelWriter<Unity.Networking.Transport.NetworkPipelineProcessor/PipelineImpl>::get_Ptr()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m5606852415297E86A4BAB304EB0DF1F1F16B8104_gshared (ParallelWriter_tB41779E5BCCF7FD4396126965EEE1ADFD8D3A653* __this, const RuntimeMethod* method) ;
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Networking.Transport.NetworkPipelineProcessor/PipelineImpl>::.ctor(Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>*)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mA8B8E5C1C0E9E6744EC579250C29787D63C390CB_gshared (ParallelWriter_tB41779E5BCCF7FD4396126965EEE1ADFD8D3A653* __this, UnsafeList_1_t557C9C31121D73D732851DA0465D2D22CFFBF099* ___0_listData, const RuntimeMethod* method) ;
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Networking.Transport.NetworkPipelineProcessor/PipelineImpl>::AddNoResize(T)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_m48C5AE9D325421C0AFE950C378CDD0B1A09C9327_gshared (ParallelWriter_tB41779E5BCCF7FD4396126965EEE1ADFD8D3A653* __this, PipelineImpl_t422927EB35F759F18ECBA1C7B075AAC92918017E ___0_value, const RuntimeMethod* method) ;
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Networking.Transport.NetworkPipelineProcessor/PipelineImpl>::AddRangeNoResize(System.Void*,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m43257952C3ABFAC57A3F28C95D079973716937C3_gshared (ParallelWriter_tB41779E5BCCF7FD4396126965EEE1ADFD8D3A653* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) ;
+// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeList`1<Unity.Networking.Transport.NetworkPipelineProcessor/PipelineImpl>::get_Length()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_m8B5E6F7674AA42FEA08008BEB5F715FE21B2CA46_gshared (UnsafeList_1_t557C9C31121D73D732851DA0465D2D22CFFBF099* __this, const RuntimeMethod* method) ;
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Networking.Transport.NetworkPipelineProcessor/PipelineImpl>::AddRangeNoResize(Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mE0705079ADA2A157EC50AAA6013B1DD66220E833_gshared (ParallelWriter_tB41779E5BCCF7FD4396126965EEE1ADFD8D3A653* __this, UnsafeList_1_t557C9C31121D73D732851DA0465D2D22CFFBF099 ___0_list, const RuntimeMethod* method) ;
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Networking.Transport.NetworkPipelineProcessor/PipelineImpl>::AddRangeNoResize(Unity.Collections.NativeList`1<T>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m3C41EC31DDA9BBD9D6BDDCB5814FE9A73506D002_gshared (ParallelWriter_tB41779E5BCCF7FD4396126965EEE1ADFD8D3A653* __this, NativeList_1_t7D0C4FADF421E663CFE4731E9B320F919701A66C ___0_list, const RuntimeMethod* method) ;
+// System.Void* Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Networking.Transport.NetworkPipelineProcessor/PipelineImpl>::get_Ptr()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m3A6A2C90D7D5BF154BA39554FC567D8A078DEA61_gshared (ParallelWriter_tDE0F3CEBA8724546ED627F8F8D52A3BA57C08FB6* __this, const RuntimeMethod* method) ;
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Networking.Transport.NetworkPipelineProcessor/PipelineImpl>::.ctor(Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>*)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m951833BB43DB1505CF4CEC49536ABD15E4C123E6_gshared (ParallelWriter_tDE0F3CEBA8724546ED627F8F8D52A3BA57C08FB6* __this, UnsafeList_1_t557C9C31121D73D732851DA0465D2D22CFFBF099* ___0_listData, const RuntimeMethod* method) ;
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Networking.Transport.NetworkPipelineProcessor/PipelineImpl>::AddNoResize(T)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_mEC530F025387E572EE24E4B9DAC39BC57F79353F_gshared (ParallelWriter_tDE0F3CEBA8724546ED627F8F8D52A3BA57C08FB6* __this, PipelineImpl_t422927EB35F759F18ECBA1C7B075AAC92918017E ___0_value, const RuntimeMethod* method) ;
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Networking.Transport.NetworkPipelineProcessor/PipelineImpl>::AddRangeNoResize(System.Void*,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m110BC262A8AFD73F7184E95F1D773F67C1BF496E_gshared (ParallelWriter_tDE0F3CEBA8724546ED627F8F8D52A3BA57C08FB6* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) ;
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Networking.Transport.NetworkPipelineProcessor/PipelineImpl>::AddRangeNoResize(Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m1A2C74321CBE3C3164BA5CE55F05394D3FFAFF1E_gshared (ParallelWriter_tDE0F3CEBA8724546ED627F8F8D52A3BA57C08FB6* __this, UnsafeList_1_t557C9C31121D73D732851DA0465D2D22CFFBF099 ___0_list, const RuntimeMethod* method) ;
+// System.Void* Unity.Collections.NativeList`1/ParallelWriter<Unity.Networking.Transport.NetworkPipelineProcessor/UpdatePipeline>::get_Ptr()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m2FFD535C76CAD331F4F635A37018D39FF4A1C16E_gshared (ParallelWriter_tC50E8137F551749AC8F77272BE6E3AE2DF39B69B* __this, const RuntimeMethod* method) ;
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Networking.Transport.NetworkPipelineProcessor/UpdatePipeline>::.ctor(Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>*)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m76D1BA912E24A80D77CC1C914659E2FF80C79F5B_gshared (ParallelWriter_tC50E8137F551749AC8F77272BE6E3AE2DF39B69B* __this, UnsafeList_1_t5D77D9399869F973DD7861206FE7B0BB5254BEDA* ___0_listData, const RuntimeMethod* method) ;
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Networking.Transport.NetworkPipelineProcessor/UpdatePipeline>::AddNoResize(T)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_mF25E74E917886C2E8DF45C73119FB20B5B2719A9_gshared (ParallelWriter_tC50E8137F551749AC8F77272BE6E3AE2DF39B69B* __this, UpdatePipeline_t8D511DB7DDEC2170FC3349B879D1E46CD18C35D2 ___0_value, const RuntimeMethod* method) ;
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Networking.Transport.NetworkPipelineProcessor/UpdatePipeline>::AddRangeNoResize(System.Void*,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m05F00F7957390A7C99306E5F55491E11FE52A176_gshared (ParallelWriter_tC50E8137F551749AC8F77272BE6E3AE2DF39B69B* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) ;
+// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeList`1<Unity.Networking.Transport.NetworkPipelineProcessor/UpdatePipeline>::get_Length()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_m5E35890A073934733C20AA6D6002E80B53C40CEE_gshared (UnsafeList_1_t5D77D9399869F973DD7861206FE7B0BB5254BEDA* __this, const RuntimeMethod* method) ;
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Networking.Transport.NetworkPipelineProcessor/UpdatePipeline>::AddRangeNoResize(Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mA154EB467C5E2A37886660E9AE491A7F5DD34DCD_gshared (ParallelWriter_tC50E8137F551749AC8F77272BE6E3AE2DF39B69B* __this, UnsafeList_1_t5D77D9399869F973DD7861206FE7B0BB5254BEDA ___0_list, const RuntimeMethod* method) ;
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Networking.Transport.NetworkPipelineProcessor/UpdatePipeline>::AddRangeNoResize(Unity.Collections.NativeList`1<T>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m4EB8DD211A7A2F25CC7B186BC71F5EEEFE6411BC_gshared (ParallelWriter_tC50E8137F551749AC8F77272BE6E3AE2DF39B69B* __this, NativeList_1_t1869FE735F5176A07019C960A26F7477BA6142B3 ___0_list, const RuntimeMethod* method) ;
+// System.Void Unity.Collections.NativeQueue`1/ParallelWriter<Unity.Networking.Transport.NetworkPipelineProcessor/UpdatePipeline>::Enqueue(T)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_Enqueue_mD81143975AA19DFE1D0DDA6B7E715250C3813993_gshared (ParallelWriter_t55B873B53088E2C14EC0CE7DD3ECA37705CB04CC* __this, UpdatePipeline_t8D511DB7DDEC2170FC3349B879D1E46CD18C35D2 ___0_value, const RuntimeMethod* method) ;
+// System.Void* Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Networking.Transport.NetworkPipelineProcessor/UpdatePipeline>::get_Ptr()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mA392B1D76D6B3668DDAC4A872E87F9064B383CB8_gshared (ParallelWriter_tF2AD77C8A90F1D5807B0720121A0F3B27BC5B98B* __this, const RuntimeMethod* method) ;
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Networking.Transport.NetworkPipelineProcessor/UpdatePipeline>::.ctor(Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>*)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mB80550E27CBE56C9ECE237E5D77A51DFF086265F_gshared (ParallelWriter_tF2AD77C8A90F1D5807B0720121A0F3B27BC5B98B* __this, UnsafeList_1_t5D77D9399869F973DD7861206FE7B0BB5254BEDA* ___0_listData, const RuntimeMethod* method) ;
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Networking.Transport.NetworkPipelineProcessor/UpdatePipeline>::AddNoResize(T)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_m063873842E0CEE50C6BAFCFDEA64B07DBA465FA4_gshared (ParallelWriter_tF2AD77C8A90F1D5807B0720121A0F3B27BC5B98B* __this, UpdatePipeline_t8D511DB7DDEC2170FC3349B879D1E46CD18C35D2 ___0_value, const RuntimeMethod* method) ;
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Networking.Transport.NetworkPipelineProcessor/UpdatePipeline>::AddRangeNoResize(System.Void*,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m56C92C48D7D5C41A20718A7BCE27EC5FC662DAA8_gshared (ParallelWriter_tF2AD77C8A90F1D5807B0720121A0F3B27BC5B98B* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) ;
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Networking.Transport.NetworkPipelineProcessor/UpdatePipeline>::AddRangeNoResize(Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m6AB99D604588382699DDEF11BF14681FA7CED950_gshared (ParallelWriter_tF2AD77C8A90F1D5807B0720121A0F3B27BC5B98B* __this, UnsafeList_1_t5D77D9399869F973DD7861206FE7B0BB5254BEDA ___0_list, const RuntimeMethod* method) ;
+// System.Void* Unity.Collections.NativeList`1/ParallelWriter<Unity.Netcode.Transports.UTP.UnityTransport/SendTarget>::get_Ptr()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mB06DDC3BA0F1020FD96685BBEC03002890F95D8B_gshared (ParallelWriter_t3C162ED583BAE2C535EBBBB3BFC6F5C57D455292* __this, const RuntimeMethod* method) ;
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Netcode.Transports.UTP.UnityTransport/SendTarget>::.ctor(Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>*)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mC6E4C36643C55B6003682C75198FF237256F5527_gshared (ParallelWriter_t3C162ED583BAE2C535EBBBB3BFC6F5C57D455292* __this, UnsafeList_1_t501C48EF6B212CE7B242B47AE1184A6DE456C629* ___0_listData, const RuntimeMethod* method) ;
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Netcode.Transports.UTP.UnityTransport/SendTarget>::AddNoResize(T)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_m95B185BD46CD29685E52BC6D7B7E92B10667A3FF_gshared (ParallelWriter_t3C162ED583BAE2C535EBBBB3BFC6F5C57D455292* __this, SendTarget_tAD1A6A2A5769AE7D57910A8DA4F258B09A45F653 ___0_value, const RuntimeMethod* method) ;
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Netcode.Transports.UTP.UnityTransport/SendTarget>::AddRangeNoResize(System.Void*,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m0674B9A689DFFFB2A64F96629FEEA086431CA0FE_gshared (ParallelWriter_t3C162ED583BAE2C535EBBBB3BFC6F5C57D455292* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) ;
+// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeList`1<Unity.Netcode.Transports.UTP.UnityTransport/SendTarget>::get_Length()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_m2F177C7B16B6042B9DF810502FC00872341DE721_gshared (UnsafeList_1_t501C48EF6B212CE7B242B47AE1184A6DE456C629* __this, const RuntimeMethod* method) ;
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Netcode.Transports.UTP.UnityTransport/SendTarget>::AddRangeNoResize(Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m0994D154747060C24868CF188E54875B09F688DD_gshared (ParallelWriter_t3C162ED583BAE2C535EBBBB3BFC6F5C57D455292* __this, UnsafeList_1_t501C48EF6B212CE7B242B47AE1184A6DE456C629 ___0_list, const RuntimeMethod* method) ;
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Netcode.Transports.UTP.UnityTransport/SendTarget>::AddRangeNoResize(Unity.Collections.NativeList`1<T>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mFB24987018FF8C8E12813E10BF870D45D3124A2B_gshared (ParallelWriter_t3C162ED583BAE2C535EBBBB3BFC6F5C57D455292* __this, NativeList_1_t19C42565694B875C975B0E66AD45E82CDE2EE935 ___0_list, const RuntimeMethod* method) ;
+// System.Void* Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Netcode.Transports.UTP.UnityTransport/SendTarget>::get_Ptr()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m22A1514F13FC0D01030023CB23F14EE3CB188A09_gshared (ParallelWriter_tEFE3618DE0C507FD34664ECC5492F65E1CDDC870* __this, const RuntimeMethod* method) ;
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Netcode.Transports.UTP.UnityTransport/SendTarget>::.ctor(Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>*)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m56C2053F4B7A3EB772EC06474C9EA3747625ED58_gshared (ParallelWriter_tEFE3618DE0C507FD34664ECC5492F65E1CDDC870* __this, UnsafeList_1_t501C48EF6B212CE7B242B47AE1184A6DE456C629* ___0_listData, const RuntimeMethod* method) ;
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Netcode.Transports.UTP.UnityTransport/SendTarget>::AddNoResize(T)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_m7162F353376724F085F526BFB341E734B166FFF3_gshared (ParallelWriter_tEFE3618DE0C507FD34664ECC5492F65E1CDDC870* __this, SendTarget_tAD1A6A2A5769AE7D57910A8DA4F258B09A45F653 ___0_value, const RuntimeMethod* method) ;
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Netcode.Transports.UTP.UnityTransport/SendTarget>::AddRangeNoResize(System.Void*,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m20A5D19363865D6DBB8E2C0635509DC99935DC07_gshared (ParallelWriter_tEFE3618DE0C507FD34664ECC5492F65E1CDDC870* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) ;
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Netcode.Transports.UTP.UnityTransport/SendTarget>::AddRangeNoResize(Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m345DAEC1F531F7A149FFAAD2881675E6DDD8FBBA_gshared (ParallelWriter_tEFE3618DE0C507FD34664ECC5492F65E1CDDC870* __this, UnsafeList_1_t501C48EF6B212CE7B242B47AE1184A6DE456C629 ___0_list, const RuntimeMethod* method) ;
+// System.Int32 Unity.Collections.NativeHashMap`2/ParallelWriter<Unity.Collections.FixedString64Bytes,System.Int32>::get_m_ThreadIndex()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ParallelWriter_get_m_ThreadIndex_m61F2B3EB50CBDB571DA16B356A44076D49855ED4_gshared (ParallelWriter_t04EEB5F9B9077D32CA102FF43469F846B24C56F4* __this, const RuntimeMethod* method) ;
 // System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeHashMap`2/ParallelWriter<Unity.Collections.FixedString64Bytes,System.Int32>::get_Capacity()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ParallelWriter_get_Capacity_m605703BB1142619C3121938C3CEC2E0C34C9AD37_gshared (ParallelWriter_t88FEDD92B5A8F69BFCB0A3972B37F97109EF5AD7* __this, const RuntimeMethod* method) ;
+// System.Int32 Unity.Collections.NativeHashMap`2/ParallelWriter<Unity.Collections.FixedString64Bytes,System.Int32>::get_Capacity()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ParallelWriter_get_Capacity_mCF2167349AEB692C6DFB0FE5B1CD7CFC54B30DAE_gshared (ParallelWriter_t04EEB5F9B9077D32CA102FF43469F846B24C56F4* __this, const RuntimeMethod* method) ;
 // System.Boolean Unity.Collections.LowLevel.Unsafe.UnsafeHashMap`2/ParallelWriter<Unity.Collections.FixedString64Bytes,System.Int32>::TryAdd(TKey,TValue)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ParallelWriter_TryAdd_m3A206C2949FDEEFBAFAF53C8466AE3EBEA0B5D34_gshared (ParallelWriter_t88FEDD92B5A8F69BFCB0A3972B37F97109EF5AD7* __this, FixedString64Bytes_t0F1B6FFAFD8C15898CD77D91A79AB36AA078E0A5 ___0_key, int32_t ___1_item, const RuntimeMethod* method) ;
+// System.Boolean Unity.Collections.NativeHashMap`2/ParallelWriter<Unity.Collections.FixedString64Bytes,System.Int32>::TryAdd(TKey,TValue)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ParallelWriter_TryAdd_mF640E005523841CBF7457C9F331DF232DFEA20A9_gshared (ParallelWriter_t04EEB5F9B9077D32CA102FF43469F846B24C56F4* __this, FixedString64Bytes_t0F1B6FFAFD8C15898CD77D91A79AB36AA078E0A5 ___0_key, int32_t ___1_item, const RuntimeMethod* method) ;
 // System.Int32 Unity.Collections.NativeMultiHashMap`2/ParallelWriter<System.Int32,System.Int32>::get_m_ThreadIndex()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ParallelWriter_get_m_ThreadIndex_mDE2F2A2CD1B5375963A8AA81B4A97FCECB0C3625_gshared (ParallelWriter_t78137B1B533517CA7899CFF91BD59A0549F658F5* __this, const RuntimeMethod* method) ;
 // System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeMultiHashMap`2/ParallelWriter<System.Int32,System.Int32>::get_Capacity()
@@ -12390,23 +13449,572 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t QuaternionCompositeComparer_Compare_m
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Enumerator__ctor_m5D19A6A35D333E4EF604BB42D7F8839CDF43B3AE_gshared (Enumerator_tC5D53D94AA54C1739681E6FC364E9CD8AE31ECE0* __this, Queue_1_tCA24E420CB13C6411AEFC3ECE9E62219F7937A1E* ___0_q, const RuntimeMethod* method) ;
 // System.Void System.Collections.Generic.Queue`1/Enumerator<System.Object>::.ctor(System.Collections.Generic.Queue`1<T>)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Enumerator__ctor_m07A08E9A1E2AB072CB1654A5009DA79A460E081B_gshared (Enumerator_t30E3290EE12437374037B3CF0EE4D614F96D030A* __this, Queue_1_tE9EF546915795972C3BFD68FBB8FA859D3BAF3B5* ___0_q, const RuntimeMethod* method) ;
-// System.Void System.Collections.Generic.Queue`1/Enumerator<Unity.Netcode.ReleasedNetworkId>::.ctor(System.Collections.Generic.Queue`1<T>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Enumerator__ctor_mAA1563AC35863C47BF0DBEC8488C885194583349_gshared (Enumerator_t3C2A019B409CEB54CD6349665DC33F8292D54B5E* __this, Queue_1_tD0B32970076D62B677279D96972006677EEE25A7* ___0_q, const RuntimeMethod* method) ;
-// System.Void System.Collections.Generic.Queue`1/Enumerator<System.UInt32>::.ctor(System.Collections.Generic.Queue`1<T>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Enumerator__ctor_m883CA17DC68406094FEFA9AAD8C40161CA35D1F3_gshared (Enumerator_t85344E4ACE131A91BC38A5761E3E64011789C891* __this, Queue_1_tA93BCCFDEFF25FCF9C491D240D49B2B8B9C37850* ___0_q, const RuntimeMethod* method) ;
 
+// System.Void Unity.Collections.NativeQueue`1/ParallelWriter<Unity.Networking.Transport.QueuedSendMessage>::Enqueue(T)
+inline void ParallelWriter_Enqueue_mEAA74296ADA3C3413CE1D10522F19ECCA2AA0841 (ParallelWriter_tD2337D6A048735D05F7C0698B7FEEDAD7153DE97* __this, QueuedSendMessage_t9494177D0BFD69EB7AC297ED869BC9AA81A7D603 ___0_value, const RuntimeMethod* method)
+{
+	((  void (*) (ParallelWriter_tD2337D6A048735D05F7C0698B7FEEDAD7153DE97*, QueuedSendMessage_t9494177D0BFD69EB7AC297ED869BC9AA81A7D603, const RuntimeMethod*))ParallelWriter_Enqueue_mEAA74296ADA3C3413CE1D10522F19ECCA2AA0841_gshared)(__this, ___0_value, method);
+}
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafePtrList`1/ParallelWriter<Unity.Baselib.LowLevel.Binding/Baselib_RegisteredNetwork_Buffer>::.ctor(T**,Unity.Collections.LowLevel.Unsafe.UnsafeList`1<System.IntPtr>*)
+inline void ParallelWriter__ctor_m535D73F469396DC29425F542A5791BD8BD5AF1F6 (ParallelWriter_t940D3FB37B7548484C5E6F493E6AB17E17D94326* __this, Baselib_RegisteredNetwork_Buffer_t2D0BDFB0FC8B41F70E5AD38C481363BEDC54EB42** ___0_ptr, UnsafeList_1_t7F37B06177929AC50704A82689AED5BBFE830613* ___1_listData, const RuntimeMethod* method)
+{
+	((  void (*) (ParallelWriter_t940D3FB37B7548484C5E6F493E6AB17E17D94326*, Baselib_RegisteredNetwork_Buffer_t2D0BDFB0FC8B41F70E5AD38C481363BEDC54EB42**, UnsafeList_1_t7F37B06177929AC50704A82689AED5BBFE830613*, const RuntimeMethod*))ParallelWriter__ctor_m535D73F469396DC29425F542A5791BD8BD5AF1F6_gshared)(__this, ___0_ptr, ___1_listData, method);
+}
+// System.IntPtr System.IntPtr::op_Explicit(System.Void*)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t IntPtr_op_Explicit_mE2CEC14C61FD5E2159A03EA2AD97F5CDC5BB9F4D (void* ___0_value, const RuntimeMethod* method) ;
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1<System.IntPtr>::AddNoResize(T)
+inline void UnsafeList_1_AddNoResize_m4752E4711FAE546C2C0CE090C639FE6F4BA23BED (UnsafeList_1_t7F37B06177929AC50704A82689AED5BBFE830613* __this, intptr_t ___0_value, const RuntimeMethod* method)
+{
+	((  void (*) (UnsafeList_1_t7F37B06177929AC50704A82689AED5BBFE830613*, intptr_t, const RuntimeMethod*))UnsafeList_1_AddNoResize_m4752E4711FAE546C2C0CE090C639FE6F4BA23BED_gshared)(__this, ___0_value, method);
+}
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafePtrList`1/ParallelWriter<Unity.Baselib.LowLevel.Binding/Baselib_RegisteredNetwork_Buffer>::AddNoResize(T*)
+inline void ParallelWriter_AddNoResize_m8FF0A02D0622989A4FC73984A5381C0C820EDA95 (ParallelWriter_t940D3FB37B7548484C5E6F493E6AB17E17D94326* __this, Baselib_RegisteredNetwork_Buffer_t2D0BDFB0FC8B41F70E5AD38C481363BEDC54EB42* ___0_value, const RuntimeMethod* method)
+{
+	((  void (*) (ParallelWriter_t940D3FB37B7548484C5E6F493E6AB17E17D94326*, Baselib_RegisteredNetwork_Buffer_t2D0BDFB0FC8B41F70E5AD38C481363BEDC54EB42*, const RuntimeMethod*))ParallelWriter_AddNoResize_m8FF0A02D0622989A4FC73984A5381C0C820EDA95_gshared)(__this, ___0_value, method);
+}
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1<System.IntPtr>::AddRangeNoResize(System.Void*,System.Int32)
+inline void UnsafeList_1_AddRangeNoResize_m81FD9782A3159D8F6EF737C45F8AE808927345BC (UnsafeList_1_t7F37B06177929AC50704A82689AED5BBFE830613* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method)
+{
+	((  void (*) (UnsafeList_1_t7F37B06177929AC50704A82689AED5BBFE830613*, void*, int32_t, const RuntimeMethod*))UnsafeList_1_AddRangeNoResize_m81FD9782A3159D8F6EF737C45F8AE808927345BC_gshared)(__this, ___0_ptr, ___1_count, method);
+}
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafePtrList`1/ParallelWriter<Unity.Baselib.LowLevel.Binding/Baselib_RegisteredNetwork_Buffer>::AddRangeNoResize(T**,System.Int32)
+inline void ParallelWriter_AddRangeNoResize_m7A72658C815AB5F182873EE86592A11CAA8A8256 (ParallelWriter_t940D3FB37B7548484C5E6F493E6AB17E17D94326* __this, Baselib_RegisteredNetwork_Buffer_t2D0BDFB0FC8B41F70E5AD38C481363BEDC54EB42** ___0_ptr, int32_t ___1_count, const RuntimeMethod* method)
+{
+	((  void (*) (ParallelWriter_t940D3FB37B7548484C5E6F493E6AB17E17D94326*, Baselib_RegisteredNetwork_Buffer_t2D0BDFB0FC8B41F70E5AD38C481363BEDC54EB42**, int32_t, const RuntimeMethod*))ParallelWriter_AddRangeNoResize_m7A72658C815AB5F182873EE86592A11CAA8A8256_gshared)(__this, ___0_ptr, ___1_count, method);
+}
+// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafePtrList`1<Unity.Baselib.LowLevel.Binding/Baselib_RegisteredNetwork_Buffer>::get_Length()
+inline int32_t UnsafePtrList_1_get_Length_m15692B27C70D921B523A72C7D2A5DA6A9EB12EB4 (UnsafePtrList_1_tAD86775FD13A7BFCCD3E9ACA2796FFE62044B970* __this, const RuntimeMethod* method)
+{
+	return ((  int32_t (*) (UnsafePtrList_1_tAD86775FD13A7BFCCD3E9ACA2796FFE62044B970*, const RuntimeMethod*))UnsafePtrList_1_get_Length_m15692B27C70D921B523A72C7D2A5DA6A9EB12EB4_gshared)(__this, method);
+}
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafePtrList`1/ParallelWriter<Unity.Baselib.LowLevel.Binding/Baselib_RegisteredNetwork_Buffer>::AddRangeNoResize(Unity.Collections.LowLevel.Unsafe.UnsafePtrList`1<T>)
+inline void ParallelWriter_AddRangeNoResize_m20B593CB7215C74092C07168207F5801E1C412FE (ParallelWriter_t940D3FB37B7548484C5E6F493E6AB17E17D94326* __this, UnsafePtrList_1_tAD86775FD13A7BFCCD3E9ACA2796FFE62044B970 ___0_list, const RuntimeMethod* method)
+{
+	((  void (*) (ParallelWriter_t940D3FB37B7548484C5E6F493E6AB17E17D94326*, UnsafePtrList_1_tAD86775FD13A7BFCCD3E9ACA2796FFE62044B970, const RuntimeMethod*))ParallelWriter_AddRangeNoResize_m20B593CB7215C74092C07168207F5801E1C412FE_gshared)(__this, ___0_list, method);
+}
+// System.Void* Unity.Collections.NativeList`1/ParallelWriter<Unity.Netcode.DeferredMessageManager/TriggerData>::get_Ptr()
+inline void* ParallelWriter_get_Ptr_mC680C28015BFCC8C1D899129FB42F585A4BAC8AE (ParallelWriter_t03F7F8FE5DC88E316BF956D72795F40611400D56* __this, const RuntimeMethod* method)
+{
+	return ((  void* (*) (ParallelWriter_t03F7F8FE5DC88E316BF956D72795F40611400D56*, const RuntimeMethod*))ParallelWriter_get_Ptr_mC680C28015BFCC8C1D899129FB42F585A4BAC8AE_gshared)(__this, method);
+}
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Netcode.DeferredMessageManager/TriggerData>::.ctor(Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>*)
+inline void ParallelWriter__ctor_m7FC6EBE0D0F791D44AD2C55DD02E2ABEB45D1874 (ParallelWriter_t03F7F8FE5DC88E316BF956D72795F40611400D56* __this, UnsafeList_1_t7576474D288A30F1540A43F66481308FA0558594* ___0_listData, const RuntimeMethod* method)
+{
+	((  void (*) (ParallelWriter_t03F7F8FE5DC88E316BF956D72795F40611400D56*, UnsafeList_1_t7576474D288A30F1540A43F66481308FA0558594*, const RuntimeMethod*))ParallelWriter__ctor_m7FC6EBE0D0F791D44AD2C55DD02E2ABEB45D1874_gshared)(__this, ___0_listData, method);
+}
+// System.Int32 System.Threading.Interlocked::Increment(System.Int32&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Interlocked_Increment_m3C240C32E8D9544EC050B74D4F28EEB58F1F9309 (int32_t* ___0_location, const RuntimeMethod* method) ;
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Netcode.DeferredMessageManager/TriggerData>::AddNoResize(T)
+inline void ParallelWriter_AddNoResize_m15A2624F312B029412435336EB55B4511A034222 (ParallelWriter_t03F7F8FE5DC88E316BF956D72795F40611400D56* __this, TriggerData_t961063E87733CDD8443A71444D93E7529D0FD3F7 ___0_value, const RuntimeMethod* method)
+{
+	((  void (*) (ParallelWriter_t03F7F8FE5DC88E316BF956D72795F40611400D56*, TriggerData_t961063E87733CDD8443A71444D93E7529D0FD3F7, const RuntimeMethod*))ParallelWriter_AddNoResize_m15A2624F312B029412435336EB55B4511A034222_gshared)(__this, ___0_value, method);
+}
+// System.Int32 System.Threading.Interlocked::Add(System.Int32&,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Interlocked_Add_m2455208C56EEFD8832AEAD8AF7368A3FEB33A73C (int32_t* ___0_location1, int32_t ___1_value, const RuntimeMethod* method) ;
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafeUtility::MemCpy(System.Void*,System.Void*,System.Int64)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnsafeUtility_MemCpy_m5CEA91ACDADC522E584AE3A2AB2B0B74393A9177 (void* ___0_destination, void* ___1_source, int64_t ___2_size, const RuntimeMethod* method) ;
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Netcode.DeferredMessageManager/TriggerData>::AddRangeNoResize(System.Void*,System.Int32)
+inline void ParallelWriter_AddRangeNoResize_m299925BAE61F6D26C87729CF3FE7CC8690310273 (ParallelWriter_t03F7F8FE5DC88E316BF956D72795F40611400D56* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method)
+{
+	((  void (*) (ParallelWriter_t03F7F8FE5DC88E316BF956D72795F40611400D56*, void*, int32_t, const RuntimeMethod*))ParallelWriter_AddRangeNoResize_m299925BAE61F6D26C87729CF3FE7CC8690310273_gshared)(__this, ___0_ptr, ___1_count, method);
+}
+// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeList`1<Unity.Netcode.DeferredMessageManager/TriggerData>::get_Length()
+inline int32_t UnsafeList_1_get_Length_mA3FB705F0992938D857A1684F1E4C8F8A6A31199 (UnsafeList_1_t7576474D288A30F1540A43F66481308FA0558594* __this, const RuntimeMethod* method)
+{
+	return ((  int32_t (*) (UnsafeList_1_t7576474D288A30F1540A43F66481308FA0558594*, const RuntimeMethod*))UnsafeList_1_get_Length_mA3FB705F0992938D857A1684F1E4C8F8A6A31199_gshared)(__this, method);
+}
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Netcode.DeferredMessageManager/TriggerData>::AddRangeNoResize(Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>)
+inline void ParallelWriter_AddRangeNoResize_m1CBDF76AAE55B8EC223142CD290FDD09FD3A5489 (ParallelWriter_t03F7F8FE5DC88E316BF956D72795F40611400D56* __this, UnsafeList_1_t7576474D288A30F1540A43F66481308FA0558594 ___0_list, const RuntimeMethod* method)
+{
+	((  void (*) (ParallelWriter_t03F7F8FE5DC88E316BF956D72795F40611400D56*, UnsafeList_1_t7576474D288A30F1540A43F66481308FA0558594, const RuntimeMethod*))ParallelWriter_AddRangeNoResize_m1CBDF76AAE55B8EC223142CD290FDD09FD3A5489_gshared)(__this, ___0_list, method);
+}
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Netcode.DeferredMessageManager/TriggerData>::AddRangeNoResize(Unity.Collections.NativeList`1<T>)
+inline void ParallelWriter_AddRangeNoResize_m4AB112FEE213B9E7F79D8F7841B434B3E66402FC (ParallelWriter_t03F7F8FE5DC88E316BF956D72795F40611400D56* __this, NativeList_1_t04917686A677DCA96B3A082C15D174D765D4DF5F ___0_list, const RuntimeMethod* method)
+{
+	((  void (*) (ParallelWriter_t03F7F8FE5DC88E316BF956D72795F40611400D56*, NativeList_1_t04917686A677DCA96B3A082C15D174D765D4DF5F, const RuntimeMethod*))ParallelWriter_AddRangeNoResize_m4AB112FEE213B9E7F79D8F7841B434B3E66402FC_gshared)(__this, ___0_list, method);
+}
+// System.Void* Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Netcode.DeferredMessageManager/TriggerData>::get_Ptr()
+inline void* ParallelWriter_get_Ptr_m4D96F5960AD16999716BA033F4EBBA2D7B071B23 (ParallelWriter_t441F54F89444B12280079F24628FBE42D4628577* __this, const RuntimeMethod* method)
+{
+	return ((  void* (*) (ParallelWriter_t441F54F89444B12280079F24628FBE42D4628577*, const RuntimeMethod*))ParallelWriter_get_Ptr_m4D96F5960AD16999716BA033F4EBBA2D7B071B23_gshared)(__this, method);
+}
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Netcode.DeferredMessageManager/TriggerData>::.ctor(Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>*)
+inline void ParallelWriter__ctor_mFB7CFADB9B90234B216219830FFF35053CE49455 (ParallelWriter_t441F54F89444B12280079F24628FBE42D4628577* __this, UnsafeList_1_t7576474D288A30F1540A43F66481308FA0558594* ___0_listData, const RuntimeMethod* method)
+{
+	((  void (*) (ParallelWriter_t441F54F89444B12280079F24628FBE42D4628577*, UnsafeList_1_t7576474D288A30F1540A43F66481308FA0558594*, const RuntimeMethod*))ParallelWriter__ctor_mFB7CFADB9B90234B216219830FFF35053CE49455_gshared)(__this, ___0_listData, method);
+}
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Netcode.DeferredMessageManager/TriggerData>::AddNoResize(T)
+inline void ParallelWriter_AddNoResize_mFB23728EB19D542CF7D7F2D7C8458F2154F1B6B5 (ParallelWriter_t441F54F89444B12280079F24628FBE42D4628577* __this, TriggerData_t961063E87733CDD8443A71444D93E7529D0FD3F7 ___0_value, const RuntimeMethod* method)
+{
+	((  void (*) (ParallelWriter_t441F54F89444B12280079F24628FBE42D4628577*, TriggerData_t961063E87733CDD8443A71444D93E7529D0FD3F7, const RuntimeMethod*))ParallelWriter_AddNoResize_mFB23728EB19D542CF7D7F2D7C8458F2154F1B6B5_gshared)(__this, ___0_value, method);
+}
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Netcode.DeferredMessageManager/TriggerData>::AddRangeNoResize(System.Void*,System.Int32)
+inline void ParallelWriter_AddRangeNoResize_mD5547477F3294B765A75C93D6EABEAF5756C2EAA (ParallelWriter_t441F54F89444B12280079F24628FBE42D4628577* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method)
+{
+	((  void (*) (ParallelWriter_t441F54F89444B12280079F24628FBE42D4628577*, void*, int32_t, const RuntimeMethod*))ParallelWriter_AddRangeNoResize_mD5547477F3294B765A75C93D6EABEAF5756C2EAA_gshared)(__this, ___0_ptr, ___1_count, method);
+}
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Netcode.DeferredMessageManager/TriggerData>::AddRangeNoResize(Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>)
+inline void ParallelWriter_AddRangeNoResize_mFCB2B9B3256548E94170C5F193F0991D5AA5587A (ParallelWriter_t441F54F89444B12280079F24628FBE42D4628577* __this, UnsafeList_1_t7576474D288A30F1540A43F66481308FA0558594 ___0_list, const RuntimeMethod* method)
+{
+	((  void (*) (ParallelWriter_t441F54F89444B12280079F24628FBE42D4628577*, UnsafeList_1_t7576474D288A30F1540A43F66481308FA0558594, const RuntimeMethod*))ParallelWriter_AddRangeNoResize_mFCB2B9B3256548E94170C5F193F0991D5AA5587A_gshared)(__this, ___0_list, method);
+}
+// System.Void* Unity.Collections.NativeList`1/ParallelWriter<Unity.Networking.Transport.IPCManager/IPCData>::get_Ptr()
+inline void* ParallelWriter_get_Ptr_mAAE6180AED8CA66B560E66181EB883CD32750D9A (ParallelWriter_t94F9FFD53B9AE8430CD8498CF5CBB71E789E2901* __this, const RuntimeMethod* method)
+{
+	return ((  void* (*) (ParallelWriter_t94F9FFD53B9AE8430CD8498CF5CBB71E789E2901*, const RuntimeMethod*))ParallelWriter_get_Ptr_mAAE6180AED8CA66B560E66181EB883CD32750D9A_gshared)(__this, method);
+}
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Networking.Transport.IPCManager/IPCData>::.ctor(Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>*)
+inline void ParallelWriter__ctor_m220E0D828A67437520CDA89F7509906ADA399534 (ParallelWriter_t94F9FFD53B9AE8430CD8498CF5CBB71E789E2901* __this, UnsafeList_1_t97F38A4A58468F12153209EBA329A7E123DFCBCB* ___0_listData, const RuntimeMethod* method)
+{
+	((  void (*) (ParallelWriter_t94F9FFD53B9AE8430CD8498CF5CBB71E789E2901*, UnsafeList_1_t97F38A4A58468F12153209EBA329A7E123DFCBCB*, const RuntimeMethod*))ParallelWriter__ctor_m220E0D828A67437520CDA89F7509906ADA399534_gshared)(__this, ___0_listData, method);
+}
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Networking.Transport.IPCManager/IPCData>::AddNoResize(T)
+inline void ParallelWriter_AddNoResize_mF905E95D307860BE743472A37BF5723E1CCF3070 (ParallelWriter_t94F9FFD53B9AE8430CD8498CF5CBB71E789E2901* __this, IPCData_t46E9604572E2A38CBBA8A418C6E25E6BAE2757CC ___0_value, const RuntimeMethod* method)
+{
+	((  void (*) (ParallelWriter_t94F9FFD53B9AE8430CD8498CF5CBB71E789E2901*, IPCData_t46E9604572E2A38CBBA8A418C6E25E6BAE2757CC, const RuntimeMethod*))ParallelWriter_AddNoResize_mF905E95D307860BE743472A37BF5723E1CCF3070_gshared)(__this, ___0_value, method);
+}
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Networking.Transport.IPCManager/IPCData>::AddRangeNoResize(System.Void*,System.Int32)
+inline void ParallelWriter_AddRangeNoResize_m48C5FF1102D91120EFD61CA6B572701E6E322597 (ParallelWriter_t94F9FFD53B9AE8430CD8498CF5CBB71E789E2901* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method)
+{
+	((  void (*) (ParallelWriter_t94F9FFD53B9AE8430CD8498CF5CBB71E789E2901*, void*, int32_t, const RuntimeMethod*))ParallelWriter_AddRangeNoResize_m48C5FF1102D91120EFD61CA6B572701E6E322597_gshared)(__this, ___0_ptr, ___1_count, method);
+}
+// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeList`1<Unity.Networking.Transport.IPCManager/IPCData>::get_Length()
+inline int32_t UnsafeList_1_get_Length_mD26D7CFCB3AC3919F73F74559377C21C945739D9 (UnsafeList_1_t97F38A4A58468F12153209EBA329A7E123DFCBCB* __this, const RuntimeMethod* method)
+{
+	return ((  int32_t (*) (UnsafeList_1_t97F38A4A58468F12153209EBA329A7E123DFCBCB*, const RuntimeMethod*))UnsafeList_1_get_Length_mD26D7CFCB3AC3919F73F74559377C21C945739D9_gshared)(__this, method);
+}
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Networking.Transport.IPCManager/IPCData>::AddRangeNoResize(Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>)
+inline void ParallelWriter_AddRangeNoResize_m75AFD1C3D0EDFBAE58F6444527EEBAD63350F218 (ParallelWriter_t94F9FFD53B9AE8430CD8498CF5CBB71E789E2901* __this, UnsafeList_1_t97F38A4A58468F12153209EBA329A7E123DFCBCB ___0_list, const RuntimeMethod* method)
+{
+	((  void (*) (ParallelWriter_t94F9FFD53B9AE8430CD8498CF5CBB71E789E2901*, UnsafeList_1_t97F38A4A58468F12153209EBA329A7E123DFCBCB, const RuntimeMethod*))ParallelWriter_AddRangeNoResize_m75AFD1C3D0EDFBAE58F6444527EEBAD63350F218_gshared)(__this, ___0_list, method);
+}
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Networking.Transport.IPCManager/IPCData>::AddRangeNoResize(Unity.Collections.NativeList`1<T>)
+inline void ParallelWriter_AddRangeNoResize_mDB01C0AA0390A7BB09C61552C01EDBD049532381 (ParallelWriter_t94F9FFD53B9AE8430CD8498CF5CBB71E789E2901* __this, NativeList_1_t862569E04EFA1C3B62DB1E9E8147645A790CCF79 ___0_list, const RuntimeMethod* method)
+{
+	((  void (*) (ParallelWriter_t94F9FFD53B9AE8430CD8498CF5CBB71E789E2901*, NativeList_1_t862569E04EFA1C3B62DB1E9E8147645A790CCF79, const RuntimeMethod*))ParallelWriter_AddRangeNoResize_mDB01C0AA0390A7BB09C61552C01EDBD049532381_gshared)(__this, ___0_list, method);
+}
+// System.Void* Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Networking.Transport.IPCManager/IPCData>::get_Ptr()
+inline void* ParallelWriter_get_Ptr_mC289A13A6A5F6DD25EFAA4BC8F4477C06C614E1F (ParallelWriter_t2CB5D534A368A60C6135B62EED9189BC2479772E* __this, const RuntimeMethod* method)
+{
+	return ((  void* (*) (ParallelWriter_t2CB5D534A368A60C6135B62EED9189BC2479772E*, const RuntimeMethod*))ParallelWriter_get_Ptr_mC289A13A6A5F6DD25EFAA4BC8F4477C06C614E1F_gshared)(__this, method);
+}
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Networking.Transport.IPCManager/IPCData>::.ctor(Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>*)
+inline void ParallelWriter__ctor_mAB8E6356CE8E4DBDD7C7AF5D91E333C315F30222 (ParallelWriter_t2CB5D534A368A60C6135B62EED9189BC2479772E* __this, UnsafeList_1_t97F38A4A58468F12153209EBA329A7E123DFCBCB* ___0_listData, const RuntimeMethod* method)
+{
+	((  void (*) (ParallelWriter_t2CB5D534A368A60C6135B62EED9189BC2479772E*, UnsafeList_1_t97F38A4A58468F12153209EBA329A7E123DFCBCB*, const RuntimeMethod*))ParallelWriter__ctor_mAB8E6356CE8E4DBDD7C7AF5D91E333C315F30222_gshared)(__this, ___0_listData, method);
+}
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Networking.Transport.IPCManager/IPCData>::AddNoResize(T)
+inline void ParallelWriter_AddNoResize_mD9C24F6D423A4D6CA8A145A549962D1B30E83357 (ParallelWriter_t2CB5D534A368A60C6135B62EED9189BC2479772E* __this, IPCData_t46E9604572E2A38CBBA8A418C6E25E6BAE2757CC ___0_value, const RuntimeMethod* method)
+{
+	((  void (*) (ParallelWriter_t2CB5D534A368A60C6135B62EED9189BC2479772E*, IPCData_t46E9604572E2A38CBBA8A418C6E25E6BAE2757CC, const RuntimeMethod*))ParallelWriter_AddNoResize_mD9C24F6D423A4D6CA8A145A549962D1B30E83357_gshared)(__this, ___0_value, method);
+}
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Networking.Transport.IPCManager/IPCData>::AddRangeNoResize(System.Void*,System.Int32)
+inline void ParallelWriter_AddRangeNoResize_mDED52451BF8954DEAEFD901C3EB577D22D265F63 (ParallelWriter_t2CB5D534A368A60C6135B62EED9189BC2479772E* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method)
+{
+	((  void (*) (ParallelWriter_t2CB5D534A368A60C6135B62EED9189BC2479772E*, void*, int32_t, const RuntimeMethod*))ParallelWriter_AddRangeNoResize_mDED52451BF8954DEAEFD901C3EB577D22D265F63_gshared)(__this, ___0_ptr, ___1_count, method);
+}
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Networking.Transport.IPCManager/IPCData>::AddRangeNoResize(Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>)
+inline void ParallelWriter_AddRangeNoResize_mA0A03FF056E15B7479CBD7DD0A5D947C47FB2A5B (ParallelWriter_t2CB5D534A368A60C6135B62EED9189BC2479772E* __this, UnsafeList_1_t97F38A4A58468F12153209EBA329A7E123DFCBCB ___0_list, const RuntimeMethod* method)
+{
+	((  void (*) (ParallelWriter_t2CB5D534A368A60C6135B62EED9189BC2479772E*, UnsafeList_1_t97F38A4A58468F12153209EBA329A7E123DFCBCB, const RuntimeMethod*))ParallelWriter_AddRangeNoResize_mA0A03FF056E15B7479CBD7DD0A5D947C47FB2A5B_gshared)(__this, ___0_list, method);
+}
+// System.Void* Unity.Collections.NativeList`1/ParallelWriter<Unity.Netcode.MessagingSystem/ReceiveQueueItem>::get_Ptr()
+inline void* ParallelWriter_get_Ptr_m2AF07A3447BCBE200D651A1094505970B7E83141 (ParallelWriter_tCFD714C5DD7537D38BE908F26105B026AEBA43C9* __this, const RuntimeMethod* method)
+{
+	return ((  void* (*) (ParallelWriter_tCFD714C5DD7537D38BE908F26105B026AEBA43C9*, const RuntimeMethod*))ParallelWriter_get_Ptr_m2AF07A3447BCBE200D651A1094505970B7E83141_gshared)(__this, method);
+}
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Netcode.MessagingSystem/ReceiveQueueItem>::.ctor(Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>*)
+inline void ParallelWriter__ctor_m9880D90B0334C93DB74BE1C8CCFE4A38907A2AE2 (ParallelWriter_tCFD714C5DD7537D38BE908F26105B026AEBA43C9* __this, UnsafeList_1_t89BFA272C688229184DE0B26E132A0C55C159B6B* ___0_listData, const RuntimeMethod* method)
+{
+	((  void (*) (ParallelWriter_tCFD714C5DD7537D38BE908F26105B026AEBA43C9*, UnsafeList_1_t89BFA272C688229184DE0B26E132A0C55C159B6B*, const RuntimeMethod*))ParallelWriter__ctor_m9880D90B0334C93DB74BE1C8CCFE4A38907A2AE2_gshared)(__this, ___0_listData, method);
+}
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Netcode.MessagingSystem/ReceiveQueueItem>::AddNoResize(T)
+inline void ParallelWriter_AddNoResize_m082958D4E906ED739967A58B4AE30481023CA5FB (ParallelWriter_tCFD714C5DD7537D38BE908F26105B026AEBA43C9* __this, ReceiveQueueItem_t60F7AA40B886CF8C6231945A5262F76297738DB6 ___0_value, const RuntimeMethod* method)
+{
+	((  void (*) (ParallelWriter_tCFD714C5DD7537D38BE908F26105B026AEBA43C9*, ReceiveQueueItem_t60F7AA40B886CF8C6231945A5262F76297738DB6, const RuntimeMethod*))ParallelWriter_AddNoResize_m082958D4E906ED739967A58B4AE30481023CA5FB_gshared)(__this, ___0_value, method);
+}
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Netcode.MessagingSystem/ReceiveQueueItem>::AddRangeNoResize(System.Void*,System.Int32)
+inline void ParallelWriter_AddRangeNoResize_m2DDB331733ED7244DF9F0D41717FD533BAAE6015 (ParallelWriter_tCFD714C5DD7537D38BE908F26105B026AEBA43C9* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method)
+{
+	((  void (*) (ParallelWriter_tCFD714C5DD7537D38BE908F26105B026AEBA43C9*, void*, int32_t, const RuntimeMethod*))ParallelWriter_AddRangeNoResize_m2DDB331733ED7244DF9F0D41717FD533BAAE6015_gshared)(__this, ___0_ptr, ___1_count, method);
+}
+// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeList`1<Unity.Netcode.MessagingSystem/ReceiveQueueItem>::get_Length()
+inline int32_t UnsafeList_1_get_Length_m0B8AA2F9A7DB8D9E521EAB25DF486A0F9EB3463F (UnsafeList_1_t89BFA272C688229184DE0B26E132A0C55C159B6B* __this, const RuntimeMethod* method)
+{
+	return ((  int32_t (*) (UnsafeList_1_t89BFA272C688229184DE0B26E132A0C55C159B6B*, const RuntimeMethod*))UnsafeList_1_get_Length_m0B8AA2F9A7DB8D9E521EAB25DF486A0F9EB3463F_gshared)(__this, method);
+}
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Netcode.MessagingSystem/ReceiveQueueItem>::AddRangeNoResize(Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>)
+inline void ParallelWriter_AddRangeNoResize_m716D6CB899427BEA6E88D02D8F3FC95B9903AA0D (ParallelWriter_tCFD714C5DD7537D38BE908F26105B026AEBA43C9* __this, UnsafeList_1_t89BFA272C688229184DE0B26E132A0C55C159B6B ___0_list, const RuntimeMethod* method)
+{
+	((  void (*) (ParallelWriter_tCFD714C5DD7537D38BE908F26105B026AEBA43C9*, UnsafeList_1_t89BFA272C688229184DE0B26E132A0C55C159B6B, const RuntimeMethod*))ParallelWriter_AddRangeNoResize_m716D6CB899427BEA6E88D02D8F3FC95B9903AA0D_gshared)(__this, ___0_list, method);
+}
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Netcode.MessagingSystem/ReceiveQueueItem>::AddRangeNoResize(Unity.Collections.NativeList`1<T>)
+inline void ParallelWriter_AddRangeNoResize_m9712AD9CEC6979520C0FC91D0B11FE907FCE36A5 (ParallelWriter_tCFD714C5DD7537D38BE908F26105B026AEBA43C9* __this, NativeList_1_t138CBF168BB8AFE6930827B640D1B7DDB429657B ___0_list, const RuntimeMethod* method)
+{
+	((  void (*) (ParallelWriter_tCFD714C5DD7537D38BE908F26105B026AEBA43C9*, NativeList_1_t138CBF168BB8AFE6930827B640D1B7DDB429657B, const RuntimeMethod*))ParallelWriter_AddRangeNoResize_m9712AD9CEC6979520C0FC91D0B11FE907FCE36A5_gshared)(__this, ___0_list, method);
+}
+// System.Void* Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Netcode.MessagingSystem/ReceiveQueueItem>::get_Ptr()
+inline void* ParallelWriter_get_Ptr_m91FEDC7EE091BC2393AD26C88C05A2282301B407 (ParallelWriter_t38A408C31D5DF2B785A11B0D850011D3BA6598C8* __this, const RuntimeMethod* method)
+{
+	return ((  void* (*) (ParallelWriter_t38A408C31D5DF2B785A11B0D850011D3BA6598C8*, const RuntimeMethod*))ParallelWriter_get_Ptr_m91FEDC7EE091BC2393AD26C88C05A2282301B407_gshared)(__this, method);
+}
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Netcode.MessagingSystem/ReceiveQueueItem>::.ctor(Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>*)
+inline void ParallelWriter__ctor_m34C442439B6C535820216667269DEAF83F3BD357 (ParallelWriter_t38A408C31D5DF2B785A11B0D850011D3BA6598C8* __this, UnsafeList_1_t89BFA272C688229184DE0B26E132A0C55C159B6B* ___0_listData, const RuntimeMethod* method)
+{
+	((  void (*) (ParallelWriter_t38A408C31D5DF2B785A11B0D850011D3BA6598C8*, UnsafeList_1_t89BFA272C688229184DE0B26E132A0C55C159B6B*, const RuntimeMethod*))ParallelWriter__ctor_m34C442439B6C535820216667269DEAF83F3BD357_gshared)(__this, ___0_listData, method);
+}
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Netcode.MessagingSystem/ReceiveQueueItem>::AddNoResize(T)
+inline void ParallelWriter_AddNoResize_m32F01A14AF0C00656967F6C443AD1A1C440415DA (ParallelWriter_t38A408C31D5DF2B785A11B0D850011D3BA6598C8* __this, ReceiveQueueItem_t60F7AA40B886CF8C6231945A5262F76297738DB6 ___0_value, const RuntimeMethod* method)
+{
+	((  void (*) (ParallelWriter_t38A408C31D5DF2B785A11B0D850011D3BA6598C8*, ReceiveQueueItem_t60F7AA40B886CF8C6231945A5262F76297738DB6, const RuntimeMethod*))ParallelWriter_AddNoResize_m32F01A14AF0C00656967F6C443AD1A1C440415DA_gshared)(__this, ___0_value, method);
+}
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Netcode.MessagingSystem/ReceiveQueueItem>::AddRangeNoResize(System.Void*,System.Int32)
+inline void ParallelWriter_AddRangeNoResize_m489F4BA775EE0CC5915D9AF2C36173A101B078C6 (ParallelWriter_t38A408C31D5DF2B785A11B0D850011D3BA6598C8* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method)
+{
+	((  void (*) (ParallelWriter_t38A408C31D5DF2B785A11B0D850011D3BA6598C8*, void*, int32_t, const RuntimeMethod*))ParallelWriter_AddRangeNoResize_m489F4BA775EE0CC5915D9AF2C36173A101B078C6_gshared)(__this, ___0_ptr, ___1_count, method);
+}
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Netcode.MessagingSystem/ReceiveQueueItem>::AddRangeNoResize(Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>)
+inline void ParallelWriter_AddRangeNoResize_mD73B2BE314AF1F64F096BAE6ACB98EB93B307CF6 (ParallelWriter_t38A408C31D5DF2B785A11B0D850011D3BA6598C8* __this, UnsafeList_1_t89BFA272C688229184DE0B26E132A0C55C159B6B ___0_list, const RuntimeMethod* method)
+{
+	((  void (*) (ParallelWriter_t38A408C31D5DF2B785A11B0D850011D3BA6598C8*, UnsafeList_1_t89BFA272C688229184DE0B26E132A0C55C159B6B, const RuntimeMethod*))ParallelWriter_AddRangeNoResize_mD73B2BE314AF1F64F096BAE6ACB98EB93B307CF6_gshared)(__this, ___0_list, method);
+}
+// System.Void* Unity.Collections.NativeList`1/ParallelWriter<Unity.Netcode.MessagingSystem/SendQueueItem>::get_Ptr()
+inline void* ParallelWriter_get_Ptr_m47B82294862D9C763C211EFEE74671B7973DC449 (ParallelWriter_t22DDCE675B2008D902EE4A8DEA86C990F8D0F39A* __this, const RuntimeMethod* method)
+{
+	return ((  void* (*) (ParallelWriter_t22DDCE675B2008D902EE4A8DEA86C990F8D0F39A*, const RuntimeMethod*))ParallelWriter_get_Ptr_m47B82294862D9C763C211EFEE74671B7973DC449_gshared)(__this, method);
+}
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Netcode.MessagingSystem/SendQueueItem>::.ctor(Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>*)
+inline void ParallelWriter__ctor_mD9D9CA81A573548FAB33D0CC2BD40949AD55708E (ParallelWriter_t22DDCE675B2008D902EE4A8DEA86C990F8D0F39A* __this, UnsafeList_1_tE941F153E0D05B0746B266E9F8686EBDA90F1A12* ___0_listData, const RuntimeMethod* method)
+{
+	((  void (*) (ParallelWriter_t22DDCE675B2008D902EE4A8DEA86C990F8D0F39A*, UnsafeList_1_tE941F153E0D05B0746B266E9F8686EBDA90F1A12*, const RuntimeMethod*))ParallelWriter__ctor_mD9D9CA81A573548FAB33D0CC2BD40949AD55708E_gshared)(__this, ___0_listData, method);
+}
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Netcode.MessagingSystem/SendQueueItem>::AddNoResize(T)
+inline void ParallelWriter_AddNoResize_m97365CBCC2C09094B35F5175DF78404188214815 (ParallelWriter_t22DDCE675B2008D902EE4A8DEA86C990F8D0F39A* __this, SendQueueItem_tFA46EA1EF42596165A1AAE755E4984B2DBFB1B47 ___0_value, const RuntimeMethod* method)
+{
+	((  void (*) (ParallelWriter_t22DDCE675B2008D902EE4A8DEA86C990F8D0F39A*, SendQueueItem_tFA46EA1EF42596165A1AAE755E4984B2DBFB1B47, const RuntimeMethod*))ParallelWriter_AddNoResize_m97365CBCC2C09094B35F5175DF78404188214815_gshared)(__this, ___0_value, method);
+}
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Netcode.MessagingSystem/SendQueueItem>::AddRangeNoResize(System.Void*,System.Int32)
+inline void ParallelWriter_AddRangeNoResize_m79AFEA665BD965D94671F578F524A88299FF791C (ParallelWriter_t22DDCE675B2008D902EE4A8DEA86C990F8D0F39A* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method)
+{
+	((  void (*) (ParallelWriter_t22DDCE675B2008D902EE4A8DEA86C990F8D0F39A*, void*, int32_t, const RuntimeMethod*))ParallelWriter_AddRangeNoResize_m79AFEA665BD965D94671F578F524A88299FF791C_gshared)(__this, ___0_ptr, ___1_count, method);
+}
+// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeList`1<Unity.Netcode.MessagingSystem/SendQueueItem>::get_Length()
+inline int32_t UnsafeList_1_get_Length_mD5B5719E7FACD4769FD7EB73521F99F6A2365FAE (UnsafeList_1_tE941F153E0D05B0746B266E9F8686EBDA90F1A12* __this, const RuntimeMethod* method)
+{
+	return ((  int32_t (*) (UnsafeList_1_tE941F153E0D05B0746B266E9F8686EBDA90F1A12*, const RuntimeMethod*))UnsafeList_1_get_Length_mD5B5719E7FACD4769FD7EB73521F99F6A2365FAE_gshared)(__this, method);
+}
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Netcode.MessagingSystem/SendQueueItem>::AddRangeNoResize(Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>)
+inline void ParallelWriter_AddRangeNoResize_m595294E14532BCBF77A96CD1590F9A9ADF4F9CC3 (ParallelWriter_t22DDCE675B2008D902EE4A8DEA86C990F8D0F39A* __this, UnsafeList_1_tE941F153E0D05B0746B266E9F8686EBDA90F1A12 ___0_list, const RuntimeMethod* method)
+{
+	((  void (*) (ParallelWriter_t22DDCE675B2008D902EE4A8DEA86C990F8D0F39A*, UnsafeList_1_tE941F153E0D05B0746B266E9F8686EBDA90F1A12, const RuntimeMethod*))ParallelWriter_AddRangeNoResize_m595294E14532BCBF77A96CD1590F9A9ADF4F9CC3_gshared)(__this, ___0_list, method);
+}
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Netcode.MessagingSystem/SendQueueItem>::AddRangeNoResize(Unity.Collections.NativeList`1<T>)
+inline void ParallelWriter_AddRangeNoResize_m6528990C8D82E91B0ABB6B594207865D566D79DA (ParallelWriter_t22DDCE675B2008D902EE4A8DEA86C990F8D0F39A* __this, NativeList_1_t663B318E0C7E204D6FB8867DB99328D712EACB2C ___0_list, const RuntimeMethod* method)
+{
+	((  void (*) (ParallelWriter_t22DDCE675B2008D902EE4A8DEA86C990F8D0F39A*, NativeList_1_t663B318E0C7E204D6FB8867DB99328D712EACB2C, const RuntimeMethod*))ParallelWriter_AddRangeNoResize_m6528990C8D82E91B0ABB6B594207865D566D79DA_gshared)(__this, ___0_list, method);
+}
+// System.Void* Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Netcode.MessagingSystem/SendQueueItem>::get_Ptr()
+inline void* ParallelWriter_get_Ptr_m7BD9BC9F58ACC5AB51AA10830091966B5B30E4D1 (ParallelWriter_t5CA5B52F0C222EAC6D1D16D33F59DA596E039322* __this, const RuntimeMethod* method)
+{
+	return ((  void* (*) (ParallelWriter_t5CA5B52F0C222EAC6D1D16D33F59DA596E039322*, const RuntimeMethod*))ParallelWriter_get_Ptr_m7BD9BC9F58ACC5AB51AA10830091966B5B30E4D1_gshared)(__this, method);
+}
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Netcode.MessagingSystem/SendQueueItem>::.ctor(Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>*)
+inline void ParallelWriter__ctor_m0C424DDDB2EAAB7855496896CE83395D02380D22 (ParallelWriter_t5CA5B52F0C222EAC6D1D16D33F59DA596E039322* __this, UnsafeList_1_tE941F153E0D05B0746B266E9F8686EBDA90F1A12* ___0_listData, const RuntimeMethod* method)
+{
+	((  void (*) (ParallelWriter_t5CA5B52F0C222EAC6D1D16D33F59DA596E039322*, UnsafeList_1_tE941F153E0D05B0746B266E9F8686EBDA90F1A12*, const RuntimeMethod*))ParallelWriter__ctor_m0C424DDDB2EAAB7855496896CE83395D02380D22_gshared)(__this, ___0_listData, method);
+}
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Netcode.MessagingSystem/SendQueueItem>::AddNoResize(T)
+inline void ParallelWriter_AddNoResize_m5A6AFC12A8C0C77FEBBD68503CA7999570B9D94F (ParallelWriter_t5CA5B52F0C222EAC6D1D16D33F59DA596E039322* __this, SendQueueItem_tFA46EA1EF42596165A1AAE755E4984B2DBFB1B47 ___0_value, const RuntimeMethod* method)
+{
+	((  void (*) (ParallelWriter_t5CA5B52F0C222EAC6D1D16D33F59DA596E039322*, SendQueueItem_tFA46EA1EF42596165A1AAE755E4984B2DBFB1B47, const RuntimeMethod*))ParallelWriter_AddNoResize_m5A6AFC12A8C0C77FEBBD68503CA7999570B9D94F_gshared)(__this, ___0_value, method);
+}
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Netcode.MessagingSystem/SendQueueItem>::AddRangeNoResize(System.Void*,System.Int32)
+inline void ParallelWriter_AddRangeNoResize_m2225E5137C71D15F49E7B8464235A247A0D3D1EA (ParallelWriter_t5CA5B52F0C222EAC6D1D16D33F59DA596E039322* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method)
+{
+	((  void (*) (ParallelWriter_t5CA5B52F0C222EAC6D1D16D33F59DA596E039322*, void*, int32_t, const RuntimeMethod*))ParallelWriter_AddRangeNoResize_m2225E5137C71D15F49E7B8464235A247A0D3D1EA_gshared)(__this, ___0_ptr, ___1_count, method);
+}
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Netcode.MessagingSystem/SendQueueItem>::AddRangeNoResize(Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>)
+inline void ParallelWriter_AddRangeNoResize_m33DC5E2C4820E66BBC0159C54CE137ACF1430D62 (ParallelWriter_t5CA5B52F0C222EAC6D1D16D33F59DA596E039322* __this, UnsafeList_1_tE941F153E0D05B0746B266E9F8686EBDA90F1A12 ___0_list, const RuntimeMethod* method)
+{
+	((  void (*) (ParallelWriter_t5CA5B52F0C222EAC6D1D16D33F59DA596E039322*, UnsafeList_1_tE941F153E0D05B0746B266E9F8686EBDA90F1A12, const RuntimeMethod*))ParallelWriter_AddRangeNoResize_m33DC5E2C4820E66BBC0159C54CE137ACF1430D62_gshared)(__this, ___0_list, method);
+}
+// System.Void* Unity.Collections.NativeList`1/ParallelWriter<Unity.Networking.Transport.NetworkDriver/Connection>::get_Ptr()
+inline void* ParallelWriter_get_Ptr_m71B73FECDD70DF9418CD483F1DB441CCE641E2D7 (ParallelWriter_t803C620C6C990806F18641155AC85D7A01D82CE2* __this, const RuntimeMethod* method)
+{
+	return ((  void* (*) (ParallelWriter_t803C620C6C990806F18641155AC85D7A01D82CE2*, const RuntimeMethod*))ParallelWriter_get_Ptr_m71B73FECDD70DF9418CD483F1DB441CCE641E2D7_gshared)(__this, method);
+}
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Networking.Transport.NetworkDriver/Connection>::.ctor(Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>*)
+inline void ParallelWriter__ctor_m9AAE4248654C81759F3AA866DC83A521998E1543 (ParallelWriter_t803C620C6C990806F18641155AC85D7A01D82CE2* __this, UnsafeList_1_tF90CD1BACB3990B533D04C98C2C90161BD7F9C20* ___0_listData, const RuntimeMethod* method)
+{
+	((  void (*) (ParallelWriter_t803C620C6C990806F18641155AC85D7A01D82CE2*, UnsafeList_1_tF90CD1BACB3990B533D04C98C2C90161BD7F9C20*, const RuntimeMethod*))ParallelWriter__ctor_m9AAE4248654C81759F3AA866DC83A521998E1543_gshared)(__this, ___0_listData, method);
+}
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Networking.Transport.NetworkDriver/Connection>::AddNoResize(T)
+inline void ParallelWriter_AddNoResize_mA9D8B94ABAA32F7075DA19C2C4D0DC4830CA21B1 (ParallelWriter_t803C620C6C990806F18641155AC85D7A01D82CE2* __this, Connection_t57B7A8186502E304AD87933A0FFD76FDF0972D70 ___0_value, const RuntimeMethod* method)
+{
+	((  void (*) (ParallelWriter_t803C620C6C990806F18641155AC85D7A01D82CE2*, Connection_t57B7A8186502E304AD87933A0FFD76FDF0972D70, const RuntimeMethod*))ParallelWriter_AddNoResize_mA9D8B94ABAA32F7075DA19C2C4D0DC4830CA21B1_gshared)(__this, ___0_value, method);
+}
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Networking.Transport.NetworkDriver/Connection>::AddRangeNoResize(System.Void*,System.Int32)
+inline void ParallelWriter_AddRangeNoResize_mE80D8BF1E511DEA62FD47DB691152EF8E6943770 (ParallelWriter_t803C620C6C990806F18641155AC85D7A01D82CE2* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method)
+{
+	((  void (*) (ParallelWriter_t803C620C6C990806F18641155AC85D7A01D82CE2*, void*, int32_t, const RuntimeMethod*))ParallelWriter_AddRangeNoResize_mE80D8BF1E511DEA62FD47DB691152EF8E6943770_gshared)(__this, ___0_ptr, ___1_count, method);
+}
+// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeList`1<Unity.Networking.Transport.NetworkDriver/Connection>::get_Length()
+inline int32_t UnsafeList_1_get_Length_m8B6A2812A404CE8BDF0E18E0290942D610D10BBB (UnsafeList_1_tF90CD1BACB3990B533D04C98C2C90161BD7F9C20* __this, const RuntimeMethod* method)
+{
+	return ((  int32_t (*) (UnsafeList_1_tF90CD1BACB3990B533D04C98C2C90161BD7F9C20*, const RuntimeMethod*))UnsafeList_1_get_Length_m8B6A2812A404CE8BDF0E18E0290942D610D10BBB_gshared)(__this, method);
+}
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Networking.Transport.NetworkDriver/Connection>::AddRangeNoResize(Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>)
+inline void ParallelWriter_AddRangeNoResize_mF4116E021D34DCD351DDA265FF3F57CC6F6D8D4D (ParallelWriter_t803C620C6C990806F18641155AC85D7A01D82CE2* __this, UnsafeList_1_tF90CD1BACB3990B533D04C98C2C90161BD7F9C20 ___0_list, const RuntimeMethod* method)
+{
+	((  void (*) (ParallelWriter_t803C620C6C990806F18641155AC85D7A01D82CE2*, UnsafeList_1_tF90CD1BACB3990B533D04C98C2C90161BD7F9C20, const RuntimeMethod*))ParallelWriter_AddRangeNoResize_mF4116E021D34DCD351DDA265FF3F57CC6F6D8D4D_gshared)(__this, ___0_list, method);
+}
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Networking.Transport.NetworkDriver/Connection>::AddRangeNoResize(Unity.Collections.NativeList`1<T>)
+inline void ParallelWriter_AddRangeNoResize_m051E19758B7945CFF1046CAA6344687E62D69C83 (ParallelWriter_t803C620C6C990806F18641155AC85D7A01D82CE2* __this, NativeList_1_tD3715B1226B4E157D6FC09924FDC7EDC5FC0E8C9 ___0_list, const RuntimeMethod* method)
+{
+	((  void (*) (ParallelWriter_t803C620C6C990806F18641155AC85D7A01D82CE2*, NativeList_1_tD3715B1226B4E157D6FC09924FDC7EDC5FC0E8C9, const RuntimeMethod*))ParallelWriter_AddRangeNoResize_m051E19758B7945CFF1046CAA6344687E62D69C83_gshared)(__this, ___0_list, method);
+}
+// System.Void* Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Networking.Transport.NetworkDriver/Connection>::get_Ptr()
+inline void* ParallelWriter_get_Ptr_m4F77E8BCD7852EA17250CE73B6EC41D504C181B9 (ParallelWriter_t9C08A9CE034DD792954BE5930D8EC268BA988D41* __this, const RuntimeMethod* method)
+{
+	return ((  void* (*) (ParallelWriter_t9C08A9CE034DD792954BE5930D8EC268BA988D41*, const RuntimeMethod*))ParallelWriter_get_Ptr_m4F77E8BCD7852EA17250CE73B6EC41D504C181B9_gshared)(__this, method);
+}
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Networking.Transport.NetworkDriver/Connection>::.ctor(Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>*)
+inline void ParallelWriter__ctor_mF0CA24B6D15530A6AC04B19F628A8CC10E6F2C46 (ParallelWriter_t9C08A9CE034DD792954BE5930D8EC268BA988D41* __this, UnsafeList_1_tF90CD1BACB3990B533D04C98C2C90161BD7F9C20* ___0_listData, const RuntimeMethod* method)
+{
+	((  void (*) (ParallelWriter_t9C08A9CE034DD792954BE5930D8EC268BA988D41*, UnsafeList_1_tF90CD1BACB3990B533D04C98C2C90161BD7F9C20*, const RuntimeMethod*))ParallelWriter__ctor_mF0CA24B6D15530A6AC04B19F628A8CC10E6F2C46_gshared)(__this, ___0_listData, method);
+}
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Networking.Transport.NetworkDriver/Connection>::AddNoResize(T)
+inline void ParallelWriter_AddNoResize_m7BDFED140857F5661B75FF775E1A74418E379554 (ParallelWriter_t9C08A9CE034DD792954BE5930D8EC268BA988D41* __this, Connection_t57B7A8186502E304AD87933A0FFD76FDF0972D70 ___0_value, const RuntimeMethod* method)
+{
+	((  void (*) (ParallelWriter_t9C08A9CE034DD792954BE5930D8EC268BA988D41*, Connection_t57B7A8186502E304AD87933A0FFD76FDF0972D70, const RuntimeMethod*))ParallelWriter_AddNoResize_m7BDFED140857F5661B75FF775E1A74418E379554_gshared)(__this, ___0_value, method);
+}
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Networking.Transport.NetworkDriver/Connection>::AddRangeNoResize(System.Void*,System.Int32)
+inline void ParallelWriter_AddRangeNoResize_m869AE290801940B77A41C2A3495F1EFB570228E5 (ParallelWriter_t9C08A9CE034DD792954BE5930D8EC268BA988D41* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method)
+{
+	((  void (*) (ParallelWriter_t9C08A9CE034DD792954BE5930D8EC268BA988D41*, void*, int32_t, const RuntimeMethod*))ParallelWriter_AddRangeNoResize_m869AE290801940B77A41C2A3495F1EFB570228E5_gshared)(__this, ___0_ptr, ___1_count, method);
+}
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Networking.Transport.NetworkDriver/Connection>::AddRangeNoResize(Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>)
+inline void ParallelWriter_AddRangeNoResize_m02A8C44BA14CB8A996DA11F4DB5E047CF069391E (ParallelWriter_t9C08A9CE034DD792954BE5930D8EC268BA988D41* __this, UnsafeList_1_tF90CD1BACB3990B533D04C98C2C90161BD7F9C20 ___0_list, const RuntimeMethod* method)
+{
+	((  void (*) (ParallelWriter_t9C08A9CE034DD792954BE5930D8EC268BA988D41*, UnsafeList_1_tF90CD1BACB3990B533D04C98C2C90161BD7F9C20, const RuntimeMethod*))ParallelWriter_AddRangeNoResize_m02A8C44BA14CB8A996DA11F4DB5E047CF069391E_gshared)(__this, ___0_list, method);
+}
+// System.Void Unity.Collections.NativeQueue`1/ParallelWriter<Unity.Networking.Transport.NetworkEventQueue/SubQueueItem>::Enqueue(T)
+inline void ParallelWriter_Enqueue_m39EEE0D801A05E6AF627401D8C629D26383B1A78 (ParallelWriter_tD14C7A3C4731767076B3C7DB4613E59DFDD2DE7B* __this, SubQueueItem_tAE6DA2A0B68107490190DB4680442767B9D420B7 ___0_value, const RuntimeMethod* method)
+{
+	((  void (*) (ParallelWriter_tD14C7A3C4731767076B3C7DB4613E59DFDD2DE7B*, SubQueueItem_tAE6DA2A0B68107490190DB4680442767B9D420B7, const RuntimeMethod*))ParallelWriter_Enqueue_m39EEE0D801A05E6AF627401D8C629D26383B1A78_gshared)(__this, ___0_value, method);
+}
+// System.Void* Unity.Collections.NativeList`1/ParallelWriter<Unity.Networking.Transport.NetworkPipelineProcessor/PipelineImpl>::get_Ptr()
+inline void* ParallelWriter_get_Ptr_m5606852415297E86A4BAB304EB0DF1F1F16B8104 (ParallelWriter_tB41779E5BCCF7FD4396126965EEE1ADFD8D3A653* __this, const RuntimeMethod* method)
+{
+	return ((  void* (*) (ParallelWriter_tB41779E5BCCF7FD4396126965EEE1ADFD8D3A653*, const RuntimeMethod*))ParallelWriter_get_Ptr_m5606852415297E86A4BAB304EB0DF1F1F16B8104_gshared)(__this, method);
+}
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Networking.Transport.NetworkPipelineProcessor/PipelineImpl>::.ctor(Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>*)
+inline void ParallelWriter__ctor_mA8B8E5C1C0E9E6744EC579250C29787D63C390CB (ParallelWriter_tB41779E5BCCF7FD4396126965EEE1ADFD8D3A653* __this, UnsafeList_1_t557C9C31121D73D732851DA0465D2D22CFFBF099* ___0_listData, const RuntimeMethod* method)
+{
+	((  void (*) (ParallelWriter_tB41779E5BCCF7FD4396126965EEE1ADFD8D3A653*, UnsafeList_1_t557C9C31121D73D732851DA0465D2D22CFFBF099*, const RuntimeMethod*))ParallelWriter__ctor_mA8B8E5C1C0E9E6744EC579250C29787D63C390CB_gshared)(__this, ___0_listData, method);
+}
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Networking.Transport.NetworkPipelineProcessor/PipelineImpl>::AddNoResize(T)
+inline void ParallelWriter_AddNoResize_m48C5AE9D325421C0AFE950C378CDD0B1A09C9327 (ParallelWriter_tB41779E5BCCF7FD4396126965EEE1ADFD8D3A653* __this, PipelineImpl_t422927EB35F759F18ECBA1C7B075AAC92918017E ___0_value, const RuntimeMethod* method)
+{
+	((  void (*) (ParallelWriter_tB41779E5BCCF7FD4396126965EEE1ADFD8D3A653*, PipelineImpl_t422927EB35F759F18ECBA1C7B075AAC92918017E, const RuntimeMethod*))ParallelWriter_AddNoResize_m48C5AE9D325421C0AFE950C378CDD0B1A09C9327_gshared)(__this, ___0_value, method);
+}
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Networking.Transport.NetworkPipelineProcessor/PipelineImpl>::AddRangeNoResize(System.Void*,System.Int32)
+inline void ParallelWriter_AddRangeNoResize_m43257952C3ABFAC57A3F28C95D079973716937C3 (ParallelWriter_tB41779E5BCCF7FD4396126965EEE1ADFD8D3A653* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method)
+{
+	((  void (*) (ParallelWriter_tB41779E5BCCF7FD4396126965EEE1ADFD8D3A653*, void*, int32_t, const RuntimeMethod*))ParallelWriter_AddRangeNoResize_m43257952C3ABFAC57A3F28C95D079973716937C3_gshared)(__this, ___0_ptr, ___1_count, method);
+}
+// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeList`1<Unity.Networking.Transport.NetworkPipelineProcessor/PipelineImpl>::get_Length()
+inline int32_t UnsafeList_1_get_Length_m8B5E6F7674AA42FEA08008BEB5F715FE21B2CA46 (UnsafeList_1_t557C9C31121D73D732851DA0465D2D22CFFBF099* __this, const RuntimeMethod* method)
+{
+	return ((  int32_t (*) (UnsafeList_1_t557C9C31121D73D732851DA0465D2D22CFFBF099*, const RuntimeMethod*))UnsafeList_1_get_Length_m8B5E6F7674AA42FEA08008BEB5F715FE21B2CA46_gshared)(__this, method);
+}
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Networking.Transport.NetworkPipelineProcessor/PipelineImpl>::AddRangeNoResize(Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>)
+inline void ParallelWriter_AddRangeNoResize_mE0705079ADA2A157EC50AAA6013B1DD66220E833 (ParallelWriter_tB41779E5BCCF7FD4396126965EEE1ADFD8D3A653* __this, UnsafeList_1_t557C9C31121D73D732851DA0465D2D22CFFBF099 ___0_list, const RuntimeMethod* method)
+{
+	((  void (*) (ParallelWriter_tB41779E5BCCF7FD4396126965EEE1ADFD8D3A653*, UnsafeList_1_t557C9C31121D73D732851DA0465D2D22CFFBF099, const RuntimeMethod*))ParallelWriter_AddRangeNoResize_mE0705079ADA2A157EC50AAA6013B1DD66220E833_gshared)(__this, ___0_list, method);
+}
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Networking.Transport.NetworkPipelineProcessor/PipelineImpl>::AddRangeNoResize(Unity.Collections.NativeList`1<T>)
+inline void ParallelWriter_AddRangeNoResize_m3C41EC31DDA9BBD9D6BDDCB5814FE9A73506D002 (ParallelWriter_tB41779E5BCCF7FD4396126965EEE1ADFD8D3A653* __this, NativeList_1_t7D0C4FADF421E663CFE4731E9B320F919701A66C ___0_list, const RuntimeMethod* method)
+{
+	((  void (*) (ParallelWriter_tB41779E5BCCF7FD4396126965EEE1ADFD8D3A653*, NativeList_1_t7D0C4FADF421E663CFE4731E9B320F919701A66C, const RuntimeMethod*))ParallelWriter_AddRangeNoResize_m3C41EC31DDA9BBD9D6BDDCB5814FE9A73506D002_gshared)(__this, ___0_list, method);
+}
+// System.Void* Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Networking.Transport.NetworkPipelineProcessor/PipelineImpl>::get_Ptr()
+inline void* ParallelWriter_get_Ptr_m3A6A2C90D7D5BF154BA39554FC567D8A078DEA61 (ParallelWriter_tDE0F3CEBA8724546ED627F8F8D52A3BA57C08FB6* __this, const RuntimeMethod* method)
+{
+	return ((  void* (*) (ParallelWriter_tDE0F3CEBA8724546ED627F8F8D52A3BA57C08FB6*, const RuntimeMethod*))ParallelWriter_get_Ptr_m3A6A2C90D7D5BF154BA39554FC567D8A078DEA61_gshared)(__this, method);
+}
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Networking.Transport.NetworkPipelineProcessor/PipelineImpl>::.ctor(Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>*)
+inline void ParallelWriter__ctor_m951833BB43DB1505CF4CEC49536ABD15E4C123E6 (ParallelWriter_tDE0F3CEBA8724546ED627F8F8D52A3BA57C08FB6* __this, UnsafeList_1_t557C9C31121D73D732851DA0465D2D22CFFBF099* ___0_listData, const RuntimeMethod* method)
+{
+	((  void (*) (ParallelWriter_tDE0F3CEBA8724546ED627F8F8D52A3BA57C08FB6*, UnsafeList_1_t557C9C31121D73D732851DA0465D2D22CFFBF099*, const RuntimeMethod*))ParallelWriter__ctor_m951833BB43DB1505CF4CEC49536ABD15E4C123E6_gshared)(__this, ___0_listData, method);
+}
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Networking.Transport.NetworkPipelineProcessor/PipelineImpl>::AddNoResize(T)
+inline void ParallelWriter_AddNoResize_mEC530F025387E572EE24E4B9DAC39BC57F79353F (ParallelWriter_tDE0F3CEBA8724546ED627F8F8D52A3BA57C08FB6* __this, PipelineImpl_t422927EB35F759F18ECBA1C7B075AAC92918017E ___0_value, const RuntimeMethod* method)
+{
+	((  void (*) (ParallelWriter_tDE0F3CEBA8724546ED627F8F8D52A3BA57C08FB6*, PipelineImpl_t422927EB35F759F18ECBA1C7B075AAC92918017E, const RuntimeMethod*))ParallelWriter_AddNoResize_mEC530F025387E572EE24E4B9DAC39BC57F79353F_gshared)(__this, ___0_value, method);
+}
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Networking.Transport.NetworkPipelineProcessor/PipelineImpl>::AddRangeNoResize(System.Void*,System.Int32)
+inline void ParallelWriter_AddRangeNoResize_m110BC262A8AFD73F7184E95F1D773F67C1BF496E (ParallelWriter_tDE0F3CEBA8724546ED627F8F8D52A3BA57C08FB6* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method)
+{
+	((  void (*) (ParallelWriter_tDE0F3CEBA8724546ED627F8F8D52A3BA57C08FB6*, void*, int32_t, const RuntimeMethod*))ParallelWriter_AddRangeNoResize_m110BC262A8AFD73F7184E95F1D773F67C1BF496E_gshared)(__this, ___0_ptr, ___1_count, method);
+}
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Networking.Transport.NetworkPipelineProcessor/PipelineImpl>::AddRangeNoResize(Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>)
+inline void ParallelWriter_AddRangeNoResize_m1A2C74321CBE3C3164BA5CE55F05394D3FFAFF1E (ParallelWriter_tDE0F3CEBA8724546ED627F8F8D52A3BA57C08FB6* __this, UnsafeList_1_t557C9C31121D73D732851DA0465D2D22CFFBF099 ___0_list, const RuntimeMethod* method)
+{
+	((  void (*) (ParallelWriter_tDE0F3CEBA8724546ED627F8F8D52A3BA57C08FB6*, UnsafeList_1_t557C9C31121D73D732851DA0465D2D22CFFBF099, const RuntimeMethod*))ParallelWriter_AddRangeNoResize_m1A2C74321CBE3C3164BA5CE55F05394D3FFAFF1E_gshared)(__this, ___0_list, method);
+}
+// System.Void* Unity.Collections.NativeList`1/ParallelWriter<Unity.Networking.Transport.NetworkPipelineProcessor/UpdatePipeline>::get_Ptr()
+inline void* ParallelWriter_get_Ptr_m2FFD535C76CAD331F4F635A37018D39FF4A1C16E (ParallelWriter_tC50E8137F551749AC8F77272BE6E3AE2DF39B69B* __this, const RuntimeMethod* method)
+{
+	return ((  void* (*) (ParallelWriter_tC50E8137F551749AC8F77272BE6E3AE2DF39B69B*, const RuntimeMethod*))ParallelWriter_get_Ptr_m2FFD535C76CAD331F4F635A37018D39FF4A1C16E_gshared)(__this, method);
+}
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Networking.Transport.NetworkPipelineProcessor/UpdatePipeline>::.ctor(Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>*)
+inline void ParallelWriter__ctor_m76D1BA912E24A80D77CC1C914659E2FF80C79F5B (ParallelWriter_tC50E8137F551749AC8F77272BE6E3AE2DF39B69B* __this, UnsafeList_1_t5D77D9399869F973DD7861206FE7B0BB5254BEDA* ___0_listData, const RuntimeMethod* method)
+{
+	((  void (*) (ParallelWriter_tC50E8137F551749AC8F77272BE6E3AE2DF39B69B*, UnsafeList_1_t5D77D9399869F973DD7861206FE7B0BB5254BEDA*, const RuntimeMethod*))ParallelWriter__ctor_m76D1BA912E24A80D77CC1C914659E2FF80C79F5B_gshared)(__this, ___0_listData, method);
+}
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Networking.Transport.NetworkPipelineProcessor/UpdatePipeline>::AddNoResize(T)
+inline void ParallelWriter_AddNoResize_mF25E74E917886C2E8DF45C73119FB20B5B2719A9 (ParallelWriter_tC50E8137F551749AC8F77272BE6E3AE2DF39B69B* __this, UpdatePipeline_t8D511DB7DDEC2170FC3349B879D1E46CD18C35D2 ___0_value, const RuntimeMethod* method)
+{
+	((  void (*) (ParallelWriter_tC50E8137F551749AC8F77272BE6E3AE2DF39B69B*, UpdatePipeline_t8D511DB7DDEC2170FC3349B879D1E46CD18C35D2, const RuntimeMethod*))ParallelWriter_AddNoResize_mF25E74E917886C2E8DF45C73119FB20B5B2719A9_gshared)(__this, ___0_value, method);
+}
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Networking.Transport.NetworkPipelineProcessor/UpdatePipeline>::AddRangeNoResize(System.Void*,System.Int32)
+inline void ParallelWriter_AddRangeNoResize_m05F00F7957390A7C99306E5F55491E11FE52A176 (ParallelWriter_tC50E8137F551749AC8F77272BE6E3AE2DF39B69B* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method)
+{
+	((  void (*) (ParallelWriter_tC50E8137F551749AC8F77272BE6E3AE2DF39B69B*, void*, int32_t, const RuntimeMethod*))ParallelWriter_AddRangeNoResize_m05F00F7957390A7C99306E5F55491E11FE52A176_gshared)(__this, ___0_ptr, ___1_count, method);
+}
+// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeList`1<Unity.Networking.Transport.NetworkPipelineProcessor/UpdatePipeline>::get_Length()
+inline int32_t UnsafeList_1_get_Length_m5E35890A073934733C20AA6D6002E80B53C40CEE (UnsafeList_1_t5D77D9399869F973DD7861206FE7B0BB5254BEDA* __this, const RuntimeMethod* method)
+{
+	return ((  int32_t (*) (UnsafeList_1_t5D77D9399869F973DD7861206FE7B0BB5254BEDA*, const RuntimeMethod*))UnsafeList_1_get_Length_m5E35890A073934733C20AA6D6002E80B53C40CEE_gshared)(__this, method);
+}
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Networking.Transport.NetworkPipelineProcessor/UpdatePipeline>::AddRangeNoResize(Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>)
+inline void ParallelWriter_AddRangeNoResize_mA154EB467C5E2A37886660E9AE491A7F5DD34DCD (ParallelWriter_tC50E8137F551749AC8F77272BE6E3AE2DF39B69B* __this, UnsafeList_1_t5D77D9399869F973DD7861206FE7B0BB5254BEDA ___0_list, const RuntimeMethod* method)
+{
+	((  void (*) (ParallelWriter_tC50E8137F551749AC8F77272BE6E3AE2DF39B69B*, UnsafeList_1_t5D77D9399869F973DD7861206FE7B0BB5254BEDA, const RuntimeMethod*))ParallelWriter_AddRangeNoResize_mA154EB467C5E2A37886660E9AE491A7F5DD34DCD_gshared)(__this, ___0_list, method);
+}
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Networking.Transport.NetworkPipelineProcessor/UpdatePipeline>::AddRangeNoResize(Unity.Collections.NativeList`1<T>)
+inline void ParallelWriter_AddRangeNoResize_m4EB8DD211A7A2F25CC7B186BC71F5EEEFE6411BC (ParallelWriter_tC50E8137F551749AC8F77272BE6E3AE2DF39B69B* __this, NativeList_1_t1869FE735F5176A07019C960A26F7477BA6142B3 ___0_list, const RuntimeMethod* method)
+{
+	((  void (*) (ParallelWriter_tC50E8137F551749AC8F77272BE6E3AE2DF39B69B*, NativeList_1_t1869FE735F5176A07019C960A26F7477BA6142B3, const RuntimeMethod*))ParallelWriter_AddRangeNoResize_m4EB8DD211A7A2F25CC7B186BC71F5EEEFE6411BC_gshared)(__this, ___0_list, method);
+}
+// System.Void Unity.Collections.NativeQueue`1/ParallelWriter<Unity.Networking.Transport.NetworkPipelineProcessor/UpdatePipeline>::Enqueue(T)
+inline void ParallelWriter_Enqueue_mD81143975AA19DFE1D0DDA6B7E715250C3813993 (ParallelWriter_t55B873B53088E2C14EC0CE7DD3ECA37705CB04CC* __this, UpdatePipeline_t8D511DB7DDEC2170FC3349B879D1E46CD18C35D2 ___0_value, const RuntimeMethod* method)
+{
+	((  void (*) (ParallelWriter_t55B873B53088E2C14EC0CE7DD3ECA37705CB04CC*, UpdatePipeline_t8D511DB7DDEC2170FC3349B879D1E46CD18C35D2, const RuntimeMethod*))ParallelWriter_Enqueue_mD81143975AA19DFE1D0DDA6B7E715250C3813993_gshared)(__this, ___0_value, method);
+}
+// System.Void* Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Networking.Transport.NetworkPipelineProcessor/UpdatePipeline>::get_Ptr()
+inline void* ParallelWriter_get_Ptr_mA392B1D76D6B3668DDAC4A872E87F9064B383CB8 (ParallelWriter_tF2AD77C8A90F1D5807B0720121A0F3B27BC5B98B* __this, const RuntimeMethod* method)
+{
+	return ((  void* (*) (ParallelWriter_tF2AD77C8A90F1D5807B0720121A0F3B27BC5B98B*, const RuntimeMethod*))ParallelWriter_get_Ptr_mA392B1D76D6B3668DDAC4A872E87F9064B383CB8_gshared)(__this, method);
+}
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Networking.Transport.NetworkPipelineProcessor/UpdatePipeline>::.ctor(Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>*)
+inline void ParallelWriter__ctor_mB80550E27CBE56C9ECE237E5D77A51DFF086265F (ParallelWriter_tF2AD77C8A90F1D5807B0720121A0F3B27BC5B98B* __this, UnsafeList_1_t5D77D9399869F973DD7861206FE7B0BB5254BEDA* ___0_listData, const RuntimeMethod* method)
+{
+	((  void (*) (ParallelWriter_tF2AD77C8A90F1D5807B0720121A0F3B27BC5B98B*, UnsafeList_1_t5D77D9399869F973DD7861206FE7B0BB5254BEDA*, const RuntimeMethod*))ParallelWriter__ctor_mB80550E27CBE56C9ECE237E5D77A51DFF086265F_gshared)(__this, ___0_listData, method);
+}
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Networking.Transport.NetworkPipelineProcessor/UpdatePipeline>::AddNoResize(T)
+inline void ParallelWriter_AddNoResize_m063873842E0CEE50C6BAFCFDEA64B07DBA465FA4 (ParallelWriter_tF2AD77C8A90F1D5807B0720121A0F3B27BC5B98B* __this, UpdatePipeline_t8D511DB7DDEC2170FC3349B879D1E46CD18C35D2 ___0_value, const RuntimeMethod* method)
+{
+	((  void (*) (ParallelWriter_tF2AD77C8A90F1D5807B0720121A0F3B27BC5B98B*, UpdatePipeline_t8D511DB7DDEC2170FC3349B879D1E46CD18C35D2, const RuntimeMethod*))ParallelWriter_AddNoResize_m063873842E0CEE50C6BAFCFDEA64B07DBA465FA4_gshared)(__this, ___0_value, method);
+}
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Networking.Transport.NetworkPipelineProcessor/UpdatePipeline>::AddRangeNoResize(System.Void*,System.Int32)
+inline void ParallelWriter_AddRangeNoResize_m56C92C48D7D5C41A20718A7BCE27EC5FC662DAA8 (ParallelWriter_tF2AD77C8A90F1D5807B0720121A0F3B27BC5B98B* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method)
+{
+	((  void (*) (ParallelWriter_tF2AD77C8A90F1D5807B0720121A0F3B27BC5B98B*, void*, int32_t, const RuntimeMethod*))ParallelWriter_AddRangeNoResize_m56C92C48D7D5C41A20718A7BCE27EC5FC662DAA8_gshared)(__this, ___0_ptr, ___1_count, method);
+}
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Networking.Transport.NetworkPipelineProcessor/UpdatePipeline>::AddRangeNoResize(Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>)
+inline void ParallelWriter_AddRangeNoResize_m6AB99D604588382699DDEF11BF14681FA7CED950 (ParallelWriter_tF2AD77C8A90F1D5807B0720121A0F3B27BC5B98B* __this, UnsafeList_1_t5D77D9399869F973DD7861206FE7B0BB5254BEDA ___0_list, const RuntimeMethod* method)
+{
+	((  void (*) (ParallelWriter_tF2AD77C8A90F1D5807B0720121A0F3B27BC5B98B*, UnsafeList_1_t5D77D9399869F973DD7861206FE7B0BB5254BEDA, const RuntimeMethod*))ParallelWriter_AddRangeNoResize_m6AB99D604588382699DDEF11BF14681FA7CED950_gshared)(__this, ___0_list, method);
+}
+// System.Void* Unity.Collections.NativeList`1/ParallelWriter<Unity.Netcode.Transports.UTP.UnityTransport/SendTarget>::get_Ptr()
+inline void* ParallelWriter_get_Ptr_mB06DDC3BA0F1020FD96685BBEC03002890F95D8B (ParallelWriter_t3C162ED583BAE2C535EBBBB3BFC6F5C57D455292* __this, const RuntimeMethod* method)
+{
+	return ((  void* (*) (ParallelWriter_t3C162ED583BAE2C535EBBBB3BFC6F5C57D455292*, const RuntimeMethod*))ParallelWriter_get_Ptr_mB06DDC3BA0F1020FD96685BBEC03002890F95D8B_gshared)(__this, method);
+}
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Netcode.Transports.UTP.UnityTransport/SendTarget>::.ctor(Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>*)
+inline void ParallelWriter__ctor_mC6E4C36643C55B6003682C75198FF237256F5527 (ParallelWriter_t3C162ED583BAE2C535EBBBB3BFC6F5C57D455292* __this, UnsafeList_1_t501C48EF6B212CE7B242B47AE1184A6DE456C629* ___0_listData, const RuntimeMethod* method)
+{
+	((  void (*) (ParallelWriter_t3C162ED583BAE2C535EBBBB3BFC6F5C57D455292*, UnsafeList_1_t501C48EF6B212CE7B242B47AE1184A6DE456C629*, const RuntimeMethod*))ParallelWriter__ctor_mC6E4C36643C55B6003682C75198FF237256F5527_gshared)(__this, ___0_listData, method);
+}
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Netcode.Transports.UTP.UnityTransport/SendTarget>::AddNoResize(T)
+inline void ParallelWriter_AddNoResize_m95B185BD46CD29685E52BC6D7B7E92B10667A3FF (ParallelWriter_t3C162ED583BAE2C535EBBBB3BFC6F5C57D455292* __this, SendTarget_tAD1A6A2A5769AE7D57910A8DA4F258B09A45F653 ___0_value, const RuntimeMethod* method)
+{
+	((  void (*) (ParallelWriter_t3C162ED583BAE2C535EBBBB3BFC6F5C57D455292*, SendTarget_tAD1A6A2A5769AE7D57910A8DA4F258B09A45F653, const RuntimeMethod*))ParallelWriter_AddNoResize_m95B185BD46CD29685E52BC6D7B7E92B10667A3FF_gshared)(__this, ___0_value, method);
+}
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Netcode.Transports.UTP.UnityTransport/SendTarget>::AddRangeNoResize(System.Void*,System.Int32)
+inline void ParallelWriter_AddRangeNoResize_m0674B9A689DFFFB2A64F96629FEEA086431CA0FE (ParallelWriter_t3C162ED583BAE2C535EBBBB3BFC6F5C57D455292* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method)
+{
+	((  void (*) (ParallelWriter_t3C162ED583BAE2C535EBBBB3BFC6F5C57D455292*, void*, int32_t, const RuntimeMethod*))ParallelWriter_AddRangeNoResize_m0674B9A689DFFFB2A64F96629FEEA086431CA0FE_gshared)(__this, ___0_ptr, ___1_count, method);
+}
+// System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeList`1<Unity.Netcode.Transports.UTP.UnityTransport/SendTarget>::get_Length()
+inline int32_t UnsafeList_1_get_Length_m2F177C7B16B6042B9DF810502FC00872341DE721 (UnsafeList_1_t501C48EF6B212CE7B242B47AE1184A6DE456C629* __this, const RuntimeMethod* method)
+{
+	return ((  int32_t (*) (UnsafeList_1_t501C48EF6B212CE7B242B47AE1184A6DE456C629*, const RuntimeMethod*))UnsafeList_1_get_Length_m2F177C7B16B6042B9DF810502FC00872341DE721_gshared)(__this, method);
+}
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Netcode.Transports.UTP.UnityTransport/SendTarget>::AddRangeNoResize(Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>)
+inline void ParallelWriter_AddRangeNoResize_m0994D154747060C24868CF188E54875B09F688DD (ParallelWriter_t3C162ED583BAE2C535EBBBB3BFC6F5C57D455292* __this, UnsafeList_1_t501C48EF6B212CE7B242B47AE1184A6DE456C629 ___0_list, const RuntimeMethod* method)
+{
+	((  void (*) (ParallelWriter_t3C162ED583BAE2C535EBBBB3BFC6F5C57D455292*, UnsafeList_1_t501C48EF6B212CE7B242B47AE1184A6DE456C629, const RuntimeMethod*))ParallelWriter_AddRangeNoResize_m0994D154747060C24868CF188E54875B09F688DD_gshared)(__this, ___0_list, method);
+}
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Netcode.Transports.UTP.UnityTransport/SendTarget>::AddRangeNoResize(Unity.Collections.NativeList`1<T>)
+inline void ParallelWriter_AddRangeNoResize_mFB24987018FF8C8E12813E10BF870D45D3124A2B (ParallelWriter_t3C162ED583BAE2C535EBBBB3BFC6F5C57D455292* __this, NativeList_1_t19C42565694B875C975B0E66AD45E82CDE2EE935 ___0_list, const RuntimeMethod* method)
+{
+	((  void (*) (ParallelWriter_t3C162ED583BAE2C535EBBBB3BFC6F5C57D455292*, NativeList_1_t19C42565694B875C975B0E66AD45E82CDE2EE935, const RuntimeMethod*))ParallelWriter_AddRangeNoResize_mFB24987018FF8C8E12813E10BF870D45D3124A2B_gshared)(__this, ___0_list, method);
+}
+// System.Void* Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Netcode.Transports.UTP.UnityTransport/SendTarget>::get_Ptr()
+inline void* ParallelWriter_get_Ptr_m22A1514F13FC0D01030023CB23F14EE3CB188A09 (ParallelWriter_tEFE3618DE0C507FD34664ECC5492F65E1CDDC870* __this, const RuntimeMethod* method)
+{
+	return ((  void* (*) (ParallelWriter_tEFE3618DE0C507FD34664ECC5492F65E1CDDC870*, const RuntimeMethod*))ParallelWriter_get_Ptr_m22A1514F13FC0D01030023CB23F14EE3CB188A09_gshared)(__this, method);
+}
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Netcode.Transports.UTP.UnityTransport/SendTarget>::.ctor(Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>*)
+inline void ParallelWriter__ctor_m56C2053F4B7A3EB772EC06474C9EA3747625ED58 (ParallelWriter_tEFE3618DE0C507FD34664ECC5492F65E1CDDC870* __this, UnsafeList_1_t501C48EF6B212CE7B242B47AE1184A6DE456C629* ___0_listData, const RuntimeMethod* method)
+{
+	((  void (*) (ParallelWriter_tEFE3618DE0C507FD34664ECC5492F65E1CDDC870*, UnsafeList_1_t501C48EF6B212CE7B242B47AE1184A6DE456C629*, const RuntimeMethod*))ParallelWriter__ctor_m56C2053F4B7A3EB772EC06474C9EA3747625ED58_gshared)(__this, ___0_listData, method);
+}
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Netcode.Transports.UTP.UnityTransport/SendTarget>::AddNoResize(T)
+inline void ParallelWriter_AddNoResize_m7162F353376724F085F526BFB341E734B166FFF3 (ParallelWriter_tEFE3618DE0C507FD34664ECC5492F65E1CDDC870* __this, SendTarget_tAD1A6A2A5769AE7D57910A8DA4F258B09A45F653 ___0_value, const RuntimeMethod* method)
+{
+	((  void (*) (ParallelWriter_tEFE3618DE0C507FD34664ECC5492F65E1CDDC870*, SendTarget_tAD1A6A2A5769AE7D57910A8DA4F258B09A45F653, const RuntimeMethod*))ParallelWriter_AddNoResize_m7162F353376724F085F526BFB341E734B166FFF3_gshared)(__this, ___0_value, method);
+}
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Netcode.Transports.UTP.UnityTransport/SendTarget>::AddRangeNoResize(System.Void*,System.Int32)
+inline void ParallelWriter_AddRangeNoResize_m20A5D19363865D6DBB8E2C0635509DC99935DC07 (ParallelWriter_tEFE3618DE0C507FD34664ECC5492F65E1CDDC870* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method)
+{
+	((  void (*) (ParallelWriter_tEFE3618DE0C507FD34664ECC5492F65E1CDDC870*, void*, int32_t, const RuntimeMethod*))ParallelWriter_AddRangeNoResize_m20A5D19363865D6DBB8E2C0635509DC99935DC07_gshared)(__this, ___0_ptr, ___1_count, method);
+}
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Netcode.Transports.UTP.UnityTransport/SendTarget>::AddRangeNoResize(Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>)
+inline void ParallelWriter_AddRangeNoResize_m345DAEC1F531F7A149FFAAD2881675E6DDD8FBBA (ParallelWriter_tEFE3618DE0C507FD34664ECC5492F65E1CDDC870* __this, UnsafeList_1_t501C48EF6B212CE7B242B47AE1184A6DE456C629 ___0_list, const RuntimeMethod* method)
+{
+	((  void (*) (ParallelWriter_tEFE3618DE0C507FD34664ECC5492F65E1CDDC870*, UnsafeList_1_t501C48EF6B212CE7B242B47AE1184A6DE456C629, const RuntimeMethod*))ParallelWriter_AddRangeNoResize_m345DAEC1F531F7A149FFAAD2881675E6DDD8FBBA_gshared)(__this, ___0_list, method);
+}
+// System.Int32 Unity.Collections.NativeHashMap`2/ParallelWriter<Unity.Collections.FixedString64Bytes,System.Int32>::get_m_ThreadIndex()
+inline int32_t ParallelWriter_get_m_ThreadIndex_m61F2B3EB50CBDB571DA16B356A44076D49855ED4 (ParallelWriter_t04EEB5F9B9077D32CA102FF43469F846B24C56F4* __this, const RuntimeMethod* method)
+{
+	return ((  int32_t (*) (ParallelWriter_t04EEB5F9B9077D32CA102FF43469F846B24C56F4*, const RuntimeMethod*))ParallelWriter_get_m_ThreadIndex_m61F2B3EB50CBDB571DA16B356A44076D49855ED4_gshared)(__this, method);
+}
 // System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeHashMap`2/ParallelWriter<Unity.Collections.FixedString64Bytes,System.Int32>::get_Capacity()
 inline int32_t ParallelWriter_get_Capacity_m605703BB1142619C3121938C3CEC2E0C34C9AD37 (ParallelWriter_t88FEDD92B5A8F69BFCB0A3972B37F97109EF5AD7* __this, const RuntimeMethod* method)
 {
 	return ((  int32_t (*) (ParallelWriter_t88FEDD92B5A8F69BFCB0A3972B37F97109EF5AD7*, const RuntimeMethod*))ParallelWriter_get_Capacity_m605703BB1142619C3121938C3CEC2E0C34C9AD37_gshared)(__this, method);
 }
-// System.Void UnityEngine.Assertions.Assert::IsTrue(System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Assert_IsTrue_mE42C53B7220324D1FBAFB7AE48A7D8DD7796A663 (bool ___0_condition, const RuntimeMethod* method) ;
+// System.Int32 Unity.Collections.NativeHashMap`2/ParallelWriter<Unity.Collections.FixedString64Bytes,System.Int32>::get_Capacity()
+inline int32_t ParallelWriter_get_Capacity_mCF2167349AEB692C6DFB0FE5B1CD7CFC54B30DAE (ParallelWriter_t04EEB5F9B9077D32CA102FF43469F846B24C56F4* __this, const RuntimeMethod* method)
+{
+	return ((  int32_t (*) (ParallelWriter_t04EEB5F9B9077D32CA102FF43469F846B24C56F4*, const RuntimeMethod*))ParallelWriter_get_Capacity_mCF2167349AEB692C6DFB0FE5B1CD7CFC54B30DAE_gshared)(__this, method);
+}
 // System.Boolean Unity.Collections.LowLevel.Unsafe.UnsafeHashMap`2/ParallelWriter<Unity.Collections.FixedString64Bytes,System.Int32>::TryAdd(TKey,TValue)
 inline bool ParallelWriter_TryAdd_m3A206C2949FDEEFBAFAF53C8466AE3EBEA0B5D34 (ParallelWriter_t88FEDD92B5A8F69BFCB0A3972B37F97109EF5AD7* __this, FixedString64Bytes_t0F1B6FFAFD8C15898CD77D91A79AB36AA078E0A5 ___0_key, int32_t ___1_item, const RuntimeMethod* method)
 {
 	return ((  bool (*) (ParallelWriter_t88FEDD92B5A8F69BFCB0A3972B37F97109EF5AD7*, FixedString64Bytes_t0F1B6FFAFD8C15898CD77D91A79AB36AA078E0A5, int32_t, const RuntimeMethod*))ParallelWriter_TryAdd_m3A206C2949FDEEFBAFAF53C8466AE3EBEA0B5D34_gshared)(__this, ___0_key, ___1_item, method);
 }
+// System.Boolean Unity.Collections.NativeHashMap`2/ParallelWriter<Unity.Collections.FixedString64Bytes,System.Int32>::TryAdd(TKey,TValue)
+inline bool ParallelWriter_TryAdd_mF640E005523841CBF7457C9F331DF232DFEA20A9 (ParallelWriter_t04EEB5F9B9077D32CA102FF43469F846B24C56F4* __this, FixedString64Bytes_t0F1B6FFAFD8C15898CD77D91A79AB36AA078E0A5 ___0_key, int32_t ___1_item, const RuntimeMethod* method)
+{
+	return ((  bool (*) (ParallelWriter_t04EEB5F9B9077D32CA102FF43469F846B24C56F4*, FixedString64Bytes_t0F1B6FFAFD8C15898CD77D91A79AB36AA078E0A5, int32_t, const RuntimeMethod*))ParallelWriter_TryAdd_mF640E005523841CBF7457C9F331DF232DFEA20A9_gshared)(__this, ___0_key, ___1_item, method);
+}
+// System.Void UnityEngine.Assertions.Assert::IsTrue(System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Assert_IsTrue_mE42C53B7220324D1FBAFB7AE48A7D8DD7796A663 (bool ___0_condition, const RuntimeMethod* method) ;
 // System.Int32 Unity.Collections.NativeMultiHashMap`2/ParallelWriter<System.Int32,System.Int32>::get_m_ThreadIndex()
 inline int32_t ParallelWriter_get_m_ThreadIndex_mDE2F2A2CD1B5375963A8AA81B4A97FCECB0C3625 (ParallelWriter_t78137B1B533517CA7899CFF91BD59A0549F658F5* __this, const RuntimeMethod* method)
 {
@@ -12701,22 +14309,2712 @@ inline void Enumerator__ctor_m07A08E9A1E2AB072CB1654A5009DA79A460E081B (Enumerat
 {
 	((  void (*) (Enumerator_t30E3290EE12437374037B3CF0EE4D614F96D030A*, Queue_1_tE9EF546915795972C3BFD68FBB8FA859D3BAF3B5*, const RuntimeMethod*))Enumerator__ctor_m07A08E9A1E2AB072CB1654A5009DA79A460E081B_gshared)(__this, ___0_q, method);
 }
-// System.Void System.Collections.Generic.Queue`1/Enumerator<Unity.Netcode.ReleasedNetworkId>::.ctor(System.Collections.Generic.Queue`1<T>)
-inline void Enumerator__ctor_mAA1563AC35863C47BF0DBEC8488C885194583349 (Enumerator_t3C2A019B409CEB54CD6349665DC33F8292D54B5E* __this, Queue_1_tD0B32970076D62B677279D96972006677EEE25A7* ___0_q, const RuntimeMethod* method)
-{
-	((  void (*) (Enumerator_t3C2A019B409CEB54CD6349665DC33F8292D54B5E*, Queue_1_tD0B32970076D62B677279D96972006677EEE25A7*, const RuntimeMethod*))Enumerator__ctor_mAA1563AC35863C47BF0DBEC8488C885194583349_gshared)(__this, ___0_q, method);
-}
-// System.Void System.Collections.Generic.Queue`1/Enumerator<System.UInt32>::.ctor(System.Collections.Generic.Queue`1<T>)
-inline void Enumerator__ctor_m883CA17DC68406094FEFA9AAD8C40161CA35D1F3 (Enumerator_t85344E4ACE131A91BC38A5761E3E64011789C891* __this, Queue_1_tA93BCCFDEFF25FCF9C491D240D49B2B8B9C37850* ___0_q, const RuntimeMethod* method)
-{
-	((  void (*) (Enumerator_t85344E4ACE131A91BC38A5761E3E64011789C891*, Queue_1_tA93BCCFDEFF25FCF9C491D240D49B2B8B9C37850*, const RuntimeMethod*))Enumerator__ctor_m883CA17DC68406094FEFA9AAD8C40161CA35D1F3_gshared)(__this, ___0_q, method);
-}
 // System.Void UnityEngine.Vector3::.ctor(System.Single,System.Single,System.Single)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) ;
 // System.Single UnityEngine.Quaternion::Dot(UnityEngine.Quaternion,UnityEngine.Quaternion)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Quaternion_Dot_mF9D3BE33940A47979DADA7E81650AEB356D5D12B_inline (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_a, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___1_b, const RuntimeMethod* method) ;
 // System.Boolean UnityEngine.Quaternion::IsEqualUsingDot(System.Single)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Quaternion_IsEqualUsingDot_m9C672201C918C2D1E739F559DBE4406F95997CBD_inline (float ___0_dot, const RuntimeMethod* method) ;
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Unity.Collections.NativeQueue`1/ParallelWriter<Unity.Networking.Transport.QueuedSendMessage>::Enqueue(T)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_Enqueue_mEAA74296ADA3C3413CE1D10522F19ECCA2AA0841_gshared (ParallelWriter_tD2337D6A048735D05F7C0698B7FEEDAD7153DE97* __this, QueuedSendMessage_t9494177D0BFD69EB7AC297ED869BC9AA81A7D603 ___0_value, const RuntimeMethod* method) 
+{
+	NativeQueueBlockHeader_tD74DEA5A5D8C910AA5ED04C5E89F2FE1B0521004* V_0 = NULL;
+	{
+		// NativeQueueBlockHeader* writeBlock = NativeQueueData.AllocateWriteBlockMT<T>(m_Buffer, m_QueuePool, m_ThreadIndex);
+		NativeQueueData_t61B94D7FE48C5715DD5D0C8CB574F73BF15C6E52* L_0 = (NativeQueueData_t61B94D7FE48C5715DD5D0C8CB574F73BF15C6E52*)__this->___m_Buffer_0;
+		NativeQueueBlockPoolData_t3A0B3E1B852D995248D51AB68660D1B367D28E87* L_1 = (NativeQueueBlockPoolData_t3A0B3E1B852D995248D51AB68660D1B367D28E87*)__this->___m_QueuePool_1;
+		int32_t L_2 = (int32_t)__this->___m_ThreadIndex_2;
+		NativeQueueBlockHeader_tD74DEA5A5D8C910AA5ED04C5E89F2FE1B0521004* L_3;
+		L_3 = ((  NativeQueueBlockHeader_tD74DEA5A5D8C910AA5ED04C5E89F2FE1B0521004* (*) (NativeQueueData_t61B94D7FE48C5715DD5D0C8CB574F73BF15C6E52*, NativeQueueBlockPoolData_t3A0B3E1B852D995248D51AB68660D1B367D28E87*, int32_t, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 0)))(L_0, L_1, L_2, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 0));
+		V_0 = L_3;
+		// UnsafeUtility.WriteArrayElement(writeBlock + 1, writeBlock->m_NumItems, value);
+		NativeQueueBlockHeader_tD74DEA5A5D8C910AA5ED04C5E89F2FE1B0521004* L_4 = V_0;
+		uint32_t L_5 = sizeof(NativeQueueBlockHeader_tD74DEA5A5D8C910AA5ED04C5E89F2FE1B0521004);
+		NativeQueueBlockHeader_tD74DEA5A5D8C910AA5ED04C5E89F2FE1B0521004* L_6 = V_0;
+		NullCheck(L_6);
+		int32_t L_7 = (int32_t)L_6->___m_NumItems_1;
+		QueuedSendMessage_t9494177D0BFD69EB7AC297ED869BC9AA81A7D603 L_8 = ___0_value;
+		((  void (*) (void*, int32_t, QueuedSendMessage_t9494177D0BFD69EB7AC297ED869BC9AA81A7D603, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 1)))((void*)((NativeQueueBlockHeader_tD74DEA5A5D8C910AA5ED04C5E89F2FE1B0521004*)il2cpp_codegen_add((intptr_t)L_4, (int32_t)L_5)), L_7, L_8, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 1));
+		// ++writeBlock->m_NumItems;
+		NativeQueueBlockHeader_tD74DEA5A5D8C910AA5ED04C5E89F2FE1B0521004* L_9 = V_0;
+		NullCheck(L_9);
+		int32_t* L_10 = (int32_t*)(&L_9->___m_NumItems_1);
+		int32_t* L_11 = L_10;
+		int32_t L_12 = *((int32_t*)L_11);
+		*((int32_t*)L_11) = (int32_t)((int32_t)il2cpp_codegen_add(L_12, 1));
+		// }
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void ParallelWriter_Enqueue_mEAA74296ADA3C3413CE1D10522F19ECCA2AA0841_AdjustorThunk (RuntimeObject* __this, QueuedSendMessage_t9494177D0BFD69EB7AC297ED869BC9AA81A7D603 ___0_value, const RuntimeMethod* method)
+{
+	ParallelWriter_tD2337D6A048735D05F7C0698B7FEEDAD7153DE97* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ParallelWriter_tD2337D6A048735D05F7C0698B7FEEDAD7153DE97*>(__this + _offset);
+	ParallelWriter_Enqueue_mEAA74296ADA3C3413CE1D10522F19ECCA2AA0841(_thisAdjusted, ___0_value, method);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafePtrList`1/ParallelWriter<Unity.Baselib.LowLevel.Binding/Baselib_RegisteredNetwork_Buffer>::.ctor(T**,Unity.Collections.LowLevel.Unsafe.UnsafeList`1<System.IntPtr>*)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m535D73F469396DC29425F542A5791BD8BD5AF1F6_gshared (ParallelWriter_t940D3FB37B7548484C5E6F493E6AB17E17D94326* __this, Baselib_RegisteredNetwork_Buffer_t2D0BDFB0FC8B41F70E5AD38C481363BEDC54EB42** ___0_ptr, UnsafeList_1_t7F37B06177929AC50704A82689AED5BBFE830613* ___1_listData, const RuntimeMethod* method) 
+{
+	{
+		// Ptr = ptr;
+		Baselib_RegisteredNetwork_Buffer_t2D0BDFB0FC8B41F70E5AD38C481363BEDC54EB42** L_0 = ___0_ptr;
+		__this->___Ptr_0 = L_0;
+		// ListData = listData;
+		UnsafeList_1_t7F37B06177929AC50704A82689AED5BBFE830613* L_1 = ___1_listData;
+		__this->___ListData_1 = L_1;
+		// }
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void ParallelWriter__ctor_m535D73F469396DC29425F542A5791BD8BD5AF1F6_AdjustorThunk (RuntimeObject* __this, Baselib_RegisteredNetwork_Buffer_t2D0BDFB0FC8B41F70E5AD38C481363BEDC54EB42** ___0_ptr, UnsafeList_1_t7F37B06177929AC50704A82689AED5BBFE830613* ___1_listData, const RuntimeMethod* method)
+{
+	ParallelWriter_t940D3FB37B7548484C5E6F493E6AB17E17D94326* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ParallelWriter_t940D3FB37B7548484C5E6F493E6AB17E17D94326*>(__this + _offset);
+	ParallelWriter__ctor_m535D73F469396DC29425F542A5791BD8BD5AF1F6(_thisAdjusted, ___0_ptr, ___1_listData, method);
+}
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafePtrList`1/ParallelWriter<Unity.Baselib.LowLevel.Binding/Baselib_RegisteredNetwork_Buffer>::AddNoResize(T*)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_m8FF0A02D0622989A4FC73984A5381C0C820EDA95_gshared (ParallelWriter_t940D3FB37B7548484C5E6F493E6AB17E17D94326* __this, Baselib_RegisteredNetwork_Buffer_t2D0BDFB0FC8B41F70E5AD38C481363BEDC54EB42* ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnsafeList_1_AddNoResize_m4752E4711FAE546C2C0CE090C639FE6F4BA23BED_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// public void AddNoResize(T* value) => ListData->AddNoResize((IntPtr)value);
+		UnsafeList_1_t7F37B06177929AC50704A82689AED5BBFE830613* L_0 = (UnsafeList_1_t7F37B06177929AC50704A82689AED5BBFE830613*)__this->___ListData_1;
+		Baselib_RegisteredNetwork_Buffer_t2D0BDFB0FC8B41F70E5AD38C481363BEDC54EB42* L_1 = ___0_value;
+		intptr_t L_2;
+		L_2 = IntPtr_op_Explicit_mE2CEC14C61FD5E2159A03EA2AD97F5CDC5BB9F4D((void*)L_1, NULL);
+		UnsafeList_1_AddNoResize_m4752E4711FAE546C2C0CE090C639FE6F4BA23BED((UnsafeList_1_t7F37B06177929AC50704A82689AED5BBFE830613*)L_0, L_2, UnsafeList_1_AddNoResize_m4752E4711FAE546C2C0CE090C639FE6F4BA23BED_RuntimeMethod_var);
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_m8FF0A02D0622989A4FC73984A5381C0C820EDA95_AdjustorThunk (RuntimeObject* __this, Baselib_RegisteredNetwork_Buffer_t2D0BDFB0FC8B41F70E5AD38C481363BEDC54EB42* ___0_value, const RuntimeMethod* method)
+{
+	ParallelWriter_t940D3FB37B7548484C5E6F493E6AB17E17D94326* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ParallelWriter_t940D3FB37B7548484C5E6F493E6AB17E17D94326*>(__this + _offset);
+	ParallelWriter_AddNoResize_m8FF0A02D0622989A4FC73984A5381C0C820EDA95(_thisAdjusted, ___0_value, method);
+}
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafePtrList`1/ParallelWriter<Unity.Baselib.LowLevel.Binding/Baselib_RegisteredNetwork_Buffer>::AddRangeNoResize(T**,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m7A72658C815AB5F182873EE86592A11CAA8A8256_gshared (ParallelWriter_t940D3FB37B7548484C5E6F493E6AB17E17D94326* __this, Baselib_RegisteredNetwork_Buffer_t2D0BDFB0FC8B41F70E5AD38C481363BEDC54EB42** ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnsafeList_1_AddRangeNoResize_m81FD9782A3159D8F6EF737C45F8AE808927345BC_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// public void AddRangeNoResize(T** ptr, int count) => ListData->AddRangeNoResize(ptr, count);
+		UnsafeList_1_t7F37B06177929AC50704A82689AED5BBFE830613* L_0 = (UnsafeList_1_t7F37B06177929AC50704A82689AED5BBFE830613*)__this->___ListData_1;
+		Baselib_RegisteredNetwork_Buffer_t2D0BDFB0FC8B41F70E5AD38C481363BEDC54EB42** L_1 = ___0_ptr;
+		int32_t L_2 = ___1_count;
+		UnsafeList_1_AddRangeNoResize_m81FD9782A3159D8F6EF737C45F8AE808927345BC((UnsafeList_1_t7F37B06177929AC50704A82689AED5BBFE830613*)L_0, (void*)L_1, L_2, UnsafeList_1_AddRangeNoResize_m81FD9782A3159D8F6EF737C45F8AE808927345BC_RuntimeMethod_var);
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m7A72658C815AB5F182873EE86592A11CAA8A8256_AdjustorThunk (RuntimeObject* __this, Baselib_RegisteredNetwork_Buffer_t2D0BDFB0FC8B41F70E5AD38C481363BEDC54EB42** ___0_ptr, int32_t ___1_count, const RuntimeMethod* method)
+{
+	ParallelWriter_t940D3FB37B7548484C5E6F493E6AB17E17D94326* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ParallelWriter_t940D3FB37B7548484C5E6F493E6AB17E17D94326*>(__this + _offset);
+	ParallelWriter_AddRangeNoResize_m7A72658C815AB5F182873EE86592A11CAA8A8256(_thisAdjusted, ___0_ptr, ___1_count, method);
+}
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafePtrList`1/ParallelWriter<Unity.Baselib.LowLevel.Binding/Baselib_RegisteredNetwork_Buffer>::AddRangeNoResize(Unity.Collections.LowLevel.Unsafe.UnsafePtrList`1<T>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m20B593CB7215C74092C07168207F5801E1C412FE_gshared (ParallelWriter_t940D3FB37B7548484C5E6F493E6AB17E17D94326* __this, UnsafePtrList_1_tAD86775FD13A7BFCCD3E9ACA2796FFE62044B970 ___0_list, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnsafeList_1_AddRangeNoResize_m81FD9782A3159D8F6EF737C45F8AE808927345BC_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// public void AddRangeNoResize(UnsafePtrList<T> list) => ListData->AddRangeNoResize(list.Ptr, list.Length);
+		UnsafeList_1_t7F37B06177929AC50704A82689AED5BBFE830613* L_0 = (UnsafeList_1_t7F37B06177929AC50704A82689AED5BBFE830613*)__this->___ListData_1;
+		UnsafePtrList_1_tAD86775FD13A7BFCCD3E9ACA2796FFE62044B970 L_1 = ___0_list;
+		Baselib_RegisteredNetwork_Buffer_t2D0BDFB0FC8B41F70E5AD38C481363BEDC54EB42** L_2 = (Baselib_RegisteredNetwork_Buffer_t2D0BDFB0FC8B41F70E5AD38C481363BEDC54EB42**)L_1.___Ptr_0;
+		int32_t L_3;
+		L_3 = UnsafePtrList_1_get_Length_m15692B27C70D921B523A72C7D2A5DA6A9EB12EB4((&___0_list), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 0));
+		UnsafeList_1_AddRangeNoResize_m81FD9782A3159D8F6EF737C45F8AE808927345BC((UnsafeList_1_t7F37B06177929AC50704A82689AED5BBFE830613*)L_0, (void*)L_2, L_3, UnsafeList_1_AddRangeNoResize_m81FD9782A3159D8F6EF737C45F8AE808927345BC_RuntimeMethod_var);
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m20B593CB7215C74092C07168207F5801E1C412FE_AdjustorThunk (RuntimeObject* __this, UnsafePtrList_1_tAD86775FD13A7BFCCD3E9ACA2796FFE62044B970 ___0_list, const RuntimeMethod* method)
+{
+	ParallelWriter_t940D3FB37B7548484C5E6F493E6AB17E17D94326* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ParallelWriter_t940D3FB37B7548484C5E6F493E6AB17E17D94326*>(__this + _offset);
+	ParallelWriter_AddRangeNoResize_m20B593CB7215C74092C07168207F5801E1C412FE(_thisAdjusted, ___0_list, method);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void* Unity.Collections.NativeList`1/ParallelWriter<Unity.Netcode.DeferredMessageManager/TriggerData>::get_Ptr()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mC680C28015BFCC8C1D899129FB42F585A4BAC8AE_gshared (ParallelWriter_t03F7F8FE5DC88E316BF956D72795F40611400D56* __this, const RuntimeMethod* method) 
+{
+	{
+		// public readonly void* Ptr => ListData->Ptr;
+		UnsafeList_1_t7576474D288A30F1540A43F66481308FA0558594* L_0 = (UnsafeList_1_t7576474D288A30F1540A43F66481308FA0558594*)__this->___ListData_0;
+		NullCheck(L_0);
+		TriggerData_t961063E87733CDD8443A71444D93E7529D0FD3F7* L_1 = (TriggerData_t961063E87733CDD8443A71444D93E7529D0FD3F7*)L_0->___Ptr_0;
+		return (void*)(L_1);
+	}
+}
+IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_mC680C28015BFCC8C1D899129FB42F585A4BAC8AE_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	ParallelWriter_t03F7F8FE5DC88E316BF956D72795F40611400D56* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ParallelWriter_t03F7F8FE5DC88E316BF956D72795F40611400D56*>(__this + _offset);
+	void* _returnValue;
+	_returnValue = ParallelWriter_get_Ptr_mC680C28015BFCC8C1D899129FB42F585A4BAC8AE(_thisAdjusted, method);
+	return _returnValue;
+}
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Netcode.DeferredMessageManager/TriggerData>::.ctor(Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>*)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m7FC6EBE0D0F791D44AD2C55DD02E2ABEB45D1874_gshared (ParallelWriter_t03F7F8FE5DC88E316BF956D72795F40611400D56* __this, UnsafeList_1_t7576474D288A30F1540A43F66481308FA0558594* ___0_listData, const RuntimeMethod* method) 
+{
+	{
+		// ListData = listData;
+		UnsafeList_1_t7576474D288A30F1540A43F66481308FA0558594* L_0 = ___0_listData;
+		__this->___ListData_0 = L_0;
+		// }
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void ParallelWriter__ctor_m7FC6EBE0D0F791D44AD2C55DD02E2ABEB45D1874_AdjustorThunk (RuntimeObject* __this, UnsafeList_1_t7576474D288A30F1540A43F66481308FA0558594* ___0_listData, const RuntimeMethod* method)
+{
+	ParallelWriter_t03F7F8FE5DC88E316BF956D72795F40611400D56* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ParallelWriter_t03F7F8FE5DC88E316BF956D72795F40611400D56*>(__this + _offset);
+	ParallelWriter__ctor_m7FC6EBE0D0F791D44AD2C55DD02E2ABEB45D1874(_thisAdjusted, ___0_listData, method);
+}
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Netcode.DeferredMessageManager/TriggerData>::AddNoResize(T)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_m15A2624F312B029412435336EB55B4511A034222_gshared (ParallelWriter_t03F7F8FE5DC88E316BF956D72795F40611400D56* __this, TriggerData_t961063E87733CDD8443A71444D93E7529D0FD3F7 ___0_value, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	{
+		// var idx = Interlocked.Increment(ref ListData->m_length) - 1;
+		UnsafeList_1_t7576474D288A30F1540A43F66481308FA0558594* L_0 = (UnsafeList_1_t7576474D288A30F1540A43F66481308FA0558594*)__this->___ListData_0;
+		NullCheck(L_0);
+		int32_t* L_1 = (int32_t*)(&L_0->___m_length_1);
+		int32_t L_2;
+		L_2 = Interlocked_Increment_m3C240C32E8D9544EC050B74D4F28EEB58F1F9309(L_1, NULL);
+		V_0 = ((int32_t)il2cpp_codegen_subtract(L_2, 1));
+		// UnsafeUtility.WriteArrayElement(ListData->Ptr, idx, value);
+		UnsafeList_1_t7576474D288A30F1540A43F66481308FA0558594* L_3 = (UnsafeList_1_t7576474D288A30F1540A43F66481308FA0558594*)__this->___ListData_0;
+		NullCheck(L_3);
+		TriggerData_t961063E87733CDD8443A71444D93E7529D0FD3F7* L_4 = (TriggerData_t961063E87733CDD8443A71444D93E7529D0FD3F7*)L_3->___Ptr_0;
+		int32_t L_5 = V_0;
+		TriggerData_t961063E87733CDD8443A71444D93E7529D0FD3F7 L_6 = ___0_value;
+		((  void (*) (void*, int32_t, TriggerData_t961063E87733CDD8443A71444D93E7529D0FD3F7, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 0)))((void*)L_4, L_5, L_6, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 0));
+		// }
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_m15A2624F312B029412435336EB55B4511A034222_AdjustorThunk (RuntimeObject* __this, TriggerData_t961063E87733CDD8443A71444D93E7529D0FD3F7 ___0_value, const RuntimeMethod* method)
+{
+	ParallelWriter_t03F7F8FE5DC88E316BF956D72795F40611400D56* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ParallelWriter_t03F7F8FE5DC88E316BF956D72795F40611400D56*>(__this + _offset);
+	ParallelWriter_AddNoResize_m15A2624F312B029412435336EB55B4511A034222(_thisAdjusted, ___0_value, method);
+}
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Netcode.DeferredMessageManager/TriggerData>::AddRangeNoResize(System.Void*,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m299925BAE61F6D26C87729CF3FE7CC8690310273_gshared (ParallelWriter_t03F7F8FE5DC88E316BF956D72795F40611400D56* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	void* V_2 = NULL;
+	{
+		// var idx = Interlocked.Add(ref ListData->m_length, count) - count;
+		UnsafeList_1_t7576474D288A30F1540A43F66481308FA0558594* L_0 = (UnsafeList_1_t7576474D288A30F1540A43F66481308FA0558594*)__this->___ListData_0;
+		NullCheck(L_0);
+		int32_t* L_1 = (int32_t*)(&L_0->___m_length_1);
+		int32_t L_2 = ___1_count;
+		int32_t L_3;
+		L_3 = Interlocked_Add_m2455208C56EEFD8832AEAD8AF7368A3FEB33A73C(L_1, L_2, NULL);
+		int32_t L_4 = ___1_count;
+		V_0 = ((int32_t)il2cpp_codegen_subtract(L_3, L_4));
+		// var sizeOf = sizeof(T);
+		uint32_t L_5 = sizeof(TriggerData_t961063E87733CDD8443A71444D93E7529D0FD3F7);
+		V_1 = (int32_t)L_5;
+		// void* dst = (byte*)ListData->Ptr + idx * sizeOf;
+		UnsafeList_1_t7576474D288A30F1540A43F66481308FA0558594* L_6 = (UnsafeList_1_t7576474D288A30F1540A43F66481308FA0558594*)__this->___ListData_0;
+		NullCheck(L_6);
+		TriggerData_t961063E87733CDD8443A71444D93E7529D0FD3F7* L_7 = (TriggerData_t961063E87733CDD8443A71444D93E7529D0FD3F7*)L_6->___Ptr_0;
+		int32_t L_8 = V_0;
+		int32_t L_9 = V_1;
+		V_2 = (void*)((TriggerData_t961063E87733CDD8443A71444D93E7529D0FD3F7*)il2cpp_codegen_add((intptr_t)L_7, ((int32_t)il2cpp_codegen_multiply(L_8, L_9))));
+		// UnsafeUtility.MemCpy(dst, ptr, count * sizeOf);
+		void* L_10 = V_2;
+		void* L_11 = ___0_ptr;
+		int32_t L_12 = ___1_count;
+		int32_t L_13 = V_1;
+		UnsafeUtility_MemCpy_m5CEA91ACDADC522E584AE3A2AB2B0B74393A9177(L_10, L_11, ((int64_t)((int32_t)il2cpp_codegen_multiply(L_12, L_13))), NULL);
+		// }
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m299925BAE61F6D26C87729CF3FE7CC8690310273_AdjustorThunk (RuntimeObject* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method)
+{
+	ParallelWriter_t03F7F8FE5DC88E316BF956D72795F40611400D56* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ParallelWriter_t03F7F8FE5DC88E316BF956D72795F40611400D56*>(__this + _offset);
+	ParallelWriter_AddRangeNoResize_m299925BAE61F6D26C87729CF3FE7CC8690310273(_thisAdjusted, ___0_ptr, ___1_count, method);
+}
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Netcode.DeferredMessageManager/TriggerData>::AddRangeNoResize(Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m1CBDF76AAE55B8EC223142CD290FDD09FD3A5489_gshared (ParallelWriter_t03F7F8FE5DC88E316BF956D72795F40611400D56* __this, UnsafeList_1_t7576474D288A30F1540A43F66481308FA0558594 ___0_list, const RuntimeMethod* method) 
+{
+	{
+		// AddRangeNoResize(list.Ptr, list.Length);
+		UnsafeList_1_t7576474D288A30F1540A43F66481308FA0558594 L_0 = ___0_list;
+		TriggerData_t961063E87733CDD8443A71444D93E7529D0FD3F7* L_1 = (TriggerData_t961063E87733CDD8443A71444D93E7529D0FD3F7*)L_0.___Ptr_0;
+		int32_t L_2;
+		L_2 = UnsafeList_1_get_Length_mA3FB705F0992938D857A1684F1E4C8F8A6A31199((&___0_list), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 2));
+		ParallelWriter_AddRangeNoResize_m299925BAE61F6D26C87729CF3FE7CC8690310273(__this, (void*)L_1, L_2, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3));
+		// }
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m1CBDF76AAE55B8EC223142CD290FDD09FD3A5489_AdjustorThunk (RuntimeObject* __this, UnsafeList_1_t7576474D288A30F1540A43F66481308FA0558594 ___0_list, const RuntimeMethod* method)
+{
+	ParallelWriter_t03F7F8FE5DC88E316BF956D72795F40611400D56* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ParallelWriter_t03F7F8FE5DC88E316BF956D72795F40611400D56*>(__this + _offset);
+	ParallelWriter_AddRangeNoResize_m1CBDF76AAE55B8EC223142CD290FDD09FD3A5489(_thisAdjusted, ___0_list, method);
+}
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Netcode.DeferredMessageManager/TriggerData>::AddRangeNoResize(Unity.Collections.NativeList`1<T>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m4AB112FEE213B9E7F79D8F7841B434B3E66402FC_gshared (ParallelWriter_t03F7F8FE5DC88E316BF956D72795F40611400D56* __this, NativeList_1_t04917686A677DCA96B3A082C15D174D765D4DF5F ___0_list, const RuntimeMethod* method) 
+{
+	{
+		// AddRangeNoResize(*list.m_ListData);
+		NativeList_1_t04917686A677DCA96B3A082C15D174D765D4DF5F L_0 = ___0_list;
+		UnsafeList_1_t7576474D288A30F1540A43F66481308FA0558594* L_1 = (UnsafeList_1_t7576474D288A30F1540A43F66481308FA0558594*)L_0.___m_ListData_0;
+		UnsafeList_1_t7576474D288A30F1540A43F66481308FA0558594 L_2 = (*(UnsafeList_1_t7576474D288A30F1540A43F66481308FA0558594*)L_1);
+		ParallelWriter_AddRangeNoResize_m1CBDF76AAE55B8EC223142CD290FDD09FD3A5489(__this, L_2, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 4));
+		// }
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m4AB112FEE213B9E7F79D8F7841B434B3E66402FC_AdjustorThunk (RuntimeObject* __this, NativeList_1_t04917686A677DCA96B3A082C15D174D765D4DF5F ___0_list, const RuntimeMethod* method)
+{
+	ParallelWriter_t03F7F8FE5DC88E316BF956D72795F40611400D56* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ParallelWriter_t03F7F8FE5DC88E316BF956D72795F40611400D56*>(__this + _offset);
+	ParallelWriter_AddRangeNoResize_m4AB112FEE213B9E7F79D8F7841B434B3E66402FC(_thisAdjusted, ___0_list, method);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void* Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Netcode.DeferredMessageManager/TriggerData>::get_Ptr()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m4D96F5960AD16999716BA033F4EBBA2D7B071B23_gshared (ParallelWriter_t441F54F89444B12280079F24628FBE42D4628577* __this, const RuntimeMethod* method) 
+{
+	{
+		// public readonly void* Ptr => ListData->Ptr;
+		UnsafeList_1_t7576474D288A30F1540A43F66481308FA0558594* L_0 = (UnsafeList_1_t7576474D288A30F1540A43F66481308FA0558594*)__this->___ListData_0;
+		NullCheck(L_0);
+		TriggerData_t961063E87733CDD8443A71444D93E7529D0FD3F7* L_1 = (TriggerData_t961063E87733CDD8443A71444D93E7529D0FD3F7*)L_0->___Ptr_0;
+		return (void*)(L_1);
+	}
+}
+IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_m4D96F5960AD16999716BA033F4EBBA2D7B071B23_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	ParallelWriter_t441F54F89444B12280079F24628FBE42D4628577* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ParallelWriter_t441F54F89444B12280079F24628FBE42D4628577*>(__this + _offset);
+	void* _returnValue;
+	_returnValue = ParallelWriter_get_Ptr_m4D96F5960AD16999716BA033F4EBBA2D7B071B23(_thisAdjusted, method);
+	return _returnValue;
+}
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Netcode.DeferredMessageManager/TriggerData>::.ctor(Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>*)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mFB7CFADB9B90234B216219830FFF35053CE49455_gshared (ParallelWriter_t441F54F89444B12280079F24628FBE42D4628577* __this, UnsafeList_1_t7576474D288A30F1540A43F66481308FA0558594* ___0_listData, const RuntimeMethod* method) 
+{
+	{
+		// ListData = listData;
+		UnsafeList_1_t7576474D288A30F1540A43F66481308FA0558594* L_0 = ___0_listData;
+		__this->___ListData_0 = L_0;
+		// }
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void ParallelWriter__ctor_mFB7CFADB9B90234B216219830FFF35053CE49455_AdjustorThunk (RuntimeObject* __this, UnsafeList_1_t7576474D288A30F1540A43F66481308FA0558594* ___0_listData, const RuntimeMethod* method)
+{
+	ParallelWriter_t441F54F89444B12280079F24628FBE42D4628577* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ParallelWriter_t441F54F89444B12280079F24628FBE42D4628577*>(__this + _offset);
+	ParallelWriter__ctor_mFB7CFADB9B90234B216219830FFF35053CE49455(_thisAdjusted, ___0_listData, method);
+}
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Netcode.DeferredMessageManager/TriggerData>::AddNoResize(T)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_mFB23728EB19D542CF7D7F2D7C8458F2154F1B6B5_gshared (ParallelWriter_t441F54F89444B12280079F24628FBE42D4628577* __this, TriggerData_t961063E87733CDD8443A71444D93E7529D0FD3F7 ___0_value, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	{
+		// var idx = Interlocked.Increment(ref ListData->m_length) - 1;
+		UnsafeList_1_t7576474D288A30F1540A43F66481308FA0558594* L_0 = (UnsafeList_1_t7576474D288A30F1540A43F66481308FA0558594*)__this->___ListData_0;
+		NullCheck(L_0);
+		int32_t* L_1 = (int32_t*)(&L_0->___m_length_1);
+		int32_t L_2;
+		L_2 = Interlocked_Increment_m3C240C32E8D9544EC050B74D4F28EEB58F1F9309(L_1, NULL);
+		V_0 = ((int32_t)il2cpp_codegen_subtract(L_2, 1));
+		// UnsafeUtility.WriteArrayElement(ListData->Ptr, idx, value);
+		UnsafeList_1_t7576474D288A30F1540A43F66481308FA0558594* L_3 = (UnsafeList_1_t7576474D288A30F1540A43F66481308FA0558594*)__this->___ListData_0;
+		NullCheck(L_3);
+		TriggerData_t961063E87733CDD8443A71444D93E7529D0FD3F7* L_4 = (TriggerData_t961063E87733CDD8443A71444D93E7529D0FD3F7*)L_3->___Ptr_0;
+		int32_t L_5 = V_0;
+		TriggerData_t961063E87733CDD8443A71444D93E7529D0FD3F7 L_6 = ___0_value;
+		((  void (*) (void*, int32_t, TriggerData_t961063E87733CDD8443A71444D93E7529D0FD3F7, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 0)))((void*)L_4, L_5, L_6, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 0));
+		// }
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_mFB23728EB19D542CF7D7F2D7C8458F2154F1B6B5_AdjustorThunk (RuntimeObject* __this, TriggerData_t961063E87733CDD8443A71444D93E7529D0FD3F7 ___0_value, const RuntimeMethod* method)
+{
+	ParallelWriter_t441F54F89444B12280079F24628FBE42D4628577* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ParallelWriter_t441F54F89444B12280079F24628FBE42D4628577*>(__this + _offset);
+	ParallelWriter_AddNoResize_mFB23728EB19D542CF7D7F2D7C8458F2154F1B6B5(_thisAdjusted, ___0_value, method);
+}
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Netcode.DeferredMessageManager/TriggerData>::AddRangeNoResize(System.Void*,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mD5547477F3294B765A75C93D6EABEAF5756C2EAA_gshared (ParallelWriter_t441F54F89444B12280079F24628FBE42D4628577* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	void* V_1 = NULL;
+	{
+		// var idx = Interlocked.Add(ref ListData->m_length, count) - count;
+		UnsafeList_1_t7576474D288A30F1540A43F66481308FA0558594* L_0 = (UnsafeList_1_t7576474D288A30F1540A43F66481308FA0558594*)__this->___ListData_0;
+		NullCheck(L_0);
+		int32_t* L_1 = (int32_t*)(&L_0->___m_length_1);
+		int32_t L_2 = ___1_count;
+		int32_t L_3;
+		L_3 = Interlocked_Add_m2455208C56EEFD8832AEAD8AF7368A3FEB33A73C(L_1, L_2, NULL);
+		int32_t L_4 = ___1_count;
+		V_0 = ((int32_t)il2cpp_codegen_subtract(L_3, L_4));
+		// void* dst = (byte*)ListData->Ptr + idx * sizeof(T);
+		UnsafeList_1_t7576474D288A30F1540A43F66481308FA0558594* L_5 = (UnsafeList_1_t7576474D288A30F1540A43F66481308FA0558594*)__this->___ListData_0;
+		NullCheck(L_5);
+		TriggerData_t961063E87733CDD8443A71444D93E7529D0FD3F7* L_6 = (TriggerData_t961063E87733CDD8443A71444D93E7529D0FD3F7*)L_5->___Ptr_0;
+		int32_t L_7 = V_0;
+		uint32_t L_8 = sizeof(TriggerData_t961063E87733CDD8443A71444D93E7529D0FD3F7);
+		V_1 = (void*)((TriggerData_t961063E87733CDD8443A71444D93E7529D0FD3F7*)il2cpp_codegen_add((intptr_t)L_6, ((int32_t)il2cpp_codegen_multiply(L_7, (int32_t)L_8))));
+		// UnsafeUtility.MemCpy(dst, ptr, count * sizeof(T));
+		void* L_9 = V_1;
+		void* L_10 = ___0_ptr;
+		int32_t L_11 = ___1_count;
+		uint32_t L_12 = sizeof(TriggerData_t961063E87733CDD8443A71444D93E7529D0FD3F7);
+		UnsafeUtility_MemCpy_m5CEA91ACDADC522E584AE3A2AB2B0B74393A9177(L_9, L_10, ((int64_t)((int32_t)il2cpp_codegen_multiply(L_11, (int32_t)L_12))), NULL);
+		// }
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mD5547477F3294B765A75C93D6EABEAF5756C2EAA_AdjustorThunk (RuntimeObject* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method)
+{
+	ParallelWriter_t441F54F89444B12280079F24628FBE42D4628577* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ParallelWriter_t441F54F89444B12280079F24628FBE42D4628577*>(__this + _offset);
+	ParallelWriter_AddRangeNoResize_mD5547477F3294B765A75C93D6EABEAF5756C2EAA(_thisAdjusted, ___0_ptr, ___1_count, method);
+}
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Netcode.DeferredMessageManager/TriggerData>::AddRangeNoResize(Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mFCB2B9B3256548E94170C5F193F0991D5AA5587A_gshared (ParallelWriter_t441F54F89444B12280079F24628FBE42D4628577* __this, UnsafeList_1_t7576474D288A30F1540A43F66481308FA0558594 ___0_list, const RuntimeMethod* method) 
+{
+	{
+		// AddRangeNoResize(list.Ptr, list.Length);
+		UnsafeList_1_t7576474D288A30F1540A43F66481308FA0558594 L_0 = ___0_list;
+		TriggerData_t961063E87733CDD8443A71444D93E7529D0FD3F7* L_1 = (TriggerData_t961063E87733CDD8443A71444D93E7529D0FD3F7*)L_0.___Ptr_0;
+		int32_t L_2;
+		L_2 = UnsafeList_1_get_Length_mA3FB705F0992938D857A1684F1E4C8F8A6A31199((&___0_list), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 2));
+		ParallelWriter_AddRangeNoResize_mD5547477F3294B765A75C93D6EABEAF5756C2EAA(__this, (void*)L_1, L_2, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3));
+		// }
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mFCB2B9B3256548E94170C5F193F0991D5AA5587A_AdjustorThunk (RuntimeObject* __this, UnsafeList_1_t7576474D288A30F1540A43F66481308FA0558594 ___0_list, const RuntimeMethod* method)
+{
+	ParallelWriter_t441F54F89444B12280079F24628FBE42D4628577* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ParallelWriter_t441F54F89444B12280079F24628FBE42D4628577*>(__this + _offset);
+	ParallelWriter_AddRangeNoResize_mFCB2B9B3256548E94170C5F193F0991D5AA5587A(_thisAdjusted, ___0_list, method);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void* Unity.Collections.NativeList`1/ParallelWriter<Unity.Networking.Transport.IPCManager/IPCData>::get_Ptr()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mAAE6180AED8CA66B560E66181EB883CD32750D9A_gshared (ParallelWriter_t94F9FFD53B9AE8430CD8498CF5CBB71E789E2901* __this, const RuntimeMethod* method) 
+{
+	{
+		// public readonly void* Ptr => ListData->Ptr;
+		UnsafeList_1_t97F38A4A58468F12153209EBA329A7E123DFCBCB* L_0 = (UnsafeList_1_t97F38A4A58468F12153209EBA329A7E123DFCBCB*)__this->___ListData_0;
+		NullCheck(L_0);
+		IPCData_t46E9604572E2A38CBBA8A418C6E25E6BAE2757CC* L_1 = (IPCData_t46E9604572E2A38CBBA8A418C6E25E6BAE2757CC*)L_0->___Ptr_0;
+		return (void*)(L_1);
+	}
+}
+IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_mAAE6180AED8CA66B560E66181EB883CD32750D9A_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	ParallelWriter_t94F9FFD53B9AE8430CD8498CF5CBB71E789E2901* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ParallelWriter_t94F9FFD53B9AE8430CD8498CF5CBB71E789E2901*>(__this + _offset);
+	void* _returnValue;
+	_returnValue = ParallelWriter_get_Ptr_mAAE6180AED8CA66B560E66181EB883CD32750D9A(_thisAdjusted, method);
+	return _returnValue;
+}
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Networking.Transport.IPCManager/IPCData>::.ctor(Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>*)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m220E0D828A67437520CDA89F7509906ADA399534_gshared (ParallelWriter_t94F9FFD53B9AE8430CD8498CF5CBB71E789E2901* __this, UnsafeList_1_t97F38A4A58468F12153209EBA329A7E123DFCBCB* ___0_listData, const RuntimeMethod* method) 
+{
+	{
+		// ListData = listData;
+		UnsafeList_1_t97F38A4A58468F12153209EBA329A7E123DFCBCB* L_0 = ___0_listData;
+		__this->___ListData_0 = L_0;
+		// }
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void ParallelWriter__ctor_m220E0D828A67437520CDA89F7509906ADA399534_AdjustorThunk (RuntimeObject* __this, UnsafeList_1_t97F38A4A58468F12153209EBA329A7E123DFCBCB* ___0_listData, const RuntimeMethod* method)
+{
+	ParallelWriter_t94F9FFD53B9AE8430CD8498CF5CBB71E789E2901* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ParallelWriter_t94F9FFD53B9AE8430CD8498CF5CBB71E789E2901*>(__this + _offset);
+	ParallelWriter__ctor_m220E0D828A67437520CDA89F7509906ADA399534(_thisAdjusted, ___0_listData, method);
+}
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Networking.Transport.IPCManager/IPCData>::AddNoResize(T)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_mF905E95D307860BE743472A37BF5723E1CCF3070_gshared (ParallelWriter_t94F9FFD53B9AE8430CD8498CF5CBB71E789E2901* __this, IPCData_t46E9604572E2A38CBBA8A418C6E25E6BAE2757CC ___0_value, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	{
+		// var idx = Interlocked.Increment(ref ListData->m_length) - 1;
+		UnsafeList_1_t97F38A4A58468F12153209EBA329A7E123DFCBCB* L_0 = (UnsafeList_1_t97F38A4A58468F12153209EBA329A7E123DFCBCB*)__this->___ListData_0;
+		NullCheck(L_0);
+		int32_t* L_1 = (int32_t*)(&L_0->___m_length_1);
+		int32_t L_2;
+		L_2 = Interlocked_Increment_m3C240C32E8D9544EC050B74D4F28EEB58F1F9309(L_1, NULL);
+		V_0 = ((int32_t)il2cpp_codegen_subtract(L_2, 1));
+		// UnsafeUtility.WriteArrayElement(ListData->Ptr, idx, value);
+		UnsafeList_1_t97F38A4A58468F12153209EBA329A7E123DFCBCB* L_3 = (UnsafeList_1_t97F38A4A58468F12153209EBA329A7E123DFCBCB*)__this->___ListData_0;
+		NullCheck(L_3);
+		IPCData_t46E9604572E2A38CBBA8A418C6E25E6BAE2757CC* L_4 = (IPCData_t46E9604572E2A38CBBA8A418C6E25E6BAE2757CC*)L_3->___Ptr_0;
+		int32_t L_5 = V_0;
+		IPCData_t46E9604572E2A38CBBA8A418C6E25E6BAE2757CC L_6 = ___0_value;
+		((  void (*) (void*, int32_t, IPCData_t46E9604572E2A38CBBA8A418C6E25E6BAE2757CC, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 0)))((void*)L_4, L_5, L_6, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 0));
+		// }
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_mF905E95D307860BE743472A37BF5723E1CCF3070_AdjustorThunk (RuntimeObject* __this, IPCData_t46E9604572E2A38CBBA8A418C6E25E6BAE2757CC ___0_value, const RuntimeMethod* method)
+{
+	ParallelWriter_t94F9FFD53B9AE8430CD8498CF5CBB71E789E2901* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ParallelWriter_t94F9FFD53B9AE8430CD8498CF5CBB71E789E2901*>(__this + _offset);
+	ParallelWriter_AddNoResize_mF905E95D307860BE743472A37BF5723E1CCF3070(_thisAdjusted, ___0_value, method);
+}
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Networking.Transport.IPCManager/IPCData>::AddRangeNoResize(System.Void*,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m48C5FF1102D91120EFD61CA6B572701E6E322597_gshared (ParallelWriter_t94F9FFD53B9AE8430CD8498CF5CBB71E789E2901* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	void* V_2 = NULL;
+	{
+		// var idx = Interlocked.Add(ref ListData->m_length, count) - count;
+		UnsafeList_1_t97F38A4A58468F12153209EBA329A7E123DFCBCB* L_0 = (UnsafeList_1_t97F38A4A58468F12153209EBA329A7E123DFCBCB*)__this->___ListData_0;
+		NullCheck(L_0);
+		int32_t* L_1 = (int32_t*)(&L_0->___m_length_1);
+		int32_t L_2 = ___1_count;
+		int32_t L_3;
+		L_3 = Interlocked_Add_m2455208C56EEFD8832AEAD8AF7368A3FEB33A73C(L_1, L_2, NULL);
+		int32_t L_4 = ___1_count;
+		V_0 = ((int32_t)il2cpp_codegen_subtract(L_3, L_4));
+		// var sizeOf = sizeof(T);
+		uint32_t L_5 = sizeof(IPCData_t46E9604572E2A38CBBA8A418C6E25E6BAE2757CC);
+		V_1 = (int32_t)L_5;
+		// void* dst = (byte*)ListData->Ptr + idx * sizeOf;
+		UnsafeList_1_t97F38A4A58468F12153209EBA329A7E123DFCBCB* L_6 = (UnsafeList_1_t97F38A4A58468F12153209EBA329A7E123DFCBCB*)__this->___ListData_0;
+		NullCheck(L_6);
+		IPCData_t46E9604572E2A38CBBA8A418C6E25E6BAE2757CC* L_7 = (IPCData_t46E9604572E2A38CBBA8A418C6E25E6BAE2757CC*)L_6->___Ptr_0;
+		int32_t L_8 = V_0;
+		int32_t L_9 = V_1;
+		V_2 = (void*)((IPCData_t46E9604572E2A38CBBA8A418C6E25E6BAE2757CC*)il2cpp_codegen_add((intptr_t)L_7, ((int32_t)il2cpp_codegen_multiply(L_8, L_9))));
+		// UnsafeUtility.MemCpy(dst, ptr, count * sizeOf);
+		void* L_10 = V_2;
+		void* L_11 = ___0_ptr;
+		int32_t L_12 = ___1_count;
+		int32_t L_13 = V_1;
+		UnsafeUtility_MemCpy_m5CEA91ACDADC522E584AE3A2AB2B0B74393A9177(L_10, L_11, ((int64_t)((int32_t)il2cpp_codegen_multiply(L_12, L_13))), NULL);
+		// }
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m48C5FF1102D91120EFD61CA6B572701E6E322597_AdjustorThunk (RuntimeObject* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method)
+{
+	ParallelWriter_t94F9FFD53B9AE8430CD8498CF5CBB71E789E2901* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ParallelWriter_t94F9FFD53B9AE8430CD8498CF5CBB71E789E2901*>(__this + _offset);
+	ParallelWriter_AddRangeNoResize_m48C5FF1102D91120EFD61CA6B572701E6E322597(_thisAdjusted, ___0_ptr, ___1_count, method);
+}
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Networking.Transport.IPCManager/IPCData>::AddRangeNoResize(Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m75AFD1C3D0EDFBAE58F6444527EEBAD63350F218_gshared (ParallelWriter_t94F9FFD53B9AE8430CD8498CF5CBB71E789E2901* __this, UnsafeList_1_t97F38A4A58468F12153209EBA329A7E123DFCBCB ___0_list, const RuntimeMethod* method) 
+{
+	{
+		// AddRangeNoResize(list.Ptr, list.Length);
+		UnsafeList_1_t97F38A4A58468F12153209EBA329A7E123DFCBCB L_0 = ___0_list;
+		IPCData_t46E9604572E2A38CBBA8A418C6E25E6BAE2757CC* L_1 = (IPCData_t46E9604572E2A38CBBA8A418C6E25E6BAE2757CC*)L_0.___Ptr_0;
+		int32_t L_2;
+		L_2 = UnsafeList_1_get_Length_mD26D7CFCB3AC3919F73F74559377C21C945739D9((&___0_list), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 2));
+		ParallelWriter_AddRangeNoResize_m48C5FF1102D91120EFD61CA6B572701E6E322597(__this, (void*)L_1, L_2, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3));
+		// }
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m75AFD1C3D0EDFBAE58F6444527EEBAD63350F218_AdjustorThunk (RuntimeObject* __this, UnsafeList_1_t97F38A4A58468F12153209EBA329A7E123DFCBCB ___0_list, const RuntimeMethod* method)
+{
+	ParallelWriter_t94F9FFD53B9AE8430CD8498CF5CBB71E789E2901* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ParallelWriter_t94F9FFD53B9AE8430CD8498CF5CBB71E789E2901*>(__this + _offset);
+	ParallelWriter_AddRangeNoResize_m75AFD1C3D0EDFBAE58F6444527EEBAD63350F218(_thisAdjusted, ___0_list, method);
+}
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Networking.Transport.IPCManager/IPCData>::AddRangeNoResize(Unity.Collections.NativeList`1<T>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mDB01C0AA0390A7BB09C61552C01EDBD049532381_gshared (ParallelWriter_t94F9FFD53B9AE8430CD8498CF5CBB71E789E2901* __this, NativeList_1_t862569E04EFA1C3B62DB1E9E8147645A790CCF79 ___0_list, const RuntimeMethod* method) 
+{
+	{
+		// AddRangeNoResize(*list.m_ListData);
+		NativeList_1_t862569E04EFA1C3B62DB1E9E8147645A790CCF79 L_0 = ___0_list;
+		UnsafeList_1_t97F38A4A58468F12153209EBA329A7E123DFCBCB* L_1 = (UnsafeList_1_t97F38A4A58468F12153209EBA329A7E123DFCBCB*)L_0.___m_ListData_0;
+		UnsafeList_1_t97F38A4A58468F12153209EBA329A7E123DFCBCB L_2 = (*(UnsafeList_1_t97F38A4A58468F12153209EBA329A7E123DFCBCB*)L_1);
+		ParallelWriter_AddRangeNoResize_m75AFD1C3D0EDFBAE58F6444527EEBAD63350F218(__this, L_2, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 4));
+		// }
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mDB01C0AA0390A7BB09C61552C01EDBD049532381_AdjustorThunk (RuntimeObject* __this, NativeList_1_t862569E04EFA1C3B62DB1E9E8147645A790CCF79 ___0_list, const RuntimeMethod* method)
+{
+	ParallelWriter_t94F9FFD53B9AE8430CD8498CF5CBB71E789E2901* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ParallelWriter_t94F9FFD53B9AE8430CD8498CF5CBB71E789E2901*>(__this + _offset);
+	ParallelWriter_AddRangeNoResize_mDB01C0AA0390A7BB09C61552C01EDBD049532381(_thisAdjusted, ___0_list, method);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void* Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Networking.Transport.IPCManager/IPCData>::get_Ptr()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mC289A13A6A5F6DD25EFAA4BC8F4477C06C614E1F_gshared (ParallelWriter_t2CB5D534A368A60C6135B62EED9189BC2479772E* __this, const RuntimeMethod* method) 
+{
+	{
+		// public readonly void* Ptr => ListData->Ptr;
+		UnsafeList_1_t97F38A4A58468F12153209EBA329A7E123DFCBCB* L_0 = (UnsafeList_1_t97F38A4A58468F12153209EBA329A7E123DFCBCB*)__this->___ListData_0;
+		NullCheck(L_0);
+		IPCData_t46E9604572E2A38CBBA8A418C6E25E6BAE2757CC* L_1 = (IPCData_t46E9604572E2A38CBBA8A418C6E25E6BAE2757CC*)L_0->___Ptr_0;
+		return (void*)(L_1);
+	}
+}
+IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_mC289A13A6A5F6DD25EFAA4BC8F4477C06C614E1F_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	ParallelWriter_t2CB5D534A368A60C6135B62EED9189BC2479772E* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ParallelWriter_t2CB5D534A368A60C6135B62EED9189BC2479772E*>(__this + _offset);
+	void* _returnValue;
+	_returnValue = ParallelWriter_get_Ptr_mC289A13A6A5F6DD25EFAA4BC8F4477C06C614E1F(_thisAdjusted, method);
+	return _returnValue;
+}
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Networking.Transport.IPCManager/IPCData>::.ctor(Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>*)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mAB8E6356CE8E4DBDD7C7AF5D91E333C315F30222_gshared (ParallelWriter_t2CB5D534A368A60C6135B62EED9189BC2479772E* __this, UnsafeList_1_t97F38A4A58468F12153209EBA329A7E123DFCBCB* ___0_listData, const RuntimeMethod* method) 
+{
+	{
+		// ListData = listData;
+		UnsafeList_1_t97F38A4A58468F12153209EBA329A7E123DFCBCB* L_0 = ___0_listData;
+		__this->___ListData_0 = L_0;
+		// }
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void ParallelWriter__ctor_mAB8E6356CE8E4DBDD7C7AF5D91E333C315F30222_AdjustorThunk (RuntimeObject* __this, UnsafeList_1_t97F38A4A58468F12153209EBA329A7E123DFCBCB* ___0_listData, const RuntimeMethod* method)
+{
+	ParallelWriter_t2CB5D534A368A60C6135B62EED9189BC2479772E* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ParallelWriter_t2CB5D534A368A60C6135B62EED9189BC2479772E*>(__this + _offset);
+	ParallelWriter__ctor_mAB8E6356CE8E4DBDD7C7AF5D91E333C315F30222(_thisAdjusted, ___0_listData, method);
+}
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Networking.Transport.IPCManager/IPCData>::AddNoResize(T)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_mD9C24F6D423A4D6CA8A145A549962D1B30E83357_gshared (ParallelWriter_t2CB5D534A368A60C6135B62EED9189BC2479772E* __this, IPCData_t46E9604572E2A38CBBA8A418C6E25E6BAE2757CC ___0_value, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	{
+		// var idx = Interlocked.Increment(ref ListData->m_length) - 1;
+		UnsafeList_1_t97F38A4A58468F12153209EBA329A7E123DFCBCB* L_0 = (UnsafeList_1_t97F38A4A58468F12153209EBA329A7E123DFCBCB*)__this->___ListData_0;
+		NullCheck(L_0);
+		int32_t* L_1 = (int32_t*)(&L_0->___m_length_1);
+		int32_t L_2;
+		L_2 = Interlocked_Increment_m3C240C32E8D9544EC050B74D4F28EEB58F1F9309(L_1, NULL);
+		V_0 = ((int32_t)il2cpp_codegen_subtract(L_2, 1));
+		// UnsafeUtility.WriteArrayElement(ListData->Ptr, idx, value);
+		UnsafeList_1_t97F38A4A58468F12153209EBA329A7E123DFCBCB* L_3 = (UnsafeList_1_t97F38A4A58468F12153209EBA329A7E123DFCBCB*)__this->___ListData_0;
+		NullCheck(L_3);
+		IPCData_t46E9604572E2A38CBBA8A418C6E25E6BAE2757CC* L_4 = (IPCData_t46E9604572E2A38CBBA8A418C6E25E6BAE2757CC*)L_3->___Ptr_0;
+		int32_t L_5 = V_0;
+		IPCData_t46E9604572E2A38CBBA8A418C6E25E6BAE2757CC L_6 = ___0_value;
+		((  void (*) (void*, int32_t, IPCData_t46E9604572E2A38CBBA8A418C6E25E6BAE2757CC, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 0)))((void*)L_4, L_5, L_6, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 0));
+		// }
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_mD9C24F6D423A4D6CA8A145A549962D1B30E83357_AdjustorThunk (RuntimeObject* __this, IPCData_t46E9604572E2A38CBBA8A418C6E25E6BAE2757CC ___0_value, const RuntimeMethod* method)
+{
+	ParallelWriter_t2CB5D534A368A60C6135B62EED9189BC2479772E* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ParallelWriter_t2CB5D534A368A60C6135B62EED9189BC2479772E*>(__this + _offset);
+	ParallelWriter_AddNoResize_mD9C24F6D423A4D6CA8A145A549962D1B30E83357(_thisAdjusted, ___0_value, method);
+}
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Networking.Transport.IPCManager/IPCData>::AddRangeNoResize(System.Void*,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mDED52451BF8954DEAEFD901C3EB577D22D265F63_gshared (ParallelWriter_t2CB5D534A368A60C6135B62EED9189BC2479772E* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	void* V_1 = NULL;
+	{
+		// var idx = Interlocked.Add(ref ListData->m_length, count) - count;
+		UnsafeList_1_t97F38A4A58468F12153209EBA329A7E123DFCBCB* L_0 = (UnsafeList_1_t97F38A4A58468F12153209EBA329A7E123DFCBCB*)__this->___ListData_0;
+		NullCheck(L_0);
+		int32_t* L_1 = (int32_t*)(&L_0->___m_length_1);
+		int32_t L_2 = ___1_count;
+		int32_t L_3;
+		L_3 = Interlocked_Add_m2455208C56EEFD8832AEAD8AF7368A3FEB33A73C(L_1, L_2, NULL);
+		int32_t L_4 = ___1_count;
+		V_0 = ((int32_t)il2cpp_codegen_subtract(L_3, L_4));
+		// void* dst = (byte*)ListData->Ptr + idx * sizeof(T);
+		UnsafeList_1_t97F38A4A58468F12153209EBA329A7E123DFCBCB* L_5 = (UnsafeList_1_t97F38A4A58468F12153209EBA329A7E123DFCBCB*)__this->___ListData_0;
+		NullCheck(L_5);
+		IPCData_t46E9604572E2A38CBBA8A418C6E25E6BAE2757CC* L_6 = (IPCData_t46E9604572E2A38CBBA8A418C6E25E6BAE2757CC*)L_5->___Ptr_0;
+		int32_t L_7 = V_0;
+		uint32_t L_8 = sizeof(IPCData_t46E9604572E2A38CBBA8A418C6E25E6BAE2757CC);
+		V_1 = (void*)((IPCData_t46E9604572E2A38CBBA8A418C6E25E6BAE2757CC*)il2cpp_codegen_add((intptr_t)L_6, ((int32_t)il2cpp_codegen_multiply(L_7, (int32_t)L_8))));
+		// UnsafeUtility.MemCpy(dst, ptr, count * sizeof(T));
+		void* L_9 = V_1;
+		void* L_10 = ___0_ptr;
+		int32_t L_11 = ___1_count;
+		uint32_t L_12 = sizeof(IPCData_t46E9604572E2A38CBBA8A418C6E25E6BAE2757CC);
+		UnsafeUtility_MemCpy_m5CEA91ACDADC522E584AE3A2AB2B0B74393A9177(L_9, L_10, ((int64_t)((int32_t)il2cpp_codegen_multiply(L_11, (int32_t)L_12))), NULL);
+		// }
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mDED52451BF8954DEAEFD901C3EB577D22D265F63_AdjustorThunk (RuntimeObject* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method)
+{
+	ParallelWriter_t2CB5D534A368A60C6135B62EED9189BC2479772E* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ParallelWriter_t2CB5D534A368A60C6135B62EED9189BC2479772E*>(__this + _offset);
+	ParallelWriter_AddRangeNoResize_mDED52451BF8954DEAEFD901C3EB577D22D265F63(_thisAdjusted, ___0_ptr, ___1_count, method);
+}
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Networking.Transport.IPCManager/IPCData>::AddRangeNoResize(Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mA0A03FF056E15B7479CBD7DD0A5D947C47FB2A5B_gshared (ParallelWriter_t2CB5D534A368A60C6135B62EED9189BC2479772E* __this, UnsafeList_1_t97F38A4A58468F12153209EBA329A7E123DFCBCB ___0_list, const RuntimeMethod* method) 
+{
+	{
+		// AddRangeNoResize(list.Ptr, list.Length);
+		UnsafeList_1_t97F38A4A58468F12153209EBA329A7E123DFCBCB L_0 = ___0_list;
+		IPCData_t46E9604572E2A38CBBA8A418C6E25E6BAE2757CC* L_1 = (IPCData_t46E9604572E2A38CBBA8A418C6E25E6BAE2757CC*)L_0.___Ptr_0;
+		int32_t L_2;
+		L_2 = UnsafeList_1_get_Length_mD26D7CFCB3AC3919F73F74559377C21C945739D9((&___0_list), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 2));
+		ParallelWriter_AddRangeNoResize_mDED52451BF8954DEAEFD901C3EB577D22D265F63(__this, (void*)L_1, L_2, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3));
+		// }
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mA0A03FF056E15B7479CBD7DD0A5D947C47FB2A5B_AdjustorThunk (RuntimeObject* __this, UnsafeList_1_t97F38A4A58468F12153209EBA329A7E123DFCBCB ___0_list, const RuntimeMethod* method)
+{
+	ParallelWriter_t2CB5D534A368A60C6135B62EED9189BC2479772E* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ParallelWriter_t2CB5D534A368A60C6135B62EED9189BC2479772E*>(__this + _offset);
+	ParallelWriter_AddRangeNoResize_mA0A03FF056E15B7479CBD7DD0A5D947C47FB2A5B(_thisAdjusted, ___0_list, method);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void* Unity.Collections.NativeList`1/ParallelWriter<Unity.Netcode.MessagingSystem/ReceiveQueueItem>::get_Ptr()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m2AF07A3447BCBE200D651A1094505970B7E83141_gshared (ParallelWriter_tCFD714C5DD7537D38BE908F26105B026AEBA43C9* __this, const RuntimeMethod* method) 
+{
+	{
+		// public readonly void* Ptr => ListData->Ptr;
+		UnsafeList_1_t89BFA272C688229184DE0B26E132A0C55C159B6B* L_0 = (UnsafeList_1_t89BFA272C688229184DE0B26E132A0C55C159B6B*)__this->___ListData_0;
+		NullCheck(L_0);
+		ReceiveQueueItem_t60F7AA40B886CF8C6231945A5262F76297738DB6* L_1 = (ReceiveQueueItem_t60F7AA40B886CF8C6231945A5262F76297738DB6*)L_0->___Ptr_0;
+		return (void*)(L_1);
+	}
+}
+IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_m2AF07A3447BCBE200D651A1094505970B7E83141_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	ParallelWriter_tCFD714C5DD7537D38BE908F26105B026AEBA43C9* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ParallelWriter_tCFD714C5DD7537D38BE908F26105B026AEBA43C9*>(__this + _offset);
+	void* _returnValue;
+	_returnValue = ParallelWriter_get_Ptr_m2AF07A3447BCBE200D651A1094505970B7E83141(_thisAdjusted, method);
+	return _returnValue;
+}
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Netcode.MessagingSystem/ReceiveQueueItem>::.ctor(Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>*)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m9880D90B0334C93DB74BE1C8CCFE4A38907A2AE2_gshared (ParallelWriter_tCFD714C5DD7537D38BE908F26105B026AEBA43C9* __this, UnsafeList_1_t89BFA272C688229184DE0B26E132A0C55C159B6B* ___0_listData, const RuntimeMethod* method) 
+{
+	{
+		// ListData = listData;
+		UnsafeList_1_t89BFA272C688229184DE0B26E132A0C55C159B6B* L_0 = ___0_listData;
+		__this->___ListData_0 = L_0;
+		// }
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void ParallelWriter__ctor_m9880D90B0334C93DB74BE1C8CCFE4A38907A2AE2_AdjustorThunk (RuntimeObject* __this, UnsafeList_1_t89BFA272C688229184DE0B26E132A0C55C159B6B* ___0_listData, const RuntimeMethod* method)
+{
+	ParallelWriter_tCFD714C5DD7537D38BE908F26105B026AEBA43C9* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ParallelWriter_tCFD714C5DD7537D38BE908F26105B026AEBA43C9*>(__this + _offset);
+	ParallelWriter__ctor_m9880D90B0334C93DB74BE1C8CCFE4A38907A2AE2(_thisAdjusted, ___0_listData, method);
+}
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Netcode.MessagingSystem/ReceiveQueueItem>::AddNoResize(T)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_m082958D4E906ED739967A58B4AE30481023CA5FB_gshared (ParallelWriter_tCFD714C5DD7537D38BE908F26105B026AEBA43C9* __this, ReceiveQueueItem_t60F7AA40B886CF8C6231945A5262F76297738DB6 ___0_value, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	{
+		// var idx = Interlocked.Increment(ref ListData->m_length) - 1;
+		UnsafeList_1_t89BFA272C688229184DE0B26E132A0C55C159B6B* L_0 = (UnsafeList_1_t89BFA272C688229184DE0B26E132A0C55C159B6B*)__this->___ListData_0;
+		NullCheck(L_0);
+		int32_t* L_1 = (int32_t*)(&L_0->___m_length_1);
+		int32_t L_2;
+		L_2 = Interlocked_Increment_m3C240C32E8D9544EC050B74D4F28EEB58F1F9309(L_1, NULL);
+		V_0 = ((int32_t)il2cpp_codegen_subtract(L_2, 1));
+		// UnsafeUtility.WriteArrayElement(ListData->Ptr, idx, value);
+		UnsafeList_1_t89BFA272C688229184DE0B26E132A0C55C159B6B* L_3 = (UnsafeList_1_t89BFA272C688229184DE0B26E132A0C55C159B6B*)__this->___ListData_0;
+		NullCheck(L_3);
+		ReceiveQueueItem_t60F7AA40B886CF8C6231945A5262F76297738DB6* L_4 = (ReceiveQueueItem_t60F7AA40B886CF8C6231945A5262F76297738DB6*)L_3->___Ptr_0;
+		int32_t L_5 = V_0;
+		ReceiveQueueItem_t60F7AA40B886CF8C6231945A5262F76297738DB6 L_6 = ___0_value;
+		((  void (*) (void*, int32_t, ReceiveQueueItem_t60F7AA40B886CF8C6231945A5262F76297738DB6, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 0)))((void*)L_4, L_5, L_6, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 0));
+		// }
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_m082958D4E906ED739967A58B4AE30481023CA5FB_AdjustorThunk (RuntimeObject* __this, ReceiveQueueItem_t60F7AA40B886CF8C6231945A5262F76297738DB6 ___0_value, const RuntimeMethod* method)
+{
+	ParallelWriter_tCFD714C5DD7537D38BE908F26105B026AEBA43C9* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ParallelWriter_tCFD714C5DD7537D38BE908F26105B026AEBA43C9*>(__this + _offset);
+	ParallelWriter_AddNoResize_m082958D4E906ED739967A58B4AE30481023CA5FB(_thisAdjusted, ___0_value, method);
+}
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Netcode.MessagingSystem/ReceiveQueueItem>::AddRangeNoResize(System.Void*,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m2DDB331733ED7244DF9F0D41717FD533BAAE6015_gshared (ParallelWriter_tCFD714C5DD7537D38BE908F26105B026AEBA43C9* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	void* V_2 = NULL;
+	{
+		// var idx = Interlocked.Add(ref ListData->m_length, count) - count;
+		UnsafeList_1_t89BFA272C688229184DE0B26E132A0C55C159B6B* L_0 = (UnsafeList_1_t89BFA272C688229184DE0B26E132A0C55C159B6B*)__this->___ListData_0;
+		NullCheck(L_0);
+		int32_t* L_1 = (int32_t*)(&L_0->___m_length_1);
+		int32_t L_2 = ___1_count;
+		int32_t L_3;
+		L_3 = Interlocked_Add_m2455208C56EEFD8832AEAD8AF7368A3FEB33A73C(L_1, L_2, NULL);
+		int32_t L_4 = ___1_count;
+		V_0 = ((int32_t)il2cpp_codegen_subtract(L_3, L_4));
+		// var sizeOf = sizeof(T);
+		uint32_t L_5 = sizeof(ReceiveQueueItem_t60F7AA40B886CF8C6231945A5262F76297738DB6);
+		V_1 = (int32_t)L_5;
+		// void* dst = (byte*)ListData->Ptr + idx * sizeOf;
+		UnsafeList_1_t89BFA272C688229184DE0B26E132A0C55C159B6B* L_6 = (UnsafeList_1_t89BFA272C688229184DE0B26E132A0C55C159B6B*)__this->___ListData_0;
+		NullCheck(L_6);
+		ReceiveQueueItem_t60F7AA40B886CF8C6231945A5262F76297738DB6* L_7 = (ReceiveQueueItem_t60F7AA40B886CF8C6231945A5262F76297738DB6*)L_6->___Ptr_0;
+		int32_t L_8 = V_0;
+		int32_t L_9 = V_1;
+		V_2 = (void*)((ReceiveQueueItem_t60F7AA40B886CF8C6231945A5262F76297738DB6*)il2cpp_codegen_add((intptr_t)L_7, ((int32_t)il2cpp_codegen_multiply(L_8, L_9))));
+		// UnsafeUtility.MemCpy(dst, ptr, count * sizeOf);
+		void* L_10 = V_2;
+		void* L_11 = ___0_ptr;
+		int32_t L_12 = ___1_count;
+		int32_t L_13 = V_1;
+		UnsafeUtility_MemCpy_m5CEA91ACDADC522E584AE3A2AB2B0B74393A9177(L_10, L_11, ((int64_t)((int32_t)il2cpp_codegen_multiply(L_12, L_13))), NULL);
+		// }
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m2DDB331733ED7244DF9F0D41717FD533BAAE6015_AdjustorThunk (RuntimeObject* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method)
+{
+	ParallelWriter_tCFD714C5DD7537D38BE908F26105B026AEBA43C9* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ParallelWriter_tCFD714C5DD7537D38BE908F26105B026AEBA43C9*>(__this + _offset);
+	ParallelWriter_AddRangeNoResize_m2DDB331733ED7244DF9F0D41717FD533BAAE6015(_thisAdjusted, ___0_ptr, ___1_count, method);
+}
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Netcode.MessagingSystem/ReceiveQueueItem>::AddRangeNoResize(Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m716D6CB899427BEA6E88D02D8F3FC95B9903AA0D_gshared (ParallelWriter_tCFD714C5DD7537D38BE908F26105B026AEBA43C9* __this, UnsafeList_1_t89BFA272C688229184DE0B26E132A0C55C159B6B ___0_list, const RuntimeMethod* method) 
+{
+	{
+		// AddRangeNoResize(list.Ptr, list.Length);
+		UnsafeList_1_t89BFA272C688229184DE0B26E132A0C55C159B6B L_0 = ___0_list;
+		ReceiveQueueItem_t60F7AA40B886CF8C6231945A5262F76297738DB6* L_1 = (ReceiveQueueItem_t60F7AA40B886CF8C6231945A5262F76297738DB6*)L_0.___Ptr_0;
+		int32_t L_2;
+		L_2 = UnsafeList_1_get_Length_m0B8AA2F9A7DB8D9E521EAB25DF486A0F9EB3463F((&___0_list), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 2));
+		ParallelWriter_AddRangeNoResize_m2DDB331733ED7244DF9F0D41717FD533BAAE6015(__this, (void*)L_1, L_2, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3));
+		// }
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m716D6CB899427BEA6E88D02D8F3FC95B9903AA0D_AdjustorThunk (RuntimeObject* __this, UnsafeList_1_t89BFA272C688229184DE0B26E132A0C55C159B6B ___0_list, const RuntimeMethod* method)
+{
+	ParallelWriter_tCFD714C5DD7537D38BE908F26105B026AEBA43C9* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ParallelWriter_tCFD714C5DD7537D38BE908F26105B026AEBA43C9*>(__this + _offset);
+	ParallelWriter_AddRangeNoResize_m716D6CB899427BEA6E88D02D8F3FC95B9903AA0D(_thisAdjusted, ___0_list, method);
+}
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Netcode.MessagingSystem/ReceiveQueueItem>::AddRangeNoResize(Unity.Collections.NativeList`1<T>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m9712AD9CEC6979520C0FC91D0B11FE907FCE36A5_gshared (ParallelWriter_tCFD714C5DD7537D38BE908F26105B026AEBA43C9* __this, NativeList_1_t138CBF168BB8AFE6930827B640D1B7DDB429657B ___0_list, const RuntimeMethod* method) 
+{
+	{
+		// AddRangeNoResize(*list.m_ListData);
+		NativeList_1_t138CBF168BB8AFE6930827B640D1B7DDB429657B L_0 = ___0_list;
+		UnsafeList_1_t89BFA272C688229184DE0B26E132A0C55C159B6B* L_1 = (UnsafeList_1_t89BFA272C688229184DE0B26E132A0C55C159B6B*)L_0.___m_ListData_0;
+		UnsafeList_1_t89BFA272C688229184DE0B26E132A0C55C159B6B L_2 = (*(UnsafeList_1_t89BFA272C688229184DE0B26E132A0C55C159B6B*)L_1);
+		ParallelWriter_AddRangeNoResize_m716D6CB899427BEA6E88D02D8F3FC95B9903AA0D(__this, L_2, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 4));
+		// }
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m9712AD9CEC6979520C0FC91D0B11FE907FCE36A5_AdjustorThunk (RuntimeObject* __this, NativeList_1_t138CBF168BB8AFE6930827B640D1B7DDB429657B ___0_list, const RuntimeMethod* method)
+{
+	ParallelWriter_tCFD714C5DD7537D38BE908F26105B026AEBA43C9* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ParallelWriter_tCFD714C5DD7537D38BE908F26105B026AEBA43C9*>(__this + _offset);
+	ParallelWriter_AddRangeNoResize_m9712AD9CEC6979520C0FC91D0B11FE907FCE36A5(_thisAdjusted, ___0_list, method);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void* Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Netcode.MessagingSystem/ReceiveQueueItem>::get_Ptr()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m91FEDC7EE091BC2393AD26C88C05A2282301B407_gshared (ParallelWriter_t38A408C31D5DF2B785A11B0D850011D3BA6598C8* __this, const RuntimeMethod* method) 
+{
+	{
+		// public readonly void* Ptr => ListData->Ptr;
+		UnsafeList_1_t89BFA272C688229184DE0B26E132A0C55C159B6B* L_0 = (UnsafeList_1_t89BFA272C688229184DE0B26E132A0C55C159B6B*)__this->___ListData_0;
+		NullCheck(L_0);
+		ReceiveQueueItem_t60F7AA40B886CF8C6231945A5262F76297738DB6* L_1 = (ReceiveQueueItem_t60F7AA40B886CF8C6231945A5262F76297738DB6*)L_0->___Ptr_0;
+		return (void*)(L_1);
+	}
+}
+IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_m91FEDC7EE091BC2393AD26C88C05A2282301B407_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	ParallelWriter_t38A408C31D5DF2B785A11B0D850011D3BA6598C8* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ParallelWriter_t38A408C31D5DF2B785A11B0D850011D3BA6598C8*>(__this + _offset);
+	void* _returnValue;
+	_returnValue = ParallelWriter_get_Ptr_m91FEDC7EE091BC2393AD26C88C05A2282301B407(_thisAdjusted, method);
+	return _returnValue;
+}
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Netcode.MessagingSystem/ReceiveQueueItem>::.ctor(Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>*)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m34C442439B6C535820216667269DEAF83F3BD357_gshared (ParallelWriter_t38A408C31D5DF2B785A11B0D850011D3BA6598C8* __this, UnsafeList_1_t89BFA272C688229184DE0B26E132A0C55C159B6B* ___0_listData, const RuntimeMethod* method) 
+{
+	{
+		// ListData = listData;
+		UnsafeList_1_t89BFA272C688229184DE0B26E132A0C55C159B6B* L_0 = ___0_listData;
+		__this->___ListData_0 = L_0;
+		// }
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void ParallelWriter__ctor_m34C442439B6C535820216667269DEAF83F3BD357_AdjustorThunk (RuntimeObject* __this, UnsafeList_1_t89BFA272C688229184DE0B26E132A0C55C159B6B* ___0_listData, const RuntimeMethod* method)
+{
+	ParallelWriter_t38A408C31D5DF2B785A11B0D850011D3BA6598C8* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ParallelWriter_t38A408C31D5DF2B785A11B0D850011D3BA6598C8*>(__this + _offset);
+	ParallelWriter__ctor_m34C442439B6C535820216667269DEAF83F3BD357(_thisAdjusted, ___0_listData, method);
+}
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Netcode.MessagingSystem/ReceiveQueueItem>::AddNoResize(T)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_m32F01A14AF0C00656967F6C443AD1A1C440415DA_gshared (ParallelWriter_t38A408C31D5DF2B785A11B0D850011D3BA6598C8* __this, ReceiveQueueItem_t60F7AA40B886CF8C6231945A5262F76297738DB6 ___0_value, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	{
+		// var idx = Interlocked.Increment(ref ListData->m_length) - 1;
+		UnsafeList_1_t89BFA272C688229184DE0B26E132A0C55C159B6B* L_0 = (UnsafeList_1_t89BFA272C688229184DE0B26E132A0C55C159B6B*)__this->___ListData_0;
+		NullCheck(L_0);
+		int32_t* L_1 = (int32_t*)(&L_0->___m_length_1);
+		int32_t L_2;
+		L_2 = Interlocked_Increment_m3C240C32E8D9544EC050B74D4F28EEB58F1F9309(L_1, NULL);
+		V_0 = ((int32_t)il2cpp_codegen_subtract(L_2, 1));
+		// UnsafeUtility.WriteArrayElement(ListData->Ptr, idx, value);
+		UnsafeList_1_t89BFA272C688229184DE0B26E132A0C55C159B6B* L_3 = (UnsafeList_1_t89BFA272C688229184DE0B26E132A0C55C159B6B*)__this->___ListData_0;
+		NullCheck(L_3);
+		ReceiveQueueItem_t60F7AA40B886CF8C6231945A5262F76297738DB6* L_4 = (ReceiveQueueItem_t60F7AA40B886CF8C6231945A5262F76297738DB6*)L_3->___Ptr_0;
+		int32_t L_5 = V_0;
+		ReceiveQueueItem_t60F7AA40B886CF8C6231945A5262F76297738DB6 L_6 = ___0_value;
+		((  void (*) (void*, int32_t, ReceiveQueueItem_t60F7AA40B886CF8C6231945A5262F76297738DB6, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 0)))((void*)L_4, L_5, L_6, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 0));
+		// }
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_m32F01A14AF0C00656967F6C443AD1A1C440415DA_AdjustorThunk (RuntimeObject* __this, ReceiveQueueItem_t60F7AA40B886CF8C6231945A5262F76297738DB6 ___0_value, const RuntimeMethod* method)
+{
+	ParallelWriter_t38A408C31D5DF2B785A11B0D850011D3BA6598C8* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ParallelWriter_t38A408C31D5DF2B785A11B0D850011D3BA6598C8*>(__this + _offset);
+	ParallelWriter_AddNoResize_m32F01A14AF0C00656967F6C443AD1A1C440415DA(_thisAdjusted, ___0_value, method);
+}
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Netcode.MessagingSystem/ReceiveQueueItem>::AddRangeNoResize(System.Void*,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m489F4BA775EE0CC5915D9AF2C36173A101B078C6_gshared (ParallelWriter_t38A408C31D5DF2B785A11B0D850011D3BA6598C8* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	void* V_1 = NULL;
+	{
+		// var idx = Interlocked.Add(ref ListData->m_length, count) - count;
+		UnsafeList_1_t89BFA272C688229184DE0B26E132A0C55C159B6B* L_0 = (UnsafeList_1_t89BFA272C688229184DE0B26E132A0C55C159B6B*)__this->___ListData_0;
+		NullCheck(L_0);
+		int32_t* L_1 = (int32_t*)(&L_0->___m_length_1);
+		int32_t L_2 = ___1_count;
+		int32_t L_3;
+		L_3 = Interlocked_Add_m2455208C56EEFD8832AEAD8AF7368A3FEB33A73C(L_1, L_2, NULL);
+		int32_t L_4 = ___1_count;
+		V_0 = ((int32_t)il2cpp_codegen_subtract(L_3, L_4));
+		// void* dst = (byte*)ListData->Ptr + idx * sizeof(T);
+		UnsafeList_1_t89BFA272C688229184DE0B26E132A0C55C159B6B* L_5 = (UnsafeList_1_t89BFA272C688229184DE0B26E132A0C55C159B6B*)__this->___ListData_0;
+		NullCheck(L_5);
+		ReceiveQueueItem_t60F7AA40B886CF8C6231945A5262F76297738DB6* L_6 = (ReceiveQueueItem_t60F7AA40B886CF8C6231945A5262F76297738DB6*)L_5->___Ptr_0;
+		int32_t L_7 = V_0;
+		uint32_t L_8 = sizeof(ReceiveQueueItem_t60F7AA40B886CF8C6231945A5262F76297738DB6);
+		V_1 = (void*)((ReceiveQueueItem_t60F7AA40B886CF8C6231945A5262F76297738DB6*)il2cpp_codegen_add((intptr_t)L_6, ((int32_t)il2cpp_codegen_multiply(L_7, (int32_t)L_8))));
+		// UnsafeUtility.MemCpy(dst, ptr, count * sizeof(T));
+		void* L_9 = V_1;
+		void* L_10 = ___0_ptr;
+		int32_t L_11 = ___1_count;
+		uint32_t L_12 = sizeof(ReceiveQueueItem_t60F7AA40B886CF8C6231945A5262F76297738DB6);
+		UnsafeUtility_MemCpy_m5CEA91ACDADC522E584AE3A2AB2B0B74393A9177(L_9, L_10, ((int64_t)((int32_t)il2cpp_codegen_multiply(L_11, (int32_t)L_12))), NULL);
+		// }
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m489F4BA775EE0CC5915D9AF2C36173A101B078C6_AdjustorThunk (RuntimeObject* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method)
+{
+	ParallelWriter_t38A408C31D5DF2B785A11B0D850011D3BA6598C8* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ParallelWriter_t38A408C31D5DF2B785A11B0D850011D3BA6598C8*>(__this + _offset);
+	ParallelWriter_AddRangeNoResize_m489F4BA775EE0CC5915D9AF2C36173A101B078C6(_thisAdjusted, ___0_ptr, ___1_count, method);
+}
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Netcode.MessagingSystem/ReceiveQueueItem>::AddRangeNoResize(Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mD73B2BE314AF1F64F096BAE6ACB98EB93B307CF6_gshared (ParallelWriter_t38A408C31D5DF2B785A11B0D850011D3BA6598C8* __this, UnsafeList_1_t89BFA272C688229184DE0B26E132A0C55C159B6B ___0_list, const RuntimeMethod* method) 
+{
+	{
+		// AddRangeNoResize(list.Ptr, list.Length);
+		UnsafeList_1_t89BFA272C688229184DE0B26E132A0C55C159B6B L_0 = ___0_list;
+		ReceiveQueueItem_t60F7AA40B886CF8C6231945A5262F76297738DB6* L_1 = (ReceiveQueueItem_t60F7AA40B886CF8C6231945A5262F76297738DB6*)L_0.___Ptr_0;
+		int32_t L_2;
+		L_2 = UnsafeList_1_get_Length_m0B8AA2F9A7DB8D9E521EAB25DF486A0F9EB3463F((&___0_list), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 2));
+		ParallelWriter_AddRangeNoResize_m489F4BA775EE0CC5915D9AF2C36173A101B078C6(__this, (void*)L_1, L_2, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3));
+		// }
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mD73B2BE314AF1F64F096BAE6ACB98EB93B307CF6_AdjustorThunk (RuntimeObject* __this, UnsafeList_1_t89BFA272C688229184DE0B26E132A0C55C159B6B ___0_list, const RuntimeMethod* method)
+{
+	ParallelWriter_t38A408C31D5DF2B785A11B0D850011D3BA6598C8* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ParallelWriter_t38A408C31D5DF2B785A11B0D850011D3BA6598C8*>(__this + _offset);
+	ParallelWriter_AddRangeNoResize_mD73B2BE314AF1F64F096BAE6ACB98EB93B307CF6(_thisAdjusted, ___0_list, method);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void* Unity.Collections.NativeList`1/ParallelWriter<Unity.Netcode.MessagingSystem/SendQueueItem>::get_Ptr()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m47B82294862D9C763C211EFEE74671B7973DC449_gshared (ParallelWriter_t22DDCE675B2008D902EE4A8DEA86C990F8D0F39A* __this, const RuntimeMethod* method) 
+{
+	{
+		// public readonly void* Ptr => ListData->Ptr;
+		UnsafeList_1_tE941F153E0D05B0746B266E9F8686EBDA90F1A12* L_0 = (UnsafeList_1_tE941F153E0D05B0746B266E9F8686EBDA90F1A12*)__this->___ListData_0;
+		NullCheck(L_0);
+		SendQueueItem_tFA46EA1EF42596165A1AAE755E4984B2DBFB1B47* L_1 = (SendQueueItem_tFA46EA1EF42596165A1AAE755E4984B2DBFB1B47*)L_0->___Ptr_0;
+		return (void*)(L_1);
+	}
+}
+IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_m47B82294862D9C763C211EFEE74671B7973DC449_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	ParallelWriter_t22DDCE675B2008D902EE4A8DEA86C990F8D0F39A* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ParallelWriter_t22DDCE675B2008D902EE4A8DEA86C990F8D0F39A*>(__this + _offset);
+	void* _returnValue;
+	_returnValue = ParallelWriter_get_Ptr_m47B82294862D9C763C211EFEE74671B7973DC449(_thisAdjusted, method);
+	return _returnValue;
+}
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Netcode.MessagingSystem/SendQueueItem>::.ctor(Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>*)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mD9D9CA81A573548FAB33D0CC2BD40949AD55708E_gshared (ParallelWriter_t22DDCE675B2008D902EE4A8DEA86C990F8D0F39A* __this, UnsafeList_1_tE941F153E0D05B0746B266E9F8686EBDA90F1A12* ___0_listData, const RuntimeMethod* method) 
+{
+	{
+		// ListData = listData;
+		UnsafeList_1_tE941F153E0D05B0746B266E9F8686EBDA90F1A12* L_0 = ___0_listData;
+		__this->___ListData_0 = L_0;
+		// }
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void ParallelWriter__ctor_mD9D9CA81A573548FAB33D0CC2BD40949AD55708E_AdjustorThunk (RuntimeObject* __this, UnsafeList_1_tE941F153E0D05B0746B266E9F8686EBDA90F1A12* ___0_listData, const RuntimeMethod* method)
+{
+	ParallelWriter_t22DDCE675B2008D902EE4A8DEA86C990F8D0F39A* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ParallelWriter_t22DDCE675B2008D902EE4A8DEA86C990F8D0F39A*>(__this + _offset);
+	ParallelWriter__ctor_mD9D9CA81A573548FAB33D0CC2BD40949AD55708E(_thisAdjusted, ___0_listData, method);
+}
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Netcode.MessagingSystem/SendQueueItem>::AddNoResize(T)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_m97365CBCC2C09094B35F5175DF78404188214815_gshared (ParallelWriter_t22DDCE675B2008D902EE4A8DEA86C990F8D0F39A* __this, SendQueueItem_tFA46EA1EF42596165A1AAE755E4984B2DBFB1B47 ___0_value, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	{
+		// var idx = Interlocked.Increment(ref ListData->m_length) - 1;
+		UnsafeList_1_tE941F153E0D05B0746B266E9F8686EBDA90F1A12* L_0 = (UnsafeList_1_tE941F153E0D05B0746B266E9F8686EBDA90F1A12*)__this->___ListData_0;
+		NullCheck(L_0);
+		int32_t* L_1 = (int32_t*)(&L_0->___m_length_1);
+		int32_t L_2;
+		L_2 = Interlocked_Increment_m3C240C32E8D9544EC050B74D4F28EEB58F1F9309(L_1, NULL);
+		V_0 = ((int32_t)il2cpp_codegen_subtract(L_2, 1));
+		// UnsafeUtility.WriteArrayElement(ListData->Ptr, idx, value);
+		UnsafeList_1_tE941F153E0D05B0746B266E9F8686EBDA90F1A12* L_3 = (UnsafeList_1_tE941F153E0D05B0746B266E9F8686EBDA90F1A12*)__this->___ListData_0;
+		NullCheck(L_3);
+		SendQueueItem_tFA46EA1EF42596165A1AAE755E4984B2DBFB1B47* L_4 = (SendQueueItem_tFA46EA1EF42596165A1AAE755E4984B2DBFB1B47*)L_3->___Ptr_0;
+		int32_t L_5 = V_0;
+		SendQueueItem_tFA46EA1EF42596165A1AAE755E4984B2DBFB1B47 L_6 = ___0_value;
+		((  void (*) (void*, int32_t, SendQueueItem_tFA46EA1EF42596165A1AAE755E4984B2DBFB1B47, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 0)))((void*)L_4, L_5, L_6, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 0));
+		// }
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_m97365CBCC2C09094B35F5175DF78404188214815_AdjustorThunk (RuntimeObject* __this, SendQueueItem_tFA46EA1EF42596165A1AAE755E4984B2DBFB1B47 ___0_value, const RuntimeMethod* method)
+{
+	ParallelWriter_t22DDCE675B2008D902EE4A8DEA86C990F8D0F39A* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ParallelWriter_t22DDCE675B2008D902EE4A8DEA86C990F8D0F39A*>(__this + _offset);
+	ParallelWriter_AddNoResize_m97365CBCC2C09094B35F5175DF78404188214815(_thisAdjusted, ___0_value, method);
+}
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Netcode.MessagingSystem/SendQueueItem>::AddRangeNoResize(System.Void*,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m79AFEA665BD965D94671F578F524A88299FF791C_gshared (ParallelWriter_t22DDCE675B2008D902EE4A8DEA86C990F8D0F39A* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	void* V_2 = NULL;
+	{
+		// var idx = Interlocked.Add(ref ListData->m_length, count) - count;
+		UnsafeList_1_tE941F153E0D05B0746B266E9F8686EBDA90F1A12* L_0 = (UnsafeList_1_tE941F153E0D05B0746B266E9F8686EBDA90F1A12*)__this->___ListData_0;
+		NullCheck(L_0);
+		int32_t* L_1 = (int32_t*)(&L_0->___m_length_1);
+		int32_t L_2 = ___1_count;
+		int32_t L_3;
+		L_3 = Interlocked_Add_m2455208C56EEFD8832AEAD8AF7368A3FEB33A73C(L_1, L_2, NULL);
+		int32_t L_4 = ___1_count;
+		V_0 = ((int32_t)il2cpp_codegen_subtract(L_3, L_4));
+		// var sizeOf = sizeof(T);
+		uint32_t L_5 = sizeof(SendQueueItem_tFA46EA1EF42596165A1AAE755E4984B2DBFB1B47);
+		V_1 = (int32_t)L_5;
+		// void* dst = (byte*)ListData->Ptr + idx * sizeOf;
+		UnsafeList_1_tE941F153E0D05B0746B266E9F8686EBDA90F1A12* L_6 = (UnsafeList_1_tE941F153E0D05B0746B266E9F8686EBDA90F1A12*)__this->___ListData_0;
+		NullCheck(L_6);
+		SendQueueItem_tFA46EA1EF42596165A1AAE755E4984B2DBFB1B47* L_7 = (SendQueueItem_tFA46EA1EF42596165A1AAE755E4984B2DBFB1B47*)L_6->___Ptr_0;
+		int32_t L_8 = V_0;
+		int32_t L_9 = V_1;
+		V_2 = (void*)((SendQueueItem_tFA46EA1EF42596165A1AAE755E4984B2DBFB1B47*)il2cpp_codegen_add((intptr_t)L_7, ((int32_t)il2cpp_codegen_multiply(L_8, L_9))));
+		// UnsafeUtility.MemCpy(dst, ptr, count * sizeOf);
+		void* L_10 = V_2;
+		void* L_11 = ___0_ptr;
+		int32_t L_12 = ___1_count;
+		int32_t L_13 = V_1;
+		UnsafeUtility_MemCpy_m5CEA91ACDADC522E584AE3A2AB2B0B74393A9177(L_10, L_11, ((int64_t)((int32_t)il2cpp_codegen_multiply(L_12, L_13))), NULL);
+		// }
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m79AFEA665BD965D94671F578F524A88299FF791C_AdjustorThunk (RuntimeObject* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method)
+{
+	ParallelWriter_t22DDCE675B2008D902EE4A8DEA86C990F8D0F39A* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ParallelWriter_t22DDCE675B2008D902EE4A8DEA86C990F8D0F39A*>(__this + _offset);
+	ParallelWriter_AddRangeNoResize_m79AFEA665BD965D94671F578F524A88299FF791C(_thisAdjusted, ___0_ptr, ___1_count, method);
+}
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Netcode.MessagingSystem/SendQueueItem>::AddRangeNoResize(Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m595294E14532BCBF77A96CD1590F9A9ADF4F9CC3_gshared (ParallelWriter_t22DDCE675B2008D902EE4A8DEA86C990F8D0F39A* __this, UnsafeList_1_tE941F153E0D05B0746B266E9F8686EBDA90F1A12 ___0_list, const RuntimeMethod* method) 
+{
+	{
+		// AddRangeNoResize(list.Ptr, list.Length);
+		UnsafeList_1_tE941F153E0D05B0746B266E9F8686EBDA90F1A12 L_0 = ___0_list;
+		SendQueueItem_tFA46EA1EF42596165A1AAE755E4984B2DBFB1B47* L_1 = (SendQueueItem_tFA46EA1EF42596165A1AAE755E4984B2DBFB1B47*)L_0.___Ptr_0;
+		int32_t L_2;
+		L_2 = UnsafeList_1_get_Length_mD5B5719E7FACD4769FD7EB73521F99F6A2365FAE((&___0_list), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 2));
+		ParallelWriter_AddRangeNoResize_m79AFEA665BD965D94671F578F524A88299FF791C(__this, (void*)L_1, L_2, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3));
+		// }
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m595294E14532BCBF77A96CD1590F9A9ADF4F9CC3_AdjustorThunk (RuntimeObject* __this, UnsafeList_1_tE941F153E0D05B0746B266E9F8686EBDA90F1A12 ___0_list, const RuntimeMethod* method)
+{
+	ParallelWriter_t22DDCE675B2008D902EE4A8DEA86C990F8D0F39A* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ParallelWriter_t22DDCE675B2008D902EE4A8DEA86C990F8D0F39A*>(__this + _offset);
+	ParallelWriter_AddRangeNoResize_m595294E14532BCBF77A96CD1590F9A9ADF4F9CC3(_thisAdjusted, ___0_list, method);
+}
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Netcode.MessagingSystem/SendQueueItem>::AddRangeNoResize(Unity.Collections.NativeList`1<T>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m6528990C8D82E91B0ABB6B594207865D566D79DA_gshared (ParallelWriter_t22DDCE675B2008D902EE4A8DEA86C990F8D0F39A* __this, NativeList_1_t663B318E0C7E204D6FB8867DB99328D712EACB2C ___0_list, const RuntimeMethod* method) 
+{
+	{
+		// AddRangeNoResize(*list.m_ListData);
+		NativeList_1_t663B318E0C7E204D6FB8867DB99328D712EACB2C L_0 = ___0_list;
+		UnsafeList_1_tE941F153E0D05B0746B266E9F8686EBDA90F1A12* L_1 = (UnsafeList_1_tE941F153E0D05B0746B266E9F8686EBDA90F1A12*)L_0.___m_ListData_0;
+		UnsafeList_1_tE941F153E0D05B0746B266E9F8686EBDA90F1A12 L_2 = (*(UnsafeList_1_tE941F153E0D05B0746B266E9F8686EBDA90F1A12*)L_1);
+		ParallelWriter_AddRangeNoResize_m595294E14532BCBF77A96CD1590F9A9ADF4F9CC3(__this, L_2, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 4));
+		// }
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m6528990C8D82E91B0ABB6B594207865D566D79DA_AdjustorThunk (RuntimeObject* __this, NativeList_1_t663B318E0C7E204D6FB8867DB99328D712EACB2C ___0_list, const RuntimeMethod* method)
+{
+	ParallelWriter_t22DDCE675B2008D902EE4A8DEA86C990F8D0F39A* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ParallelWriter_t22DDCE675B2008D902EE4A8DEA86C990F8D0F39A*>(__this + _offset);
+	ParallelWriter_AddRangeNoResize_m6528990C8D82E91B0ABB6B594207865D566D79DA(_thisAdjusted, ___0_list, method);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void* Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Netcode.MessagingSystem/SendQueueItem>::get_Ptr()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m7BD9BC9F58ACC5AB51AA10830091966B5B30E4D1_gshared (ParallelWriter_t5CA5B52F0C222EAC6D1D16D33F59DA596E039322* __this, const RuntimeMethod* method) 
+{
+	{
+		// public readonly void* Ptr => ListData->Ptr;
+		UnsafeList_1_tE941F153E0D05B0746B266E9F8686EBDA90F1A12* L_0 = (UnsafeList_1_tE941F153E0D05B0746B266E9F8686EBDA90F1A12*)__this->___ListData_0;
+		NullCheck(L_0);
+		SendQueueItem_tFA46EA1EF42596165A1AAE755E4984B2DBFB1B47* L_1 = (SendQueueItem_tFA46EA1EF42596165A1AAE755E4984B2DBFB1B47*)L_0->___Ptr_0;
+		return (void*)(L_1);
+	}
+}
+IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_m7BD9BC9F58ACC5AB51AA10830091966B5B30E4D1_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	ParallelWriter_t5CA5B52F0C222EAC6D1D16D33F59DA596E039322* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ParallelWriter_t5CA5B52F0C222EAC6D1D16D33F59DA596E039322*>(__this + _offset);
+	void* _returnValue;
+	_returnValue = ParallelWriter_get_Ptr_m7BD9BC9F58ACC5AB51AA10830091966B5B30E4D1(_thisAdjusted, method);
+	return _returnValue;
+}
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Netcode.MessagingSystem/SendQueueItem>::.ctor(Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>*)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m0C424DDDB2EAAB7855496896CE83395D02380D22_gshared (ParallelWriter_t5CA5B52F0C222EAC6D1D16D33F59DA596E039322* __this, UnsafeList_1_tE941F153E0D05B0746B266E9F8686EBDA90F1A12* ___0_listData, const RuntimeMethod* method) 
+{
+	{
+		// ListData = listData;
+		UnsafeList_1_tE941F153E0D05B0746B266E9F8686EBDA90F1A12* L_0 = ___0_listData;
+		__this->___ListData_0 = L_0;
+		// }
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void ParallelWriter__ctor_m0C424DDDB2EAAB7855496896CE83395D02380D22_AdjustorThunk (RuntimeObject* __this, UnsafeList_1_tE941F153E0D05B0746B266E9F8686EBDA90F1A12* ___0_listData, const RuntimeMethod* method)
+{
+	ParallelWriter_t5CA5B52F0C222EAC6D1D16D33F59DA596E039322* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ParallelWriter_t5CA5B52F0C222EAC6D1D16D33F59DA596E039322*>(__this + _offset);
+	ParallelWriter__ctor_m0C424DDDB2EAAB7855496896CE83395D02380D22(_thisAdjusted, ___0_listData, method);
+}
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Netcode.MessagingSystem/SendQueueItem>::AddNoResize(T)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_m5A6AFC12A8C0C77FEBBD68503CA7999570B9D94F_gshared (ParallelWriter_t5CA5B52F0C222EAC6D1D16D33F59DA596E039322* __this, SendQueueItem_tFA46EA1EF42596165A1AAE755E4984B2DBFB1B47 ___0_value, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	{
+		// var idx = Interlocked.Increment(ref ListData->m_length) - 1;
+		UnsafeList_1_tE941F153E0D05B0746B266E9F8686EBDA90F1A12* L_0 = (UnsafeList_1_tE941F153E0D05B0746B266E9F8686EBDA90F1A12*)__this->___ListData_0;
+		NullCheck(L_0);
+		int32_t* L_1 = (int32_t*)(&L_0->___m_length_1);
+		int32_t L_2;
+		L_2 = Interlocked_Increment_m3C240C32E8D9544EC050B74D4F28EEB58F1F9309(L_1, NULL);
+		V_0 = ((int32_t)il2cpp_codegen_subtract(L_2, 1));
+		// UnsafeUtility.WriteArrayElement(ListData->Ptr, idx, value);
+		UnsafeList_1_tE941F153E0D05B0746B266E9F8686EBDA90F1A12* L_3 = (UnsafeList_1_tE941F153E0D05B0746B266E9F8686EBDA90F1A12*)__this->___ListData_0;
+		NullCheck(L_3);
+		SendQueueItem_tFA46EA1EF42596165A1AAE755E4984B2DBFB1B47* L_4 = (SendQueueItem_tFA46EA1EF42596165A1AAE755E4984B2DBFB1B47*)L_3->___Ptr_0;
+		int32_t L_5 = V_0;
+		SendQueueItem_tFA46EA1EF42596165A1AAE755E4984B2DBFB1B47 L_6 = ___0_value;
+		((  void (*) (void*, int32_t, SendQueueItem_tFA46EA1EF42596165A1AAE755E4984B2DBFB1B47, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 0)))((void*)L_4, L_5, L_6, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 0));
+		// }
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_m5A6AFC12A8C0C77FEBBD68503CA7999570B9D94F_AdjustorThunk (RuntimeObject* __this, SendQueueItem_tFA46EA1EF42596165A1AAE755E4984B2DBFB1B47 ___0_value, const RuntimeMethod* method)
+{
+	ParallelWriter_t5CA5B52F0C222EAC6D1D16D33F59DA596E039322* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ParallelWriter_t5CA5B52F0C222EAC6D1D16D33F59DA596E039322*>(__this + _offset);
+	ParallelWriter_AddNoResize_m5A6AFC12A8C0C77FEBBD68503CA7999570B9D94F(_thisAdjusted, ___0_value, method);
+}
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Netcode.MessagingSystem/SendQueueItem>::AddRangeNoResize(System.Void*,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m2225E5137C71D15F49E7B8464235A247A0D3D1EA_gshared (ParallelWriter_t5CA5B52F0C222EAC6D1D16D33F59DA596E039322* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	void* V_1 = NULL;
+	{
+		// var idx = Interlocked.Add(ref ListData->m_length, count) - count;
+		UnsafeList_1_tE941F153E0D05B0746B266E9F8686EBDA90F1A12* L_0 = (UnsafeList_1_tE941F153E0D05B0746B266E9F8686EBDA90F1A12*)__this->___ListData_0;
+		NullCheck(L_0);
+		int32_t* L_1 = (int32_t*)(&L_0->___m_length_1);
+		int32_t L_2 = ___1_count;
+		int32_t L_3;
+		L_3 = Interlocked_Add_m2455208C56EEFD8832AEAD8AF7368A3FEB33A73C(L_1, L_2, NULL);
+		int32_t L_4 = ___1_count;
+		V_0 = ((int32_t)il2cpp_codegen_subtract(L_3, L_4));
+		// void* dst = (byte*)ListData->Ptr + idx * sizeof(T);
+		UnsafeList_1_tE941F153E0D05B0746B266E9F8686EBDA90F1A12* L_5 = (UnsafeList_1_tE941F153E0D05B0746B266E9F8686EBDA90F1A12*)__this->___ListData_0;
+		NullCheck(L_5);
+		SendQueueItem_tFA46EA1EF42596165A1AAE755E4984B2DBFB1B47* L_6 = (SendQueueItem_tFA46EA1EF42596165A1AAE755E4984B2DBFB1B47*)L_5->___Ptr_0;
+		int32_t L_7 = V_0;
+		uint32_t L_8 = sizeof(SendQueueItem_tFA46EA1EF42596165A1AAE755E4984B2DBFB1B47);
+		V_1 = (void*)((SendQueueItem_tFA46EA1EF42596165A1AAE755E4984B2DBFB1B47*)il2cpp_codegen_add((intptr_t)L_6, ((int32_t)il2cpp_codegen_multiply(L_7, (int32_t)L_8))));
+		// UnsafeUtility.MemCpy(dst, ptr, count * sizeof(T));
+		void* L_9 = V_1;
+		void* L_10 = ___0_ptr;
+		int32_t L_11 = ___1_count;
+		uint32_t L_12 = sizeof(SendQueueItem_tFA46EA1EF42596165A1AAE755E4984B2DBFB1B47);
+		UnsafeUtility_MemCpy_m5CEA91ACDADC522E584AE3A2AB2B0B74393A9177(L_9, L_10, ((int64_t)((int32_t)il2cpp_codegen_multiply(L_11, (int32_t)L_12))), NULL);
+		// }
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m2225E5137C71D15F49E7B8464235A247A0D3D1EA_AdjustorThunk (RuntimeObject* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method)
+{
+	ParallelWriter_t5CA5B52F0C222EAC6D1D16D33F59DA596E039322* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ParallelWriter_t5CA5B52F0C222EAC6D1D16D33F59DA596E039322*>(__this + _offset);
+	ParallelWriter_AddRangeNoResize_m2225E5137C71D15F49E7B8464235A247A0D3D1EA(_thisAdjusted, ___0_ptr, ___1_count, method);
+}
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Netcode.MessagingSystem/SendQueueItem>::AddRangeNoResize(Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m33DC5E2C4820E66BBC0159C54CE137ACF1430D62_gshared (ParallelWriter_t5CA5B52F0C222EAC6D1D16D33F59DA596E039322* __this, UnsafeList_1_tE941F153E0D05B0746B266E9F8686EBDA90F1A12 ___0_list, const RuntimeMethod* method) 
+{
+	{
+		// AddRangeNoResize(list.Ptr, list.Length);
+		UnsafeList_1_tE941F153E0D05B0746B266E9F8686EBDA90F1A12 L_0 = ___0_list;
+		SendQueueItem_tFA46EA1EF42596165A1AAE755E4984B2DBFB1B47* L_1 = (SendQueueItem_tFA46EA1EF42596165A1AAE755E4984B2DBFB1B47*)L_0.___Ptr_0;
+		int32_t L_2;
+		L_2 = UnsafeList_1_get_Length_mD5B5719E7FACD4769FD7EB73521F99F6A2365FAE((&___0_list), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 2));
+		ParallelWriter_AddRangeNoResize_m2225E5137C71D15F49E7B8464235A247A0D3D1EA(__this, (void*)L_1, L_2, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3));
+		// }
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m33DC5E2C4820E66BBC0159C54CE137ACF1430D62_AdjustorThunk (RuntimeObject* __this, UnsafeList_1_tE941F153E0D05B0746B266E9F8686EBDA90F1A12 ___0_list, const RuntimeMethod* method)
+{
+	ParallelWriter_t5CA5B52F0C222EAC6D1D16D33F59DA596E039322* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ParallelWriter_t5CA5B52F0C222EAC6D1D16D33F59DA596E039322*>(__this + _offset);
+	ParallelWriter_AddRangeNoResize_m33DC5E2C4820E66BBC0159C54CE137ACF1430D62(_thisAdjusted, ___0_list, method);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void* Unity.Collections.NativeList`1/ParallelWriter<Unity.Networking.Transport.NetworkDriver/Connection>::get_Ptr()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m71B73FECDD70DF9418CD483F1DB441CCE641E2D7_gshared (ParallelWriter_t803C620C6C990806F18641155AC85D7A01D82CE2* __this, const RuntimeMethod* method) 
+{
+	{
+		// public readonly void* Ptr => ListData->Ptr;
+		UnsafeList_1_tF90CD1BACB3990B533D04C98C2C90161BD7F9C20* L_0 = (UnsafeList_1_tF90CD1BACB3990B533D04C98C2C90161BD7F9C20*)__this->___ListData_0;
+		NullCheck(L_0);
+		Connection_t57B7A8186502E304AD87933A0FFD76FDF0972D70* L_1 = (Connection_t57B7A8186502E304AD87933A0FFD76FDF0972D70*)L_0->___Ptr_0;
+		return (void*)(L_1);
+	}
+}
+IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_m71B73FECDD70DF9418CD483F1DB441CCE641E2D7_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	ParallelWriter_t803C620C6C990806F18641155AC85D7A01D82CE2* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ParallelWriter_t803C620C6C990806F18641155AC85D7A01D82CE2*>(__this + _offset);
+	void* _returnValue;
+	_returnValue = ParallelWriter_get_Ptr_m71B73FECDD70DF9418CD483F1DB441CCE641E2D7(_thisAdjusted, method);
+	return _returnValue;
+}
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Networking.Transport.NetworkDriver/Connection>::.ctor(Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>*)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m9AAE4248654C81759F3AA866DC83A521998E1543_gshared (ParallelWriter_t803C620C6C990806F18641155AC85D7A01D82CE2* __this, UnsafeList_1_tF90CD1BACB3990B533D04C98C2C90161BD7F9C20* ___0_listData, const RuntimeMethod* method) 
+{
+	{
+		// ListData = listData;
+		UnsafeList_1_tF90CD1BACB3990B533D04C98C2C90161BD7F9C20* L_0 = ___0_listData;
+		__this->___ListData_0 = L_0;
+		// }
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void ParallelWriter__ctor_m9AAE4248654C81759F3AA866DC83A521998E1543_AdjustorThunk (RuntimeObject* __this, UnsafeList_1_tF90CD1BACB3990B533D04C98C2C90161BD7F9C20* ___0_listData, const RuntimeMethod* method)
+{
+	ParallelWriter_t803C620C6C990806F18641155AC85D7A01D82CE2* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ParallelWriter_t803C620C6C990806F18641155AC85D7A01D82CE2*>(__this + _offset);
+	ParallelWriter__ctor_m9AAE4248654C81759F3AA866DC83A521998E1543(_thisAdjusted, ___0_listData, method);
+}
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Networking.Transport.NetworkDriver/Connection>::AddNoResize(T)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_mA9D8B94ABAA32F7075DA19C2C4D0DC4830CA21B1_gshared (ParallelWriter_t803C620C6C990806F18641155AC85D7A01D82CE2* __this, Connection_t57B7A8186502E304AD87933A0FFD76FDF0972D70 ___0_value, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	{
+		// var idx = Interlocked.Increment(ref ListData->m_length) - 1;
+		UnsafeList_1_tF90CD1BACB3990B533D04C98C2C90161BD7F9C20* L_0 = (UnsafeList_1_tF90CD1BACB3990B533D04C98C2C90161BD7F9C20*)__this->___ListData_0;
+		NullCheck(L_0);
+		int32_t* L_1 = (int32_t*)(&L_0->___m_length_1);
+		int32_t L_2;
+		L_2 = Interlocked_Increment_m3C240C32E8D9544EC050B74D4F28EEB58F1F9309(L_1, NULL);
+		V_0 = ((int32_t)il2cpp_codegen_subtract(L_2, 1));
+		// UnsafeUtility.WriteArrayElement(ListData->Ptr, idx, value);
+		UnsafeList_1_tF90CD1BACB3990B533D04C98C2C90161BD7F9C20* L_3 = (UnsafeList_1_tF90CD1BACB3990B533D04C98C2C90161BD7F9C20*)__this->___ListData_0;
+		NullCheck(L_3);
+		Connection_t57B7A8186502E304AD87933A0FFD76FDF0972D70* L_4 = (Connection_t57B7A8186502E304AD87933A0FFD76FDF0972D70*)L_3->___Ptr_0;
+		int32_t L_5 = V_0;
+		Connection_t57B7A8186502E304AD87933A0FFD76FDF0972D70 L_6 = ___0_value;
+		((  void (*) (void*, int32_t, Connection_t57B7A8186502E304AD87933A0FFD76FDF0972D70, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 0)))((void*)L_4, L_5, L_6, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 0));
+		// }
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_mA9D8B94ABAA32F7075DA19C2C4D0DC4830CA21B1_AdjustorThunk (RuntimeObject* __this, Connection_t57B7A8186502E304AD87933A0FFD76FDF0972D70 ___0_value, const RuntimeMethod* method)
+{
+	ParallelWriter_t803C620C6C990806F18641155AC85D7A01D82CE2* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ParallelWriter_t803C620C6C990806F18641155AC85D7A01D82CE2*>(__this + _offset);
+	ParallelWriter_AddNoResize_mA9D8B94ABAA32F7075DA19C2C4D0DC4830CA21B1(_thisAdjusted, ___0_value, method);
+}
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Networking.Transport.NetworkDriver/Connection>::AddRangeNoResize(System.Void*,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mE80D8BF1E511DEA62FD47DB691152EF8E6943770_gshared (ParallelWriter_t803C620C6C990806F18641155AC85D7A01D82CE2* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	void* V_2 = NULL;
+	{
+		// var idx = Interlocked.Add(ref ListData->m_length, count) - count;
+		UnsafeList_1_tF90CD1BACB3990B533D04C98C2C90161BD7F9C20* L_0 = (UnsafeList_1_tF90CD1BACB3990B533D04C98C2C90161BD7F9C20*)__this->___ListData_0;
+		NullCheck(L_0);
+		int32_t* L_1 = (int32_t*)(&L_0->___m_length_1);
+		int32_t L_2 = ___1_count;
+		int32_t L_3;
+		L_3 = Interlocked_Add_m2455208C56EEFD8832AEAD8AF7368A3FEB33A73C(L_1, L_2, NULL);
+		int32_t L_4 = ___1_count;
+		V_0 = ((int32_t)il2cpp_codegen_subtract(L_3, L_4));
+		// var sizeOf = sizeof(T);
+		uint32_t L_5 = sizeof(Connection_t57B7A8186502E304AD87933A0FFD76FDF0972D70);
+		V_1 = (int32_t)L_5;
+		// void* dst = (byte*)ListData->Ptr + idx * sizeOf;
+		UnsafeList_1_tF90CD1BACB3990B533D04C98C2C90161BD7F9C20* L_6 = (UnsafeList_1_tF90CD1BACB3990B533D04C98C2C90161BD7F9C20*)__this->___ListData_0;
+		NullCheck(L_6);
+		Connection_t57B7A8186502E304AD87933A0FFD76FDF0972D70* L_7 = (Connection_t57B7A8186502E304AD87933A0FFD76FDF0972D70*)L_6->___Ptr_0;
+		int32_t L_8 = V_0;
+		int32_t L_9 = V_1;
+		V_2 = (void*)((Connection_t57B7A8186502E304AD87933A0FFD76FDF0972D70*)il2cpp_codegen_add((intptr_t)L_7, ((int32_t)il2cpp_codegen_multiply(L_8, L_9))));
+		// UnsafeUtility.MemCpy(dst, ptr, count * sizeOf);
+		void* L_10 = V_2;
+		void* L_11 = ___0_ptr;
+		int32_t L_12 = ___1_count;
+		int32_t L_13 = V_1;
+		UnsafeUtility_MemCpy_m5CEA91ACDADC522E584AE3A2AB2B0B74393A9177(L_10, L_11, ((int64_t)((int32_t)il2cpp_codegen_multiply(L_12, L_13))), NULL);
+		// }
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mE80D8BF1E511DEA62FD47DB691152EF8E6943770_AdjustorThunk (RuntimeObject* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method)
+{
+	ParallelWriter_t803C620C6C990806F18641155AC85D7A01D82CE2* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ParallelWriter_t803C620C6C990806F18641155AC85D7A01D82CE2*>(__this + _offset);
+	ParallelWriter_AddRangeNoResize_mE80D8BF1E511DEA62FD47DB691152EF8E6943770(_thisAdjusted, ___0_ptr, ___1_count, method);
+}
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Networking.Transport.NetworkDriver/Connection>::AddRangeNoResize(Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mF4116E021D34DCD351DDA265FF3F57CC6F6D8D4D_gshared (ParallelWriter_t803C620C6C990806F18641155AC85D7A01D82CE2* __this, UnsafeList_1_tF90CD1BACB3990B533D04C98C2C90161BD7F9C20 ___0_list, const RuntimeMethod* method) 
+{
+	{
+		// AddRangeNoResize(list.Ptr, list.Length);
+		UnsafeList_1_tF90CD1BACB3990B533D04C98C2C90161BD7F9C20 L_0 = ___0_list;
+		Connection_t57B7A8186502E304AD87933A0FFD76FDF0972D70* L_1 = (Connection_t57B7A8186502E304AD87933A0FFD76FDF0972D70*)L_0.___Ptr_0;
+		int32_t L_2;
+		L_2 = UnsafeList_1_get_Length_m8B6A2812A404CE8BDF0E18E0290942D610D10BBB((&___0_list), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 2));
+		ParallelWriter_AddRangeNoResize_mE80D8BF1E511DEA62FD47DB691152EF8E6943770(__this, (void*)L_1, L_2, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3));
+		// }
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mF4116E021D34DCD351DDA265FF3F57CC6F6D8D4D_AdjustorThunk (RuntimeObject* __this, UnsafeList_1_tF90CD1BACB3990B533D04C98C2C90161BD7F9C20 ___0_list, const RuntimeMethod* method)
+{
+	ParallelWriter_t803C620C6C990806F18641155AC85D7A01D82CE2* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ParallelWriter_t803C620C6C990806F18641155AC85D7A01D82CE2*>(__this + _offset);
+	ParallelWriter_AddRangeNoResize_mF4116E021D34DCD351DDA265FF3F57CC6F6D8D4D(_thisAdjusted, ___0_list, method);
+}
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Networking.Transport.NetworkDriver/Connection>::AddRangeNoResize(Unity.Collections.NativeList`1<T>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m051E19758B7945CFF1046CAA6344687E62D69C83_gshared (ParallelWriter_t803C620C6C990806F18641155AC85D7A01D82CE2* __this, NativeList_1_tD3715B1226B4E157D6FC09924FDC7EDC5FC0E8C9 ___0_list, const RuntimeMethod* method) 
+{
+	{
+		// AddRangeNoResize(*list.m_ListData);
+		NativeList_1_tD3715B1226B4E157D6FC09924FDC7EDC5FC0E8C9 L_0 = ___0_list;
+		UnsafeList_1_tF90CD1BACB3990B533D04C98C2C90161BD7F9C20* L_1 = (UnsafeList_1_tF90CD1BACB3990B533D04C98C2C90161BD7F9C20*)L_0.___m_ListData_0;
+		UnsafeList_1_tF90CD1BACB3990B533D04C98C2C90161BD7F9C20 L_2 = (*(UnsafeList_1_tF90CD1BACB3990B533D04C98C2C90161BD7F9C20*)L_1);
+		ParallelWriter_AddRangeNoResize_mF4116E021D34DCD351DDA265FF3F57CC6F6D8D4D(__this, L_2, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 4));
+		// }
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m051E19758B7945CFF1046CAA6344687E62D69C83_AdjustorThunk (RuntimeObject* __this, NativeList_1_tD3715B1226B4E157D6FC09924FDC7EDC5FC0E8C9 ___0_list, const RuntimeMethod* method)
+{
+	ParallelWriter_t803C620C6C990806F18641155AC85D7A01D82CE2* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ParallelWriter_t803C620C6C990806F18641155AC85D7A01D82CE2*>(__this + _offset);
+	ParallelWriter_AddRangeNoResize_m051E19758B7945CFF1046CAA6344687E62D69C83(_thisAdjusted, ___0_list, method);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void* Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Networking.Transport.NetworkDriver/Connection>::get_Ptr()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m4F77E8BCD7852EA17250CE73B6EC41D504C181B9_gshared (ParallelWriter_t9C08A9CE034DD792954BE5930D8EC268BA988D41* __this, const RuntimeMethod* method) 
+{
+	{
+		// public readonly void* Ptr => ListData->Ptr;
+		UnsafeList_1_tF90CD1BACB3990B533D04C98C2C90161BD7F9C20* L_0 = (UnsafeList_1_tF90CD1BACB3990B533D04C98C2C90161BD7F9C20*)__this->___ListData_0;
+		NullCheck(L_0);
+		Connection_t57B7A8186502E304AD87933A0FFD76FDF0972D70* L_1 = (Connection_t57B7A8186502E304AD87933A0FFD76FDF0972D70*)L_0->___Ptr_0;
+		return (void*)(L_1);
+	}
+}
+IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_m4F77E8BCD7852EA17250CE73B6EC41D504C181B9_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	ParallelWriter_t9C08A9CE034DD792954BE5930D8EC268BA988D41* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ParallelWriter_t9C08A9CE034DD792954BE5930D8EC268BA988D41*>(__this + _offset);
+	void* _returnValue;
+	_returnValue = ParallelWriter_get_Ptr_m4F77E8BCD7852EA17250CE73B6EC41D504C181B9(_thisAdjusted, method);
+	return _returnValue;
+}
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Networking.Transport.NetworkDriver/Connection>::.ctor(Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>*)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mF0CA24B6D15530A6AC04B19F628A8CC10E6F2C46_gshared (ParallelWriter_t9C08A9CE034DD792954BE5930D8EC268BA988D41* __this, UnsafeList_1_tF90CD1BACB3990B533D04C98C2C90161BD7F9C20* ___0_listData, const RuntimeMethod* method) 
+{
+	{
+		// ListData = listData;
+		UnsafeList_1_tF90CD1BACB3990B533D04C98C2C90161BD7F9C20* L_0 = ___0_listData;
+		__this->___ListData_0 = L_0;
+		// }
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void ParallelWriter__ctor_mF0CA24B6D15530A6AC04B19F628A8CC10E6F2C46_AdjustorThunk (RuntimeObject* __this, UnsafeList_1_tF90CD1BACB3990B533D04C98C2C90161BD7F9C20* ___0_listData, const RuntimeMethod* method)
+{
+	ParallelWriter_t9C08A9CE034DD792954BE5930D8EC268BA988D41* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ParallelWriter_t9C08A9CE034DD792954BE5930D8EC268BA988D41*>(__this + _offset);
+	ParallelWriter__ctor_mF0CA24B6D15530A6AC04B19F628A8CC10E6F2C46(_thisAdjusted, ___0_listData, method);
+}
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Networking.Transport.NetworkDriver/Connection>::AddNoResize(T)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_m7BDFED140857F5661B75FF775E1A74418E379554_gshared (ParallelWriter_t9C08A9CE034DD792954BE5930D8EC268BA988D41* __this, Connection_t57B7A8186502E304AD87933A0FFD76FDF0972D70 ___0_value, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	{
+		// var idx = Interlocked.Increment(ref ListData->m_length) - 1;
+		UnsafeList_1_tF90CD1BACB3990B533D04C98C2C90161BD7F9C20* L_0 = (UnsafeList_1_tF90CD1BACB3990B533D04C98C2C90161BD7F9C20*)__this->___ListData_0;
+		NullCheck(L_0);
+		int32_t* L_1 = (int32_t*)(&L_0->___m_length_1);
+		int32_t L_2;
+		L_2 = Interlocked_Increment_m3C240C32E8D9544EC050B74D4F28EEB58F1F9309(L_1, NULL);
+		V_0 = ((int32_t)il2cpp_codegen_subtract(L_2, 1));
+		// UnsafeUtility.WriteArrayElement(ListData->Ptr, idx, value);
+		UnsafeList_1_tF90CD1BACB3990B533D04C98C2C90161BD7F9C20* L_3 = (UnsafeList_1_tF90CD1BACB3990B533D04C98C2C90161BD7F9C20*)__this->___ListData_0;
+		NullCheck(L_3);
+		Connection_t57B7A8186502E304AD87933A0FFD76FDF0972D70* L_4 = (Connection_t57B7A8186502E304AD87933A0FFD76FDF0972D70*)L_3->___Ptr_0;
+		int32_t L_5 = V_0;
+		Connection_t57B7A8186502E304AD87933A0FFD76FDF0972D70 L_6 = ___0_value;
+		((  void (*) (void*, int32_t, Connection_t57B7A8186502E304AD87933A0FFD76FDF0972D70, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 0)))((void*)L_4, L_5, L_6, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 0));
+		// }
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_m7BDFED140857F5661B75FF775E1A74418E379554_AdjustorThunk (RuntimeObject* __this, Connection_t57B7A8186502E304AD87933A0FFD76FDF0972D70 ___0_value, const RuntimeMethod* method)
+{
+	ParallelWriter_t9C08A9CE034DD792954BE5930D8EC268BA988D41* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ParallelWriter_t9C08A9CE034DD792954BE5930D8EC268BA988D41*>(__this + _offset);
+	ParallelWriter_AddNoResize_m7BDFED140857F5661B75FF775E1A74418E379554(_thisAdjusted, ___0_value, method);
+}
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Networking.Transport.NetworkDriver/Connection>::AddRangeNoResize(System.Void*,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m869AE290801940B77A41C2A3495F1EFB570228E5_gshared (ParallelWriter_t9C08A9CE034DD792954BE5930D8EC268BA988D41* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	void* V_1 = NULL;
+	{
+		// var idx = Interlocked.Add(ref ListData->m_length, count) - count;
+		UnsafeList_1_tF90CD1BACB3990B533D04C98C2C90161BD7F9C20* L_0 = (UnsafeList_1_tF90CD1BACB3990B533D04C98C2C90161BD7F9C20*)__this->___ListData_0;
+		NullCheck(L_0);
+		int32_t* L_1 = (int32_t*)(&L_0->___m_length_1);
+		int32_t L_2 = ___1_count;
+		int32_t L_3;
+		L_3 = Interlocked_Add_m2455208C56EEFD8832AEAD8AF7368A3FEB33A73C(L_1, L_2, NULL);
+		int32_t L_4 = ___1_count;
+		V_0 = ((int32_t)il2cpp_codegen_subtract(L_3, L_4));
+		// void* dst = (byte*)ListData->Ptr + idx * sizeof(T);
+		UnsafeList_1_tF90CD1BACB3990B533D04C98C2C90161BD7F9C20* L_5 = (UnsafeList_1_tF90CD1BACB3990B533D04C98C2C90161BD7F9C20*)__this->___ListData_0;
+		NullCheck(L_5);
+		Connection_t57B7A8186502E304AD87933A0FFD76FDF0972D70* L_6 = (Connection_t57B7A8186502E304AD87933A0FFD76FDF0972D70*)L_5->___Ptr_0;
+		int32_t L_7 = V_0;
+		uint32_t L_8 = sizeof(Connection_t57B7A8186502E304AD87933A0FFD76FDF0972D70);
+		V_1 = (void*)((Connection_t57B7A8186502E304AD87933A0FFD76FDF0972D70*)il2cpp_codegen_add((intptr_t)L_6, ((int32_t)il2cpp_codegen_multiply(L_7, (int32_t)L_8))));
+		// UnsafeUtility.MemCpy(dst, ptr, count * sizeof(T));
+		void* L_9 = V_1;
+		void* L_10 = ___0_ptr;
+		int32_t L_11 = ___1_count;
+		uint32_t L_12 = sizeof(Connection_t57B7A8186502E304AD87933A0FFD76FDF0972D70);
+		UnsafeUtility_MemCpy_m5CEA91ACDADC522E584AE3A2AB2B0B74393A9177(L_9, L_10, ((int64_t)((int32_t)il2cpp_codegen_multiply(L_11, (int32_t)L_12))), NULL);
+		// }
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m869AE290801940B77A41C2A3495F1EFB570228E5_AdjustorThunk (RuntimeObject* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method)
+{
+	ParallelWriter_t9C08A9CE034DD792954BE5930D8EC268BA988D41* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ParallelWriter_t9C08A9CE034DD792954BE5930D8EC268BA988D41*>(__this + _offset);
+	ParallelWriter_AddRangeNoResize_m869AE290801940B77A41C2A3495F1EFB570228E5(_thisAdjusted, ___0_ptr, ___1_count, method);
+}
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Networking.Transport.NetworkDriver/Connection>::AddRangeNoResize(Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m02A8C44BA14CB8A996DA11F4DB5E047CF069391E_gshared (ParallelWriter_t9C08A9CE034DD792954BE5930D8EC268BA988D41* __this, UnsafeList_1_tF90CD1BACB3990B533D04C98C2C90161BD7F9C20 ___0_list, const RuntimeMethod* method) 
+{
+	{
+		// AddRangeNoResize(list.Ptr, list.Length);
+		UnsafeList_1_tF90CD1BACB3990B533D04C98C2C90161BD7F9C20 L_0 = ___0_list;
+		Connection_t57B7A8186502E304AD87933A0FFD76FDF0972D70* L_1 = (Connection_t57B7A8186502E304AD87933A0FFD76FDF0972D70*)L_0.___Ptr_0;
+		int32_t L_2;
+		L_2 = UnsafeList_1_get_Length_m8B6A2812A404CE8BDF0E18E0290942D610D10BBB((&___0_list), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 2));
+		ParallelWriter_AddRangeNoResize_m869AE290801940B77A41C2A3495F1EFB570228E5(__this, (void*)L_1, L_2, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3));
+		// }
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m02A8C44BA14CB8A996DA11F4DB5E047CF069391E_AdjustorThunk (RuntimeObject* __this, UnsafeList_1_tF90CD1BACB3990B533D04C98C2C90161BD7F9C20 ___0_list, const RuntimeMethod* method)
+{
+	ParallelWriter_t9C08A9CE034DD792954BE5930D8EC268BA988D41* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ParallelWriter_t9C08A9CE034DD792954BE5930D8EC268BA988D41*>(__this + _offset);
+	ParallelWriter_AddRangeNoResize_m02A8C44BA14CB8A996DA11F4DB5E047CF069391E(_thisAdjusted, ___0_list, method);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Unity.Collections.NativeQueue`1/ParallelWriter<Unity.Networking.Transport.NetworkEventQueue/SubQueueItem>::Enqueue(T)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_Enqueue_m39EEE0D801A05E6AF627401D8C629D26383B1A78_gshared (ParallelWriter_tD14C7A3C4731767076B3C7DB4613E59DFDD2DE7B* __this, SubQueueItem_tAE6DA2A0B68107490190DB4680442767B9D420B7 ___0_value, const RuntimeMethod* method) 
+{
+	NativeQueueBlockHeader_tD74DEA5A5D8C910AA5ED04C5E89F2FE1B0521004* V_0 = NULL;
+	{
+		// NativeQueueBlockHeader* writeBlock = NativeQueueData.AllocateWriteBlockMT<T>(m_Buffer, m_QueuePool, m_ThreadIndex);
+		NativeQueueData_t61B94D7FE48C5715DD5D0C8CB574F73BF15C6E52* L_0 = (NativeQueueData_t61B94D7FE48C5715DD5D0C8CB574F73BF15C6E52*)__this->___m_Buffer_0;
+		NativeQueueBlockPoolData_t3A0B3E1B852D995248D51AB68660D1B367D28E87* L_1 = (NativeQueueBlockPoolData_t3A0B3E1B852D995248D51AB68660D1B367D28E87*)__this->___m_QueuePool_1;
+		int32_t L_2 = (int32_t)__this->___m_ThreadIndex_2;
+		NativeQueueBlockHeader_tD74DEA5A5D8C910AA5ED04C5E89F2FE1B0521004* L_3;
+		L_3 = ((  NativeQueueBlockHeader_tD74DEA5A5D8C910AA5ED04C5E89F2FE1B0521004* (*) (NativeQueueData_t61B94D7FE48C5715DD5D0C8CB574F73BF15C6E52*, NativeQueueBlockPoolData_t3A0B3E1B852D995248D51AB68660D1B367D28E87*, int32_t, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 0)))(L_0, L_1, L_2, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 0));
+		V_0 = L_3;
+		// UnsafeUtility.WriteArrayElement(writeBlock + 1, writeBlock->m_NumItems, value);
+		NativeQueueBlockHeader_tD74DEA5A5D8C910AA5ED04C5E89F2FE1B0521004* L_4 = V_0;
+		uint32_t L_5 = sizeof(NativeQueueBlockHeader_tD74DEA5A5D8C910AA5ED04C5E89F2FE1B0521004);
+		NativeQueueBlockHeader_tD74DEA5A5D8C910AA5ED04C5E89F2FE1B0521004* L_6 = V_0;
+		NullCheck(L_6);
+		int32_t L_7 = (int32_t)L_6->___m_NumItems_1;
+		SubQueueItem_tAE6DA2A0B68107490190DB4680442767B9D420B7 L_8 = ___0_value;
+		((  void (*) (void*, int32_t, SubQueueItem_tAE6DA2A0B68107490190DB4680442767B9D420B7, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 1)))((void*)((NativeQueueBlockHeader_tD74DEA5A5D8C910AA5ED04C5E89F2FE1B0521004*)il2cpp_codegen_add((intptr_t)L_4, (int32_t)L_5)), L_7, L_8, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 1));
+		// ++writeBlock->m_NumItems;
+		NativeQueueBlockHeader_tD74DEA5A5D8C910AA5ED04C5E89F2FE1B0521004* L_9 = V_0;
+		NullCheck(L_9);
+		int32_t* L_10 = (int32_t*)(&L_9->___m_NumItems_1);
+		int32_t* L_11 = L_10;
+		int32_t L_12 = *((int32_t*)L_11);
+		*((int32_t*)L_11) = (int32_t)((int32_t)il2cpp_codegen_add(L_12, 1));
+		// }
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void ParallelWriter_Enqueue_m39EEE0D801A05E6AF627401D8C629D26383B1A78_AdjustorThunk (RuntimeObject* __this, SubQueueItem_tAE6DA2A0B68107490190DB4680442767B9D420B7 ___0_value, const RuntimeMethod* method)
+{
+	ParallelWriter_tD14C7A3C4731767076B3C7DB4613E59DFDD2DE7B* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ParallelWriter_tD14C7A3C4731767076B3C7DB4613E59DFDD2DE7B*>(__this + _offset);
+	ParallelWriter_Enqueue_m39EEE0D801A05E6AF627401D8C629D26383B1A78(_thisAdjusted, ___0_value, method);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void* Unity.Collections.NativeList`1/ParallelWriter<Unity.Networking.Transport.NetworkPipelineProcessor/PipelineImpl>::get_Ptr()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m5606852415297E86A4BAB304EB0DF1F1F16B8104_gshared (ParallelWriter_tB41779E5BCCF7FD4396126965EEE1ADFD8D3A653* __this, const RuntimeMethod* method) 
+{
+	{
+		// public readonly void* Ptr => ListData->Ptr;
+		UnsafeList_1_t557C9C31121D73D732851DA0465D2D22CFFBF099* L_0 = (UnsafeList_1_t557C9C31121D73D732851DA0465D2D22CFFBF099*)__this->___ListData_0;
+		NullCheck(L_0);
+		PipelineImpl_t422927EB35F759F18ECBA1C7B075AAC92918017E* L_1 = (PipelineImpl_t422927EB35F759F18ECBA1C7B075AAC92918017E*)L_0->___Ptr_0;
+		return (void*)(L_1);
+	}
+}
+IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_m5606852415297E86A4BAB304EB0DF1F1F16B8104_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	ParallelWriter_tB41779E5BCCF7FD4396126965EEE1ADFD8D3A653* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ParallelWriter_tB41779E5BCCF7FD4396126965EEE1ADFD8D3A653*>(__this + _offset);
+	void* _returnValue;
+	_returnValue = ParallelWriter_get_Ptr_m5606852415297E86A4BAB304EB0DF1F1F16B8104(_thisAdjusted, method);
+	return _returnValue;
+}
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Networking.Transport.NetworkPipelineProcessor/PipelineImpl>::.ctor(Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>*)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mA8B8E5C1C0E9E6744EC579250C29787D63C390CB_gshared (ParallelWriter_tB41779E5BCCF7FD4396126965EEE1ADFD8D3A653* __this, UnsafeList_1_t557C9C31121D73D732851DA0465D2D22CFFBF099* ___0_listData, const RuntimeMethod* method) 
+{
+	{
+		// ListData = listData;
+		UnsafeList_1_t557C9C31121D73D732851DA0465D2D22CFFBF099* L_0 = ___0_listData;
+		__this->___ListData_0 = L_0;
+		// }
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void ParallelWriter__ctor_mA8B8E5C1C0E9E6744EC579250C29787D63C390CB_AdjustorThunk (RuntimeObject* __this, UnsafeList_1_t557C9C31121D73D732851DA0465D2D22CFFBF099* ___0_listData, const RuntimeMethod* method)
+{
+	ParallelWriter_tB41779E5BCCF7FD4396126965EEE1ADFD8D3A653* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ParallelWriter_tB41779E5BCCF7FD4396126965EEE1ADFD8D3A653*>(__this + _offset);
+	ParallelWriter__ctor_mA8B8E5C1C0E9E6744EC579250C29787D63C390CB(_thisAdjusted, ___0_listData, method);
+}
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Networking.Transport.NetworkPipelineProcessor/PipelineImpl>::AddNoResize(T)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_m48C5AE9D325421C0AFE950C378CDD0B1A09C9327_gshared (ParallelWriter_tB41779E5BCCF7FD4396126965EEE1ADFD8D3A653* __this, PipelineImpl_t422927EB35F759F18ECBA1C7B075AAC92918017E ___0_value, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	{
+		// var idx = Interlocked.Increment(ref ListData->m_length) - 1;
+		UnsafeList_1_t557C9C31121D73D732851DA0465D2D22CFFBF099* L_0 = (UnsafeList_1_t557C9C31121D73D732851DA0465D2D22CFFBF099*)__this->___ListData_0;
+		NullCheck(L_0);
+		int32_t* L_1 = (int32_t*)(&L_0->___m_length_1);
+		int32_t L_2;
+		L_2 = Interlocked_Increment_m3C240C32E8D9544EC050B74D4F28EEB58F1F9309(L_1, NULL);
+		V_0 = ((int32_t)il2cpp_codegen_subtract(L_2, 1));
+		// UnsafeUtility.WriteArrayElement(ListData->Ptr, idx, value);
+		UnsafeList_1_t557C9C31121D73D732851DA0465D2D22CFFBF099* L_3 = (UnsafeList_1_t557C9C31121D73D732851DA0465D2D22CFFBF099*)__this->___ListData_0;
+		NullCheck(L_3);
+		PipelineImpl_t422927EB35F759F18ECBA1C7B075AAC92918017E* L_4 = (PipelineImpl_t422927EB35F759F18ECBA1C7B075AAC92918017E*)L_3->___Ptr_0;
+		int32_t L_5 = V_0;
+		PipelineImpl_t422927EB35F759F18ECBA1C7B075AAC92918017E L_6 = ___0_value;
+		((  void (*) (void*, int32_t, PipelineImpl_t422927EB35F759F18ECBA1C7B075AAC92918017E, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 0)))((void*)L_4, L_5, L_6, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 0));
+		// }
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_m48C5AE9D325421C0AFE950C378CDD0B1A09C9327_AdjustorThunk (RuntimeObject* __this, PipelineImpl_t422927EB35F759F18ECBA1C7B075AAC92918017E ___0_value, const RuntimeMethod* method)
+{
+	ParallelWriter_tB41779E5BCCF7FD4396126965EEE1ADFD8D3A653* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ParallelWriter_tB41779E5BCCF7FD4396126965EEE1ADFD8D3A653*>(__this + _offset);
+	ParallelWriter_AddNoResize_m48C5AE9D325421C0AFE950C378CDD0B1A09C9327(_thisAdjusted, ___0_value, method);
+}
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Networking.Transport.NetworkPipelineProcessor/PipelineImpl>::AddRangeNoResize(System.Void*,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m43257952C3ABFAC57A3F28C95D079973716937C3_gshared (ParallelWriter_tB41779E5BCCF7FD4396126965EEE1ADFD8D3A653* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	void* V_2 = NULL;
+	{
+		// var idx = Interlocked.Add(ref ListData->m_length, count) - count;
+		UnsafeList_1_t557C9C31121D73D732851DA0465D2D22CFFBF099* L_0 = (UnsafeList_1_t557C9C31121D73D732851DA0465D2D22CFFBF099*)__this->___ListData_0;
+		NullCheck(L_0);
+		int32_t* L_1 = (int32_t*)(&L_0->___m_length_1);
+		int32_t L_2 = ___1_count;
+		int32_t L_3;
+		L_3 = Interlocked_Add_m2455208C56EEFD8832AEAD8AF7368A3FEB33A73C(L_1, L_2, NULL);
+		int32_t L_4 = ___1_count;
+		V_0 = ((int32_t)il2cpp_codegen_subtract(L_3, L_4));
+		// var sizeOf = sizeof(T);
+		uint32_t L_5 = sizeof(PipelineImpl_t422927EB35F759F18ECBA1C7B075AAC92918017E);
+		V_1 = (int32_t)L_5;
+		// void* dst = (byte*)ListData->Ptr + idx * sizeOf;
+		UnsafeList_1_t557C9C31121D73D732851DA0465D2D22CFFBF099* L_6 = (UnsafeList_1_t557C9C31121D73D732851DA0465D2D22CFFBF099*)__this->___ListData_0;
+		NullCheck(L_6);
+		PipelineImpl_t422927EB35F759F18ECBA1C7B075AAC92918017E* L_7 = (PipelineImpl_t422927EB35F759F18ECBA1C7B075AAC92918017E*)L_6->___Ptr_0;
+		int32_t L_8 = V_0;
+		int32_t L_9 = V_1;
+		V_2 = (void*)((PipelineImpl_t422927EB35F759F18ECBA1C7B075AAC92918017E*)il2cpp_codegen_add((intptr_t)L_7, ((int32_t)il2cpp_codegen_multiply(L_8, L_9))));
+		// UnsafeUtility.MemCpy(dst, ptr, count * sizeOf);
+		void* L_10 = V_2;
+		void* L_11 = ___0_ptr;
+		int32_t L_12 = ___1_count;
+		int32_t L_13 = V_1;
+		UnsafeUtility_MemCpy_m5CEA91ACDADC522E584AE3A2AB2B0B74393A9177(L_10, L_11, ((int64_t)((int32_t)il2cpp_codegen_multiply(L_12, L_13))), NULL);
+		// }
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m43257952C3ABFAC57A3F28C95D079973716937C3_AdjustorThunk (RuntimeObject* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method)
+{
+	ParallelWriter_tB41779E5BCCF7FD4396126965EEE1ADFD8D3A653* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ParallelWriter_tB41779E5BCCF7FD4396126965EEE1ADFD8D3A653*>(__this + _offset);
+	ParallelWriter_AddRangeNoResize_m43257952C3ABFAC57A3F28C95D079973716937C3(_thisAdjusted, ___0_ptr, ___1_count, method);
+}
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Networking.Transport.NetworkPipelineProcessor/PipelineImpl>::AddRangeNoResize(Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mE0705079ADA2A157EC50AAA6013B1DD66220E833_gshared (ParallelWriter_tB41779E5BCCF7FD4396126965EEE1ADFD8D3A653* __this, UnsafeList_1_t557C9C31121D73D732851DA0465D2D22CFFBF099 ___0_list, const RuntimeMethod* method) 
+{
+	{
+		// AddRangeNoResize(list.Ptr, list.Length);
+		UnsafeList_1_t557C9C31121D73D732851DA0465D2D22CFFBF099 L_0 = ___0_list;
+		PipelineImpl_t422927EB35F759F18ECBA1C7B075AAC92918017E* L_1 = (PipelineImpl_t422927EB35F759F18ECBA1C7B075AAC92918017E*)L_0.___Ptr_0;
+		int32_t L_2;
+		L_2 = UnsafeList_1_get_Length_m8B5E6F7674AA42FEA08008BEB5F715FE21B2CA46((&___0_list), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 2));
+		ParallelWriter_AddRangeNoResize_m43257952C3ABFAC57A3F28C95D079973716937C3(__this, (void*)L_1, L_2, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3));
+		// }
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mE0705079ADA2A157EC50AAA6013B1DD66220E833_AdjustorThunk (RuntimeObject* __this, UnsafeList_1_t557C9C31121D73D732851DA0465D2D22CFFBF099 ___0_list, const RuntimeMethod* method)
+{
+	ParallelWriter_tB41779E5BCCF7FD4396126965EEE1ADFD8D3A653* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ParallelWriter_tB41779E5BCCF7FD4396126965EEE1ADFD8D3A653*>(__this + _offset);
+	ParallelWriter_AddRangeNoResize_mE0705079ADA2A157EC50AAA6013B1DD66220E833(_thisAdjusted, ___0_list, method);
+}
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Networking.Transport.NetworkPipelineProcessor/PipelineImpl>::AddRangeNoResize(Unity.Collections.NativeList`1<T>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m3C41EC31DDA9BBD9D6BDDCB5814FE9A73506D002_gshared (ParallelWriter_tB41779E5BCCF7FD4396126965EEE1ADFD8D3A653* __this, NativeList_1_t7D0C4FADF421E663CFE4731E9B320F919701A66C ___0_list, const RuntimeMethod* method) 
+{
+	{
+		// AddRangeNoResize(*list.m_ListData);
+		NativeList_1_t7D0C4FADF421E663CFE4731E9B320F919701A66C L_0 = ___0_list;
+		UnsafeList_1_t557C9C31121D73D732851DA0465D2D22CFFBF099* L_1 = (UnsafeList_1_t557C9C31121D73D732851DA0465D2D22CFFBF099*)L_0.___m_ListData_0;
+		UnsafeList_1_t557C9C31121D73D732851DA0465D2D22CFFBF099 L_2 = (*(UnsafeList_1_t557C9C31121D73D732851DA0465D2D22CFFBF099*)L_1);
+		ParallelWriter_AddRangeNoResize_mE0705079ADA2A157EC50AAA6013B1DD66220E833(__this, L_2, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 4));
+		// }
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m3C41EC31DDA9BBD9D6BDDCB5814FE9A73506D002_AdjustorThunk (RuntimeObject* __this, NativeList_1_t7D0C4FADF421E663CFE4731E9B320F919701A66C ___0_list, const RuntimeMethod* method)
+{
+	ParallelWriter_tB41779E5BCCF7FD4396126965EEE1ADFD8D3A653* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ParallelWriter_tB41779E5BCCF7FD4396126965EEE1ADFD8D3A653*>(__this + _offset);
+	ParallelWriter_AddRangeNoResize_m3C41EC31DDA9BBD9D6BDDCB5814FE9A73506D002(_thisAdjusted, ___0_list, method);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void* Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Networking.Transport.NetworkPipelineProcessor/PipelineImpl>::get_Ptr()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m3A6A2C90D7D5BF154BA39554FC567D8A078DEA61_gshared (ParallelWriter_tDE0F3CEBA8724546ED627F8F8D52A3BA57C08FB6* __this, const RuntimeMethod* method) 
+{
+	{
+		// public readonly void* Ptr => ListData->Ptr;
+		UnsafeList_1_t557C9C31121D73D732851DA0465D2D22CFFBF099* L_0 = (UnsafeList_1_t557C9C31121D73D732851DA0465D2D22CFFBF099*)__this->___ListData_0;
+		NullCheck(L_0);
+		PipelineImpl_t422927EB35F759F18ECBA1C7B075AAC92918017E* L_1 = (PipelineImpl_t422927EB35F759F18ECBA1C7B075AAC92918017E*)L_0->___Ptr_0;
+		return (void*)(L_1);
+	}
+}
+IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_m3A6A2C90D7D5BF154BA39554FC567D8A078DEA61_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	ParallelWriter_tDE0F3CEBA8724546ED627F8F8D52A3BA57C08FB6* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ParallelWriter_tDE0F3CEBA8724546ED627F8F8D52A3BA57C08FB6*>(__this + _offset);
+	void* _returnValue;
+	_returnValue = ParallelWriter_get_Ptr_m3A6A2C90D7D5BF154BA39554FC567D8A078DEA61(_thisAdjusted, method);
+	return _returnValue;
+}
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Networking.Transport.NetworkPipelineProcessor/PipelineImpl>::.ctor(Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>*)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m951833BB43DB1505CF4CEC49536ABD15E4C123E6_gshared (ParallelWriter_tDE0F3CEBA8724546ED627F8F8D52A3BA57C08FB6* __this, UnsafeList_1_t557C9C31121D73D732851DA0465D2D22CFFBF099* ___0_listData, const RuntimeMethod* method) 
+{
+	{
+		// ListData = listData;
+		UnsafeList_1_t557C9C31121D73D732851DA0465D2D22CFFBF099* L_0 = ___0_listData;
+		__this->___ListData_0 = L_0;
+		// }
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void ParallelWriter__ctor_m951833BB43DB1505CF4CEC49536ABD15E4C123E6_AdjustorThunk (RuntimeObject* __this, UnsafeList_1_t557C9C31121D73D732851DA0465D2D22CFFBF099* ___0_listData, const RuntimeMethod* method)
+{
+	ParallelWriter_tDE0F3CEBA8724546ED627F8F8D52A3BA57C08FB6* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ParallelWriter_tDE0F3CEBA8724546ED627F8F8D52A3BA57C08FB6*>(__this + _offset);
+	ParallelWriter__ctor_m951833BB43DB1505CF4CEC49536ABD15E4C123E6(_thisAdjusted, ___0_listData, method);
+}
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Networking.Transport.NetworkPipelineProcessor/PipelineImpl>::AddNoResize(T)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_mEC530F025387E572EE24E4B9DAC39BC57F79353F_gshared (ParallelWriter_tDE0F3CEBA8724546ED627F8F8D52A3BA57C08FB6* __this, PipelineImpl_t422927EB35F759F18ECBA1C7B075AAC92918017E ___0_value, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	{
+		// var idx = Interlocked.Increment(ref ListData->m_length) - 1;
+		UnsafeList_1_t557C9C31121D73D732851DA0465D2D22CFFBF099* L_0 = (UnsafeList_1_t557C9C31121D73D732851DA0465D2D22CFFBF099*)__this->___ListData_0;
+		NullCheck(L_0);
+		int32_t* L_1 = (int32_t*)(&L_0->___m_length_1);
+		int32_t L_2;
+		L_2 = Interlocked_Increment_m3C240C32E8D9544EC050B74D4F28EEB58F1F9309(L_1, NULL);
+		V_0 = ((int32_t)il2cpp_codegen_subtract(L_2, 1));
+		// UnsafeUtility.WriteArrayElement(ListData->Ptr, idx, value);
+		UnsafeList_1_t557C9C31121D73D732851DA0465D2D22CFFBF099* L_3 = (UnsafeList_1_t557C9C31121D73D732851DA0465D2D22CFFBF099*)__this->___ListData_0;
+		NullCheck(L_3);
+		PipelineImpl_t422927EB35F759F18ECBA1C7B075AAC92918017E* L_4 = (PipelineImpl_t422927EB35F759F18ECBA1C7B075AAC92918017E*)L_3->___Ptr_0;
+		int32_t L_5 = V_0;
+		PipelineImpl_t422927EB35F759F18ECBA1C7B075AAC92918017E L_6 = ___0_value;
+		((  void (*) (void*, int32_t, PipelineImpl_t422927EB35F759F18ECBA1C7B075AAC92918017E, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 0)))((void*)L_4, L_5, L_6, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 0));
+		// }
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_mEC530F025387E572EE24E4B9DAC39BC57F79353F_AdjustorThunk (RuntimeObject* __this, PipelineImpl_t422927EB35F759F18ECBA1C7B075AAC92918017E ___0_value, const RuntimeMethod* method)
+{
+	ParallelWriter_tDE0F3CEBA8724546ED627F8F8D52A3BA57C08FB6* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ParallelWriter_tDE0F3CEBA8724546ED627F8F8D52A3BA57C08FB6*>(__this + _offset);
+	ParallelWriter_AddNoResize_mEC530F025387E572EE24E4B9DAC39BC57F79353F(_thisAdjusted, ___0_value, method);
+}
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Networking.Transport.NetworkPipelineProcessor/PipelineImpl>::AddRangeNoResize(System.Void*,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m110BC262A8AFD73F7184E95F1D773F67C1BF496E_gshared (ParallelWriter_tDE0F3CEBA8724546ED627F8F8D52A3BA57C08FB6* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	void* V_1 = NULL;
+	{
+		// var idx = Interlocked.Add(ref ListData->m_length, count) - count;
+		UnsafeList_1_t557C9C31121D73D732851DA0465D2D22CFFBF099* L_0 = (UnsafeList_1_t557C9C31121D73D732851DA0465D2D22CFFBF099*)__this->___ListData_0;
+		NullCheck(L_0);
+		int32_t* L_1 = (int32_t*)(&L_0->___m_length_1);
+		int32_t L_2 = ___1_count;
+		int32_t L_3;
+		L_3 = Interlocked_Add_m2455208C56EEFD8832AEAD8AF7368A3FEB33A73C(L_1, L_2, NULL);
+		int32_t L_4 = ___1_count;
+		V_0 = ((int32_t)il2cpp_codegen_subtract(L_3, L_4));
+		// void* dst = (byte*)ListData->Ptr + idx * sizeof(T);
+		UnsafeList_1_t557C9C31121D73D732851DA0465D2D22CFFBF099* L_5 = (UnsafeList_1_t557C9C31121D73D732851DA0465D2D22CFFBF099*)__this->___ListData_0;
+		NullCheck(L_5);
+		PipelineImpl_t422927EB35F759F18ECBA1C7B075AAC92918017E* L_6 = (PipelineImpl_t422927EB35F759F18ECBA1C7B075AAC92918017E*)L_5->___Ptr_0;
+		int32_t L_7 = V_0;
+		uint32_t L_8 = sizeof(PipelineImpl_t422927EB35F759F18ECBA1C7B075AAC92918017E);
+		V_1 = (void*)((PipelineImpl_t422927EB35F759F18ECBA1C7B075AAC92918017E*)il2cpp_codegen_add((intptr_t)L_6, ((int32_t)il2cpp_codegen_multiply(L_7, (int32_t)L_8))));
+		// UnsafeUtility.MemCpy(dst, ptr, count * sizeof(T));
+		void* L_9 = V_1;
+		void* L_10 = ___0_ptr;
+		int32_t L_11 = ___1_count;
+		uint32_t L_12 = sizeof(PipelineImpl_t422927EB35F759F18ECBA1C7B075AAC92918017E);
+		UnsafeUtility_MemCpy_m5CEA91ACDADC522E584AE3A2AB2B0B74393A9177(L_9, L_10, ((int64_t)((int32_t)il2cpp_codegen_multiply(L_11, (int32_t)L_12))), NULL);
+		// }
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m110BC262A8AFD73F7184E95F1D773F67C1BF496E_AdjustorThunk (RuntimeObject* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method)
+{
+	ParallelWriter_tDE0F3CEBA8724546ED627F8F8D52A3BA57C08FB6* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ParallelWriter_tDE0F3CEBA8724546ED627F8F8D52A3BA57C08FB6*>(__this + _offset);
+	ParallelWriter_AddRangeNoResize_m110BC262A8AFD73F7184E95F1D773F67C1BF496E(_thisAdjusted, ___0_ptr, ___1_count, method);
+}
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Networking.Transport.NetworkPipelineProcessor/PipelineImpl>::AddRangeNoResize(Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m1A2C74321CBE3C3164BA5CE55F05394D3FFAFF1E_gshared (ParallelWriter_tDE0F3CEBA8724546ED627F8F8D52A3BA57C08FB6* __this, UnsafeList_1_t557C9C31121D73D732851DA0465D2D22CFFBF099 ___0_list, const RuntimeMethod* method) 
+{
+	{
+		// AddRangeNoResize(list.Ptr, list.Length);
+		UnsafeList_1_t557C9C31121D73D732851DA0465D2D22CFFBF099 L_0 = ___0_list;
+		PipelineImpl_t422927EB35F759F18ECBA1C7B075AAC92918017E* L_1 = (PipelineImpl_t422927EB35F759F18ECBA1C7B075AAC92918017E*)L_0.___Ptr_0;
+		int32_t L_2;
+		L_2 = UnsafeList_1_get_Length_m8B5E6F7674AA42FEA08008BEB5F715FE21B2CA46((&___0_list), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 2));
+		ParallelWriter_AddRangeNoResize_m110BC262A8AFD73F7184E95F1D773F67C1BF496E(__this, (void*)L_1, L_2, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3));
+		// }
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m1A2C74321CBE3C3164BA5CE55F05394D3FFAFF1E_AdjustorThunk (RuntimeObject* __this, UnsafeList_1_t557C9C31121D73D732851DA0465D2D22CFFBF099 ___0_list, const RuntimeMethod* method)
+{
+	ParallelWriter_tDE0F3CEBA8724546ED627F8F8D52A3BA57C08FB6* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ParallelWriter_tDE0F3CEBA8724546ED627F8F8D52A3BA57C08FB6*>(__this + _offset);
+	ParallelWriter_AddRangeNoResize_m1A2C74321CBE3C3164BA5CE55F05394D3FFAFF1E(_thisAdjusted, ___0_list, method);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void* Unity.Collections.NativeList`1/ParallelWriter<Unity.Networking.Transport.NetworkPipelineProcessor/UpdatePipeline>::get_Ptr()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m2FFD535C76CAD331F4F635A37018D39FF4A1C16E_gshared (ParallelWriter_tC50E8137F551749AC8F77272BE6E3AE2DF39B69B* __this, const RuntimeMethod* method) 
+{
+	{
+		// public readonly void* Ptr => ListData->Ptr;
+		UnsafeList_1_t5D77D9399869F973DD7861206FE7B0BB5254BEDA* L_0 = (UnsafeList_1_t5D77D9399869F973DD7861206FE7B0BB5254BEDA*)__this->___ListData_0;
+		NullCheck(L_0);
+		UpdatePipeline_t8D511DB7DDEC2170FC3349B879D1E46CD18C35D2* L_1 = (UpdatePipeline_t8D511DB7DDEC2170FC3349B879D1E46CD18C35D2*)L_0->___Ptr_0;
+		return (void*)(L_1);
+	}
+}
+IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_m2FFD535C76CAD331F4F635A37018D39FF4A1C16E_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	ParallelWriter_tC50E8137F551749AC8F77272BE6E3AE2DF39B69B* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ParallelWriter_tC50E8137F551749AC8F77272BE6E3AE2DF39B69B*>(__this + _offset);
+	void* _returnValue;
+	_returnValue = ParallelWriter_get_Ptr_m2FFD535C76CAD331F4F635A37018D39FF4A1C16E(_thisAdjusted, method);
+	return _returnValue;
+}
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Networking.Transport.NetworkPipelineProcessor/UpdatePipeline>::.ctor(Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>*)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m76D1BA912E24A80D77CC1C914659E2FF80C79F5B_gshared (ParallelWriter_tC50E8137F551749AC8F77272BE6E3AE2DF39B69B* __this, UnsafeList_1_t5D77D9399869F973DD7861206FE7B0BB5254BEDA* ___0_listData, const RuntimeMethod* method) 
+{
+	{
+		// ListData = listData;
+		UnsafeList_1_t5D77D9399869F973DD7861206FE7B0BB5254BEDA* L_0 = ___0_listData;
+		__this->___ListData_0 = L_0;
+		// }
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void ParallelWriter__ctor_m76D1BA912E24A80D77CC1C914659E2FF80C79F5B_AdjustorThunk (RuntimeObject* __this, UnsafeList_1_t5D77D9399869F973DD7861206FE7B0BB5254BEDA* ___0_listData, const RuntimeMethod* method)
+{
+	ParallelWriter_tC50E8137F551749AC8F77272BE6E3AE2DF39B69B* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ParallelWriter_tC50E8137F551749AC8F77272BE6E3AE2DF39B69B*>(__this + _offset);
+	ParallelWriter__ctor_m76D1BA912E24A80D77CC1C914659E2FF80C79F5B(_thisAdjusted, ___0_listData, method);
+}
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Networking.Transport.NetworkPipelineProcessor/UpdatePipeline>::AddNoResize(T)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_mF25E74E917886C2E8DF45C73119FB20B5B2719A9_gshared (ParallelWriter_tC50E8137F551749AC8F77272BE6E3AE2DF39B69B* __this, UpdatePipeline_t8D511DB7DDEC2170FC3349B879D1E46CD18C35D2 ___0_value, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	{
+		// var idx = Interlocked.Increment(ref ListData->m_length) - 1;
+		UnsafeList_1_t5D77D9399869F973DD7861206FE7B0BB5254BEDA* L_0 = (UnsafeList_1_t5D77D9399869F973DD7861206FE7B0BB5254BEDA*)__this->___ListData_0;
+		NullCheck(L_0);
+		int32_t* L_1 = (int32_t*)(&L_0->___m_length_1);
+		int32_t L_2;
+		L_2 = Interlocked_Increment_m3C240C32E8D9544EC050B74D4F28EEB58F1F9309(L_1, NULL);
+		V_0 = ((int32_t)il2cpp_codegen_subtract(L_2, 1));
+		// UnsafeUtility.WriteArrayElement(ListData->Ptr, idx, value);
+		UnsafeList_1_t5D77D9399869F973DD7861206FE7B0BB5254BEDA* L_3 = (UnsafeList_1_t5D77D9399869F973DD7861206FE7B0BB5254BEDA*)__this->___ListData_0;
+		NullCheck(L_3);
+		UpdatePipeline_t8D511DB7DDEC2170FC3349B879D1E46CD18C35D2* L_4 = (UpdatePipeline_t8D511DB7DDEC2170FC3349B879D1E46CD18C35D2*)L_3->___Ptr_0;
+		int32_t L_5 = V_0;
+		UpdatePipeline_t8D511DB7DDEC2170FC3349B879D1E46CD18C35D2 L_6 = ___0_value;
+		((  void (*) (void*, int32_t, UpdatePipeline_t8D511DB7DDEC2170FC3349B879D1E46CD18C35D2, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 0)))((void*)L_4, L_5, L_6, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 0));
+		// }
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_mF25E74E917886C2E8DF45C73119FB20B5B2719A9_AdjustorThunk (RuntimeObject* __this, UpdatePipeline_t8D511DB7DDEC2170FC3349B879D1E46CD18C35D2 ___0_value, const RuntimeMethod* method)
+{
+	ParallelWriter_tC50E8137F551749AC8F77272BE6E3AE2DF39B69B* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ParallelWriter_tC50E8137F551749AC8F77272BE6E3AE2DF39B69B*>(__this + _offset);
+	ParallelWriter_AddNoResize_mF25E74E917886C2E8DF45C73119FB20B5B2719A9(_thisAdjusted, ___0_value, method);
+}
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Networking.Transport.NetworkPipelineProcessor/UpdatePipeline>::AddRangeNoResize(System.Void*,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m05F00F7957390A7C99306E5F55491E11FE52A176_gshared (ParallelWriter_tC50E8137F551749AC8F77272BE6E3AE2DF39B69B* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	void* V_2 = NULL;
+	{
+		// var idx = Interlocked.Add(ref ListData->m_length, count) - count;
+		UnsafeList_1_t5D77D9399869F973DD7861206FE7B0BB5254BEDA* L_0 = (UnsafeList_1_t5D77D9399869F973DD7861206FE7B0BB5254BEDA*)__this->___ListData_0;
+		NullCheck(L_0);
+		int32_t* L_1 = (int32_t*)(&L_0->___m_length_1);
+		int32_t L_2 = ___1_count;
+		int32_t L_3;
+		L_3 = Interlocked_Add_m2455208C56EEFD8832AEAD8AF7368A3FEB33A73C(L_1, L_2, NULL);
+		int32_t L_4 = ___1_count;
+		V_0 = ((int32_t)il2cpp_codegen_subtract(L_3, L_4));
+		// var sizeOf = sizeof(T);
+		uint32_t L_5 = sizeof(UpdatePipeline_t8D511DB7DDEC2170FC3349B879D1E46CD18C35D2);
+		V_1 = (int32_t)L_5;
+		// void* dst = (byte*)ListData->Ptr + idx * sizeOf;
+		UnsafeList_1_t5D77D9399869F973DD7861206FE7B0BB5254BEDA* L_6 = (UnsafeList_1_t5D77D9399869F973DD7861206FE7B0BB5254BEDA*)__this->___ListData_0;
+		NullCheck(L_6);
+		UpdatePipeline_t8D511DB7DDEC2170FC3349B879D1E46CD18C35D2* L_7 = (UpdatePipeline_t8D511DB7DDEC2170FC3349B879D1E46CD18C35D2*)L_6->___Ptr_0;
+		int32_t L_8 = V_0;
+		int32_t L_9 = V_1;
+		V_2 = (void*)((UpdatePipeline_t8D511DB7DDEC2170FC3349B879D1E46CD18C35D2*)il2cpp_codegen_add((intptr_t)L_7, ((int32_t)il2cpp_codegen_multiply(L_8, L_9))));
+		// UnsafeUtility.MemCpy(dst, ptr, count * sizeOf);
+		void* L_10 = V_2;
+		void* L_11 = ___0_ptr;
+		int32_t L_12 = ___1_count;
+		int32_t L_13 = V_1;
+		UnsafeUtility_MemCpy_m5CEA91ACDADC522E584AE3A2AB2B0B74393A9177(L_10, L_11, ((int64_t)((int32_t)il2cpp_codegen_multiply(L_12, L_13))), NULL);
+		// }
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m05F00F7957390A7C99306E5F55491E11FE52A176_AdjustorThunk (RuntimeObject* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method)
+{
+	ParallelWriter_tC50E8137F551749AC8F77272BE6E3AE2DF39B69B* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ParallelWriter_tC50E8137F551749AC8F77272BE6E3AE2DF39B69B*>(__this + _offset);
+	ParallelWriter_AddRangeNoResize_m05F00F7957390A7C99306E5F55491E11FE52A176(_thisAdjusted, ___0_ptr, ___1_count, method);
+}
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Networking.Transport.NetworkPipelineProcessor/UpdatePipeline>::AddRangeNoResize(Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mA154EB467C5E2A37886660E9AE491A7F5DD34DCD_gshared (ParallelWriter_tC50E8137F551749AC8F77272BE6E3AE2DF39B69B* __this, UnsafeList_1_t5D77D9399869F973DD7861206FE7B0BB5254BEDA ___0_list, const RuntimeMethod* method) 
+{
+	{
+		// AddRangeNoResize(list.Ptr, list.Length);
+		UnsafeList_1_t5D77D9399869F973DD7861206FE7B0BB5254BEDA L_0 = ___0_list;
+		UpdatePipeline_t8D511DB7DDEC2170FC3349B879D1E46CD18C35D2* L_1 = (UpdatePipeline_t8D511DB7DDEC2170FC3349B879D1E46CD18C35D2*)L_0.___Ptr_0;
+		int32_t L_2;
+		L_2 = UnsafeList_1_get_Length_m5E35890A073934733C20AA6D6002E80B53C40CEE((&___0_list), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 2));
+		ParallelWriter_AddRangeNoResize_m05F00F7957390A7C99306E5F55491E11FE52A176(__this, (void*)L_1, L_2, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3));
+		// }
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mA154EB467C5E2A37886660E9AE491A7F5DD34DCD_AdjustorThunk (RuntimeObject* __this, UnsafeList_1_t5D77D9399869F973DD7861206FE7B0BB5254BEDA ___0_list, const RuntimeMethod* method)
+{
+	ParallelWriter_tC50E8137F551749AC8F77272BE6E3AE2DF39B69B* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ParallelWriter_tC50E8137F551749AC8F77272BE6E3AE2DF39B69B*>(__this + _offset);
+	ParallelWriter_AddRangeNoResize_mA154EB467C5E2A37886660E9AE491A7F5DD34DCD(_thisAdjusted, ___0_list, method);
+}
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Networking.Transport.NetworkPipelineProcessor/UpdatePipeline>::AddRangeNoResize(Unity.Collections.NativeList`1<T>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m4EB8DD211A7A2F25CC7B186BC71F5EEEFE6411BC_gshared (ParallelWriter_tC50E8137F551749AC8F77272BE6E3AE2DF39B69B* __this, NativeList_1_t1869FE735F5176A07019C960A26F7477BA6142B3 ___0_list, const RuntimeMethod* method) 
+{
+	{
+		// AddRangeNoResize(*list.m_ListData);
+		NativeList_1_t1869FE735F5176A07019C960A26F7477BA6142B3 L_0 = ___0_list;
+		UnsafeList_1_t5D77D9399869F973DD7861206FE7B0BB5254BEDA* L_1 = (UnsafeList_1_t5D77D9399869F973DD7861206FE7B0BB5254BEDA*)L_0.___m_ListData_0;
+		UnsafeList_1_t5D77D9399869F973DD7861206FE7B0BB5254BEDA L_2 = (*(UnsafeList_1_t5D77D9399869F973DD7861206FE7B0BB5254BEDA*)L_1);
+		ParallelWriter_AddRangeNoResize_mA154EB467C5E2A37886660E9AE491A7F5DD34DCD(__this, L_2, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 4));
+		// }
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m4EB8DD211A7A2F25CC7B186BC71F5EEEFE6411BC_AdjustorThunk (RuntimeObject* __this, NativeList_1_t1869FE735F5176A07019C960A26F7477BA6142B3 ___0_list, const RuntimeMethod* method)
+{
+	ParallelWriter_tC50E8137F551749AC8F77272BE6E3AE2DF39B69B* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ParallelWriter_tC50E8137F551749AC8F77272BE6E3AE2DF39B69B*>(__this + _offset);
+	ParallelWriter_AddRangeNoResize_m4EB8DD211A7A2F25CC7B186BC71F5EEEFE6411BC(_thisAdjusted, ___0_list, method);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Unity.Collections.NativeQueue`1/ParallelWriter<Unity.Networking.Transport.NetworkPipelineProcessor/UpdatePipeline>::Enqueue(T)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_Enqueue_mD81143975AA19DFE1D0DDA6B7E715250C3813993_gshared (ParallelWriter_t55B873B53088E2C14EC0CE7DD3ECA37705CB04CC* __this, UpdatePipeline_t8D511DB7DDEC2170FC3349B879D1E46CD18C35D2 ___0_value, const RuntimeMethod* method) 
+{
+	NativeQueueBlockHeader_tD74DEA5A5D8C910AA5ED04C5E89F2FE1B0521004* V_0 = NULL;
+	{
+		// NativeQueueBlockHeader* writeBlock = NativeQueueData.AllocateWriteBlockMT<T>(m_Buffer, m_QueuePool, m_ThreadIndex);
+		NativeQueueData_t61B94D7FE48C5715DD5D0C8CB574F73BF15C6E52* L_0 = (NativeQueueData_t61B94D7FE48C5715DD5D0C8CB574F73BF15C6E52*)__this->___m_Buffer_0;
+		NativeQueueBlockPoolData_t3A0B3E1B852D995248D51AB68660D1B367D28E87* L_1 = (NativeQueueBlockPoolData_t3A0B3E1B852D995248D51AB68660D1B367D28E87*)__this->___m_QueuePool_1;
+		int32_t L_2 = (int32_t)__this->___m_ThreadIndex_2;
+		NativeQueueBlockHeader_tD74DEA5A5D8C910AA5ED04C5E89F2FE1B0521004* L_3;
+		L_3 = ((  NativeQueueBlockHeader_tD74DEA5A5D8C910AA5ED04C5E89F2FE1B0521004* (*) (NativeQueueData_t61B94D7FE48C5715DD5D0C8CB574F73BF15C6E52*, NativeQueueBlockPoolData_t3A0B3E1B852D995248D51AB68660D1B367D28E87*, int32_t, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 0)))(L_0, L_1, L_2, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 0));
+		V_0 = L_3;
+		// UnsafeUtility.WriteArrayElement(writeBlock + 1, writeBlock->m_NumItems, value);
+		NativeQueueBlockHeader_tD74DEA5A5D8C910AA5ED04C5E89F2FE1B0521004* L_4 = V_0;
+		uint32_t L_5 = sizeof(NativeQueueBlockHeader_tD74DEA5A5D8C910AA5ED04C5E89F2FE1B0521004);
+		NativeQueueBlockHeader_tD74DEA5A5D8C910AA5ED04C5E89F2FE1B0521004* L_6 = V_0;
+		NullCheck(L_6);
+		int32_t L_7 = (int32_t)L_6->___m_NumItems_1;
+		UpdatePipeline_t8D511DB7DDEC2170FC3349B879D1E46CD18C35D2 L_8 = ___0_value;
+		((  void (*) (void*, int32_t, UpdatePipeline_t8D511DB7DDEC2170FC3349B879D1E46CD18C35D2, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 1)))((void*)((NativeQueueBlockHeader_tD74DEA5A5D8C910AA5ED04C5E89F2FE1B0521004*)il2cpp_codegen_add((intptr_t)L_4, (int32_t)L_5)), L_7, L_8, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 1));
+		// ++writeBlock->m_NumItems;
+		NativeQueueBlockHeader_tD74DEA5A5D8C910AA5ED04C5E89F2FE1B0521004* L_9 = V_0;
+		NullCheck(L_9);
+		int32_t* L_10 = (int32_t*)(&L_9->___m_NumItems_1);
+		int32_t* L_11 = L_10;
+		int32_t L_12 = *((int32_t*)L_11);
+		*((int32_t*)L_11) = (int32_t)((int32_t)il2cpp_codegen_add(L_12, 1));
+		// }
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void ParallelWriter_Enqueue_mD81143975AA19DFE1D0DDA6B7E715250C3813993_AdjustorThunk (RuntimeObject* __this, UpdatePipeline_t8D511DB7DDEC2170FC3349B879D1E46CD18C35D2 ___0_value, const RuntimeMethod* method)
+{
+	ParallelWriter_t55B873B53088E2C14EC0CE7DD3ECA37705CB04CC* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ParallelWriter_t55B873B53088E2C14EC0CE7DD3ECA37705CB04CC*>(__this + _offset);
+	ParallelWriter_Enqueue_mD81143975AA19DFE1D0DDA6B7E715250C3813993(_thisAdjusted, ___0_value, method);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void* Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Networking.Transport.NetworkPipelineProcessor/UpdatePipeline>::get_Ptr()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mA392B1D76D6B3668DDAC4A872E87F9064B383CB8_gshared (ParallelWriter_tF2AD77C8A90F1D5807B0720121A0F3B27BC5B98B* __this, const RuntimeMethod* method) 
+{
+	{
+		// public readonly void* Ptr => ListData->Ptr;
+		UnsafeList_1_t5D77D9399869F973DD7861206FE7B0BB5254BEDA* L_0 = (UnsafeList_1_t5D77D9399869F973DD7861206FE7B0BB5254BEDA*)__this->___ListData_0;
+		NullCheck(L_0);
+		UpdatePipeline_t8D511DB7DDEC2170FC3349B879D1E46CD18C35D2* L_1 = (UpdatePipeline_t8D511DB7DDEC2170FC3349B879D1E46CD18C35D2*)L_0->___Ptr_0;
+		return (void*)(L_1);
+	}
+}
+IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_mA392B1D76D6B3668DDAC4A872E87F9064B383CB8_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	ParallelWriter_tF2AD77C8A90F1D5807B0720121A0F3B27BC5B98B* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ParallelWriter_tF2AD77C8A90F1D5807B0720121A0F3B27BC5B98B*>(__this + _offset);
+	void* _returnValue;
+	_returnValue = ParallelWriter_get_Ptr_mA392B1D76D6B3668DDAC4A872E87F9064B383CB8(_thisAdjusted, method);
+	return _returnValue;
+}
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Networking.Transport.NetworkPipelineProcessor/UpdatePipeline>::.ctor(Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>*)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mB80550E27CBE56C9ECE237E5D77A51DFF086265F_gshared (ParallelWriter_tF2AD77C8A90F1D5807B0720121A0F3B27BC5B98B* __this, UnsafeList_1_t5D77D9399869F973DD7861206FE7B0BB5254BEDA* ___0_listData, const RuntimeMethod* method) 
+{
+	{
+		// ListData = listData;
+		UnsafeList_1_t5D77D9399869F973DD7861206FE7B0BB5254BEDA* L_0 = ___0_listData;
+		__this->___ListData_0 = L_0;
+		// }
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void ParallelWriter__ctor_mB80550E27CBE56C9ECE237E5D77A51DFF086265F_AdjustorThunk (RuntimeObject* __this, UnsafeList_1_t5D77D9399869F973DD7861206FE7B0BB5254BEDA* ___0_listData, const RuntimeMethod* method)
+{
+	ParallelWriter_tF2AD77C8A90F1D5807B0720121A0F3B27BC5B98B* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ParallelWriter_tF2AD77C8A90F1D5807B0720121A0F3B27BC5B98B*>(__this + _offset);
+	ParallelWriter__ctor_mB80550E27CBE56C9ECE237E5D77A51DFF086265F(_thisAdjusted, ___0_listData, method);
+}
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Networking.Transport.NetworkPipelineProcessor/UpdatePipeline>::AddNoResize(T)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_m063873842E0CEE50C6BAFCFDEA64B07DBA465FA4_gshared (ParallelWriter_tF2AD77C8A90F1D5807B0720121A0F3B27BC5B98B* __this, UpdatePipeline_t8D511DB7DDEC2170FC3349B879D1E46CD18C35D2 ___0_value, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	{
+		// var idx = Interlocked.Increment(ref ListData->m_length) - 1;
+		UnsafeList_1_t5D77D9399869F973DD7861206FE7B0BB5254BEDA* L_0 = (UnsafeList_1_t5D77D9399869F973DD7861206FE7B0BB5254BEDA*)__this->___ListData_0;
+		NullCheck(L_0);
+		int32_t* L_1 = (int32_t*)(&L_0->___m_length_1);
+		int32_t L_2;
+		L_2 = Interlocked_Increment_m3C240C32E8D9544EC050B74D4F28EEB58F1F9309(L_1, NULL);
+		V_0 = ((int32_t)il2cpp_codegen_subtract(L_2, 1));
+		// UnsafeUtility.WriteArrayElement(ListData->Ptr, idx, value);
+		UnsafeList_1_t5D77D9399869F973DD7861206FE7B0BB5254BEDA* L_3 = (UnsafeList_1_t5D77D9399869F973DD7861206FE7B0BB5254BEDA*)__this->___ListData_0;
+		NullCheck(L_3);
+		UpdatePipeline_t8D511DB7DDEC2170FC3349B879D1E46CD18C35D2* L_4 = (UpdatePipeline_t8D511DB7DDEC2170FC3349B879D1E46CD18C35D2*)L_3->___Ptr_0;
+		int32_t L_5 = V_0;
+		UpdatePipeline_t8D511DB7DDEC2170FC3349B879D1E46CD18C35D2 L_6 = ___0_value;
+		((  void (*) (void*, int32_t, UpdatePipeline_t8D511DB7DDEC2170FC3349B879D1E46CD18C35D2, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 0)))((void*)L_4, L_5, L_6, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 0));
+		// }
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_m063873842E0CEE50C6BAFCFDEA64B07DBA465FA4_AdjustorThunk (RuntimeObject* __this, UpdatePipeline_t8D511DB7DDEC2170FC3349B879D1E46CD18C35D2 ___0_value, const RuntimeMethod* method)
+{
+	ParallelWriter_tF2AD77C8A90F1D5807B0720121A0F3B27BC5B98B* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ParallelWriter_tF2AD77C8A90F1D5807B0720121A0F3B27BC5B98B*>(__this + _offset);
+	ParallelWriter_AddNoResize_m063873842E0CEE50C6BAFCFDEA64B07DBA465FA4(_thisAdjusted, ___0_value, method);
+}
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Networking.Transport.NetworkPipelineProcessor/UpdatePipeline>::AddRangeNoResize(System.Void*,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m56C92C48D7D5C41A20718A7BCE27EC5FC662DAA8_gshared (ParallelWriter_tF2AD77C8A90F1D5807B0720121A0F3B27BC5B98B* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	void* V_1 = NULL;
+	{
+		// var idx = Interlocked.Add(ref ListData->m_length, count) - count;
+		UnsafeList_1_t5D77D9399869F973DD7861206FE7B0BB5254BEDA* L_0 = (UnsafeList_1_t5D77D9399869F973DD7861206FE7B0BB5254BEDA*)__this->___ListData_0;
+		NullCheck(L_0);
+		int32_t* L_1 = (int32_t*)(&L_0->___m_length_1);
+		int32_t L_2 = ___1_count;
+		int32_t L_3;
+		L_3 = Interlocked_Add_m2455208C56EEFD8832AEAD8AF7368A3FEB33A73C(L_1, L_2, NULL);
+		int32_t L_4 = ___1_count;
+		V_0 = ((int32_t)il2cpp_codegen_subtract(L_3, L_4));
+		// void* dst = (byte*)ListData->Ptr + idx * sizeof(T);
+		UnsafeList_1_t5D77D9399869F973DD7861206FE7B0BB5254BEDA* L_5 = (UnsafeList_1_t5D77D9399869F973DD7861206FE7B0BB5254BEDA*)__this->___ListData_0;
+		NullCheck(L_5);
+		UpdatePipeline_t8D511DB7DDEC2170FC3349B879D1E46CD18C35D2* L_6 = (UpdatePipeline_t8D511DB7DDEC2170FC3349B879D1E46CD18C35D2*)L_5->___Ptr_0;
+		int32_t L_7 = V_0;
+		uint32_t L_8 = sizeof(UpdatePipeline_t8D511DB7DDEC2170FC3349B879D1E46CD18C35D2);
+		V_1 = (void*)((UpdatePipeline_t8D511DB7DDEC2170FC3349B879D1E46CD18C35D2*)il2cpp_codegen_add((intptr_t)L_6, ((int32_t)il2cpp_codegen_multiply(L_7, (int32_t)L_8))));
+		// UnsafeUtility.MemCpy(dst, ptr, count * sizeof(T));
+		void* L_9 = V_1;
+		void* L_10 = ___0_ptr;
+		int32_t L_11 = ___1_count;
+		uint32_t L_12 = sizeof(UpdatePipeline_t8D511DB7DDEC2170FC3349B879D1E46CD18C35D2);
+		UnsafeUtility_MemCpy_m5CEA91ACDADC522E584AE3A2AB2B0B74393A9177(L_9, L_10, ((int64_t)((int32_t)il2cpp_codegen_multiply(L_11, (int32_t)L_12))), NULL);
+		// }
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m56C92C48D7D5C41A20718A7BCE27EC5FC662DAA8_AdjustorThunk (RuntimeObject* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method)
+{
+	ParallelWriter_tF2AD77C8A90F1D5807B0720121A0F3B27BC5B98B* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ParallelWriter_tF2AD77C8A90F1D5807B0720121A0F3B27BC5B98B*>(__this + _offset);
+	ParallelWriter_AddRangeNoResize_m56C92C48D7D5C41A20718A7BCE27EC5FC662DAA8(_thisAdjusted, ___0_ptr, ___1_count, method);
+}
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Networking.Transport.NetworkPipelineProcessor/UpdatePipeline>::AddRangeNoResize(Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m6AB99D604588382699DDEF11BF14681FA7CED950_gshared (ParallelWriter_tF2AD77C8A90F1D5807B0720121A0F3B27BC5B98B* __this, UnsafeList_1_t5D77D9399869F973DD7861206FE7B0BB5254BEDA ___0_list, const RuntimeMethod* method) 
+{
+	{
+		// AddRangeNoResize(list.Ptr, list.Length);
+		UnsafeList_1_t5D77D9399869F973DD7861206FE7B0BB5254BEDA L_0 = ___0_list;
+		UpdatePipeline_t8D511DB7DDEC2170FC3349B879D1E46CD18C35D2* L_1 = (UpdatePipeline_t8D511DB7DDEC2170FC3349B879D1E46CD18C35D2*)L_0.___Ptr_0;
+		int32_t L_2;
+		L_2 = UnsafeList_1_get_Length_m5E35890A073934733C20AA6D6002E80B53C40CEE((&___0_list), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 2));
+		ParallelWriter_AddRangeNoResize_m56C92C48D7D5C41A20718A7BCE27EC5FC662DAA8(__this, (void*)L_1, L_2, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3));
+		// }
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m6AB99D604588382699DDEF11BF14681FA7CED950_AdjustorThunk (RuntimeObject* __this, UnsafeList_1_t5D77D9399869F973DD7861206FE7B0BB5254BEDA ___0_list, const RuntimeMethod* method)
+{
+	ParallelWriter_tF2AD77C8A90F1D5807B0720121A0F3B27BC5B98B* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ParallelWriter_tF2AD77C8A90F1D5807B0720121A0F3B27BC5B98B*>(__this + _offset);
+	ParallelWriter_AddRangeNoResize_m6AB99D604588382699DDEF11BF14681FA7CED950(_thisAdjusted, ___0_list, method);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void* Unity.Collections.NativeList`1/ParallelWriter<Unity.Netcode.Transports.UTP.UnityTransport/SendTarget>::get_Ptr()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_mB06DDC3BA0F1020FD96685BBEC03002890F95D8B_gshared (ParallelWriter_t3C162ED583BAE2C535EBBBB3BFC6F5C57D455292* __this, const RuntimeMethod* method) 
+{
+	{
+		// public readonly void* Ptr => ListData->Ptr;
+		UnsafeList_1_t501C48EF6B212CE7B242B47AE1184A6DE456C629* L_0 = (UnsafeList_1_t501C48EF6B212CE7B242B47AE1184A6DE456C629*)__this->___ListData_0;
+		NullCheck(L_0);
+		SendTarget_tAD1A6A2A5769AE7D57910A8DA4F258B09A45F653* L_1 = (SendTarget_tAD1A6A2A5769AE7D57910A8DA4F258B09A45F653*)L_0->___Ptr_0;
+		return (void*)(L_1);
+	}
+}
+IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_mB06DDC3BA0F1020FD96685BBEC03002890F95D8B_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	ParallelWriter_t3C162ED583BAE2C535EBBBB3BFC6F5C57D455292* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ParallelWriter_t3C162ED583BAE2C535EBBBB3BFC6F5C57D455292*>(__this + _offset);
+	void* _returnValue;
+	_returnValue = ParallelWriter_get_Ptr_mB06DDC3BA0F1020FD96685BBEC03002890F95D8B(_thisAdjusted, method);
+	return _returnValue;
+}
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Netcode.Transports.UTP.UnityTransport/SendTarget>::.ctor(Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>*)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_mC6E4C36643C55B6003682C75198FF237256F5527_gshared (ParallelWriter_t3C162ED583BAE2C535EBBBB3BFC6F5C57D455292* __this, UnsafeList_1_t501C48EF6B212CE7B242B47AE1184A6DE456C629* ___0_listData, const RuntimeMethod* method) 
+{
+	{
+		// ListData = listData;
+		UnsafeList_1_t501C48EF6B212CE7B242B47AE1184A6DE456C629* L_0 = ___0_listData;
+		__this->___ListData_0 = L_0;
+		// }
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void ParallelWriter__ctor_mC6E4C36643C55B6003682C75198FF237256F5527_AdjustorThunk (RuntimeObject* __this, UnsafeList_1_t501C48EF6B212CE7B242B47AE1184A6DE456C629* ___0_listData, const RuntimeMethod* method)
+{
+	ParallelWriter_t3C162ED583BAE2C535EBBBB3BFC6F5C57D455292* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ParallelWriter_t3C162ED583BAE2C535EBBBB3BFC6F5C57D455292*>(__this + _offset);
+	ParallelWriter__ctor_mC6E4C36643C55B6003682C75198FF237256F5527(_thisAdjusted, ___0_listData, method);
+}
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Netcode.Transports.UTP.UnityTransport/SendTarget>::AddNoResize(T)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_m95B185BD46CD29685E52BC6D7B7E92B10667A3FF_gshared (ParallelWriter_t3C162ED583BAE2C535EBBBB3BFC6F5C57D455292* __this, SendTarget_tAD1A6A2A5769AE7D57910A8DA4F258B09A45F653 ___0_value, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	{
+		// var idx = Interlocked.Increment(ref ListData->m_length) - 1;
+		UnsafeList_1_t501C48EF6B212CE7B242B47AE1184A6DE456C629* L_0 = (UnsafeList_1_t501C48EF6B212CE7B242B47AE1184A6DE456C629*)__this->___ListData_0;
+		NullCheck(L_0);
+		int32_t* L_1 = (int32_t*)(&L_0->___m_length_1);
+		int32_t L_2;
+		L_2 = Interlocked_Increment_m3C240C32E8D9544EC050B74D4F28EEB58F1F9309(L_1, NULL);
+		V_0 = ((int32_t)il2cpp_codegen_subtract(L_2, 1));
+		// UnsafeUtility.WriteArrayElement(ListData->Ptr, idx, value);
+		UnsafeList_1_t501C48EF6B212CE7B242B47AE1184A6DE456C629* L_3 = (UnsafeList_1_t501C48EF6B212CE7B242B47AE1184A6DE456C629*)__this->___ListData_0;
+		NullCheck(L_3);
+		SendTarget_tAD1A6A2A5769AE7D57910A8DA4F258B09A45F653* L_4 = (SendTarget_tAD1A6A2A5769AE7D57910A8DA4F258B09A45F653*)L_3->___Ptr_0;
+		int32_t L_5 = V_0;
+		SendTarget_tAD1A6A2A5769AE7D57910A8DA4F258B09A45F653 L_6 = ___0_value;
+		((  void (*) (void*, int32_t, SendTarget_tAD1A6A2A5769AE7D57910A8DA4F258B09A45F653, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 0)))((void*)L_4, L_5, L_6, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 0));
+		// }
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_m95B185BD46CD29685E52BC6D7B7E92B10667A3FF_AdjustorThunk (RuntimeObject* __this, SendTarget_tAD1A6A2A5769AE7D57910A8DA4F258B09A45F653 ___0_value, const RuntimeMethod* method)
+{
+	ParallelWriter_t3C162ED583BAE2C535EBBBB3BFC6F5C57D455292* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ParallelWriter_t3C162ED583BAE2C535EBBBB3BFC6F5C57D455292*>(__this + _offset);
+	ParallelWriter_AddNoResize_m95B185BD46CD29685E52BC6D7B7E92B10667A3FF(_thisAdjusted, ___0_value, method);
+}
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Netcode.Transports.UTP.UnityTransport/SendTarget>::AddRangeNoResize(System.Void*,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m0674B9A689DFFFB2A64F96629FEEA086431CA0FE_gshared (ParallelWriter_t3C162ED583BAE2C535EBBBB3BFC6F5C57D455292* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	void* V_2 = NULL;
+	{
+		// var idx = Interlocked.Add(ref ListData->m_length, count) - count;
+		UnsafeList_1_t501C48EF6B212CE7B242B47AE1184A6DE456C629* L_0 = (UnsafeList_1_t501C48EF6B212CE7B242B47AE1184A6DE456C629*)__this->___ListData_0;
+		NullCheck(L_0);
+		int32_t* L_1 = (int32_t*)(&L_0->___m_length_1);
+		int32_t L_2 = ___1_count;
+		int32_t L_3;
+		L_3 = Interlocked_Add_m2455208C56EEFD8832AEAD8AF7368A3FEB33A73C(L_1, L_2, NULL);
+		int32_t L_4 = ___1_count;
+		V_0 = ((int32_t)il2cpp_codegen_subtract(L_3, L_4));
+		// var sizeOf = sizeof(T);
+		uint32_t L_5 = sizeof(SendTarget_tAD1A6A2A5769AE7D57910A8DA4F258B09A45F653);
+		V_1 = (int32_t)L_5;
+		// void* dst = (byte*)ListData->Ptr + idx * sizeOf;
+		UnsafeList_1_t501C48EF6B212CE7B242B47AE1184A6DE456C629* L_6 = (UnsafeList_1_t501C48EF6B212CE7B242B47AE1184A6DE456C629*)__this->___ListData_0;
+		NullCheck(L_6);
+		SendTarget_tAD1A6A2A5769AE7D57910A8DA4F258B09A45F653* L_7 = (SendTarget_tAD1A6A2A5769AE7D57910A8DA4F258B09A45F653*)L_6->___Ptr_0;
+		int32_t L_8 = V_0;
+		int32_t L_9 = V_1;
+		V_2 = (void*)((SendTarget_tAD1A6A2A5769AE7D57910A8DA4F258B09A45F653*)il2cpp_codegen_add((intptr_t)L_7, ((int32_t)il2cpp_codegen_multiply(L_8, L_9))));
+		// UnsafeUtility.MemCpy(dst, ptr, count * sizeOf);
+		void* L_10 = V_2;
+		void* L_11 = ___0_ptr;
+		int32_t L_12 = ___1_count;
+		int32_t L_13 = V_1;
+		UnsafeUtility_MemCpy_m5CEA91ACDADC522E584AE3A2AB2B0B74393A9177(L_10, L_11, ((int64_t)((int32_t)il2cpp_codegen_multiply(L_12, L_13))), NULL);
+		// }
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m0674B9A689DFFFB2A64F96629FEEA086431CA0FE_AdjustorThunk (RuntimeObject* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method)
+{
+	ParallelWriter_t3C162ED583BAE2C535EBBBB3BFC6F5C57D455292* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ParallelWriter_t3C162ED583BAE2C535EBBBB3BFC6F5C57D455292*>(__this + _offset);
+	ParallelWriter_AddRangeNoResize_m0674B9A689DFFFB2A64F96629FEEA086431CA0FE(_thisAdjusted, ___0_ptr, ___1_count, method);
+}
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Netcode.Transports.UTP.UnityTransport/SendTarget>::AddRangeNoResize(Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m0994D154747060C24868CF188E54875B09F688DD_gshared (ParallelWriter_t3C162ED583BAE2C535EBBBB3BFC6F5C57D455292* __this, UnsafeList_1_t501C48EF6B212CE7B242B47AE1184A6DE456C629 ___0_list, const RuntimeMethod* method) 
+{
+	{
+		// AddRangeNoResize(list.Ptr, list.Length);
+		UnsafeList_1_t501C48EF6B212CE7B242B47AE1184A6DE456C629 L_0 = ___0_list;
+		SendTarget_tAD1A6A2A5769AE7D57910A8DA4F258B09A45F653* L_1 = (SendTarget_tAD1A6A2A5769AE7D57910A8DA4F258B09A45F653*)L_0.___Ptr_0;
+		int32_t L_2;
+		L_2 = UnsafeList_1_get_Length_m2F177C7B16B6042B9DF810502FC00872341DE721((&___0_list), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 2));
+		ParallelWriter_AddRangeNoResize_m0674B9A689DFFFB2A64F96629FEEA086431CA0FE(__this, (void*)L_1, L_2, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3));
+		// }
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m0994D154747060C24868CF188E54875B09F688DD_AdjustorThunk (RuntimeObject* __this, UnsafeList_1_t501C48EF6B212CE7B242B47AE1184A6DE456C629 ___0_list, const RuntimeMethod* method)
+{
+	ParallelWriter_t3C162ED583BAE2C535EBBBB3BFC6F5C57D455292* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ParallelWriter_t3C162ED583BAE2C535EBBBB3BFC6F5C57D455292*>(__this + _offset);
+	ParallelWriter_AddRangeNoResize_m0994D154747060C24868CF188E54875B09F688DD(_thisAdjusted, ___0_list, method);
+}
+// System.Void Unity.Collections.NativeList`1/ParallelWriter<Unity.Netcode.Transports.UTP.UnityTransport/SendTarget>::AddRangeNoResize(Unity.Collections.NativeList`1<T>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_mFB24987018FF8C8E12813E10BF870D45D3124A2B_gshared (ParallelWriter_t3C162ED583BAE2C535EBBBB3BFC6F5C57D455292* __this, NativeList_1_t19C42565694B875C975B0E66AD45E82CDE2EE935 ___0_list, const RuntimeMethod* method) 
+{
+	{
+		// AddRangeNoResize(*list.m_ListData);
+		NativeList_1_t19C42565694B875C975B0E66AD45E82CDE2EE935 L_0 = ___0_list;
+		UnsafeList_1_t501C48EF6B212CE7B242B47AE1184A6DE456C629* L_1 = (UnsafeList_1_t501C48EF6B212CE7B242B47AE1184A6DE456C629*)L_0.___m_ListData_0;
+		UnsafeList_1_t501C48EF6B212CE7B242B47AE1184A6DE456C629 L_2 = (*(UnsafeList_1_t501C48EF6B212CE7B242B47AE1184A6DE456C629*)L_1);
+		ParallelWriter_AddRangeNoResize_m0994D154747060C24868CF188E54875B09F688DD(__this, L_2, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 4));
+		// }
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_mFB24987018FF8C8E12813E10BF870D45D3124A2B_AdjustorThunk (RuntimeObject* __this, NativeList_1_t19C42565694B875C975B0E66AD45E82CDE2EE935 ___0_list, const RuntimeMethod* method)
+{
+	ParallelWriter_t3C162ED583BAE2C535EBBBB3BFC6F5C57D455292* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ParallelWriter_t3C162ED583BAE2C535EBBBB3BFC6F5C57D455292*>(__this + _offset);
+	ParallelWriter_AddRangeNoResize_mFB24987018FF8C8E12813E10BF870D45D3124A2B(_thisAdjusted, ___0_list, method);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void* Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Netcode.Transports.UTP.UnityTransport/SendTarget>::get_Ptr()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* ParallelWriter_get_Ptr_m22A1514F13FC0D01030023CB23F14EE3CB188A09_gshared (ParallelWriter_tEFE3618DE0C507FD34664ECC5492F65E1CDDC870* __this, const RuntimeMethod* method) 
+{
+	{
+		// public readonly void* Ptr => ListData->Ptr;
+		UnsafeList_1_t501C48EF6B212CE7B242B47AE1184A6DE456C629* L_0 = (UnsafeList_1_t501C48EF6B212CE7B242B47AE1184A6DE456C629*)__this->___ListData_0;
+		NullCheck(L_0);
+		SendTarget_tAD1A6A2A5769AE7D57910A8DA4F258B09A45F653* L_1 = (SendTarget_tAD1A6A2A5769AE7D57910A8DA4F258B09A45F653*)L_0->___Ptr_0;
+		return (void*)(L_1);
+	}
+}
+IL2CPP_EXTERN_C  void* ParallelWriter_get_Ptr_m22A1514F13FC0D01030023CB23F14EE3CB188A09_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	ParallelWriter_tEFE3618DE0C507FD34664ECC5492F65E1CDDC870* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ParallelWriter_tEFE3618DE0C507FD34664ECC5492F65E1CDDC870*>(__this + _offset);
+	void* _returnValue;
+	_returnValue = ParallelWriter_get_Ptr_m22A1514F13FC0D01030023CB23F14EE3CB188A09(_thisAdjusted, method);
+	return _returnValue;
+}
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Netcode.Transports.UTP.UnityTransport/SendTarget>::.ctor(Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>*)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter__ctor_m56C2053F4B7A3EB772EC06474C9EA3747625ED58_gshared (ParallelWriter_tEFE3618DE0C507FD34664ECC5492F65E1CDDC870* __this, UnsafeList_1_t501C48EF6B212CE7B242B47AE1184A6DE456C629* ___0_listData, const RuntimeMethod* method) 
+{
+	{
+		// ListData = listData;
+		UnsafeList_1_t501C48EF6B212CE7B242B47AE1184A6DE456C629* L_0 = ___0_listData;
+		__this->___ListData_0 = L_0;
+		// }
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void ParallelWriter__ctor_m56C2053F4B7A3EB772EC06474C9EA3747625ED58_AdjustorThunk (RuntimeObject* __this, UnsafeList_1_t501C48EF6B212CE7B242B47AE1184A6DE456C629* ___0_listData, const RuntimeMethod* method)
+{
+	ParallelWriter_tEFE3618DE0C507FD34664ECC5492F65E1CDDC870* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ParallelWriter_tEFE3618DE0C507FD34664ECC5492F65E1CDDC870*>(__this + _offset);
+	ParallelWriter__ctor_m56C2053F4B7A3EB772EC06474C9EA3747625ED58(_thisAdjusted, ___0_listData, method);
+}
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Netcode.Transports.UTP.UnityTransport/SendTarget>::AddNoResize(T)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddNoResize_m7162F353376724F085F526BFB341E734B166FFF3_gshared (ParallelWriter_tEFE3618DE0C507FD34664ECC5492F65E1CDDC870* __this, SendTarget_tAD1A6A2A5769AE7D57910A8DA4F258B09A45F653 ___0_value, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	{
+		// var idx = Interlocked.Increment(ref ListData->m_length) - 1;
+		UnsafeList_1_t501C48EF6B212CE7B242B47AE1184A6DE456C629* L_0 = (UnsafeList_1_t501C48EF6B212CE7B242B47AE1184A6DE456C629*)__this->___ListData_0;
+		NullCheck(L_0);
+		int32_t* L_1 = (int32_t*)(&L_0->___m_length_1);
+		int32_t L_2;
+		L_2 = Interlocked_Increment_m3C240C32E8D9544EC050B74D4F28EEB58F1F9309(L_1, NULL);
+		V_0 = ((int32_t)il2cpp_codegen_subtract(L_2, 1));
+		// UnsafeUtility.WriteArrayElement(ListData->Ptr, idx, value);
+		UnsafeList_1_t501C48EF6B212CE7B242B47AE1184A6DE456C629* L_3 = (UnsafeList_1_t501C48EF6B212CE7B242B47AE1184A6DE456C629*)__this->___ListData_0;
+		NullCheck(L_3);
+		SendTarget_tAD1A6A2A5769AE7D57910A8DA4F258B09A45F653* L_4 = (SendTarget_tAD1A6A2A5769AE7D57910A8DA4F258B09A45F653*)L_3->___Ptr_0;
+		int32_t L_5 = V_0;
+		SendTarget_tAD1A6A2A5769AE7D57910A8DA4F258B09A45F653 L_6 = ___0_value;
+		((  void (*) (void*, int32_t, SendTarget_tAD1A6A2A5769AE7D57910A8DA4F258B09A45F653, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 0)))((void*)L_4, L_5, L_6, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 0));
+		// }
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void ParallelWriter_AddNoResize_m7162F353376724F085F526BFB341E734B166FFF3_AdjustorThunk (RuntimeObject* __this, SendTarget_tAD1A6A2A5769AE7D57910A8DA4F258B09A45F653 ___0_value, const RuntimeMethod* method)
+{
+	ParallelWriter_tEFE3618DE0C507FD34664ECC5492F65E1CDDC870* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ParallelWriter_tEFE3618DE0C507FD34664ECC5492F65E1CDDC870*>(__this + _offset);
+	ParallelWriter_AddNoResize_m7162F353376724F085F526BFB341E734B166FFF3(_thisAdjusted, ___0_value, method);
+}
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Netcode.Transports.UTP.UnityTransport/SendTarget>::AddRangeNoResize(System.Void*,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m20A5D19363865D6DBB8E2C0635509DC99935DC07_gshared (ParallelWriter_tEFE3618DE0C507FD34664ECC5492F65E1CDDC870* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	void* V_1 = NULL;
+	{
+		// var idx = Interlocked.Add(ref ListData->m_length, count) - count;
+		UnsafeList_1_t501C48EF6B212CE7B242B47AE1184A6DE456C629* L_0 = (UnsafeList_1_t501C48EF6B212CE7B242B47AE1184A6DE456C629*)__this->___ListData_0;
+		NullCheck(L_0);
+		int32_t* L_1 = (int32_t*)(&L_0->___m_length_1);
+		int32_t L_2 = ___1_count;
+		int32_t L_3;
+		L_3 = Interlocked_Add_m2455208C56EEFD8832AEAD8AF7368A3FEB33A73C(L_1, L_2, NULL);
+		int32_t L_4 = ___1_count;
+		V_0 = ((int32_t)il2cpp_codegen_subtract(L_3, L_4));
+		// void* dst = (byte*)ListData->Ptr + idx * sizeof(T);
+		UnsafeList_1_t501C48EF6B212CE7B242B47AE1184A6DE456C629* L_5 = (UnsafeList_1_t501C48EF6B212CE7B242B47AE1184A6DE456C629*)__this->___ListData_0;
+		NullCheck(L_5);
+		SendTarget_tAD1A6A2A5769AE7D57910A8DA4F258B09A45F653* L_6 = (SendTarget_tAD1A6A2A5769AE7D57910A8DA4F258B09A45F653*)L_5->___Ptr_0;
+		int32_t L_7 = V_0;
+		uint32_t L_8 = sizeof(SendTarget_tAD1A6A2A5769AE7D57910A8DA4F258B09A45F653);
+		V_1 = (void*)((SendTarget_tAD1A6A2A5769AE7D57910A8DA4F258B09A45F653*)il2cpp_codegen_add((intptr_t)L_6, ((int32_t)il2cpp_codegen_multiply(L_7, (int32_t)L_8))));
+		// UnsafeUtility.MemCpy(dst, ptr, count * sizeof(T));
+		void* L_9 = V_1;
+		void* L_10 = ___0_ptr;
+		int32_t L_11 = ___1_count;
+		uint32_t L_12 = sizeof(SendTarget_tAD1A6A2A5769AE7D57910A8DA4F258B09A45F653);
+		UnsafeUtility_MemCpy_m5CEA91ACDADC522E584AE3A2AB2B0B74393A9177(L_9, L_10, ((int64_t)((int32_t)il2cpp_codegen_multiply(L_11, (int32_t)L_12))), NULL);
+		// }
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m20A5D19363865D6DBB8E2C0635509DC99935DC07_AdjustorThunk (RuntimeObject* __this, void* ___0_ptr, int32_t ___1_count, const RuntimeMethod* method)
+{
+	ParallelWriter_tEFE3618DE0C507FD34664ECC5492F65E1CDDC870* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ParallelWriter_tEFE3618DE0C507FD34664ECC5492F65E1CDDC870*>(__this + _offset);
+	ParallelWriter_AddRangeNoResize_m20A5D19363865D6DBB8E2C0635509DC99935DC07(_thisAdjusted, ___0_ptr, ___1_count, method);
+}
+// System.Void Unity.Collections.LowLevel.Unsafe.UnsafeList`1/ParallelWriter<Unity.Netcode.Transports.UTP.UnityTransport/SendTarget>::AddRangeNoResize(Unity.Collections.LowLevel.Unsafe.UnsafeList`1<T>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelWriter_AddRangeNoResize_m345DAEC1F531F7A149FFAAD2881675E6DDD8FBBA_gshared (ParallelWriter_tEFE3618DE0C507FD34664ECC5492F65E1CDDC870* __this, UnsafeList_1_t501C48EF6B212CE7B242B47AE1184A6DE456C629 ___0_list, const RuntimeMethod* method) 
+{
+	{
+		// AddRangeNoResize(list.Ptr, list.Length);
+		UnsafeList_1_t501C48EF6B212CE7B242B47AE1184A6DE456C629 L_0 = ___0_list;
+		SendTarget_tAD1A6A2A5769AE7D57910A8DA4F258B09A45F653* L_1 = (SendTarget_tAD1A6A2A5769AE7D57910A8DA4F258B09A45F653*)L_0.___Ptr_0;
+		int32_t L_2;
+		L_2 = UnsafeList_1_get_Length_m2F177C7B16B6042B9DF810502FC00872341DE721((&___0_list), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 2));
+		ParallelWriter_AddRangeNoResize_m20A5D19363865D6DBB8E2C0635509DC99935DC07(__this, (void*)L_1, L_2, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3));
+		// }
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void ParallelWriter_AddRangeNoResize_m345DAEC1F531F7A149FFAAD2881675E6DDD8FBBA_AdjustorThunk (RuntimeObject* __this, UnsafeList_1_t501C48EF6B212CE7B242B47AE1184A6DE456C629 ___0_list, const RuntimeMethod* method)
+{
+	ParallelWriter_tEFE3618DE0C507FD34664ECC5492F65E1CDDC870* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ParallelWriter_tEFE3618DE0C507FD34664ECC5492F65E1CDDC870*>(__this + _offset);
+	ParallelWriter_AddRangeNoResize_m345DAEC1F531F7A149FFAAD2881675E6DDD8FBBA(_thisAdjusted, ___0_list, method);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Int32 Unity.Collections.NativeHashMap`2/ParallelWriter<Unity.Collections.FixedString64Bytes,System.Int32>::get_m_ThreadIndex()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ParallelWriter_get_m_ThreadIndex_m61F2B3EB50CBDB571DA16B356A44076D49855ED4_gshared (ParallelWriter_t04EEB5F9B9077D32CA102FF43469F846B24C56F4* __this, const RuntimeMethod* method) 
+{
+	{
+		// public int m_ThreadIndex => m_Writer.m_ThreadIndex;
+		ParallelWriter_t88FEDD92B5A8F69BFCB0A3972B37F97109EF5AD7* L_0 = (ParallelWriter_t88FEDD92B5A8F69BFCB0A3972B37F97109EF5AD7*)(&__this->___m_Writer_0);
+		int32_t L_1 = (int32_t)L_0->___m_ThreadIndex_1;
+		return L_1;
+	}
+}
+IL2CPP_EXTERN_C  int32_t ParallelWriter_get_m_ThreadIndex_m61F2B3EB50CBDB571DA16B356A44076D49855ED4_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	ParallelWriter_t04EEB5F9B9077D32CA102FF43469F846B24C56F4* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ParallelWriter_t04EEB5F9B9077D32CA102FF43469F846B24C56F4*>(__this + _offset);
+	int32_t _returnValue;
+	_returnValue = ParallelWriter_get_m_ThreadIndex_m61F2B3EB50CBDB571DA16B356A44076D49855ED4(_thisAdjusted, method);
+	return _returnValue;
+}
+// System.Int32 Unity.Collections.NativeHashMap`2/ParallelWriter<Unity.Collections.FixedString64Bytes,System.Int32>::get_Capacity()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ParallelWriter_get_Capacity_mCF2167349AEB692C6DFB0FE5B1CD7CFC54B30DAE_gshared (ParallelWriter_t04EEB5F9B9077D32CA102FF43469F846B24C56F4* __this, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	{
+		// return m_Writer.Capacity;
+		ParallelWriter_t88FEDD92B5A8F69BFCB0A3972B37F97109EF5AD7* L_0 = (ParallelWriter_t88FEDD92B5A8F69BFCB0A3972B37F97109EF5AD7*)(&__this->___m_Writer_0);
+		int32_t L_1;
+		L_1 = ParallelWriter_get_Capacity_m605703BB1142619C3121938C3CEC2E0C34C9AD37(L_0, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 0));
+		V_0 = L_1;
+		goto IL_000f;
+	}
+
+IL_000f:
+	{
+		// }
+		int32_t L_2 = V_0;
+		return L_2;
+	}
+}
+IL2CPP_EXTERN_C  int32_t ParallelWriter_get_Capacity_mCF2167349AEB692C6DFB0FE5B1CD7CFC54B30DAE_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	ParallelWriter_t04EEB5F9B9077D32CA102FF43469F846B24C56F4* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ParallelWriter_t04EEB5F9B9077D32CA102FF43469F846B24C56F4*>(__this + _offset);
+	int32_t _returnValue;
+	_returnValue = ParallelWriter_get_Capacity_mCF2167349AEB692C6DFB0FE5B1CD7CFC54B30DAE(_thisAdjusted, method);
+	return _returnValue;
+}
+// System.Boolean Unity.Collections.NativeHashMap`2/ParallelWriter<Unity.Collections.FixedString64Bytes,System.Int32>::TryAdd(TKey,TValue)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ParallelWriter_TryAdd_mF640E005523841CBF7457C9F331DF232DFEA20A9_gshared (ParallelWriter_t04EEB5F9B9077D32CA102FF43469F846B24C56F4* __this, FixedString64Bytes_t0F1B6FFAFD8C15898CD77D91A79AB36AA078E0A5 ___0_key, int32_t ___1_item, const RuntimeMethod* method) 
+{
+	bool V_0 = false;
+	{
+		// return m_Writer.TryAdd(key, item);
+		ParallelWriter_t88FEDD92B5A8F69BFCB0A3972B37F97109EF5AD7* L_0 = (ParallelWriter_t88FEDD92B5A8F69BFCB0A3972B37F97109EF5AD7*)(&__this->___m_Writer_0);
+		FixedString64Bytes_t0F1B6FFAFD8C15898CD77D91A79AB36AA078E0A5 L_1 = ___0_key;
+		int32_t L_2 = ___1_item;
+		bool L_3;
+		L_3 = ParallelWriter_TryAdd_m3A206C2949FDEEFBAFAF53C8466AE3EBEA0B5D34(L_0, L_1, L_2, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 1));
+		V_0 = L_3;
+		goto IL_0011;
+	}
+
+IL_0011:
+	{
+		// }
+		bool L_4 = V_0;
+		return L_4;
+	}
+}
+IL2CPP_EXTERN_C  bool ParallelWriter_TryAdd_mF640E005523841CBF7457C9F331DF232DFEA20A9_AdjustorThunk (RuntimeObject* __this, FixedString64Bytes_t0F1B6FFAFD8C15898CD77D91A79AB36AA078E0A5 ___0_key, int32_t ___1_item, const RuntimeMethod* method)
+{
+	ParallelWriter_t04EEB5F9B9077D32CA102FF43469F846B24C56F4* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<ParallelWriter_t04EEB5F9B9077D32CA102FF43469F846B24C56F4*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = ParallelWriter_TryAdd_mF640E005523841CBF7457C9F331DF232DFEA20A9(_thisAdjusted, ___0_key, ___1_item, method);
+	return _returnValue;
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -34487,1665 +38785,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Queue_1_ThrowForEmptyQueue_m79CDC02B1681
 		NullCheck(L_0);
 		InvalidOperationException__ctor_mE4CB6F4712AB6D99A2358FBAE2E052B3EE976162(L_0, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral1102619AA6FB2A4AADBDAA47DDC096AE04C772C0)), NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Queue_1_ThrowForEmptyQueue_m79CDC02B168158EA24B805B9CB987F18C37638EA_RuntimeMethod_var)));
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void System.Collections.Generic.Queue`1<Unity.Netcode.ReleasedNetworkId>::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Queue_1__ctor_mE1AFF3E3C820601DEF43A7B14AB2A9F25BC23C93_gshared (Queue_1_tD0B32970076D62B677279D96972006677EEE25A7* __this, const RuntimeMethod* method) 
-{
-	{
-		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2((RuntimeObject*)__this, NULL);
-		ReleasedNetworkIdU5BU5D_t52D25C7546481273DC02D6EA1296FB2E1D76F6DD* L_0;
-		L_0 = ((  ReleasedNetworkIdU5BU5D_t52D25C7546481273DC02D6EA1296FB2E1D76F6DD* (*) (const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 0)))(il2cpp_rgctx_method(method->klass->rgctx_data, 0));
-		__this->____array_0 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->____array_0), (void*)L_0);
-		return;
-	}
-}
-// System.Void System.Collections.Generic.Queue`1<Unity.Netcode.ReleasedNetworkId>::.ctor(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Queue_1__ctor_m14AA54830ECCA863716D82DBE65BED968A7B0042_gshared (Queue_1_tD0B32970076D62B677279D96972006677EEE25A7* __this, int32_t ___0_capacity, const RuntimeMethod* method) 
-{
-	{
-		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2((RuntimeObject*)__this, NULL);
-		int32_t L_0 = ___0_capacity;
-		if ((((int32_t)L_0) >= ((int32_t)0)))
-		{
-			goto IL_0020;
-		}
-	}
-	{
-		int32_t L_1 = ___0_capacity;
-		int32_t L_2 = L_1;
-		RuntimeObject* L_3 = Box(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var)), &L_2);
-		ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F* L_4 = (ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F_il2cpp_TypeInfo_var)));
-		NullCheck(L_4);
-		ArgumentOutOfRangeException__ctor_m60B543A63AC8692C28096003FBF2AD124B9D5B85(L_4, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralC37D78082ACFC8DEE7B32D9351C6E433A074FEC7)), L_3, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral38E3DBC7FC353425EF3A98DC8DAC6689AF5FD1BE)), NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_4, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Queue_1__ctor_m14AA54830ECCA863716D82DBE65BED968A7B0042_RuntimeMethod_var)));
-	}
-
-IL_0020:
-	{
-		int32_t L_5 = ___0_capacity;
-		ReleasedNetworkIdU5BU5D_t52D25C7546481273DC02D6EA1296FB2E1D76F6DD* L_6 = (ReleasedNetworkIdU5BU5D_t52D25C7546481273DC02D6EA1296FB2E1D76F6DD*)(ReleasedNetworkIdU5BU5D_t52D25C7546481273DC02D6EA1296FB2E1D76F6DD*)SZArrayNew(il2cpp_rgctx_data(method->klass->rgctx_data, 1), (uint32_t)L_5);
-		__this->____array_0 = L_6;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->____array_0), (void*)L_6);
-		return;
-	}
-}
-// System.Void System.Collections.Generic.Queue`1<Unity.Netcode.ReleasedNetworkId>::.ctor(System.Collections.Generic.IEnumerable`1<T>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Queue_1__ctor_m8CADA3C00B12572400174949D4F271FB93149C5F_gshared (Queue_1_tD0B32970076D62B677279D96972006677EEE25A7* __this, RuntimeObject* ___0_collection, const RuntimeMethod* method) 
-{
-	{
-		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2((RuntimeObject*)__this, NULL);
-		RuntimeObject* L_0 = ___0_collection;
-		if (L_0)
-		{
-			goto IL_0014;
-		}
-	}
-	{
-		ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129* L_1 = (ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129_il2cpp_TypeInfo_var)));
-		NullCheck(L_1);
-		ArgumentNullException__ctor_m444AE141157E333844FC1A9500224C2F9FD24F4B(L_1, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral469F05BE9BB4C7903C353D0EB9F6384C84A48B25)), NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Queue_1__ctor_m8CADA3C00B12572400174949D4F271FB93149C5F_RuntimeMethod_var)));
-	}
-
-IL_0014:
-	{
-		RuntimeObject* L_2 = ___0_collection;
-		int32_t* L_3 = (int32_t*)(&__this->____size_3);
-		ReleasedNetworkIdU5BU5D_t52D25C7546481273DC02D6EA1296FB2E1D76F6DD* L_4;
-		L_4 = ((  ReleasedNetworkIdU5BU5D_t52D25C7546481273DC02D6EA1296FB2E1D76F6DD* (*) (RuntimeObject*, int32_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 2)))(L_2, L_3, il2cpp_rgctx_method(method->klass->rgctx_data, 2));
-		__this->____array_0 = L_4;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->____array_0), (void*)L_4);
-		int32_t L_5 = (int32_t)__this->____size_3;
-		ReleasedNetworkIdU5BU5D_t52D25C7546481273DC02D6EA1296FB2E1D76F6DD* L_6 = (ReleasedNetworkIdU5BU5D_t52D25C7546481273DC02D6EA1296FB2E1D76F6DD*)__this->____array_0;
-		NullCheck(L_6);
-		if ((((int32_t)L_5) == ((int32_t)((int32_t)(((RuntimeArray*)L_6)->max_length)))))
-		{
-			goto IL_0042;
-		}
-	}
-	{
-		int32_t L_7 = (int32_t)__this->____size_3;
-		__this->____tail_2 = L_7;
-	}
-
-IL_0042:
-	{
-		return;
-	}
-}
-// System.Int32 System.Collections.Generic.Queue`1<Unity.Netcode.ReleasedNetworkId>::get_Count()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Queue_1_get_Count_mFA37E372491D7707F0AB7B12FC6DB7CC89E450E5_gshared (Queue_1_tD0B32970076D62B677279D96972006677EEE25A7* __this, const RuntimeMethod* method) 
-{
-	{
-		int32_t L_0 = (int32_t)__this->____size_3;
-		return L_0;
-	}
-}
-// System.Boolean System.Collections.Generic.Queue`1<Unity.Netcode.ReleasedNetworkId>::System.Collections.ICollection.get_IsSynchronized()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Queue_1_System_Collections_ICollection_get_IsSynchronized_mD813B73EA92D56A0CCE0439FC919CBA840616EC9_gshared (Queue_1_tD0B32970076D62B677279D96972006677EEE25A7* __this, const RuntimeMethod* method) 
-{
-	{
-		return (bool)0;
-	}
-}
-// System.Object System.Collections.Generic.Queue`1<Unity.Netcode.ReleasedNetworkId>::System.Collections.ICollection.get_SyncRoot()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Queue_1_System_Collections_ICollection_get_SyncRoot_mB9C7EC9BDA650EF6CA41D55346189D6104C91C53_gshared (Queue_1_tD0B32970076D62B677279D96972006677EEE25A7* __this, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RuntimeObject_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		RuntimeObject* L_0 = (RuntimeObject*)__this->____syncRoot_5;
-		if (L_0)
-		{
-			goto IL_001a;
-		}
-	}
-	{
-		RuntimeObject** L_1 = (RuntimeObject**)(&__this->____syncRoot_5);
-		RuntimeObject* L_2 = (RuntimeObject*)il2cpp_codegen_object_new(RuntimeObject_il2cpp_TypeInfo_var);
-		NullCheck(L_2);
-		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(L_2, NULL);
-		RuntimeObject* L_3;
-		L_3 = InterlockedCompareExchangeImpl<RuntimeObject*>(L_1, L_2, NULL);
-	}
-
-IL_001a:
-	{
-		RuntimeObject* L_4 = (RuntimeObject*)__this->____syncRoot_5;
-		return L_4;
-	}
-}
-// System.Void System.Collections.Generic.Queue`1<Unity.Netcode.ReleasedNetworkId>::Clear()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Queue_1_Clear_m1F3F38403A7BC77F640BAE9EDE23908E62DF5AC5_gshared (Queue_1_tD0B32970076D62B677279D96972006677EEE25A7* __this, const RuntimeMethod* method) 
-{
-	{
-		int32_t L_0 = (int32_t)__this->____size_3;
-		if (!L_0)
-		{
-			goto IL_006f;
-		}
-	}
-	{
-		if (!false)
-		{
-			goto IL_0068;
-		}
-	}
-	{
-		int32_t L_1 = (int32_t)__this->____head_1;
-		int32_t L_2 = (int32_t)__this->____tail_2;
-		if ((((int32_t)L_1) >= ((int32_t)L_2)))
-		{
-			goto IL_0036;
-		}
-	}
-	{
-		ReleasedNetworkIdU5BU5D_t52D25C7546481273DC02D6EA1296FB2E1D76F6DD* L_3 = (ReleasedNetworkIdU5BU5D_t52D25C7546481273DC02D6EA1296FB2E1D76F6DD*)__this->____array_0;
-		int32_t L_4 = (int32_t)__this->____head_1;
-		int32_t L_5 = (int32_t)__this->____size_3;
-		Array_Clear_m50BAA3751899858B097D3FF2ED31F284703FE5CB((RuntimeArray*)L_3, L_4, L_5, NULL);
-		goto IL_0068;
-	}
-
-IL_0036:
-	{
-		ReleasedNetworkIdU5BU5D_t52D25C7546481273DC02D6EA1296FB2E1D76F6DD* L_6 = (ReleasedNetworkIdU5BU5D_t52D25C7546481273DC02D6EA1296FB2E1D76F6DD*)__this->____array_0;
-		int32_t L_7 = (int32_t)__this->____head_1;
-		ReleasedNetworkIdU5BU5D_t52D25C7546481273DC02D6EA1296FB2E1D76F6DD* L_8 = (ReleasedNetworkIdU5BU5D_t52D25C7546481273DC02D6EA1296FB2E1D76F6DD*)__this->____array_0;
-		NullCheck(L_8);
-		int32_t L_9 = (int32_t)__this->____head_1;
-		Array_Clear_m50BAA3751899858B097D3FF2ED31F284703FE5CB((RuntimeArray*)L_6, L_7, ((int32_t)il2cpp_codegen_subtract(((int32_t)(((RuntimeArray*)L_8)->max_length)), L_9)), NULL);
-		ReleasedNetworkIdU5BU5D_t52D25C7546481273DC02D6EA1296FB2E1D76F6DD* L_10 = (ReleasedNetworkIdU5BU5D_t52D25C7546481273DC02D6EA1296FB2E1D76F6DD*)__this->____array_0;
-		int32_t L_11 = (int32_t)__this->____tail_2;
-		Array_Clear_m50BAA3751899858B097D3FF2ED31F284703FE5CB((RuntimeArray*)L_10, 0, L_11, NULL);
-	}
-
-IL_0068:
-	{
-		__this->____size_3 = 0;
-	}
-
-IL_006f:
-	{
-		__this->____head_1 = 0;
-		__this->____tail_2 = 0;
-		int32_t L_12 = (int32_t)__this->____version_4;
-		__this->____version_4 = ((int32_t)il2cpp_codegen_add(L_12, 1));
-		return;
-	}
-}
-// System.Void System.Collections.Generic.Queue`1<Unity.Netcode.ReleasedNetworkId>::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Queue_1_System_Collections_ICollection_CopyTo_m572DC5F181C946D6260596572A6EC32582C4B7DA_gshared (Queue_1_tD0B32970076D62B677279D96972006677EEE25A7* __this, RuntimeArray* ___0_array, int32_t ___1_index, const RuntimeMethod* method) 
-{
-	int32_t V_0 = 0;
-	int32_t V_1 = 0;
-	int32_t V_2 = 0;
-	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
-	int32_t G_B17_0 = 0;
-	{
-		RuntimeArray* L_0 = ___0_array;
-		if (L_0)
-		{
-			goto IL_000e;
-		}
-	}
-	{
-		ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129* L_1 = (ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129_il2cpp_TypeInfo_var)));
-		NullCheck(L_1);
-		ArgumentNullException__ctor_m444AE141157E333844FC1A9500224C2F9FD24F4B(L_1, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralB829404B947F7E1629A30B5E953A49EB21CCD2ED)), NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Queue_1_System_Collections_ICollection_CopyTo_m572DC5F181C946D6260596572A6EC32582C4B7DA_RuntimeMethod_var)));
-	}
-
-IL_000e:
-	{
-		RuntimeArray* L_2 = ___0_array;
-		NullCheck(L_2);
-		int32_t L_3;
-		L_3 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(L_2, NULL);
-		if ((((int32_t)L_3) == ((int32_t)1)))
-		{
-			goto IL_0027;
-		}
-	}
-	{
-		ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263* L_4 = (ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263_il2cpp_TypeInfo_var)));
-		NullCheck(L_4);
-		ArgumentException__ctor_m8F9D40CE19D19B698A70F9A258640EB52DB39B62(L_4, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral967D403A541A1026A83D548E5AD5CA800AD4EFB5)), ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralB829404B947F7E1629A30B5E953A49EB21CCD2ED)), NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_4, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Queue_1_System_Collections_ICollection_CopyTo_m572DC5F181C946D6260596572A6EC32582C4B7DA_RuntimeMethod_var)));
-	}
-
-IL_0027:
-	{
-		RuntimeArray* L_5 = ___0_array;
-		NullCheck(L_5);
-		int32_t L_6;
-		L_6 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(L_5, 0, NULL);
-		if (!L_6)
-		{
-			goto IL_0040;
-		}
-	}
-	{
-		ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263* L_7 = (ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263_il2cpp_TypeInfo_var)));
-		NullCheck(L_7);
-		ArgumentException__ctor_m8F9D40CE19D19B698A70F9A258640EB52DB39B62(L_7, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral6195D7DA68D16D4985AD1A1B4FD2841A43CDDE70)), ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralB829404B947F7E1629A30B5E953A49EB21CCD2ED)), NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_7, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Queue_1_System_Collections_ICollection_CopyTo_m572DC5F181C946D6260596572A6EC32582C4B7DA_RuntimeMethod_var)));
-	}
-
-IL_0040:
-	{
-		RuntimeArray* L_8 = ___0_array;
-		NullCheck(L_8);
-		int32_t L_9;
-		L_9 = Array_get_Length_m361285FB7CF44045DC369834D1CD01F72F94EF57(L_8, NULL);
-		V_0 = L_9;
-		int32_t L_10 = ___1_index;
-		if ((((int32_t)L_10) < ((int32_t)0)))
-		{
-			goto IL_004f;
-		}
-	}
-	{
-		int32_t L_11 = ___1_index;
-		int32_t L_12 = V_0;
-		if ((((int32_t)L_11) <= ((int32_t)L_12)))
-		{
-			goto IL_0065;
-		}
-	}
-
-IL_004f:
-	{
-		int32_t L_13 = ___1_index;
-		int32_t L_14 = L_13;
-		RuntimeObject* L_15 = Box(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var)), &L_14);
-		ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F* L_16 = (ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F_il2cpp_TypeInfo_var)));
-		NullCheck(L_16);
-		ArgumentOutOfRangeException__ctor_m60B543A63AC8692C28096003FBF2AD124B9D5B85(L_16, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral2B6D6F48C27C60C3B55391AB377D9DC8F5639AA1)), L_15, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral569FEAE6AEE421BCD8D24F22865E84F808C2A1E4)), NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_16, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Queue_1_System_Collections_ICollection_CopyTo_m572DC5F181C946D6260596572A6EC32582C4B7DA_RuntimeMethod_var)));
-	}
-
-IL_0065:
-	{
-		int32_t L_17 = V_0;
-		int32_t L_18 = ___1_index;
-		int32_t L_19 = (int32_t)__this->____size_3;
-		if ((((int32_t)((int32_t)il2cpp_codegen_subtract(L_17, L_18))) >= ((int32_t)L_19)))
-		{
-			goto IL_007b;
-		}
-	}
-	{
-		ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263* L_20 = (ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263_il2cpp_TypeInfo_var)));
-		NullCheck(L_20);
-		ArgumentException__ctor_m026938A67AF9D36BB7ED27F80425D7194B514465(L_20, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral7F4C724BD10943E8B0B17A6E069F992E219EF5E8)), NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_20, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Queue_1_System_Collections_ICollection_CopyTo_m572DC5F181C946D6260596572A6EC32582C4B7DA_RuntimeMethod_var)));
-	}
-
-IL_007b:
-	{
-		int32_t L_21 = (int32_t)__this->____size_3;
-		V_1 = L_21;
-		int32_t L_22 = V_1;
-		if (L_22)
-		{
-			goto IL_0086;
-		}
-	}
-	{
-		return;
-	}
-
-IL_0086:
-	{
-	}
-	try
-	{// begin try (depth: 1)
-		{
-			ReleasedNetworkIdU5BU5D_t52D25C7546481273DC02D6EA1296FB2E1D76F6DD* L_23 = (ReleasedNetworkIdU5BU5D_t52D25C7546481273DC02D6EA1296FB2E1D76F6DD*)__this->____array_0;
-			NullCheck(L_23);
-			int32_t L_24 = (int32_t)__this->____head_1;
-			int32_t L_25 = V_1;
-			if ((((int32_t)((int32_t)il2cpp_codegen_subtract(((int32_t)(((RuntimeArray*)L_23)->max_length)), L_24))) < ((int32_t)L_25)))
-			{
-				goto IL_009c_1;
-			}
-		}
-		{
-			int32_t L_26 = V_1;
-			G_B17_0 = L_26;
-			goto IL_00ab_1;
-		}
-
-IL_009c_1:
-		{
-			ReleasedNetworkIdU5BU5D_t52D25C7546481273DC02D6EA1296FB2E1D76F6DD* L_27 = (ReleasedNetworkIdU5BU5D_t52D25C7546481273DC02D6EA1296FB2E1D76F6DD*)__this->____array_0;
-			NullCheck(L_27);
-			int32_t L_28 = (int32_t)__this->____head_1;
-			G_B17_0 = ((int32_t)il2cpp_codegen_subtract(((int32_t)(((RuntimeArray*)L_27)->max_length)), L_28));
-		}
-
-IL_00ab_1:
-		{
-			V_2 = G_B17_0;
-			ReleasedNetworkIdU5BU5D_t52D25C7546481273DC02D6EA1296FB2E1D76F6DD* L_29 = (ReleasedNetworkIdU5BU5D_t52D25C7546481273DC02D6EA1296FB2E1D76F6DD*)__this->____array_0;
-			int32_t L_30 = (int32_t)__this->____head_1;
-			RuntimeArray* L_31 = ___0_array;
-			int32_t L_32 = ___1_index;
-			int32_t L_33 = V_2;
-			Array_Copy_mB4904E17BD92E320613A3251C0205E0786B3BF41((RuntimeArray*)L_29, L_30, L_31, L_32, L_33, NULL);
-			int32_t L_34 = V_1;
-			int32_t L_35 = V_2;
-			V_1 = ((int32_t)il2cpp_codegen_subtract(L_34, L_35));
-			int32_t L_36 = V_1;
-			if ((((int32_t)L_36) <= ((int32_t)0)))
-			{
-				goto IL_00e7_1;
-			}
-		}
-		{
-			ReleasedNetworkIdU5BU5D_t52D25C7546481273DC02D6EA1296FB2E1D76F6DD* L_37 = (ReleasedNetworkIdU5BU5D_t52D25C7546481273DC02D6EA1296FB2E1D76F6DD*)__this->____array_0;
-			RuntimeArray* L_38 = ___0_array;
-			int32_t L_39 = ___1_index;
-			ReleasedNetworkIdU5BU5D_t52D25C7546481273DC02D6EA1296FB2E1D76F6DD* L_40 = (ReleasedNetworkIdU5BU5D_t52D25C7546481273DC02D6EA1296FB2E1D76F6DD*)__this->____array_0;
-			NullCheck(L_40);
-			int32_t L_41 = (int32_t)__this->____head_1;
-			int32_t L_42 = V_1;
-			Array_Copy_mB4904E17BD92E320613A3251C0205E0786B3BF41((RuntimeArray*)L_37, 0, L_38, ((int32_t)il2cpp_codegen_subtract(((int32_t)il2cpp_codegen_add(L_39, ((int32_t)(((RuntimeArray*)L_40)->max_length)))), L_41)), L_42, NULL);
-		}
-
-IL_00e7_1:
-		{
-			goto IL_00fa;
-		}
-	}// end try (depth: 1)
-	catch(Il2CppExceptionWrapper& e)
-	{
-		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArrayTypeMismatchException_t95F1723A5A166E62D3FBEF9734DEFBF61594F8F1_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
-		{
-			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
-			goto CATCH_00e9;
-		}
-		throw e;
-	}
-
-CATCH_00e9:
-	{// begin catch(System.ArrayTypeMismatchException)
-		ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263* L_43 = (ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263_il2cpp_TypeInfo_var)));
-		NullCheck(L_43);
-		ArgumentException__ctor_m8F9D40CE19D19B698A70F9A258640EB52DB39B62(L_43, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralBD0381A992FDF4F7DA60E5D83689FE7FF6309CB8)), ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralB829404B947F7E1629A30B5E953A49EB21CCD2ED)), NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_43, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Queue_1_System_Collections_ICollection_CopyTo_m572DC5F181C946D6260596572A6EC32582C4B7DA_RuntimeMethod_var)));
-	}// end catch (depth: 1)
-
-IL_00fa:
-	{
-		return;
-	}
-}
-// System.Void System.Collections.Generic.Queue`1<Unity.Netcode.ReleasedNetworkId>::Enqueue(T)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Queue_1_Enqueue_mD8CBB5BC67B2A236934331543F328326A68F173D_gshared (Queue_1_tD0B32970076D62B677279D96972006677EEE25A7* __this, ReleasedNetworkId_t7D3158E07773C6B85BCBAA69507DC8BEB8547414 ___0_item, const RuntimeMethod* method) 
-{
-	int32_t V_0 = 0;
-	{
-		int32_t L_0 = (int32_t)__this->____size_3;
-		ReleasedNetworkIdU5BU5D_t52D25C7546481273DC02D6EA1296FB2E1D76F6DD* L_1 = (ReleasedNetworkIdU5BU5D_t52D25C7546481273DC02D6EA1296FB2E1D76F6DD*)__this->____array_0;
-		NullCheck(L_1);
-		if ((!(((uint32_t)L_0) == ((uint32_t)((int32_t)(((RuntimeArray*)L_1)->max_length))))))
-		{
-			goto IL_0045;
-		}
-	}
-	{
-		ReleasedNetworkIdU5BU5D_t52D25C7546481273DC02D6EA1296FB2E1D76F6DD* L_2 = (ReleasedNetworkIdU5BU5D_t52D25C7546481273DC02D6EA1296FB2E1D76F6DD*)__this->____array_0;
-		NullCheck(L_2);
-		V_0 = ((int32_t)((int64_t)(((int64_t)il2cpp_codegen_multiply(((int64_t)((int32_t)(((RuntimeArray*)L_2)->max_length))), ((int64_t)((int32_t)200))))/((int64_t)((int32_t)100)))));
-		int32_t L_3 = V_0;
-		ReleasedNetworkIdU5BU5D_t52D25C7546481273DC02D6EA1296FB2E1D76F6DD* L_4 = (ReleasedNetworkIdU5BU5D_t52D25C7546481273DC02D6EA1296FB2E1D76F6DD*)__this->____array_0;
-		NullCheck(L_4);
-		if ((((int32_t)L_3) >= ((int32_t)((int32_t)il2cpp_codegen_add(((int32_t)(((RuntimeArray*)L_4)->max_length)), 4)))))
-		{
-			goto IL_003e;
-		}
-	}
-	{
-		ReleasedNetworkIdU5BU5D_t52D25C7546481273DC02D6EA1296FB2E1D76F6DD* L_5 = (ReleasedNetworkIdU5BU5D_t52D25C7546481273DC02D6EA1296FB2E1D76F6DD*)__this->____array_0;
-		NullCheck(L_5);
-		V_0 = ((int32_t)il2cpp_codegen_add(((int32_t)(((RuntimeArray*)L_5)->max_length)), 4));
-	}
-
-IL_003e:
-	{
-		int32_t L_6 = V_0;
-		((  void (*) (Queue_1_tD0B32970076D62B677279D96972006677EEE25A7*, int32_t, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 3)))(__this, L_6, il2cpp_rgctx_method(method->klass->rgctx_data, 3));
-	}
-
-IL_0045:
-	{
-		ReleasedNetworkIdU5BU5D_t52D25C7546481273DC02D6EA1296FB2E1D76F6DD* L_7 = (ReleasedNetworkIdU5BU5D_t52D25C7546481273DC02D6EA1296FB2E1D76F6DD*)__this->____array_0;
-		int32_t L_8 = (int32_t)__this->____tail_2;
-		ReleasedNetworkId_t7D3158E07773C6B85BCBAA69507DC8BEB8547414 L_9 = ___0_item;
-		NullCheck(L_7);
-		(L_7)->SetAt(static_cast<il2cpp_array_size_t>(L_8), (ReleasedNetworkId_t7D3158E07773C6B85BCBAA69507DC8BEB8547414)L_9);
-		int32_t* L_10 = (int32_t*)(&__this->____tail_2);
-		((  void (*) (Queue_1_tD0B32970076D62B677279D96972006677EEE25A7*, int32_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 4)))(__this, L_10, il2cpp_rgctx_method(method->klass->rgctx_data, 4));
-		int32_t L_11 = (int32_t)__this->____size_3;
-		__this->____size_3 = ((int32_t)il2cpp_codegen_add(L_11, 1));
-		int32_t L_12 = (int32_t)__this->____version_4;
-		__this->____version_4 = ((int32_t)il2cpp_codegen_add(L_12, 1));
-		return;
-	}
-}
-// System.Collections.Generic.Queue`1/Enumerator<T> System.Collections.Generic.Queue`1<Unity.Netcode.ReleasedNetworkId>::GetEnumerator()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Enumerator_t3C2A019B409CEB54CD6349665DC33F8292D54B5E Queue_1_GetEnumerator_mD97FDCABE51A072CBA92A4C685384B6C7FCBCB83_gshared (Queue_1_tD0B32970076D62B677279D96972006677EEE25A7* __this, const RuntimeMethod* method) 
-{
-	{
-		Enumerator_t3C2A019B409CEB54CD6349665DC33F8292D54B5E L_0;
-		memset((&L_0), 0, sizeof(L_0));
-		Enumerator__ctor_mAA1563AC35863C47BF0DBEC8488C885194583349((&L_0), __this, /*hidden argument*/il2cpp_rgctx_method(method->klass->rgctx_data, 6));
-		return L_0;
-	}
-}
-// System.Collections.Generic.IEnumerator`1<T> System.Collections.Generic.Queue`1<Unity.Netcode.ReleasedNetworkId>::System.Collections.Generic.IEnumerable<T>.GetEnumerator()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Queue_1_System_Collections_Generic_IEnumerableU3CTU3E_GetEnumerator_m0A98A9237B960312132C56D37A16173405D9E1D4_gshared (Queue_1_tD0B32970076D62B677279D96972006677EEE25A7* __this, const RuntimeMethod* method) 
-{
-	{
-		Enumerator_t3C2A019B409CEB54CD6349665DC33F8292D54B5E L_0;
-		memset((&L_0), 0, sizeof(L_0));
-		Enumerator__ctor_mAA1563AC35863C47BF0DBEC8488C885194583349((&L_0), __this, /*hidden argument*/il2cpp_rgctx_method(method->klass->rgctx_data, 6));
-		Enumerator_t3C2A019B409CEB54CD6349665DC33F8292D54B5E L_1 = L_0;
-		RuntimeObject* L_2 = Box(il2cpp_rgctx_data(method->klass->rgctx_data, 5), &L_1);
-		return (RuntimeObject*)L_2;
-	}
-}
-// System.Collections.IEnumerator System.Collections.Generic.Queue`1<Unity.Netcode.ReleasedNetworkId>::System.Collections.IEnumerable.GetEnumerator()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Queue_1_System_Collections_IEnumerable_GetEnumerator_mCA36B2ACD17EC33A59AECCAD508234BA7206B233_gshared (Queue_1_tD0B32970076D62B677279D96972006677EEE25A7* __this, const RuntimeMethod* method) 
-{
-	{
-		Enumerator_t3C2A019B409CEB54CD6349665DC33F8292D54B5E L_0;
-		memset((&L_0), 0, sizeof(L_0));
-		Enumerator__ctor_mAA1563AC35863C47BF0DBEC8488C885194583349((&L_0), __this, /*hidden argument*/il2cpp_rgctx_method(method->klass->rgctx_data, 6));
-		Enumerator_t3C2A019B409CEB54CD6349665DC33F8292D54B5E L_1 = L_0;
-		RuntimeObject* L_2 = Box(il2cpp_rgctx_data(method->klass->rgctx_data, 5), &L_1);
-		return (RuntimeObject*)L_2;
-	}
-}
-// T System.Collections.Generic.Queue`1<Unity.Netcode.ReleasedNetworkId>::Dequeue()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ReleasedNetworkId_t7D3158E07773C6B85BCBAA69507DC8BEB8547414 Queue_1_Dequeue_m931411ACDA25E4DCD31031FAA4DCED9417E46591_gshared (Queue_1_tD0B32970076D62B677279D96972006677EEE25A7* __this, const RuntimeMethod* method) 
-{
-	int32_t V_0 = 0;
-	ReleasedNetworkIdU5BU5D_t52D25C7546481273DC02D6EA1296FB2E1D76F6DD* V_1 = NULL;
-	ReleasedNetworkId_t7D3158E07773C6B85BCBAA69507DC8BEB8547414 V_2;
-	memset((&V_2), 0, sizeof(V_2));
-	ReleasedNetworkId_t7D3158E07773C6B85BCBAA69507DC8BEB8547414 G_B4_0;
-	memset((&G_B4_0), 0, sizeof(G_B4_0));
-	ReleasedNetworkId_t7D3158E07773C6B85BCBAA69507DC8BEB8547414 G_B3_0;
-	memset((&G_B3_0), 0, sizeof(G_B3_0));
-	{
-		int32_t L_0 = (int32_t)__this->____head_1;
-		V_0 = L_0;
-		ReleasedNetworkIdU5BU5D_t52D25C7546481273DC02D6EA1296FB2E1D76F6DD* L_1 = (ReleasedNetworkIdU5BU5D_t52D25C7546481273DC02D6EA1296FB2E1D76F6DD*)__this->____array_0;
-		V_1 = L_1;
-		int32_t L_2 = (int32_t)__this->____size_3;
-		if (L_2)
-		{
-			goto IL_001c;
-		}
-	}
-	{
-		((  void (*) (Queue_1_tD0B32970076D62B677279D96972006677EEE25A7*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 7)))(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 7));
-	}
-
-IL_001c:
-	{
-		ReleasedNetworkIdU5BU5D_t52D25C7546481273DC02D6EA1296FB2E1D76F6DD* L_3 = V_1;
-		int32_t L_4 = V_0;
-		NullCheck(L_3);
-		int32_t L_5 = L_4;
-		ReleasedNetworkId_t7D3158E07773C6B85BCBAA69507DC8BEB8547414 L_6 = (L_3)->GetAt(static_cast<il2cpp_array_size_t>(L_5));
-		G_B3_0 = L_6;
-		if (!false)
-		{
-			G_B4_0 = L_6;
-			goto IL_003a;
-		}
-	}
-	{
-		ReleasedNetworkIdU5BU5D_t52D25C7546481273DC02D6EA1296FB2E1D76F6DD* L_7 = V_1;
-		int32_t L_8 = V_0;
-		il2cpp_codegen_initobj((&V_2), sizeof(ReleasedNetworkId_t7D3158E07773C6B85BCBAA69507DC8BEB8547414));
-		ReleasedNetworkId_t7D3158E07773C6B85BCBAA69507DC8BEB8547414 L_9 = V_2;
-		NullCheck(L_7);
-		(L_7)->SetAt(static_cast<il2cpp_array_size_t>(L_8), (ReleasedNetworkId_t7D3158E07773C6B85BCBAA69507DC8BEB8547414)L_9);
-		G_B4_0 = G_B3_0;
-	}
-
-IL_003a:
-	{
-		int32_t* L_10 = (int32_t*)(&__this->____head_1);
-		((  void (*) (Queue_1_tD0B32970076D62B677279D96972006677EEE25A7*, int32_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 4)))(__this, L_10, il2cpp_rgctx_method(method->klass->rgctx_data, 4));
-		int32_t L_11 = (int32_t)__this->____size_3;
-		__this->____size_3 = ((int32_t)il2cpp_codegen_subtract(L_11, 1));
-		int32_t L_12 = (int32_t)__this->____version_4;
-		__this->____version_4 = ((int32_t)il2cpp_codegen_add(L_12, 1));
-		return G_B4_0;
-	}
-}
-// T System.Collections.Generic.Queue`1<Unity.Netcode.ReleasedNetworkId>::Peek()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ReleasedNetworkId_t7D3158E07773C6B85BCBAA69507DC8BEB8547414 Queue_1_Peek_m49D4CA1B34422D452511F1A2231416B13A9342E7_gshared (Queue_1_tD0B32970076D62B677279D96972006677EEE25A7* __this, const RuntimeMethod* method) 
-{
-	{
-		int32_t L_0 = (int32_t)__this->____size_3;
-		if (L_0)
-		{
-			goto IL_000e;
-		}
-	}
-	{
-		((  void (*) (Queue_1_tD0B32970076D62B677279D96972006677EEE25A7*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 7)))(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 7));
-	}
-
-IL_000e:
-	{
-		ReleasedNetworkIdU5BU5D_t52D25C7546481273DC02D6EA1296FB2E1D76F6DD* L_1 = (ReleasedNetworkIdU5BU5D_t52D25C7546481273DC02D6EA1296FB2E1D76F6DD*)__this->____array_0;
-		int32_t L_2 = (int32_t)__this->____head_1;
-		NullCheck(L_1);
-		int32_t L_3 = L_2;
-		ReleasedNetworkId_t7D3158E07773C6B85BCBAA69507DC8BEB8547414 L_4 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
-		return L_4;
-	}
-}
-// System.Boolean System.Collections.Generic.Queue`1<Unity.Netcode.ReleasedNetworkId>::Contains(T)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Queue_1_Contains_mD86DF5F59FB0EF0538841620D928F6B5F2C931E0_gshared (Queue_1_tD0B32970076D62B677279D96972006677EEE25A7* __this, ReleasedNetworkId_t7D3158E07773C6B85BCBAA69507DC8BEB8547414 ___0_item, const RuntimeMethod* method) 
-{
-	{
-		int32_t L_0 = (int32_t)__this->____size_3;
-		if (L_0)
-		{
-			goto IL_000a;
-		}
-	}
-	{
-		return (bool)0;
-	}
-
-IL_000a:
-	{
-		int32_t L_1 = (int32_t)__this->____head_1;
-		int32_t L_2 = (int32_t)__this->____tail_2;
-		if ((((int32_t)L_1) >= ((int32_t)L_2)))
-		{
-			goto IL_0037;
-		}
-	}
-	{
-		ReleasedNetworkIdU5BU5D_t52D25C7546481273DC02D6EA1296FB2E1D76F6DD* L_3 = (ReleasedNetworkIdU5BU5D_t52D25C7546481273DC02D6EA1296FB2E1D76F6DD*)__this->____array_0;
-		ReleasedNetworkId_t7D3158E07773C6B85BCBAA69507DC8BEB8547414 L_4 = ___0_item;
-		int32_t L_5 = (int32_t)__this->____head_1;
-		int32_t L_6 = (int32_t)__this->____size_3;
-		int32_t L_7;
-		L_7 = ((  int32_t (*) (ReleasedNetworkIdU5BU5D_t52D25C7546481273DC02D6EA1296FB2E1D76F6DD*, ReleasedNetworkId_t7D3158E07773C6B85BCBAA69507DC8BEB8547414, int32_t, int32_t, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 8)))(L_3, L_4, L_5, L_6, il2cpp_rgctx_method(method->klass->rgctx_data, 8));
-		return (bool)((((int32_t)((((int32_t)L_7) < ((int32_t)0))? 1 : 0)) == ((int32_t)0))? 1 : 0);
-	}
-
-IL_0037:
-	{
-		ReleasedNetworkIdU5BU5D_t52D25C7546481273DC02D6EA1296FB2E1D76F6DD* L_8 = (ReleasedNetworkIdU5BU5D_t52D25C7546481273DC02D6EA1296FB2E1D76F6DD*)__this->____array_0;
-		ReleasedNetworkId_t7D3158E07773C6B85BCBAA69507DC8BEB8547414 L_9 = ___0_item;
-		int32_t L_10 = (int32_t)__this->____head_1;
-		ReleasedNetworkIdU5BU5D_t52D25C7546481273DC02D6EA1296FB2E1D76F6DD* L_11 = (ReleasedNetworkIdU5BU5D_t52D25C7546481273DC02D6EA1296FB2E1D76F6DD*)__this->____array_0;
-		NullCheck(L_11);
-		int32_t L_12 = (int32_t)__this->____head_1;
-		int32_t L_13;
-		L_13 = ((  int32_t (*) (ReleasedNetworkIdU5BU5D_t52D25C7546481273DC02D6EA1296FB2E1D76F6DD*, ReleasedNetworkId_t7D3158E07773C6B85BCBAA69507DC8BEB8547414, int32_t, int32_t, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 8)))(L_8, L_9, L_10, ((int32_t)il2cpp_codegen_subtract(((int32_t)(((RuntimeArray*)L_11)->max_length)), L_12)), il2cpp_rgctx_method(method->klass->rgctx_data, 8));
-		if ((((int32_t)L_13) >= ((int32_t)0)))
-		{
-			goto IL_0075;
-		}
-	}
-	{
-		ReleasedNetworkIdU5BU5D_t52D25C7546481273DC02D6EA1296FB2E1D76F6DD* L_14 = (ReleasedNetworkIdU5BU5D_t52D25C7546481273DC02D6EA1296FB2E1D76F6DD*)__this->____array_0;
-		ReleasedNetworkId_t7D3158E07773C6B85BCBAA69507DC8BEB8547414 L_15 = ___0_item;
-		int32_t L_16 = (int32_t)__this->____tail_2;
-		int32_t L_17;
-		L_17 = ((  int32_t (*) (ReleasedNetworkIdU5BU5D_t52D25C7546481273DC02D6EA1296FB2E1D76F6DD*, ReleasedNetworkId_t7D3158E07773C6B85BCBAA69507DC8BEB8547414, int32_t, int32_t, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 8)))(L_14, L_15, 0, L_16, il2cpp_rgctx_method(method->klass->rgctx_data, 8));
-		return (bool)((((int32_t)((((int32_t)L_17) < ((int32_t)0))? 1 : 0)) == ((int32_t)0))? 1 : 0);
-	}
-
-IL_0075:
-	{
-		return (bool)1;
-	}
-}
-// T[] System.Collections.Generic.Queue`1<Unity.Netcode.ReleasedNetworkId>::ToArray()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ReleasedNetworkIdU5BU5D_t52D25C7546481273DC02D6EA1296FB2E1D76F6DD* Queue_1_ToArray_m41816019D9784ACF17B974BB1491A346E780F4D1_gshared (Queue_1_tD0B32970076D62B677279D96972006677EEE25A7* __this, const RuntimeMethod* method) 
-{
-	ReleasedNetworkIdU5BU5D_t52D25C7546481273DC02D6EA1296FB2E1D76F6DD* V_0 = NULL;
-	{
-		int32_t L_0 = (int32_t)__this->____size_3;
-		if (L_0)
-		{
-			goto IL_000e;
-		}
-	}
-	{
-		ReleasedNetworkIdU5BU5D_t52D25C7546481273DC02D6EA1296FB2E1D76F6DD* L_1;
-		L_1 = ((  ReleasedNetworkIdU5BU5D_t52D25C7546481273DC02D6EA1296FB2E1D76F6DD* (*) (const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 0)))(il2cpp_rgctx_method(method->klass->rgctx_data, 0));
-		return L_1;
-	}
-
-IL_000e:
-	{
-		int32_t L_2 = (int32_t)__this->____size_3;
-		ReleasedNetworkIdU5BU5D_t52D25C7546481273DC02D6EA1296FB2E1D76F6DD* L_3 = (ReleasedNetworkIdU5BU5D_t52D25C7546481273DC02D6EA1296FB2E1D76F6DD*)(ReleasedNetworkIdU5BU5D_t52D25C7546481273DC02D6EA1296FB2E1D76F6DD*)SZArrayNew(il2cpp_rgctx_data(method->klass->rgctx_data, 1), (uint32_t)L_2);
-		V_0 = L_3;
-		int32_t L_4 = (int32_t)__this->____head_1;
-		int32_t L_5 = (int32_t)__this->____tail_2;
-		if ((((int32_t)L_4) >= ((int32_t)L_5)))
-		{
-			goto IL_0043;
-		}
-	}
-	{
-		ReleasedNetworkIdU5BU5D_t52D25C7546481273DC02D6EA1296FB2E1D76F6DD* L_6 = (ReleasedNetworkIdU5BU5D_t52D25C7546481273DC02D6EA1296FB2E1D76F6DD*)__this->____array_0;
-		int32_t L_7 = (int32_t)__this->____head_1;
-		ReleasedNetworkIdU5BU5D_t52D25C7546481273DC02D6EA1296FB2E1D76F6DD* L_8 = V_0;
-		int32_t L_9 = (int32_t)__this->____size_3;
-		Array_Copy_mB4904E17BD92E320613A3251C0205E0786B3BF41((RuntimeArray*)L_6, L_7, (RuntimeArray*)L_8, 0, L_9, NULL);
-		goto IL_0087;
-	}
-
-IL_0043:
-	{
-		ReleasedNetworkIdU5BU5D_t52D25C7546481273DC02D6EA1296FB2E1D76F6DD* L_10 = (ReleasedNetworkIdU5BU5D_t52D25C7546481273DC02D6EA1296FB2E1D76F6DD*)__this->____array_0;
-		int32_t L_11 = (int32_t)__this->____head_1;
-		ReleasedNetworkIdU5BU5D_t52D25C7546481273DC02D6EA1296FB2E1D76F6DD* L_12 = V_0;
-		ReleasedNetworkIdU5BU5D_t52D25C7546481273DC02D6EA1296FB2E1D76F6DD* L_13 = (ReleasedNetworkIdU5BU5D_t52D25C7546481273DC02D6EA1296FB2E1D76F6DD*)__this->____array_0;
-		NullCheck(L_13);
-		int32_t L_14 = (int32_t)__this->____head_1;
-		Array_Copy_mB4904E17BD92E320613A3251C0205E0786B3BF41((RuntimeArray*)L_10, L_11, (RuntimeArray*)L_12, 0, ((int32_t)il2cpp_codegen_subtract(((int32_t)(((RuntimeArray*)L_13)->max_length)), L_14)), NULL);
-		ReleasedNetworkIdU5BU5D_t52D25C7546481273DC02D6EA1296FB2E1D76F6DD* L_15 = (ReleasedNetworkIdU5BU5D_t52D25C7546481273DC02D6EA1296FB2E1D76F6DD*)__this->____array_0;
-		ReleasedNetworkIdU5BU5D_t52D25C7546481273DC02D6EA1296FB2E1D76F6DD* L_16 = V_0;
-		ReleasedNetworkIdU5BU5D_t52D25C7546481273DC02D6EA1296FB2E1D76F6DD* L_17 = (ReleasedNetworkIdU5BU5D_t52D25C7546481273DC02D6EA1296FB2E1D76F6DD*)__this->____array_0;
-		NullCheck(L_17);
-		int32_t L_18 = (int32_t)__this->____head_1;
-		int32_t L_19 = (int32_t)__this->____tail_2;
-		Array_Copy_mB4904E17BD92E320613A3251C0205E0786B3BF41((RuntimeArray*)L_15, 0, (RuntimeArray*)L_16, ((int32_t)il2cpp_codegen_subtract(((int32_t)(((RuntimeArray*)L_17)->max_length)), L_18)), L_19, NULL);
-	}
-
-IL_0087:
-	{
-		ReleasedNetworkIdU5BU5D_t52D25C7546481273DC02D6EA1296FB2E1D76F6DD* L_20 = V_0;
-		return L_20;
-	}
-}
-// System.Void System.Collections.Generic.Queue`1<Unity.Netcode.ReleasedNetworkId>::SetCapacity(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Queue_1_SetCapacity_m3467F9A6920A051D04F6292058931130EC22D639_gshared (Queue_1_tD0B32970076D62B677279D96972006677EEE25A7* __this, int32_t ___0_capacity, const RuntimeMethod* method) 
-{
-	ReleasedNetworkIdU5BU5D_t52D25C7546481273DC02D6EA1296FB2E1D76F6DD* V_0 = NULL;
-	Queue_1_tD0B32970076D62B677279D96972006677EEE25A7* G_B6_0 = NULL;
-	Queue_1_tD0B32970076D62B677279D96972006677EEE25A7* G_B5_0 = NULL;
-	int32_t G_B7_0 = 0;
-	Queue_1_tD0B32970076D62B677279D96972006677EEE25A7* G_B7_1 = NULL;
-	{
-		int32_t L_0 = ___0_capacity;
-		ReleasedNetworkIdU5BU5D_t52D25C7546481273DC02D6EA1296FB2E1D76F6DD* L_1 = (ReleasedNetworkIdU5BU5D_t52D25C7546481273DC02D6EA1296FB2E1D76F6DD*)(ReleasedNetworkIdU5BU5D_t52D25C7546481273DC02D6EA1296FB2E1D76F6DD*)SZArrayNew(il2cpp_rgctx_data(method->klass->rgctx_data, 1), (uint32_t)L_0);
-		V_0 = L_1;
-		int32_t L_2 = (int32_t)__this->____size_3;
-		if ((((int32_t)L_2) <= ((int32_t)0)))
-		{
-			goto IL_007d;
-		}
-	}
-	{
-		int32_t L_3 = (int32_t)__this->____head_1;
-		int32_t L_4 = (int32_t)__this->____tail_2;
-		if ((((int32_t)L_3) >= ((int32_t)L_4)))
-		{
-			goto IL_0039;
-		}
-	}
-	{
-		ReleasedNetworkIdU5BU5D_t52D25C7546481273DC02D6EA1296FB2E1D76F6DD* L_5 = (ReleasedNetworkIdU5BU5D_t52D25C7546481273DC02D6EA1296FB2E1D76F6DD*)__this->____array_0;
-		int32_t L_6 = (int32_t)__this->____head_1;
-		ReleasedNetworkIdU5BU5D_t52D25C7546481273DC02D6EA1296FB2E1D76F6DD* L_7 = V_0;
-		int32_t L_8 = (int32_t)__this->____size_3;
-		Array_Copy_mB4904E17BD92E320613A3251C0205E0786B3BF41((RuntimeArray*)L_5, L_6, (RuntimeArray*)L_7, 0, L_8, NULL);
-		goto IL_007d;
-	}
-
-IL_0039:
-	{
-		ReleasedNetworkIdU5BU5D_t52D25C7546481273DC02D6EA1296FB2E1D76F6DD* L_9 = (ReleasedNetworkIdU5BU5D_t52D25C7546481273DC02D6EA1296FB2E1D76F6DD*)__this->____array_0;
-		int32_t L_10 = (int32_t)__this->____head_1;
-		ReleasedNetworkIdU5BU5D_t52D25C7546481273DC02D6EA1296FB2E1D76F6DD* L_11 = V_0;
-		ReleasedNetworkIdU5BU5D_t52D25C7546481273DC02D6EA1296FB2E1D76F6DD* L_12 = (ReleasedNetworkIdU5BU5D_t52D25C7546481273DC02D6EA1296FB2E1D76F6DD*)__this->____array_0;
-		NullCheck(L_12);
-		int32_t L_13 = (int32_t)__this->____head_1;
-		Array_Copy_mB4904E17BD92E320613A3251C0205E0786B3BF41((RuntimeArray*)L_9, L_10, (RuntimeArray*)L_11, 0, ((int32_t)il2cpp_codegen_subtract(((int32_t)(((RuntimeArray*)L_12)->max_length)), L_13)), NULL);
-		ReleasedNetworkIdU5BU5D_t52D25C7546481273DC02D6EA1296FB2E1D76F6DD* L_14 = (ReleasedNetworkIdU5BU5D_t52D25C7546481273DC02D6EA1296FB2E1D76F6DD*)__this->____array_0;
-		ReleasedNetworkIdU5BU5D_t52D25C7546481273DC02D6EA1296FB2E1D76F6DD* L_15 = V_0;
-		ReleasedNetworkIdU5BU5D_t52D25C7546481273DC02D6EA1296FB2E1D76F6DD* L_16 = (ReleasedNetworkIdU5BU5D_t52D25C7546481273DC02D6EA1296FB2E1D76F6DD*)__this->____array_0;
-		NullCheck(L_16);
-		int32_t L_17 = (int32_t)__this->____head_1;
-		int32_t L_18 = (int32_t)__this->____tail_2;
-		Array_Copy_mB4904E17BD92E320613A3251C0205E0786B3BF41((RuntimeArray*)L_14, 0, (RuntimeArray*)L_15, ((int32_t)il2cpp_codegen_subtract(((int32_t)(((RuntimeArray*)L_16)->max_length)), L_17)), L_18, NULL);
-	}
-
-IL_007d:
-	{
-		ReleasedNetworkIdU5BU5D_t52D25C7546481273DC02D6EA1296FB2E1D76F6DD* L_19 = V_0;
-		__this->____array_0 = L_19;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->____array_0), (void*)L_19);
-		__this->____head_1 = 0;
-		int32_t L_20 = (int32_t)__this->____size_3;
-		int32_t L_21 = ___0_capacity;
-		G_B5_0 = __this;
-		if ((((int32_t)L_20) == ((int32_t)L_21)))
-		{
-			G_B6_0 = __this;
-			goto IL_009d;
-		}
-	}
-	{
-		int32_t L_22 = (int32_t)__this->____size_3;
-		G_B7_0 = L_22;
-		G_B7_1 = G_B5_0;
-		goto IL_009e;
-	}
-
-IL_009d:
-	{
-		G_B7_0 = 0;
-		G_B7_1 = G_B6_0;
-	}
-
-IL_009e:
-	{
-		NullCheck(G_B7_1);
-		G_B7_1->____tail_2 = G_B7_0;
-		int32_t L_23 = (int32_t)__this->____version_4;
-		__this->____version_4 = ((int32_t)il2cpp_codegen_add(L_23, 1));
-		return;
-	}
-}
-// System.Void System.Collections.Generic.Queue`1<Unity.Netcode.ReleasedNetworkId>::MoveNext(System.Int32&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Queue_1_MoveNext_m4511A831104E6BDA2AAA941F897646E41F1240D6_gshared (Queue_1_tD0B32970076D62B677279D96972006677EEE25A7* __this, int32_t* ___0_index, const RuntimeMethod* method) 
-{
-	int32_t V_0 = 0;
-	{
-		int32_t* L_0 = ___0_index;
-		int32_t L_1 = *((int32_t*)L_0);
-		V_0 = ((int32_t)il2cpp_codegen_add(L_1, 1));
-		int32_t L_2 = V_0;
-		ReleasedNetworkIdU5BU5D_t52D25C7546481273DC02D6EA1296FB2E1D76F6DD* L_3 = (ReleasedNetworkIdU5BU5D_t52D25C7546481273DC02D6EA1296FB2E1D76F6DD*)__this->____array_0;
-		NullCheck(L_3);
-		if ((!(((uint32_t)L_2) == ((uint32_t)((int32_t)(((RuntimeArray*)L_3)->max_length))))))
-		{
-			goto IL_0012;
-		}
-	}
-	{
-		V_0 = 0;
-	}
-
-IL_0012:
-	{
-		int32_t* L_4 = ___0_index;
-		int32_t L_5 = V_0;
-		*((int32_t*)L_4) = (int32_t)L_5;
-		return;
-	}
-}
-// System.Void System.Collections.Generic.Queue`1<Unity.Netcode.ReleasedNetworkId>::ThrowForEmptyQueue()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Queue_1_ThrowForEmptyQueue_m3E1E3A8D5B45A051842B75BE822847FE8320A26F_gshared (Queue_1_tD0B32970076D62B677279D96972006677EEE25A7* __this, const RuntimeMethod* method) 
-{
-	{
-		InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB* L_0 = (InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB_il2cpp_TypeInfo_var)));
-		NullCheck(L_0);
-		InvalidOperationException__ctor_mE4CB6F4712AB6D99A2358FBAE2E052B3EE976162(L_0, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral1102619AA6FB2A4AADBDAA47DDC096AE04C772C0)), NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Queue_1_ThrowForEmptyQueue_m3E1E3A8D5B45A051842B75BE822847FE8320A26F_RuntimeMethod_var)));
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void System.Collections.Generic.Queue`1<System.UInt32>::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Queue_1__ctor_m55FB0BDDDBD29B76BE8E6E743B21DD26D6E4F4E4_gshared (Queue_1_tA93BCCFDEFF25FCF9C491D240D49B2B8B9C37850* __this, const RuntimeMethod* method) 
-{
-	{
-		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2((RuntimeObject*)__this, NULL);
-		UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* L_0;
-		L_0 = ((  UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* (*) (const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 0)))(il2cpp_rgctx_method(method->klass->rgctx_data, 0));
-		__this->____array_0 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->____array_0), (void*)L_0);
-		return;
-	}
-}
-// System.Void System.Collections.Generic.Queue`1<System.UInt32>::.ctor(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Queue_1__ctor_m8FDD9C089831C7940194DA60CA2E1969FEFF9DB4_gshared (Queue_1_tA93BCCFDEFF25FCF9C491D240D49B2B8B9C37850* __this, int32_t ___0_capacity, const RuntimeMethod* method) 
-{
-	{
-		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2((RuntimeObject*)__this, NULL);
-		int32_t L_0 = ___0_capacity;
-		if ((((int32_t)L_0) >= ((int32_t)0)))
-		{
-			goto IL_0020;
-		}
-	}
-	{
-		int32_t L_1 = ___0_capacity;
-		int32_t L_2 = L_1;
-		RuntimeObject* L_3 = Box(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var)), &L_2);
-		ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F* L_4 = (ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F_il2cpp_TypeInfo_var)));
-		NullCheck(L_4);
-		ArgumentOutOfRangeException__ctor_m60B543A63AC8692C28096003FBF2AD124B9D5B85(L_4, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralC37D78082ACFC8DEE7B32D9351C6E433A074FEC7)), L_3, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral38E3DBC7FC353425EF3A98DC8DAC6689AF5FD1BE)), NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_4, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Queue_1__ctor_m8FDD9C089831C7940194DA60CA2E1969FEFF9DB4_RuntimeMethod_var)));
-	}
-
-IL_0020:
-	{
-		int32_t L_5 = ___0_capacity;
-		UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* L_6 = (UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA*)(UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA*)SZArrayNew(il2cpp_rgctx_data(method->klass->rgctx_data, 1), (uint32_t)L_5);
-		__this->____array_0 = L_6;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->____array_0), (void*)L_6);
-		return;
-	}
-}
-// System.Void System.Collections.Generic.Queue`1<System.UInt32>::.ctor(System.Collections.Generic.IEnumerable`1<T>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Queue_1__ctor_m3DA078D58BF2E40F3254871DE5313FD31671B90C_gshared (Queue_1_tA93BCCFDEFF25FCF9C491D240D49B2B8B9C37850* __this, RuntimeObject* ___0_collection, const RuntimeMethod* method) 
-{
-	{
-		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2((RuntimeObject*)__this, NULL);
-		RuntimeObject* L_0 = ___0_collection;
-		if (L_0)
-		{
-			goto IL_0014;
-		}
-	}
-	{
-		ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129* L_1 = (ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129_il2cpp_TypeInfo_var)));
-		NullCheck(L_1);
-		ArgumentNullException__ctor_m444AE141157E333844FC1A9500224C2F9FD24F4B(L_1, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral469F05BE9BB4C7903C353D0EB9F6384C84A48B25)), NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Queue_1__ctor_m3DA078D58BF2E40F3254871DE5313FD31671B90C_RuntimeMethod_var)));
-	}
-
-IL_0014:
-	{
-		RuntimeObject* L_2 = ___0_collection;
-		int32_t* L_3 = (int32_t*)(&__this->____size_3);
-		UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* L_4;
-		L_4 = ((  UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* (*) (RuntimeObject*, int32_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 2)))(L_2, L_3, il2cpp_rgctx_method(method->klass->rgctx_data, 2));
-		__this->____array_0 = L_4;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->____array_0), (void*)L_4);
-		int32_t L_5 = (int32_t)__this->____size_3;
-		UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* L_6 = (UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA*)__this->____array_0;
-		NullCheck(L_6);
-		if ((((int32_t)L_5) == ((int32_t)((int32_t)(((RuntimeArray*)L_6)->max_length)))))
-		{
-			goto IL_0042;
-		}
-	}
-	{
-		int32_t L_7 = (int32_t)__this->____size_3;
-		__this->____tail_2 = L_7;
-	}
-
-IL_0042:
-	{
-		return;
-	}
-}
-// System.Int32 System.Collections.Generic.Queue`1<System.UInt32>::get_Count()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Queue_1_get_Count_m90C602710FC9783B1D6DA988A2D291E592FBE2E6_gshared (Queue_1_tA93BCCFDEFF25FCF9C491D240D49B2B8B9C37850* __this, const RuntimeMethod* method) 
-{
-	{
-		int32_t L_0 = (int32_t)__this->____size_3;
-		return L_0;
-	}
-}
-// System.Boolean System.Collections.Generic.Queue`1<System.UInt32>::System.Collections.ICollection.get_IsSynchronized()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Queue_1_System_Collections_ICollection_get_IsSynchronized_m4C713F25BF26CF837B68E5ABA8175ACE1D896B61_gshared (Queue_1_tA93BCCFDEFF25FCF9C491D240D49B2B8B9C37850* __this, const RuntimeMethod* method) 
-{
-	{
-		return (bool)0;
-	}
-}
-// System.Object System.Collections.Generic.Queue`1<System.UInt32>::System.Collections.ICollection.get_SyncRoot()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Queue_1_System_Collections_ICollection_get_SyncRoot_m40784873FC736A5D8352DC2E76FC2DDC390070F6_gshared (Queue_1_tA93BCCFDEFF25FCF9C491D240D49B2B8B9C37850* __this, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RuntimeObject_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		RuntimeObject* L_0 = (RuntimeObject*)__this->____syncRoot_5;
-		if (L_0)
-		{
-			goto IL_001a;
-		}
-	}
-	{
-		RuntimeObject** L_1 = (RuntimeObject**)(&__this->____syncRoot_5);
-		RuntimeObject* L_2 = (RuntimeObject*)il2cpp_codegen_object_new(RuntimeObject_il2cpp_TypeInfo_var);
-		NullCheck(L_2);
-		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(L_2, NULL);
-		RuntimeObject* L_3;
-		L_3 = InterlockedCompareExchangeImpl<RuntimeObject*>(L_1, L_2, NULL);
-	}
-
-IL_001a:
-	{
-		RuntimeObject* L_4 = (RuntimeObject*)__this->____syncRoot_5;
-		return L_4;
-	}
-}
-// System.Void System.Collections.Generic.Queue`1<System.UInt32>::Clear()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Queue_1_Clear_m782A85157C5B67F4C19D851FF84FF5BCEB69978B_gshared (Queue_1_tA93BCCFDEFF25FCF9C491D240D49B2B8B9C37850* __this, const RuntimeMethod* method) 
-{
-	{
-		int32_t L_0 = (int32_t)__this->____size_3;
-		if (!L_0)
-		{
-			goto IL_006f;
-		}
-	}
-	{
-		if (!false)
-		{
-			goto IL_0068;
-		}
-	}
-	{
-		int32_t L_1 = (int32_t)__this->____head_1;
-		int32_t L_2 = (int32_t)__this->____tail_2;
-		if ((((int32_t)L_1) >= ((int32_t)L_2)))
-		{
-			goto IL_0036;
-		}
-	}
-	{
-		UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* L_3 = (UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA*)__this->____array_0;
-		int32_t L_4 = (int32_t)__this->____head_1;
-		int32_t L_5 = (int32_t)__this->____size_3;
-		Array_Clear_m50BAA3751899858B097D3FF2ED31F284703FE5CB((RuntimeArray*)L_3, L_4, L_5, NULL);
-		goto IL_0068;
-	}
-
-IL_0036:
-	{
-		UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* L_6 = (UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA*)__this->____array_0;
-		int32_t L_7 = (int32_t)__this->____head_1;
-		UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* L_8 = (UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA*)__this->____array_0;
-		NullCheck(L_8);
-		int32_t L_9 = (int32_t)__this->____head_1;
-		Array_Clear_m50BAA3751899858B097D3FF2ED31F284703FE5CB((RuntimeArray*)L_6, L_7, ((int32_t)il2cpp_codegen_subtract(((int32_t)(((RuntimeArray*)L_8)->max_length)), L_9)), NULL);
-		UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* L_10 = (UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA*)__this->____array_0;
-		int32_t L_11 = (int32_t)__this->____tail_2;
-		Array_Clear_m50BAA3751899858B097D3FF2ED31F284703FE5CB((RuntimeArray*)L_10, 0, L_11, NULL);
-	}
-
-IL_0068:
-	{
-		__this->____size_3 = 0;
-	}
-
-IL_006f:
-	{
-		__this->____head_1 = 0;
-		__this->____tail_2 = 0;
-		int32_t L_12 = (int32_t)__this->____version_4;
-		__this->____version_4 = ((int32_t)il2cpp_codegen_add(L_12, 1));
-		return;
-	}
-}
-// System.Void System.Collections.Generic.Queue`1<System.UInt32>::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Queue_1_System_Collections_ICollection_CopyTo_m1D3DF3EFD4164BD00A592079F5C2EC3A396DE35A_gshared (Queue_1_tA93BCCFDEFF25FCF9C491D240D49B2B8B9C37850* __this, RuntimeArray* ___0_array, int32_t ___1_index, const RuntimeMethod* method) 
-{
-	int32_t V_0 = 0;
-	int32_t V_1 = 0;
-	int32_t V_2 = 0;
-	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
-	int32_t G_B17_0 = 0;
-	{
-		RuntimeArray* L_0 = ___0_array;
-		if (L_0)
-		{
-			goto IL_000e;
-		}
-	}
-	{
-		ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129* L_1 = (ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129_il2cpp_TypeInfo_var)));
-		NullCheck(L_1);
-		ArgumentNullException__ctor_m444AE141157E333844FC1A9500224C2F9FD24F4B(L_1, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralB829404B947F7E1629A30B5E953A49EB21CCD2ED)), NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Queue_1_System_Collections_ICollection_CopyTo_m1D3DF3EFD4164BD00A592079F5C2EC3A396DE35A_RuntimeMethod_var)));
-	}
-
-IL_000e:
-	{
-		RuntimeArray* L_2 = ___0_array;
-		NullCheck(L_2);
-		int32_t L_3;
-		L_3 = Array_get_Rank_m9383A200A2ECC89ECA44FE5F812ECFB874449C5F(L_2, NULL);
-		if ((((int32_t)L_3) == ((int32_t)1)))
-		{
-			goto IL_0027;
-		}
-	}
-	{
-		ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263* L_4 = (ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263_il2cpp_TypeInfo_var)));
-		NullCheck(L_4);
-		ArgumentException__ctor_m8F9D40CE19D19B698A70F9A258640EB52DB39B62(L_4, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral967D403A541A1026A83D548E5AD5CA800AD4EFB5)), ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralB829404B947F7E1629A30B5E953A49EB21CCD2ED)), NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_4, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Queue_1_System_Collections_ICollection_CopyTo_m1D3DF3EFD4164BD00A592079F5C2EC3A396DE35A_RuntimeMethod_var)));
-	}
-
-IL_0027:
-	{
-		RuntimeArray* L_5 = ___0_array;
-		NullCheck(L_5);
-		int32_t L_6;
-		L_6 = Array_GetLowerBound_m4FB0601E2E8A6304A42E3FC400576DF7B0F084BC(L_5, 0, NULL);
-		if (!L_6)
-		{
-			goto IL_0040;
-		}
-	}
-	{
-		ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263* L_7 = (ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263_il2cpp_TypeInfo_var)));
-		NullCheck(L_7);
-		ArgumentException__ctor_m8F9D40CE19D19B698A70F9A258640EB52DB39B62(L_7, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral6195D7DA68D16D4985AD1A1B4FD2841A43CDDE70)), ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralB829404B947F7E1629A30B5E953A49EB21CCD2ED)), NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_7, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Queue_1_System_Collections_ICollection_CopyTo_m1D3DF3EFD4164BD00A592079F5C2EC3A396DE35A_RuntimeMethod_var)));
-	}
-
-IL_0040:
-	{
-		RuntimeArray* L_8 = ___0_array;
-		NullCheck(L_8);
-		int32_t L_9;
-		L_9 = Array_get_Length_m361285FB7CF44045DC369834D1CD01F72F94EF57(L_8, NULL);
-		V_0 = L_9;
-		int32_t L_10 = ___1_index;
-		if ((((int32_t)L_10) < ((int32_t)0)))
-		{
-			goto IL_004f;
-		}
-	}
-	{
-		int32_t L_11 = ___1_index;
-		int32_t L_12 = V_0;
-		if ((((int32_t)L_11) <= ((int32_t)L_12)))
-		{
-			goto IL_0065;
-		}
-	}
-
-IL_004f:
-	{
-		int32_t L_13 = ___1_index;
-		int32_t L_14 = L_13;
-		RuntimeObject* L_15 = Box(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var)), &L_14);
-		ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F* L_16 = (ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F_il2cpp_TypeInfo_var)));
-		NullCheck(L_16);
-		ArgumentOutOfRangeException__ctor_m60B543A63AC8692C28096003FBF2AD124B9D5B85(L_16, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral2B6D6F48C27C60C3B55391AB377D9DC8F5639AA1)), L_15, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral569FEAE6AEE421BCD8D24F22865E84F808C2A1E4)), NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_16, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Queue_1_System_Collections_ICollection_CopyTo_m1D3DF3EFD4164BD00A592079F5C2EC3A396DE35A_RuntimeMethod_var)));
-	}
-
-IL_0065:
-	{
-		int32_t L_17 = V_0;
-		int32_t L_18 = ___1_index;
-		int32_t L_19 = (int32_t)__this->____size_3;
-		if ((((int32_t)((int32_t)il2cpp_codegen_subtract(L_17, L_18))) >= ((int32_t)L_19)))
-		{
-			goto IL_007b;
-		}
-	}
-	{
-		ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263* L_20 = (ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263_il2cpp_TypeInfo_var)));
-		NullCheck(L_20);
-		ArgumentException__ctor_m026938A67AF9D36BB7ED27F80425D7194B514465(L_20, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral7F4C724BD10943E8B0B17A6E069F992E219EF5E8)), NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_20, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Queue_1_System_Collections_ICollection_CopyTo_m1D3DF3EFD4164BD00A592079F5C2EC3A396DE35A_RuntimeMethod_var)));
-	}
-
-IL_007b:
-	{
-		int32_t L_21 = (int32_t)__this->____size_3;
-		V_1 = L_21;
-		int32_t L_22 = V_1;
-		if (L_22)
-		{
-			goto IL_0086;
-		}
-	}
-	{
-		return;
-	}
-
-IL_0086:
-	{
-	}
-	try
-	{// begin try (depth: 1)
-		{
-			UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* L_23 = (UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA*)__this->____array_0;
-			NullCheck(L_23);
-			int32_t L_24 = (int32_t)__this->____head_1;
-			int32_t L_25 = V_1;
-			if ((((int32_t)((int32_t)il2cpp_codegen_subtract(((int32_t)(((RuntimeArray*)L_23)->max_length)), L_24))) < ((int32_t)L_25)))
-			{
-				goto IL_009c_1;
-			}
-		}
-		{
-			int32_t L_26 = V_1;
-			G_B17_0 = L_26;
-			goto IL_00ab_1;
-		}
-
-IL_009c_1:
-		{
-			UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* L_27 = (UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA*)__this->____array_0;
-			NullCheck(L_27);
-			int32_t L_28 = (int32_t)__this->____head_1;
-			G_B17_0 = ((int32_t)il2cpp_codegen_subtract(((int32_t)(((RuntimeArray*)L_27)->max_length)), L_28));
-		}
-
-IL_00ab_1:
-		{
-			V_2 = G_B17_0;
-			UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* L_29 = (UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA*)__this->____array_0;
-			int32_t L_30 = (int32_t)__this->____head_1;
-			RuntimeArray* L_31 = ___0_array;
-			int32_t L_32 = ___1_index;
-			int32_t L_33 = V_2;
-			Array_Copy_mB4904E17BD92E320613A3251C0205E0786B3BF41((RuntimeArray*)L_29, L_30, L_31, L_32, L_33, NULL);
-			int32_t L_34 = V_1;
-			int32_t L_35 = V_2;
-			V_1 = ((int32_t)il2cpp_codegen_subtract(L_34, L_35));
-			int32_t L_36 = V_1;
-			if ((((int32_t)L_36) <= ((int32_t)0)))
-			{
-				goto IL_00e7_1;
-			}
-		}
-		{
-			UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* L_37 = (UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA*)__this->____array_0;
-			RuntimeArray* L_38 = ___0_array;
-			int32_t L_39 = ___1_index;
-			UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* L_40 = (UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA*)__this->____array_0;
-			NullCheck(L_40);
-			int32_t L_41 = (int32_t)__this->____head_1;
-			int32_t L_42 = V_1;
-			Array_Copy_mB4904E17BD92E320613A3251C0205E0786B3BF41((RuntimeArray*)L_37, 0, L_38, ((int32_t)il2cpp_codegen_subtract(((int32_t)il2cpp_codegen_add(L_39, ((int32_t)(((RuntimeArray*)L_40)->max_length)))), L_41)), L_42, NULL);
-		}
-
-IL_00e7_1:
-		{
-			goto IL_00fa;
-		}
-	}// end try (depth: 1)
-	catch(Il2CppExceptionWrapper& e)
-	{
-		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArrayTypeMismatchException_t95F1723A5A166E62D3FBEF9734DEFBF61594F8F1_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
-		{
-			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
-			goto CATCH_00e9;
-		}
-		throw e;
-	}
-
-CATCH_00e9:
-	{// begin catch(System.ArrayTypeMismatchException)
-		ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263* L_43 = (ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263_il2cpp_TypeInfo_var)));
-		NullCheck(L_43);
-		ArgumentException__ctor_m8F9D40CE19D19B698A70F9A258640EB52DB39B62(L_43, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralBD0381A992FDF4F7DA60E5D83689FE7FF6309CB8)), ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralB829404B947F7E1629A30B5E953A49EB21CCD2ED)), NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_43, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Queue_1_System_Collections_ICollection_CopyTo_m1D3DF3EFD4164BD00A592079F5C2EC3A396DE35A_RuntimeMethod_var)));
-	}// end catch (depth: 1)
-
-IL_00fa:
-	{
-		return;
-	}
-}
-// System.Void System.Collections.Generic.Queue`1<System.UInt32>::Enqueue(T)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Queue_1_Enqueue_m51CF9D36A7BD34DFA8CF476CCF7B22E8A4E626C3_gshared (Queue_1_tA93BCCFDEFF25FCF9C491D240D49B2B8B9C37850* __this, uint32_t ___0_item, const RuntimeMethod* method) 
-{
-	int32_t V_0 = 0;
-	{
-		int32_t L_0 = (int32_t)__this->____size_3;
-		UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* L_1 = (UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA*)__this->____array_0;
-		NullCheck(L_1);
-		if ((!(((uint32_t)L_0) == ((uint32_t)((int32_t)(((RuntimeArray*)L_1)->max_length))))))
-		{
-			goto IL_0045;
-		}
-	}
-	{
-		UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* L_2 = (UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA*)__this->____array_0;
-		NullCheck(L_2);
-		V_0 = ((int32_t)((int64_t)(((int64_t)il2cpp_codegen_multiply(((int64_t)((int32_t)(((RuntimeArray*)L_2)->max_length))), ((int64_t)((int32_t)200))))/((int64_t)((int32_t)100)))));
-		int32_t L_3 = V_0;
-		UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* L_4 = (UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA*)__this->____array_0;
-		NullCheck(L_4);
-		if ((((int32_t)L_3) >= ((int32_t)((int32_t)il2cpp_codegen_add(((int32_t)(((RuntimeArray*)L_4)->max_length)), 4)))))
-		{
-			goto IL_003e;
-		}
-	}
-	{
-		UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* L_5 = (UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA*)__this->____array_0;
-		NullCheck(L_5);
-		V_0 = ((int32_t)il2cpp_codegen_add(((int32_t)(((RuntimeArray*)L_5)->max_length)), 4));
-	}
-
-IL_003e:
-	{
-		int32_t L_6 = V_0;
-		((  void (*) (Queue_1_tA93BCCFDEFF25FCF9C491D240D49B2B8B9C37850*, int32_t, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 3)))(__this, L_6, il2cpp_rgctx_method(method->klass->rgctx_data, 3));
-	}
-
-IL_0045:
-	{
-		UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* L_7 = (UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA*)__this->____array_0;
-		int32_t L_8 = (int32_t)__this->____tail_2;
-		uint32_t L_9 = ___0_item;
-		NullCheck(L_7);
-		(L_7)->SetAt(static_cast<il2cpp_array_size_t>(L_8), (uint32_t)L_9);
-		int32_t* L_10 = (int32_t*)(&__this->____tail_2);
-		((  void (*) (Queue_1_tA93BCCFDEFF25FCF9C491D240D49B2B8B9C37850*, int32_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 4)))(__this, L_10, il2cpp_rgctx_method(method->klass->rgctx_data, 4));
-		int32_t L_11 = (int32_t)__this->____size_3;
-		__this->____size_3 = ((int32_t)il2cpp_codegen_add(L_11, 1));
-		int32_t L_12 = (int32_t)__this->____version_4;
-		__this->____version_4 = ((int32_t)il2cpp_codegen_add(L_12, 1));
-		return;
-	}
-}
-// System.Collections.Generic.Queue`1/Enumerator<T> System.Collections.Generic.Queue`1<System.UInt32>::GetEnumerator()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Enumerator_t85344E4ACE131A91BC38A5761E3E64011789C891 Queue_1_GetEnumerator_m8B7B7C3BD711ABD06C5D30756D552489D173A7A7_gshared (Queue_1_tA93BCCFDEFF25FCF9C491D240D49B2B8B9C37850* __this, const RuntimeMethod* method) 
-{
-	{
-		Enumerator_t85344E4ACE131A91BC38A5761E3E64011789C891 L_0;
-		memset((&L_0), 0, sizeof(L_0));
-		Enumerator__ctor_m883CA17DC68406094FEFA9AAD8C40161CA35D1F3((&L_0), __this, /*hidden argument*/il2cpp_rgctx_method(method->klass->rgctx_data, 6));
-		return L_0;
-	}
-}
-// System.Collections.Generic.IEnumerator`1<T> System.Collections.Generic.Queue`1<System.UInt32>::System.Collections.Generic.IEnumerable<T>.GetEnumerator()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Queue_1_System_Collections_Generic_IEnumerableU3CTU3E_GetEnumerator_m5685E7A12DE80A72117F12A7887758E9C0B68788_gshared (Queue_1_tA93BCCFDEFF25FCF9C491D240D49B2B8B9C37850* __this, const RuntimeMethod* method) 
-{
-	{
-		Enumerator_t85344E4ACE131A91BC38A5761E3E64011789C891 L_0;
-		memset((&L_0), 0, sizeof(L_0));
-		Enumerator__ctor_m883CA17DC68406094FEFA9AAD8C40161CA35D1F3((&L_0), __this, /*hidden argument*/il2cpp_rgctx_method(method->klass->rgctx_data, 6));
-		Enumerator_t85344E4ACE131A91BC38A5761E3E64011789C891 L_1 = L_0;
-		RuntimeObject* L_2 = Box(il2cpp_rgctx_data(method->klass->rgctx_data, 5), &L_1);
-		return (RuntimeObject*)L_2;
-	}
-}
-// System.Collections.IEnumerator System.Collections.Generic.Queue`1<System.UInt32>::System.Collections.IEnumerable.GetEnumerator()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Queue_1_System_Collections_IEnumerable_GetEnumerator_m0FE44563F84F3DC68BA9D00F81D9F78E76F5C559_gshared (Queue_1_tA93BCCFDEFF25FCF9C491D240D49B2B8B9C37850* __this, const RuntimeMethod* method) 
-{
-	{
-		Enumerator_t85344E4ACE131A91BC38A5761E3E64011789C891 L_0;
-		memset((&L_0), 0, sizeof(L_0));
-		Enumerator__ctor_m883CA17DC68406094FEFA9AAD8C40161CA35D1F3((&L_0), __this, /*hidden argument*/il2cpp_rgctx_method(method->klass->rgctx_data, 6));
-		Enumerator_t85344E4ACE131A91BC38A5761E3E64011789C891 L_1 = L_0;
-		RuntimeObject* L_2 = Box(il2cpp_rgctx_data(method->klass->rgctx_data, 5), &L_1);
-		return (RuntimeObject*)L_2;
-	}
-}
-// T System.Collections.Generic.Queue`1<System.UInt32>::Dequeue()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t Queue_1_Dequeue_m8A2F84DC9CFD109881590CBFA0EC18DF2136C556_gshared (Queue_1_tA93BCCFDEFF25FCF9C491D240D49B2B8B9C37850* __this, const RuntimeMethod* method) 
-{
-	int32_t V_0 = 0;
-	UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* V_1 = NULL;
-	uint32_t V_2 = 0;
-	uint32_t G_B4_0 = 0;
-	uint32_t G_B3_0 = 0;
-	{
-		int32_t L_0 = (int32_t)__this->____head_1;
-		V_0 = L_0;
-		UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* L_1 = (UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA*)__this->____array_0;
-		V_1 = L_1;
-		int32_t L_2 = (int32_t)__this->____size_3;
-		if (L_2)
-		{
-			goto IL_001c;
-		}
-	}
-	{
-		((  void (*) (Queue_1_tA93BCCFDEFF25FCF9C491D240D49B2B8B9C37850*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 7)))(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 7));
-	}
-
-IL_001c:
-	{
-		UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* L_3 = V_1;
-		int32_t L_4 = V_0;
-		NullCheck(L_3);
-		int32_t L_5 = L_4;
-		uint32_t L_6 = (L_3)->GetAt(static_cast<il2cpp_array_size_t>(L_5));
-		G_B3_0 = L_6;
-		if (!false)
-		{
-			G_B4_0 = L_6;
-			goto IL_003a;
-		}
-	}
-	{
-		UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* L_7 = V_1;
-		int32_t L_8 = V_0;
-		il2cpp_codegen_initobj((&V_2), sizeof(uint32_t));
-		uint32_t L_9 = V_2;
-		NullCheck(L_7);
-		(L_7)->SetAt(static_cast<il2cpp_array_size_t>(L_8), (uint32_t)L_9);
-		G_B4_0 = G_B3_0;
-	}
-
-IL_003a:
-	{
-		int32_t* L_10 = (int32_t*)(&__this->____head_1);
-		((  void (*) (Queue_1_tA93BCCFDEFF25FCF9C491D240D49B2B8B9C37850*, int32_t*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 4)))(__this, L_10, il2cpp_rgctx_method(method->klass->rgctx_data, 4));
-		int32_t L_11 = (int32_t)__this->____size_3;
-		__this->____size_3 = ((int32_t)il2cpp_codegen_subtract(L_11, 1));
-		int32_t L_12 = (int32_t)__this->____version_4;
-		__this->____version_4 = ((int32_t)il2cpp_codegen_add(L_12, 1));
-		return G_B4_0;
-	}
-}
-// T System.Collections.Generic.Queue`1<System.UInt32>::Peek()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t Queue_1_Peek_m6F1B03E72E4E3D23CC965CE849A9D09ABFF616D8_gshared (Queue_1_tA93BCCFDEFF25FCF9C491D240D49B2B8B9C37850* __this, const RuntimeMethod* method) 
-{
-	{
-		int32_t L_0 = (int32_t)__this->____size_3;
-		if (L_0)
-		{
-			goto IL_000e;
-		}
-	}
-	{
-		((  void (*) (Queue_1_tA93BCCFDEFF25FCF9C491D240D49B2B8B9C37850*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 7)))(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 7));
-	}
-
-IL_000e:
-	{
-		UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* L_1 = (UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA*)__this->____array_0;
-		int32_t L_2 = (int32_t)__this->____head_1;
-		NullCheck(L_1);
-		int32_t L_3 = L_2;
-		uint32_t L_4 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
-		return L_4;
-	}
-}
-// System.Boolean System.Collections.Generic.Queue`1<System.UInt32>::Contains(T)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Queue_1_Contains_mD1D4688926A2E0D1CABBF2D24DEE9464BDAB2CDF_gshared (Queue_1_tA93BCCFDEFF25FCF9C491D240D49B2B8B9C37850* __this, uint32_t ___0_item, const RuntimeMethod* method) 
-{
-	{
-		int32_t L_0 = (int32_t)__this->____size_3;
-		if (L_0)
-		{
-			goto IL_000a;
-		}
-	}
-	{
-		return (bool)0;
-	}
-
-IL_000a:
-	{
-		int32_t L_1 = (int32_t)__this->____head_1;
-		int32_t L_2 = (int32_t)__this->____tail_2;
-		if ((((int32_t)L_1) >= ((int32_t)L_2)))
-		{
-			goto IL_0037;
-		}
-	}
-	{
-		UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* L_3 = (UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA*)__this->____array_0;
-		uint32_t L_4 = ___0_item;
-		int32_t L_5 = (int32_t)__this->____head_1;
-		int32_t L_6 = (int32_t)__this->____size_3;
-		int32_t L_7;
-		L_7 = ((  int32_t (*) (UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA*, uint32_t, int32_t, int32_t, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 8)))(L_3, L_4, L_5, L_6, il2cpp_rgctx_method(method->klass->rgctx_data, 8));
-		return (bool)((((int32_t)((((int32_t)L_7) < ((int32_t)0))? 1 : 0)) == ((int32_t)0))? 1 : 0);
-	}
-
-IL_0037:
-	{
-		UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* L_8 = (UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA*)__this->____array_0;
-		uint32_t L_9 = ___0_item;
-		int32_t L_10 = (int32_t)__this->____head_1;
-		UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* L_11 = (UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA*)__this->____array_0;
-		NullCheck(L_11);
-		int32_t L_12 = (int32_t)__this->____head_1;
-		int32_t L_13;
-		L_13 = ((  int32_t (*) (UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA*, uint32_t, int32_t, int32_t, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 8)))(L_8, L_9, L_10, ((int32_t)il2cpp_codegen_subtract(((int32_t)(((RuntimeArray*)L_11)->max_length)), L_12)), il2cpp_rgctx_method(method->klass->rgctx_data, 8));
-		if ((((int32_t)L_13) >= ((int32_t)0)))
-		{
-			goto IL_0075;
-		}
-	}
-	{
-		UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* L_14 = (UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA*)__this->____array_0;
-		uint32_t L_15 = ___0_item;
-		int32_t L_16 = (int32_t)__this->____tail_2;
-		int32_t L_17;
-		L_17 = ((  int32_t (*) (UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA*, uint32_t, int32_t, int32_t, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 8)))(L_14, L_15, 0, L_16, il2cpp_rgctx_method(method->klass->rgctx_data, 8));
-		return (bool)((((int32_t)((((int32_t)L_17) < ((int32_t)0))? 1 : 0)) == ((int32_t)0))? 1 : 0);
-	}
-
-IL_0075:
-	{
-		return (bool)1;
-	}
-}
-// T[] System.Collections.Generic.Queue`1<System.UInt32>::ToArray()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* Queue_1_ToArray_m559AF0C0E111A34796930C61F395F697D51E04A0_gshared (Queue_1_tA93BCCFDEFF25FCF9C491D240D49B2B8B9C37850* __this, const RuntimeMethod* method) 
-{
-	UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* V_0 = NULL;
-	{
-		int32_t L_0 = (int32_t)__this->____size_3;
-		if (L_0)
-		{
-			goto IL_000e;
-		}
-	}
-	{
-		UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* L_1;
-		L_1 = ((  UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* (*) (const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 0)))(il2cpp_rgctx_method(method->klass->rgctx_data, 0));
-		return L_1;
-	}
-
-IL_000e:
-	{
-		int32_t L_2 = (int32_t)__this->____size_3;
-		UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* L_3 = (UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA*)(UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA*)SZArrayNew(il2cpp_rgctx_data(method->klass->rgctx_data, 1), (uint32_t)L_2);
-		V_0 = L_3;
-		int32_t L_4 = (int32_t)__this->____head_1;
-		int32_t L_5 = (int32_t)__this->____tail_2;
-		if ((((int32_t)L_4) >= ((int32_t)L_5)))
-		{
-			goto IL_0043;
-		}
-	}
-	{
-		UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* L_6 = (UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA*)__this->____array_0;
-		int32_t L_7 = (int32_t)__this->____head_1;
-		UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* L_8 = V_0;
-		int32_t L_9 = (int32_t)__this->____size_3;
-		Array_Copy_mB4904E17BD92E320613A3251C0205E0786B3BF41((RuntimeArray*)L_6, L_7, (RuntimeArray*)L_8, 0, L_9, NULL);
-		goto IL_0087;
-	}
-
-IL_0043:
-	{
-		UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* L_10 = (UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA*)__this->____array_0;
-		int32_t L_11 = (int32_t)__this->____head_1;
-		UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* L_12 = V_0;
-		UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* L_13 = (UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA*)__this->____array_0;
-		NullCheck(L_13);
-		int32_t L_14 = (int32_t)__this->____head_1;
-		Array_Copy_mB4904E17BD92E320613A3251C0205E0786B3BF41((RuntimeArray*)L_10, L_11, (RuntimeArray*)L_12, 0, ((int32_t)il2cpp_codegen_subtract(((int32_t)(((RuntimeArray*)L_13)->max_length)), L_14)), NULL);
-		UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* L_15 = (UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA*)__this->____array_0;
-		UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* L_16 = V_0;
-		UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* L_17 = (UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA*)__this->____array_0;
-		NullCheck(L_17);
-		int32_t L_18 = (int32_t)__this->____head_1;
-		int32_t L_19 = (int32_t)__this->____tail_2;
-		Array_Copy_mB4904E17BD92E320613A3251C0205E0786B3BF41((RuntimeArray*)L_15, 0, (RuntimeArray*)L_16, ((int32_t)il2cpp_codegen_subtract(((int32_t)(((RuntimeArray*)L_17)->max_length)), L_18)), L_19, NULL);
-	}
-
-IL_0087:
-	{
-		UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* L_20 = V_0;
-		return L_20;
-	}
-}
-// System.Void System.Collections.Generic.Queue`1<System.UInt32>::SetCapacity(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Queue_1_SetCapacity_mCA8E0FFC567DD0017C621A6B75027F8565CFA7E6_gshared (Queue_1_tA93BCCFDEFF25FCF9C491D240D49B2B8B9C37850* __this, int32_t ___0_capacity, const RuntimeMethod* method) 
-{
-	UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* V_0 = NULL;
-	Queue_1_tA93BCCFDEFF25FCF9C491D240D49B2B8B9C37850* G_B6_0 = NULL;
-	Queue_1_tA93BCCFDEFF25FCF9C491D240D49B2B8B9C37850* G_B5_0 = NULL;
-	int32_t G_B7_0 = 0;
-	Queue_1_tA93BCCFDEFF25FCF9C491D240D49B2B8B9C37850* G_B7_1 = NULL;
-	{
-		int32_t L_0 = ___0_capacity;
-		UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* L_1 = (UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA*)(UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA*)SZArrayNew(il2cpp_rgctx_data(method->klass->rgctx_data, 1), (uint32_t)L_0);
-		V_0 = L_1;
-		int32_t L_2 = (int32_t)__this->____size_3;
-		if ((((int32_t)L_2) <= ((int32_t)0)))
-		{
-			goto IL_007d;
-		}
-	}
-	{
-		int32_t L_3 = (int32_t)__this->____head_1;
-		int32_t L_4 = (int32_t)__this->____tail_2;
-		if ((((int32_t)L_3) >= ((int32_t)L_4)))
-		{
-			goto IL_0039;
-		}
-	}
-	{
-		UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* L_5 = (UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA*)__this->____array_0;
-		int32_t L_6 = (int32_t)__this->____head_1;
-		UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* L_7 = V_0;
-		int32_t L_8 = (int32_t)__this->____size_3;
-		Array_Copy_mB4904E17BD92E320613A3251C0205E0786B3BF41((RuntimeArray*)L_5, L_6, (RuntimeArray*)L_7, 0, L_8, NULL);
-		goto IL_007d;
-	}
-
-IL_0039:
-	{
-		UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* L_9 = (UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA*)__this->____array_0;
-		int32_t L_10 = (int32_t)__this->____head_1;
-		UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* L_11 = V_0;
-		UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* L_12 = (UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA*)__this->____array_0;
-		NullCheck(L_12);
-		int32_t L_13 = (int32_t)__this->____head_1;
-		Array_Copy_mB4904E17BD92E320613A3251C0205E0786B3BF41((RuntimeArray*)L_9, L_10, (RuntimeArray*)L_11, 0, ((int32_t)il2cpp_codegen_subtract(((int32_t)(((RuntimeArray*)L_12)->max_length)), L_13)), NULL);
-		UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* L_14 = (UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA*)__this->____array_0;
-		UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* L_15 = V_0;
-		UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* L_16 = (UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA*)__this->____array_0;
-		NullCheck(L_16);
-		int32_t L_17 = (int32_t)__this->____head_1;
-		int32_t L_18 = (int32_t)__this->____tail_2;
-		Array_Copy_mB4904E17BD92E320613A3251C0205E0786B3BF41((RuntimeArray*)L_14, 0, (RuntimeArray*)L_15, ((int32_t)il2cpp_codegen_subtract(((int32_t)(((RuntimeArray*)L_16)->max_length)), L_17)), L_18, NULL);
-	}
-
-IL_007d:
-	{
-		UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* L_19 = V_0;
-		__this->____array_0 = L_19;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->____array_0), (void*)L_19);
-		__this->____head_1 = 0;
-		int32_t L_20 = (int32_t)__this->____size_3;
-		int32_t L_21 = ___0_capacity;
-		G_B5_0 = __this;
-		if ((((int32_t)L_20) == ((int32_t)L_21)))
-		{
-			G_B6_0 = __this;
-			goto IL_009d;
-		}
-	}
-	{
-		int32_t L_22 = (int32_t)__this->____size_3;
-		G_B7_0 = L_22;
-		G_B7_1 = G_B5_0;
-		goto IL_009e;
-	}
-
-IL_009d:
-	{
-		G_B7_0 = 0;
-		G_B7_1 = G_B6_0;
-	}
-
-IL_009e:
-	{
-		NullCheck(G_B7_1);
-		G_B7_1->____tail_2 = G_B7_0;
-		int32_t L_23 = (int32_t)__this->____version_4;
-		__this->____version_4 = ((int32_t)il2cpp_codegen_add(L_23, 1));
-		return;
-	}
-}
-// System.Void System.Collections.Generic.Queue`1<System.UInt32>::MoveNext(System.Int32&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Queue_1_MoveNext_mE01938A89F813B0CCF58E0D82D23363114A97B85_gshared (Queue_1_tA93BCCFDEFF25FCF9C491D240D49B2B8B9C37850* __this, int32_t* ___0_index, const RuntimeMethod* method) 
-{
-	int32_t V_0 = 0;
-	{
-		int32_t* L_0 = ___0_index;
-		int32_t L_1 = *((int32_t*)L_0);
-		V_0 = ((int32_t)il2cpp_codegen_add(L_1, 1));
-		int32_t L_2 = V_0;
-		UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* L_3 = (UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA*)__this->____array_0;
-		NullCheck(L_3);
-		if ((!(((uint32_t)L_2) == ((uint32_t)((int32_t)(((RuntimeArray*)L_3)->max_length))))))
-		{
-			goto IL_0012;
-		}
-	}
-	{
-		V_0 = 0;
-	}
-
-IL_0012:
-	{
-		int32_t* L_4 = ___0_index;
-		int32_t L_5 = V_0;
-		*((int32_t*)L_4) = (int32_t)L_5;
-		return;
-	}
-}
-// System.Void System.Collections.Generic.Queue`1<System.UInt32>::ThrowForEmptyQueue()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Queue_1_ThrowForEmptyQueue_m87C0DAA7B799FEF651F40F96BDB0A437E1D24CEE_gshared (Queue_1_tA93BCCFDEFF25FCF9C491D240D49B2B8B9C37850* __this, const RuntimeMethod* method) 
-{
-	{
-		InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB* L_0 = (InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB_il2cpp_TypeInfo_var)));
-		NullCheck(L_0);
-		InvalidOperationException__ctor_mE4CB6F4712AB6D99A2358FBAE2E052B3EE976162(L_0, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral1102619AA6FB2A4AADBDAA47DDC096AE04C772C0)), NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Queue_1_ThrowForEmptyQueue_m87C0DAA7B799FEF651F40F96BDB0A437E1D24CEE_RuntimeMethod_var)));
 	}
 }
 #ifdef __clang__
