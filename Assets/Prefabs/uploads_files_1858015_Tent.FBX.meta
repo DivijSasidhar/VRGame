@@ -3,7 +3,12 @@ guid: ab4afb801f7906a4e9adfa0202883d28
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Palatka_Inst
+    second: {fileID: 2100000, guid: 4923e12d79a677e468365f60f3211045, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
