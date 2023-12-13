@@ -519,7 +519,7 @@ MonoBehaviour:
       type: 3}
     NetworkPrefabs: []
     TickRate: 30
-    ClientConnectionBufferTimeout: 10
+    ClientConnectionBufferTimeout: 3
     ConnectionApproval: 0
     ConnectionData: 
     EnableTimeResync: 0
@@ -1879,6 +1879,11 @@ PrefabInstance:
       propertyPath: m_MovementType
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 856732567108907239, guid: f26c6e321b50489479b8ce05321a9ece,
+        type: 3}
+      propertyPath: m_InteractionManager
+      value: 
+      objectReference: {fileID: 835504119}
     - target: {fileID: 1960616414049855359, guid: f26c6e321b50489479b8ce05321a9ece,
         type: 3}
       propertyPath: m_Name
@@ -3506,6 +3511,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -69.948
+      objectReference: {fileID: 0}
+    - target: {fileID: 6362647913466692364, guid: f26c6e321b50489479b8ce05321a9ece,
+        type: 3}
+      propertyPath: m_LaunchSpeed
+      value: 9000
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f26c6e321b50489479b8ce05321a9ece, type: 3}
