@@ -4,7 +4,7 @@ using TMPro;
 
 public class ConsoleToText : MonoBehaviour
 {
-    public TextMeshPro debugText;
+    public TextMeshProUGUI debugText;
     string output = "";
     string stack = "";
 
