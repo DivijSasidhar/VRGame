@@ -31,7 +31,7 @@ public class throwablesdoor : MonoBehaviour
     }
 
 
-    void TargetUpdate(int target_number)
+    public void TargetUpdate(int target_number)
     {
         triggers[target_number] = 1;
         int sum = 0;
