@@ -141,6 +141,7 @@ Library: C:\Users\24SASDIV\Documents\GitHub\VRGame\Temp\StagingArea\tempburstlib
 --compilation-defines=ENABLE_BURST_1_0_0_OR_NEWER
 --compilation-defines=USING_ANIMATION_MODULE
 --compilation-defines=USING_PHYSICS2D_MODULE
+--compilation-defines=UNIVERSAL_1_0_0_OR_NEWER
 --compilation-defines=PACKAGE_INPUT_SYSTEM_EXISTS
 --compilation-defines=PACKAGE_INPUT_SYSTEM_1_2_0_OR_NEWER_EXISTS
 --compilation-defines=MODULE_AI_EXISTS
@@ -163,7 +164,6 @@ Library: C:\Users\24SASDIV\Documents\GitHub\VRGame\Temp\StagingArea\tempburstlib
 --compilation-defines=COM_UNITY_MODULES_ANIMATION
 --compilation-defines=COM_UNITY_MODULES_PHYSICS
 --compilation-defines=COM_UNITY_MODULES_PHYSICS2D
---compilation-defines=UNIVERSAL_1_0_0_OR_NEWER
 --generate-link-xml=Temp\burst.link.xml
 --temp-folder=C:\Users\24SASDIV\Documents\GitHub\VRGame\Temp\Burst
 --debug=Full
