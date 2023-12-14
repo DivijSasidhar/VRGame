@@ -7,7 +7,7 @@ public class NetworkTransformClient : NetworkTransform
 {
     protected override bool OnIsServerAuthoritative()
     {
-        return true;
+        return false;
     }
 
 
