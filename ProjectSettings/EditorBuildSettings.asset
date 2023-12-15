@@ -38,9 +38,12 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Continous Levels Test.unity
     guid: 2e25ee262f23e054b93b498e68d198ee
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Level 4_Throwables.unity
     guid: e3c0a5e12d3ffd240977ca2dce83754e
+  - enabled: 1
+    path: Assets/Scenes/Level 2_Levers.unity
+    guid: 90d500761c0f063498bc9c2e262b81d6
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 2238d457089b9494896515a25debf01c,
       type: 2}
