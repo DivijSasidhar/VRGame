@@ -20,5 +20,10 @@ public class throwable_teleport : MonoBehaviour
     public void Teleport()
     {
         transform.position = start;
+        GetComponent<Rigidbody>().velocity = Vector3.zero;
+        GetComponent<Rigidbody>().angularVelocity = Vector3.zero;
+        GetComponent<Rigidbody>().Sleep();
+
+
     }
 }

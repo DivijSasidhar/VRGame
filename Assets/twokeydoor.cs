@@ -6,10 +6,11 @@ public class twokeydoor : MonoBehaviour
 {
     [SerializeField] Vector3 origin = new Vector3(0, 0, 0);
     bool goingPointA = false;
+    bool goingPointB = false;
+
     [SerializeField] Vector3 destination = new Vector3(0, 3, 0);
     [SerializeField] float speed = 1;
     float t;
-    bool success;
 
     bool key1flag = false;
     bool key2flag = false;
@@ -17,15 +18,23 @@ public class twokeydoor : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if ((goingPointA) & (!success))
+        if ((key1flag) && (key2flag)) {
+            toPointA();
+        }
+        if ((goingPointA) && (!goingPointB))
         {
             t += Time.deltaTime * speed;
             transform.position = Vector3.Lerp(origin, destination, t);
         }
+        if ((!goingPointA) && (goingPointB))
+        {
+            t += Time.deltaTime * speed;
+            transform.position = Vector3.Lerp(destination, origin, t);
+        }
         if (t >= 1)
         {
             goingPointA = false;
-            success = true;
+            goingPointB = false;
             t = 0;
         }
     }
@@ -33,9 +42,6 @@ public class twokeydoor : MonoBehaviour
     public void keyOneIn()
     {
         key1flag = true;
-        if (key2flag == true){
-            toPointA();
-        }
     }
     public void keyOneOut()
     {
@@ -44,10 +50,6 @@ public class twokeydoor : MonoBehaviour
     public void keyTwoIn()
     {
         key2flag = true;
-        if (key1flag == true)
-        {
-            toPointA();
-        }
     }
     public void keyTwoOut()
     {
@@ -58,4 +60,10 @@ public class twokeydoor : MonoBehaviour
     {
         goingPointA = true;
     }
+
+    public void toPointB()
+    {
+        goingPointB = true;
 }
+    }
+
