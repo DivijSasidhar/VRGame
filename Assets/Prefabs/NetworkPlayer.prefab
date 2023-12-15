@@ -189,6 +189,7 @@ GameObject:
   - component: {fileID: 5653798483241518574}
   - component: {fileID: 4145974966588504030}
   - component: {fileID: 6054350781109169946}
+  - component: {fileID: 6119463927058270693}
   m_Layer: 0
   m_Name: NetworkPlayer
   m_TagString: Untagged
@@ -276,6 +277,20 @@ MonoBehaviour:
   ScaleThreshold: 0.01
   InLocalSpace: 0
   Interpolate: 1
+--- !u!136 &6119463927058270693
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4696635813608516452}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1216748575
 PrefabInstance:
   m_ObjectHideFlags: 0

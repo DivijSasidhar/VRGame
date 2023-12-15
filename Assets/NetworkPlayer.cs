@@ -45,33 +45,33 @@ public class NetworkPlayer : NetworkBehaviour
         }
     }
 
-    public void OnSelectGrabbable(SelectEnterEventArgs eventArgs)
-    {
+    //public void OnSelectGrabbable(SelectEnterEventArgs eventArgs)
+    //{
 
-        if (IsClient && !IsOwner)
-        {
+        //if (IsClient && !IsOwner)
+        //{
             ///ulong localClientId = NetworkManager.Singleton.LocalClientId;
             ///Debug.Log(localClientId);
 
-            NetworkObject networkObjectSelected = eventArgs.interactableObject.transform.GetComponent<NetworkObject>();
-            Debug.Log(networkObjectSelected);
-            if(networkObjectSelected != null)
-            {
-                RequestGrabbableOwnershipServerRpc(OwnerClientId, networkObjectSelected);
-            }
-        }
+            //NetworkObject networkObjectSelected = eventArgs.interactableObject.transform.GetComponent<NetworkObject>();
+            //Debug.Log(networkObjectSelected);
+            //if(networkObjectSelected != null)
+            //{
+                //RequestGrabbableOwnershipServerRpc(OwnerClientId, networkObjectSelected);
+            //}
+        //}
         
-    }
+    //}
 
-    [ServerRpc(RequireOwnership = false)]
-    public void RequestGrabbableOwnershipServerRpc(ulong newOwnerClientId, NetworkObjectReference networkObjectReference)
-    {
-        Debug.Log("RequestGrab initiated");
-        if(networkObjectReference.TryGet(out NetworkObject networkObject))
-        {
-            Debug.Log("Object reference recieved");
-            networkObject.ChangeOwnership(newOwnerClientId);
-        }
+    //[ServerRpc(RequireOwnership = false)]
+    //public void RequestGrabbableOwnershipServerRpc(ulong newOwnerClientId, NetworkObjectReference networkObjectReference)
+    //{
+        //Debug.Log("RequestGrab initiated");
+        //if(networkObjectReference.TryGet(out NetworkObject networkObject))
+        //{
+            //Debug.Log("Object reference recieved");
+            //networkObject.ChangeOwnership(newOwnerClientId);
+        //}
        
-    }
+    //}
 }
