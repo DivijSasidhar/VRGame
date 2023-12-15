@@ -48,24 +48,28 @@ public class NetworkPlayer : NetworkBehaviour
     public void OnSelectGrabbable(SelectEnterEventArgs eventArgs)
     {
 
-        if (IsClient)
+        if (IsClient && !IsOwner)
         {
-            ulong localClientId = NetworkManager.Singleton.LocalClientId;
+            ///ulong localClientId = NetworkManager.Singleton.LocalClientId;
+            ///Debug.Log(localClientId);
 
             NetworkObject networkObjectSelected = eventArgs.interactableObject.transform.GetComponent<NetworkObject>();
+            Debug.Log(networkObjectSelected);
             if(networkObjectSelected != null)
             {
-                RequestGrabbableOwnershipServerRpc(localClientId, networkObjectSelected);
+                RequestGrabbableOwnershipServerRpc(OwnerClientId, networkObjectSelected);
             }
         }
         
     }
 
-    [ServerRpc]
+    [ServerRpc(RequireOwnership = false)]
     public void RequestGrabbableOwnershipServerRpc(ulong newOwnerClientId, NetworkObjectReference networkObjectReference)
     {
+        Debug.Log("RequestGrab initiated");
         if(networkObjectReference.TryGet(out NetworkObject networkObject))
         {
+            Debug.Log("Object reference recieved");
             networkObject.ChangeOwnership(newOwnerClientId);
         }
        
