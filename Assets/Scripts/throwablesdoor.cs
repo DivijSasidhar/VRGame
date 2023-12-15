@@ -17,7 +17,7 @@ public class throwablesdoor : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if ((goingPointA) & (!success))
+        if ((goingPointA) && (!success))
         {
             t += Time.deltaTime * speed;
             transform.position = Vector3.Lerp(origin, destination, t);

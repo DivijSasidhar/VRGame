@@ -18,15 +18,15 @@ public class twokeydoor : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if ((key1flag) & (key2flag)) {
+        if ((key1flag) && (key2flag)) {
             toPointA();
         }
-        if ((goingPointA) & (!goingPointB))
+        if ((goingPointA) && (!goingPointB))
         {
             t += Time.deltaTime * speed;
             transform.position = Vector3.Lerp(origin, destination, t);
         }
-        if ((!goingPointA) & (goingPointB))
+        if ((!goingPointA) && (goingPointB))
         {
             t += Time.deltaTime * speed;
             transform.position = Vector3.Lerp(destination, origin, t);
@@ -41,7 +41,7 @@ public class twokeydoor : MonoBehaviour
 
     public void keyOneIn()
     {
-        toPointA();    
+        key1flag = true;
     }
     public void keyOneOut()
     {
