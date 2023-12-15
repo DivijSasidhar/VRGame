@@ -22,10 +22,32 @@ public class GrabRequest : NetworkBehaviour
     // Update is called once per frame
     void Update()
     {
+
         if (xRGrabInteractable.isSelected)
         {
-            characterObject.ChangeOwnership(NetworkManager.LocalClientId);
-            Debug.Log("changed owner");
+            if (IsClient && !IsOwner)
+            {
+                Debug.Log("Object selected");
+                RequestOwnershipServerRpc(new ServerRpcParams());
+                Debug.Log(NetworkManager.LocalClientId);
+            }
+        
         }
+       
+    }
+
+    [ServerRpc(RequireOwnership = false)]
+    public void RequestOwnershipServerRpc(ServerRpcParams serverRpcParams = default)
+    {
+      var clientId = serverRpcParams.Receive.SenderClientId;
+      
+      Debug.Log(clientId+ "from serverRPC");
+      if (NetworkManager.ConnectedClients.ContainsKey(clientId))
+      {
+        var client = NetworkManager.ConnectedClients[clientId];
+        var clientIdToAssign = client.ClientId;
+        characterObject.ChangeOwnership(clientIdToAssign);
+        Debug.Log("ownership changed");
+      }
     }
 }
