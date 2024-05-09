@@ -32,7 +32,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Code Door Test.unity
     guid: 68113e2ea79bd1e40a65bdf2f19b4b82
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Multiplayer trial.unity
     guid: cabe8880b01680e4890f10964ad24986
   - enabled: 0
@@ -47,6 +47,9 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/New Combination Scene.unity
     guid: c0c1bb1d8c3a2ce4c97233542b4632ff
+  - enabled: 0
+    path: Assets/Scenes/Normcore attempt.unity
+    guid: df422ff1b425e4942a2a100433dc9058
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 2238d457089b9494896515a25debf01c,
       type: 2}
