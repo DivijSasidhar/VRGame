@@ -19,7 +19,7 @@ public class RequestOwnership : MonoBehaviour
     }
 
     private void OnDisable() {
-        Debug.Log("womp womp");
+        xRGrabInteractable.selectEntered.RemoveListener(RequestObjectOwnership); 
     }
     
 }
