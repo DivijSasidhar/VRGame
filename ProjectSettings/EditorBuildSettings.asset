@@ -47,7 +47,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/New Combination Scene.unity
     guid: c0c1bb1d8c3a2ce4c97233542b4632ff
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Normcore attempt.unity
     guid: df422ff1b425e4942a2a100433dc9058
   m_configObjects:
